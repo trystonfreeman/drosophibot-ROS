@@ -1,0 +1,18 @@
+[100%] Built target test_node
+-- Install configuration: ""
+-- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/lib/testcpp/test_node
+-- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/ament_index/resource_index/package_run_dependencies/testcpp
+-- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/ament_index/resource_index/parent_prefix_path/testcpp
+-- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/environment/path.sh
+-- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/environment/path.dsv
+-- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/local_setup.bash
+-- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/local_setup.sh
+-- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/local_setup.zsh
+-- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/local_setup.dsv
+-- Installing: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/package.dsv
+-- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/ament_index/resource_index/packages/testcpp
+-- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/cmake/testcppConfig.cmake
+-- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/cmake/testcppConfig-version.cmake
+-- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/package.xml

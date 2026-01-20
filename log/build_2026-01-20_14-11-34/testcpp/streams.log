@@ -1,0 +1,22 @@
+[0.092s] Invoking command in '/home/droso1/drosophibot-ROS/build/testcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/testcpp -- -j4 -l4
+[0.495s] [100%] Built target test_node
+[0.585s] Invoked command in '/home/droso1/drosophibot-ROS/build/testcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/testcpp -- -j4 -l4
+[0.586s] Invoking command in '/home/droso1/drosophibot-ROS/build/testcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/droso1/drosophibot-ROS/build/testcpp
+[0.654s] -- Install configuration: ""
+[0.660s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/lib/testcpp/test_node
+[0.666s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/ament_index/resource_index/package_run_dependencies/testcpp
+[0.670s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/ament_index/resource_index/parent_prefix_path/testcpp
+[0.671s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/environment/ament_prefix_path.sh
+[0.672s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/environment/ament_prefix_path.dsv
+[0.680s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/environment/path.sh
+[0.688s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/environment/path.dsv
+[0.689s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/local_setup.bash
+[0.691s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/local_setup.sh
+[0.692s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/local_setup.zsh
+[0.693s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/local_setup.dsv
+[0.695s] -- Installing: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/package.dsv
+[0.697s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/ament_index/resource_index/packages/testcpp
+[0.698s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/cmake/testcppConfig.cmake
+[0.699s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/cmake/testcppConfig-version.cmake
+[0.702s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/package.xml
+[0.707s] Invoked command in '/home/droso1/drosophibot-ROS/build/testcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/droso1/drosophibot-ROS/build/testcpp

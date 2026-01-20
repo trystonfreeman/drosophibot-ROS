@@ -1,0 +1,15 @@
+/home/droso1/drosophibot-ROS/install/motor_control/share/ament_index/resource_index/package_run_dependencies/motor_control
+/home/droso1/drosophibot-ROS/install/motor_control/share/ament_index/resource_index/parent_prefix_path/motor_control
+/home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/environment/ament_prefix_path.sh
+/home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/environment/ament_prefix_path.dsv
+/home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/environment/path.sh
+/home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/environment/path.dsv
+/home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/local_setup.bash
+/home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/local_setup.sh
+/home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/local_setup.zsh
+/home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/local_setup.dsv
+/home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/package.dsv
+/home/droso1/drosophibot-ROS/install/motor_control/share/ament_index/resource_index/packages/motor_control
+/home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/cmake/motor_controlConfig.cmake
+/home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/cmake/motor_controlConfig-version.cmake
+/home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/package.xml
