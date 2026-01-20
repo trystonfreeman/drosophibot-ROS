@@ -5,7 +5,7 @@
 
 #include "rclcpp/rclcpp.hpp"
 #include "interfaces/msg/motor_data.hpp"
-#include "interfaces/msg/motor_control.hpp"
+#include "interfaces/msg/motor_command.hpp"
 
 using namespace std::chrono_literals;
 
