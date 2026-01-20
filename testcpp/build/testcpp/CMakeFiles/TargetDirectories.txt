@@ -1,0 +1,10 @@
+/home/droso1/drosophibot-ROS/testcpp/build/testcpp/CMakeFiles/uninstall.dir
+/home/droso1/drosophibot-ROS/testcpp/build/testcpp/CMakeFiles/testcpp_uninstall.dir
+/home/droso1/drosophibot-ROS/testcpp/build/testcpp/CMakeFiles/test_node.dir
+/home/droso1/drosophibot-ROS/testcpp/build/testcpp/CMakeFiles/test.dir
+/home/droso1/drosophibot-ROS/testcpp/build/testcpp/CMakeFiles/edit_cache.dir
+/home/droso1/drosophibot-ROS/testcpp/build/testcpp/CMakeFiles/rebuild_cache.dir
+/home/droso1/drosophibot-ROS/testcpp/build/testcpp/CMakeFiles/list_install_components.dir
+/home/droso1/drosophibot-ROS/testcpp/build/testcpp/CMakeFiles/install.dir
+/home/droso1/drosophibot-ROS/testcpp/build/testcpp/CMakeFiles/install/local.dir
+/home/droso1/drosophibot-ROS/testcpp/build/testcpp/CMakeFiles/install/strip.dir

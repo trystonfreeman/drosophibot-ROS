@@ -1,0 +1,161 @@
+[0.000000] (-) TimerEvent: {}
+[0.001477] (testcpp) JobQueued: {'identifier': 'testcpp', 'dependencies': OrderedDict()}
+[0.002026] (testcpp) JobStarted: {'identifier': 'testcpp'}
+[0.033572] (testcpp) JobProgress: {'identifier': 'testcpp', 'progress': 'cmake'}
+[0.036103] (testcpp) JobProgress: {'identifier': 'testcpp', 'progress': 'build'}
+[0.039750] (testcpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/droso1/drosophibot-ROS/build/testcpp', '--', '-j4', '-l4'], 'cwd': '/home/droso1/drosophibot-ROS/build/testcpp', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'droso1', 'SSH_CLIENT': '192.168.137.1 62227 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/droso1', 'OLDPWD': '/home/droso1/drosophibot-ROS/testcpp', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'droso1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '10', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/testcpp:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/droso1/drosophibot-ROS/build/testcpp', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 62227 192.168.137.25 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/testcpp:/opt/ros/jazzy'}), 'shell': False}
+[0.099328] (-) TimerEvent: {}
+[0.200751] (-) TimerEvent: {}
+[0.301391] (-) TimerEvent: {}
+[0.329786] (testcpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/test_node.dir/src/testcpp.cpp.o\x1b[0m\n'}
+[0.401608] (-) TimerEvent: {}
+[0.502181] (-) TimerEvent: {}
+[0.602806] (-) TimerEvent: {}
+[0.703366] (-) TimerEvent: {}
+[0.804001] (-) TimerEvent: {}
+[0.904653] (-) TimerEvent: {}
+[1.005245] (-) TimerEvent: {}
+[1.105864] (-) TimerEvent: {}
+[1.206438] (-) TimerEvent: {}
+[1.307095] (-) TimerEvent: {}
+[1.407721] (-) TimerEvent: {}
+[1.508300] (-) TimerEvent: {}
+[1.608948] (-) TimerEvent: {}
+[1.709560] (-) TimerEvent: {}
+[1.810164] (-) TimerEvent: {}
+[1.910832] (-) TimerEvent: {}
+[2.011471] (-) TimerEvent: {}
+[2.112170] (-) TimerEvent: {}
+[2.212831] (-) TimerEvent: {}
+[2.313462] (-) TimerEvent: {}
+[2.414119] (-) TimerEvent: {}
+[2.514765] (-) TimerEvent: {}
+[2.615405] (-) TimerEvent: {}
+[2.716064] (-) TimerEvent: {}
+[2.816701] (-) TimerEvent: {}
+[2.917326] (-) TimerEvent: {}
+[3.018000] (-) TimerEvent: {}
+[3.118648] (-) TimerEvent: {}
+[3.219301] (-) TimerEvent: {}
+[3.319956] (-) TimerEvent: {}
+[3.420606] (-) TimerEvent: {}
+[3.521204] (-) TimerEvent: {}
+[3.621890] (-) TimerEvent: {}
+[3.722632] (-) TimerEvent: {}
+[3.823221] (-) TimerEvent: {}
+[3.923896] (-) TimerEvent: {}
+[4.024594] (-) TimerEvent: {}
+[4.125198] (-) TimerEvent: {}
+[4.225875] (-) TimerEvent: {}
+[4.326487] (-) TimerEvent: {}
+[4.427168] (-) TimerEvent: {}
+[4.527858] (-) TimerEvent: {}
+[4.628585] (-) TimerEvent: {}
+[4.729199] (-) TimerEvent: {}
+[4.829888] (-) TimerEvent: {}
+[4.930637] (-) TimerEvent: {}
+[5.031889] (-) TimerEvent: {}
+[5.132544] (-) TimerEvent: {}
+[5.233158] (-) TimerEvent: {}
+[5.333826] (-) TimerEvent: {}
+[5.434435] (-) TimerEvent: {}
+[5.535106] (-) TimerEvent: {}
+[5.635748] (-) TimerEvent: {}
+[5.736358] (-) TimerEvent: {}
+[5.837009] (-) TimerEvent: {}
+[5.937676] (-) TimerEvent: {}
+[6.038295] (-) TimerEvent: {}
+[6.138965] (-) TimerEvent: {}
+[6.239607] (-) TimerEvent: {}
+[6.340228] (-) TimerEvent: {}
+[6.440900] (-) TimerEvent: {}
+[6.541540] (-) TimerEvent: {}
+[6.642152] (-) TimerEvent: {}
+[6.742821] (-) TimerEvent: {}
+[6.843432] (-) TimerEvent: {}
+[6.944100] (-) TimerEvent: {}
+[7.044753] (-) TimerEvent: {}
+[7.145398] (-) TimerEvent: {}
+[7.246064] (-) TimerEvent: {}
+[7.346676] (-) TimerEvent: {}
+[7.447287] (-) TimerEvent: {}
+[7.547984] (-) TimerEvent: {}
+[7.648640] (-) TimerEvent: {}
+[7.749258] (-) TimerEvent: {}
+[7.849961] (-) TimerEvent: {}
+[7.950664] (-) TimerEvent: {}
+[8.051340] (-) TimerEvent: {}
+[8.152011] (-) TimerEvent: {}
+[8.252627] (-) TimerEvent: {}
+[8.353235] (-) TimerEvent: {}
+[8.453900] (-) TimerEvent: {}
+[8.554554] (-) TimerEvent: {}
+[8.655165] (-) TimerEvent: {}
+[8.755845] (-) TimerEvent: {}
+[8.856460] (-) TimerEvent: {}
+[8.957147] (-) TimerEvent: {}
+[9.057849] (-) TimerEvent: {}
+[9.158462] (-) TimerEvent: {}
+[9.259114] (-) TimerEvent: {}
+[9.359789] (-) TimerEvent: {}
+[9.460401] (-) TimerEvent: {}
+[9.561073] (-) TimerEvent: {}
+[9.661730] (-) TimerEvent: {}
+[9.762373] (-) TimerEvent: {}
+[9.863075] (-) TimerEvent: {}
+[9.963829] (-) TimerEvent: {}
+[10.064469] (-) TimerEvent: {}
+[10.165129] (-) TimerEvent: {}
+[10.265809] (-) TimerEvent: {}
+[10.366412] (-) TimerEvent: {}
+[10.467079] (-) TimerEvent: {}
+[10.567761] (-) TimerEvent: {}
+[10.668371] (-) TimerEvent: {}
+[10.769046] (-) TimerEvent: {}
+[10.869665] (-) TimerEvent: {}
+[10.970272] (-) TimerEvent: {}
+[11.070985] (-) TimerEvent: {}
+[11.171634] (-) TimerEvent: {}
+[11.272246] (-) TimerEvent: {}
+[11.372922] (-) TimerEvent: {}
+[11.473625] (-) TimerEvent: {}
+[11.574356] (-) TimerEvent: {}
+[11.675006] (-) TimerEvent: {}
+[11.775633] (-) TimerEvent: {}
+[11.876264] (-) TimerEvent: {}
+[11.976984] (-) TimerEvent: {}
+[12.077790] (-) TimerEvent: {}
+[12.105889] (testcpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_node\x1b[0m\n'}
+[12.178013] (-) TimerEvent: {}
+[12.278809] (-) TimerEvent: {}
+[12.379770] (-) TimerEvent: {}
+[12.480612] (-) TimerEvent: {}
+[12.581272] (-) TimerEvent: {}
+[12.681974] (-) TimerEvent: {}
+[12.683465] (testcpp) StdoutLine: {'line': b'[100%] Built target test_node\n'}
+[12.733625] (testcpp) CommandEnded: {'returncode': 0}
+[12.735418] (testcpp) JobProgress: {'identifier': 'testcpp', 'progress': 'install'}
+[12.774069] (testcpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/droso1/drosophibot-ROS/build/testcpp'], 'cwd': '/home/droso1/drosophibot-ROS/build/testcpp', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'droso1', 'SSH_CLIENT': '192.168.137.1 62227 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/droso1', 'OLDPWD': '/home/droso1/drosophibot-ROS/testcpp', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'droso1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '10', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/testcpp:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/droso1/drosophibot-ROS/build/testcpp', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 62227 192.168.137.25 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/testcpp:/opt/ros/jazzy'}), 'shell': False}
+[12.782125] (-) TimerEvent: {}
+[12.812596] (testcpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.813738] (testcpp) StdoutLine: {'line': b'-- Installing: /home/droso1/drosophibot-ROS/install/testcpp/lib/testcpp/test_node\n'}
+[12.816973] (testcpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/droso1/drosophibot-ROS/install/testcpp/lib/testcpp/test_node" to ""\n'}
+[12.817592] (testcpp) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/ament_index/resource_index/package_run_dependencies/testcpp\n'}
+[12.818114] (testcpp) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/ament_index/resource_index/parent_prefix_path/testcpp\n'}
+[12.818658] (testcpp) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/environment/ament_prefix_path.sh\n'}
+[12.819128] (testcpp) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/environment/ament_prefix_path.dsv\n'}
+[12.819593] (testcpp) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/environment/path.sh\n'}
+[12.820086] (testcpp) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/environment/path.dsv\n'}
+[12.820451] (testcpp) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/local_setup.bash\n'}
+[12.821007] (testcpp) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/local_setup.sh\n'}
+[12.821359] (testcpp) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/local_setup.zsh\n'}
+[12.821738] (testcpp) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/local_setup.dsv\n'}
+[12.822067] (testcpp) StdoutLine: {'line': b'-- Installing: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/package.dsv\n'}
+[12.822592] (testcpp) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/ament_index/resource_index/packages/testcpp\n'}
+[12.822994] (testcpp) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/cmake/testcppConfig.cmake\n'}
+[12.823486] (testcpp) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/cmake/testcppConfig-version.cmake\n'}
+[12.824059] (testcpp) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/package.xml\n'}
+[12.829324] (testcpp) CommandEnded: {'returncode': 0}
+[12.882261] (-) TimerEvent: {}
+[12.897059] (testcpp) JobEnded: {'identifier': 'testcpp', 'rc': 0}
+[12.899881] (-) EventReactorShutdown: {}

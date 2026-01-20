@@ -1,0 +1,11 @@
+/home/droso1/drosophibot-ROS/build/pubsub/CMakeFiles/uninstall.dir
+/home/droso1/drosophibot-ROS/build/pubsub/CMakeFiles/pubsub_uninstall.dir
+/home/droso1/drosophibot-ROS/build/pubsub/CMakeFiles/talker.dir
+/home/droso1/drosophibot-ROS/build/pubsub/CMakeFiles/listener.dir
+/home/droso1/drosophibot-ROS/build/pubsub/CMakeFiles/test.dir
+/home/droso1/drosophibot-ROS/build/pubsub/CMakeFiles/edit_cache.dir
+/home/droso1/drosophibot-ROS/build/pubsub/CMakeFiles/rebuild_cache.dir
+/home/droso1/drosophibot-ROS/build/pubsub/CMakeFiles/list_install_components.dir
+/home/droso1/drosophibot-ROS/build/pubsub/CMakeFiles/install.dir
+/home/droso1/drosophibot-ROS/build/pubsub/CMakeFiles/install/local.dir
+/home/droso1/drosophibot-ROS/build/pubsub/CMakeFiles/install/strip.dir

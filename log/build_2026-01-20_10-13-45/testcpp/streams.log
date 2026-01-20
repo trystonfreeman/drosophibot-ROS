@@ -1,0 +1,52 @@
+[0.055s] Invoking command in '/home/droso1/drosophibot-ROS/build/testcpp': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /home/droso1/drosophibot-ROS/testcpp -DCMAKE_INSTALL_PREFIX=/home/droso1/drosophibot-ROS/install/testcpp
+[1.247s] -- The C compiler identification is GNU 13.3.0
+[2.047s] -- The CXX compiler identification is GNU 13.3.0
+[2.148s] -- Detecting C compiler ABI info
+[2.662s] -- Detecting C compiler ABI info - done
+[2.698s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.702s] -- Detecting C compile features
+[2.704s] -- Detecting C compile features - done
+[2.759s] -- Detecting CXX compiler ABI info
+[3.250s] -- Detecting CXX compiler ABI info - done
+[3.285s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.286s] -- Detecting CXX compile features
+[3.288s] -- Detecting CXX compile features - done
+[3.315s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.979s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.564s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[4.833s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.918s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.023s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.131s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.554s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.576s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[6.045s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[6.115s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[6.204s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.569s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[7.090s] -- Added test 'lint_cmake' to check CMake code style
+[7.099s] -- Added test 'xmllint' to check XML markup files
+[7.108s] -- Configuring done (6.8s)
+[7.144s] -- Generating done (0.0s)
+[7.154s] -- Build files have been written to: /home/droso1/drosophibot-ROS/build/testcpp
+[7.188s] Invoked command in '/home/droso1/drosophibot-ROS/build/testcpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /home/droso1/drosophibot-ROS/testcpp -DCMAKE_INSTALL_PREFIX=/home/droso1/drosophibot-ROS/install/testcpp
+[7.194s] Invoking command in '/home/droso1/drosophibot-ROS/build/testcpp': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/testcpp -- -j4 -l4
+[7.388s] Invoked command in '/home/droso1/drosophibot-ROS/build/testcpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/testcpp -- -j4 -l4
+[7.430s] Invoking command in '/home/droso1/drosophibot-ROS/build/testcpp': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /home/droso1/drosophibot-ROS/build/testcpp
+[7.466s] -- Install configuration: ""
+[7.467s] -- Installing: /home/droso1/drosophibot-ROS/install/testcpp/share/ament_index/resource_index/package_run_dependencies/testcpp
+[7.469s] -- Installing: /home/droso1/drosophibot-ROS/install/testcpp/share/ament_index/resource_index/parent_prefix_path/testcpp
+[7.470s] -- Installing: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/environment/ament_prefix_path.sh
+[7.471s] -- Installing: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/environment/ament_prefix_path.dsv
+[7.472s] -- Installing: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/environment/path.sh
+[7.473s] -- Installing: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/environment/path.dsv
+[7.474s] -- Installing: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/local_setup.bash
+[7.476s] -- Installing: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/local_setup.sh
+[7.477s] -- Installing: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/local_setup.zsh
+[7.478s] -- Installing: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/local_setup.dsv
+[7.479s] -- Installing: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/package.dsv
+[7.480s] -- Installing: /home/droso1/drosophibot-ROS/install/testcpp/share/ament_index/resource_index/packages/testcpp
+[7.481s] -- Installing: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/cmake/testcppConfig.cmake
+[7.482s] -- Installing: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/cmake/testcppConfig-version.cmake
+[7.483s] -- Installing: /home/droso1/drosophibot-ROS/install/testcpp/share/testcpp/package.xml
+[7.491s] Invoked command in '/home/droso1/drosophibot-ROS/build/testcpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /home/droso1/drosophibot-ROS/build/testcpp
