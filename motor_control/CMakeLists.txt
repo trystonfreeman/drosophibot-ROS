@@ -7,6 +7,8 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(interfaces REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
@@ -23,4 +25,11 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+add_executable(motor_control src/motor_control.cpp)
+ament_target_dependencies(motor_control rclcpp interfaces)    # CHANGE
+
+
+install(TARGETS
+        motor_control
+        DESTINATION lib/${PROJECT_NAME})
 ament_package()
