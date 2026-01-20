@@ -9,6 +9,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(interfaces REQUIRED)
+find_packages(DynamixelSDK REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
@@ -26,7 +27,7 @@ if(BUILD_TESTING)
 endif()
 
 add_executable(motor_control src/motor_control.cpp)
-ament_target_dependencies(motor_control rclcpp interfaces)    # CHANGE
+ament_target_dependencies(motor_control rclcpp interfaces DynamixelSDK)    # CHANGE
 
 
 install(TARGETS

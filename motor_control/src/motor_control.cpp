@@ -6,6 +6,7 @@
 #include "rclcpp/rclcpp.hpp"
 #include "interfaces/msg/motor_data.hpp"
 #include "interfaces/msg/motor_command.hpp"
+#include "dynamixel_sdk.h"
 
 using namespace std::chrono_literals;
 
@@ -21,6 +22,8 @@ public:
         publisher_ = this->create_publisher<interfaces::msg::MotorData>("motor_outputs", 10);
         timer_ = this->create_wall_timer(
         500ms, std::bind(&MotorController::timer_callback, this));
+        subscription_ = this->create_subscription<interfaces::msg::MotorCommand>(
+      "motor_commands", 10, std::bind(&MotorController::topic_callback, this, _1));
     }
 
 private:
@@ -36,7 +39,11 @@ private:
     }
     rclcpp::TimerBase::SharedPtr timer_;
     rclcpp::Publisher<interfaces::msg::MotorData>::SharedPtr publisher_;
+    rclcpp::Subscription<interfaces::msg::MotorCommand>::SharedPtr subscription_;
     size_t count_;
+    void topic_callback(const interfaces::msg::MotorCommand::SharedPtr msg) {
+
+    }
 };
 
 int main(int argc, char * argv[])
