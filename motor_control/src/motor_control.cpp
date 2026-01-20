@@ -18,7 +18,7 @@ public:
     MotorController()
     : Node("MotorController"), count_(0)
     {
-        publisher_ = this->create_publisher<std_msgs::msg::motordata>("motor_outputs", 10);
+        publisher_ = this->create_publisher<interfaces::msg::MotorData>("motor_outputs", 10);
         timer_ = this->create_wall_timer(
         500ms, std::bind(&MinimalPublisher::timer_callback, this));
     }
