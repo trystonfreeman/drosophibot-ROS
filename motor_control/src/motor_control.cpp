@@ -20,7 +20,7 @@ public:
     {
         publisher_ = this->create_publisher<interfaces::msg::MotorData>("motor_outputs", 10);
         timer_ = this->create_wall_timer(
-        500ms, std::bind(&MinimalPublisher::timer_callback, this));
+        500ms, std::bind(&MotorController::timer_callback, this));
     }
 
 private:
