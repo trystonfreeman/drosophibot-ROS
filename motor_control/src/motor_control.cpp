@@ -26,7 +26,7 @@ public:
 private:
     void timer_callback()
     {
-        auto message = std_msgs::msg::motordata();
+        auto message = interfaces::msg::MotorData();
         message.pos[0] = 0;
         message.vel[0] = 0;
         message.torque[0] = 0;
@@ -35,7 +35,7 @@ private:
         publisher_->publish(message);
     }
     rclcpp::TimerBase::SharedPtr timer_;
-    rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
+    rclcpp::Publisher<interfaces::msg::MotorData>::SharedPtr publisher_;
     size_t count_;
 };
 
