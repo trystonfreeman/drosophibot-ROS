@@ -70,8 +70,10 @@ include /home/droso1/drosophibot-ROS/build/interfaces/interfaces__py/CMakeFiles/
 /home/droso1/drosophibot-ROS/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 /home/droso1/drosophibot-ROS/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
 /home/droso1/drosophibot-ROS/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/msg/_motor_command.py
+/home/droso1/drosophibot-ROS/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/msg/_motor_data.py
 /home/droso1/drosophibot-ROS/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/msg/__init__.py
 /home/droso1/drosophibot-ROS/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/msg/_motor_command_s.c
+/home/droso1/drosophibot-ROS/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/msg/_motor_data_s.c
 
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/__init__.py
@@ -87,6 +89,7 @@ rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c:
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interfaces/msg/MotorCommand.idl
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interfaces/msg/MotorData.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/droso1/drosophibot-ROS/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/droso1/drosophibot-ROS/build/interfaces/interfaces__py && /usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -99,11 +102,17 @@ rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c: rosidl_g
 rosidl_generator_py/interfaces/msg/_motor_command.py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/msg/_motor_command.py
 
+rosidl_generator_py/interfaces/msg/_motor_data.py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/msg/_motor_data.py
+
 rosidl_generator_py/interfaces/msg/__init__.py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/msg/__init__.py
 
 rosidl_generator_py/interfaces/msg/_motor_command_s.c: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/msg/_motor_command_s.c
+
+rosidl_generator_py/interfaces/msg/_motor_data_s.c: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/msg/_motor_data_s.c
 
 interfaces__py: /home/droso1/drosophibot-ROS/build/interfaces/interfaces__py/CMakeFiles/interfaces__py
 interfaces__py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
@@ -112,6 +121,8 @@ interfaces__py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesuppo
 interfaces__py: rosidl_generator_py/interfaces/msg/__init__.py
 interfaces__py: rosidl_generator_py/interfaces/msg/_motor_command.py
 interfaces__py: rosidl_generator_py/interfaces/msg/_motor_command_s.c
+interfaces__py: rosidl_generator_py/interfaces/msg/_motor_data.py
+interfaces__py: rosidl_generator_py/interfaces/msg/_motor_data_s.c
 interfaces__py: /home/droso1/drosophibot-ROS/build/interfaces/interfaces__py/CMakeFiles/interfaces__py.dir/build.make
 .PHONY : interfaces__py
 

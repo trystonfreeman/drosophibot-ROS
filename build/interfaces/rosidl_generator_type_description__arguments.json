@@ -2,6 +2,7 @@
   "package_name": "interfaces",
   "output_dir": "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_type_description/interfaces",
   "idl_tuples": [
-    "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces:msg/MotorCommand.idl"
+    "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces:msg/MotorCommand.idl",
+    "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces:msg/MotorData.idl"
   ]
 }
