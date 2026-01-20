@@ -4,8 +4,8 @@
 #include <string>
 
 #include "rclcpp/rclcpp.hpp"
-#include "interfaces/msg/motordata.hpp"
-#include "interfaces/msg/motorcontrol.hpp"
+#include "interfaces/msg/motor_data.hpp"
+#include "interfaces/msg/motor_control.hpp"
 
 using namespace std::chrono_literals;
 
