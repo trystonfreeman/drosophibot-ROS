@@ -13,6 +13,16 @@ using std::placeholders::_1;
 
 /* This example creates a subclass of Node and uses std::bind() to register a
 * member function as a callback from the timer. */
+uint8_t dxl_id = 1;
+//uint16_t torque_on_address = 64;
+uint16_t LED_address = 65;
+uint16_t present_position_address = 132;
+uint8_t data = 1; // 1 to turn on the torque, 0 to turn off
+
+dynamixel::PortHandler *portHandler = dynamixel::PortHandler::getPortHandler("/dev/ttyUSB0"); // your dxl port name
+dynamixel::PacketHandler *packetHandler = dynamixel::PacketHandler::getPacketHandler(2.0); //protocol version
+portHandler->openPort();
+portHandler->setBaudRate(1000000);
 
 class MotorController : public rclcpp::Node
 {
@@ -34,7 +44,7 @@ private:
         message.pos[0] = 0;
         message.vel[0] = 0;
         message.torque[0] = 0;
-
+		packetHandler->read4ByteTxRx(portHandler, dxl_id, present_position_address, &message.pos[0]);
         RCLCPP_INFO(this->get_logger(), "Publishing: '%i'", message.pos[0]);
         publisher_->publish(message);
     }
@@ -49,14 +59,7 @@ private:
 
 int main(int argc, char * argv[])
 {
-	dynamixel::PortHandler *portHandler = dynamixel::PortHandler::getPortHandler("/dev/ttyUSB0"); // your dxl port name
-  	dynamixel::PacketHandler *packetHandler = dynamixel::PacketHandler::getPacketHandler(2.0); //protocol version
-	portHandler->openPort();
-  	portHandler->setBaudRate(1000000);
- 	uint8_t dxl_id = 1;
- 	//uint16_t torque_on_address = 64;
-	uint16_t LED_address = 65;
- 	uint8_t data = 1; // 1 to turn on the torque, 0 to turn off
+
  	packetHandler->write1ByteTxRx(portHandler, dxl_id, LED_address, data);
 
     rclcpp::init(argc, argv);
