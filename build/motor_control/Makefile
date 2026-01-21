@@ -197,6 +197,43 @@ motor_control_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_control_uninstall.dir/build.make CMakeFiles/motor_control_uninstall.dir/build
 .PHONY : motor_control_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named motor_control
+
+# Build rule for target.
+motor_control: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 motor_control
+.PHONY : motor_control
+
+# fast build rule for target.
+motor_control/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_control.dir/build.make CMakeFiles/motor_control.dir/build
+.PHONY : motor_control/fast
+
+src/motor_control.o: src/motor_control.cpp.o
+.PHONY : src/motor_control.o
+
+# target to build an object file
+src/motor_control.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_control.dir/build.make CMakeFiles/motor_control.dir/src/motor_control.cpp.o
+.PHONY : src/motor_control.cpp.o
+
+src/motor_control.i: src/motor_control.cpp.i
+.PHONY : src/motor_control.i
+
+# target to preprocess a source file
+src/motor_control.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_control.dir/build.make CMakeFiles/motor_control.dir/src/motor_control.cpp.i
+.PHONY : src/motor_control.cpp.i
+
+src/motor_control.s: src/motor_control.cpp.s
+.PHONY : src/motor_control.s
+
+# target to generate assembly for a file
+src/motor_control.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_control.dir/build.make CMakeFiles/motor_control.dir/src/motor_control.cpp.s
+.PHONY : src/motor_control.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... motor_control_uninstall"
 	@echo "... uninstall"
+	@echo "... motor_control"
+	@echo "... src/motor_control.o"
+	@echo "... src/motor_control.i"
+	@echo "... src/motor_control.s"
 .PHONY : help
 
 

@@ -1,0 +1,31 @@
+[0.058s] Invoking command in '/home/droso1/drosophibot-ROS/build/motor_control': AMENT_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/opt/ros/jazzy LD_LIBRARY_PATH=/home/droso1/drosophibot-ROS/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/motor_control -- -j4 -l4
+[0.179s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.140s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.267s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.306s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.354s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.410s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.642s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.648s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.895s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.113s] -- Found interfaces: 0.0.0 (/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake)
+[2.212s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[2.212s]   By not providing "FindDynamixelSDK.cmake" in CMAKE_MODULE_PATH this project
+[2.213s]   has asked CMake to find a package configuration file provided by
+[2.213s]   "DynamixelSDK", but CMake did not find one.
+[2.213s] 
+[2.214s]   Could not find a package configuration file provided by "DynamixelSDK" with
+[2.214s]   any of the following names:
+[2.215s] 
+[2.215s]     DynamixelSDKConfig.cmake
+[2.215s]     dynamixelsdk-config.cmake
+[2.216s] 
+[2.216s]   Add the installation prefix of "DynamixelSDK" to CMAKE_PREFIX_PATH or set
+[2.217s]   "DynamixelSDK_DIR" to a directory containing one of the above files.  If
+[2.217s]   "DynamixelSDK" provides a separate development package or SDK, be sure it
+[2.218s]   has been installed.
+[2.219s] 
+[2.220s] [0m
+[2.220s] -- Configuring incomplete, errors occurred!
+[2.238s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[2.246s] Invoked command in '/home/droso1/drosophibot-ROS/build/motor_control' returned '2': AMENT_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/opt/ros/jazzy LD_LIBRARY_PATH=/home/droso1/drosophibot-ROS/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/motor_control -- -j4 -l4

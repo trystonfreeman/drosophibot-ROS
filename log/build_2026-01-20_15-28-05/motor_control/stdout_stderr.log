@@ -1,0 +1,54 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/motor_control.dir/src/motor_control.cpp.o[0m
+[01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:38:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+   38 |     rclcpp::Publisher<[01;31m[Kstd_msgs[m[K::msg::String>::SharedPtr publisher_;
+      |                       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:38:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   38 |     rclcpp::Publisher<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr publisher_;
+      |                                            [01;31m[K^[m[K
+[01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:38:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   38 |     rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K publisher_;
+      |                                               [01;31m[K^~~~~~~~~[m[K
+      |                                                        [32m[K;[m[K
+[01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:38:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   38 |     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                                         [01;31m[K^~~~~~~~~~[m[K
+      |                                                         [32m[Krmw_publisher_t[m[K
+[01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:[m[K In constructor ‘[01m[KMotorController::[01;32m[KMotorController[m[K()[m[K’:
+[01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:21:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   21 |         [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::motordata>("motor_outputs", 10);
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[Krmw_publisher_t[m[K
+[01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:21:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+   21 |         publisher_ = this->create_publisher<[01;31m[Kstd_msgs[m[K::msg::motordata>("motor_outputs", 10);
+      |                                             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:21:28:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   21 |         publisher_ = this->[01;31m[Kcreate_publisher<std_msgs::msg::motordata>[m[K("motor_outputs", 10);
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:21:70:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMotorController::create_publisher<<expression error> >(const char [14], int)[m[K’
+   21 |         publisher_ = [01;31m[Kthis->create_publisher<std_msgs::msg::motordata>("motor_outputs", 10)[m[K;
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:6[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::[01;32m[Kcreate_publisher[m[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  197 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:21:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |         publisher_ = [01;31m[Kthis->create_publisher<std_msgs::msg::motordata>("motor_outputs", 10)[m[K;
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:23:27:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalPublisher[m[K’ has not been declared
+   23 |         500ms, std::bind(&[01;31m[KMinimalPublisher[m[K::timer_callback, this));
+      |                           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:[m[K In member function ‘[01m[Kvoid MotorController::[01;32m[Ktimer_callback[m[K()[m[K’:
+[01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:29:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ has not been declared
+   29 |         auto message = [01;31m[Kstd_msgs[m[K::msg::motordata();
+      |                        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:35:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   35 |         [01;31m[Kpublisher_[m[K->publish(message);
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[Krmw_publisher_t[m[K
+gmake[2]: *** [CMakeFiles/motor_control.dir/build.make:76: CMakeFiles/motor_control.dir/src/motor_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motor_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

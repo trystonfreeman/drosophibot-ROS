@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/droso1/drosophibot-ROS/build/motor_control
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all:
+all: CMakeFiles/motor_control.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,6 +73,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/motor_control_uninstall.dir/clean
+clean: CMakeFiles/motor_control.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -126,6 +127,32 @@ motor_control_uninstall: CMakeFiles/motor_control_uninstall.dir/rule
 CMakeFiles/motor_control_uninstall.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_control_uninstall.dir/build.make CMakeFiles/motor_control_uninstall.dir/clean
 .PHONY : CMakeFiles/motor_control_uninstall.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/motor_control.dir
+
+# All Build rule for target.
+CMakeFiles/motor_control.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_control.dir/build.make CMakeFiles/motor_control.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_control.dir/build.make CMakeFiles/motor_control.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/droso1/drosophibot-ROS/build/motor_control/CMakeFiles --progress-num=1,2 "Built target motor_control"
+.PHONY : CMakeFiles/motor_control.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/motor_control.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/droso1/drosophibot-ROS/build/motor_control/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/motor_control.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/droso1/drosophibot-ROS/build/motor_control/CMakeFiles 0
+.PHONY : CMakeFiles/motor_control.dir/rule
+
+# Convenience name for target.
+motor_control: CMakeFiles/motor_control.dir/rule
+.PHONY : motor_control
+
+# clean rule for target.
+CMakeFiles/motor_control.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_control.dir/build.make CMakeFiles/motor_control.dir/clean
+.PHONY : CMakeFiles/motor_control.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

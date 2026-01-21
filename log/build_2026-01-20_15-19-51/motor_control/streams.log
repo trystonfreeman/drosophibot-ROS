@@ -1,0 +1,33 @@
+[0.063s] Invoking command in '/home/droso1/drosophibot-ROS/build/motor_control': AMENT_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/opt/ros/jazzy LD_LIBRARY_PATH=/home/droso1/drosophibot-ROS/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/motor_control -- -j4 -l4
+[0.171s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.156s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.395s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.475s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.565s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.661s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.029s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.048s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.475s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.541s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.631s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.933s] -- Found interfaces: 0.0.0 (/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake)
+[2.972s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.391s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.391s] -- Configured cppcheck include dirs: 
+[3.391s] -- Configured cppcheck exclude dirs and/or files: 
+[3.395s] -- Added test 'lint_cmake' to check CMake code style
+[3.401s] -- Added test 'uncrustify' to check C / C++ code style
+[3.401s] -- Configured uncrustify additional arguments: 
+[3.404s] -- Added test 'xmllint' to check XML markup files
+[3.408s] -- Configuring done (3.3s)
+[3.475s] -- Generating done (0.0s)
+[3.491s] -- Build files have been written to: /home/droso1/drosophibot-ROS/build/motor_control
+[3.659s] [ 50%] [32mBuilding CXX object CMakeFiles/motor_control.dir/src/motor_control.cpp.o[0m
+[5.182s] [01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kinterfaces/msg/motordata.hpp: No such file or directory
+[5.182s]     7 | #include [01;31m[K"interfaces/msg/motordata.hpp"[m[K
+[5.183s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.183s] compilation terminated.
+[5.193s] gmake[2]: *** [CMakeFiles/motor_control.dir/build.make:76: CMakeFiles/motor_control.dir/src/motor_control.cpp.o] Error 1
+[5.194s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motor_control.dir/all] Error 2
+[5.195s] gmake: *** [Makefile:146: all] Error 2
+[5.204s] Invoked command in '/home/droso1/drosophibot-ROS/build/motor_control' returned '2': AMENT_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/opt/ros/jazzy LD_LIBRARY_PATH=/home/droso1/drosophibot-ROS/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/motor_control -- -j4 -l4

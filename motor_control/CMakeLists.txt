@@ -9,7 +9,10 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(interfaces REQUIRED)
-find_package(DynamixelSDK REQUIRED)
+
+add_library(dynamixel_SDK SHARED IMPORTED)
+set_property(TARGET dynamixel_SDK PROPERTY IMPORTED_LOCATION "${CMAKE_SOURCE_DIR}/lib/libdxl_sbc_cpp.so")
+
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
@@ -27,7 +30,11 @@ if(BUILD_TESTING)
 endif()
 
 add_executable(motor_control src/motor_control.cpp)
-ament_target_dependencies(motor_control rclcpp interfaces DynamixelSDK)    # CHANGE
+
+target_include_directories(dynamixel_SDK INTERFACE "${CMAKE_SOURCE_DIR}/include/dynamixel_sdk/dynamixel_sdk.h")
+target_link_libraries(motor_control PRIVATE dynamixel_SDK)
+
+ament_target_dependencies(motor_control rclcpp interfaces)    # CHANGE
 
 
 install(TARGETS

@@ -1,0 +1,35 @@
+[0.064s] Invoking command in '/home/droso1/drosophibot-ROS/build/motor_control': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/motor_control -- -j4 -l4
+[0.212s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.260s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.432s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.480s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.545s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.617s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.911s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.921s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.224s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.506s] -- Found interfaces: 0.0.0 (/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake)
+[2.560s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.985s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:146 (target_link_libraries):
+[2.986s]   The keyword signature for target_link_libraries has already been used with
+[2.986s]   the target "motor_control".  All uses of target_link_libraries with a
+[2.987s]   target must be either all-keyword or all-plain.
+[2.987s] 
+[2.987s]   The uses of the keyword signature are here:
+[2.988s] 
+[2.988s]    * CMakeLists.txt:35 (target_link_libraries)
+[2.988s] 
+[2.989s] Call Stack (most recent call first):
+[2.989s]   CMakeLists.txt:37 (ament_target_dependencies)
+[2.989s] 
+[2.990s] [0m
+[3.020s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.021s] -- Configured cppcheck include dirs: 
+[3.021s] -- Configured cppcheck exclude dirs and/or files: 
+[3.028s] -- Added test 'lint_cmake' to check CMake code style
+[3.045s] -- Added test 'uncrustify' to check C / C++ code style
+[3.045s] -- Configured uncrustify additional arguments: 
+[3.048s] -- Added test 'xmllint' to check XML markup files
+[3.054s] -- Configuring incomplete, errors occurred!
+[3.077s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[3.084s] Invoked command in '/home/droso1/drosophibot-ROS/build/motor_control' returned '2': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/motor_control -- -j4 -l4
