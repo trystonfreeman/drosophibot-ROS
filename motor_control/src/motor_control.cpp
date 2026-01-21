@@ -40,7 +40,7 @@ private:
         auto message = interfaces::msg::MotorData();
         for (uint8_t id = 0; id < 22; id++){
 			uint32_t position = 0;
-			packetHandler->read4ByteTxRx(portHandler, dxl_id, present_position_address, &position);
+			packetHandler->read4ByteTxRx(portHandler, id, present_position_address, &position);
 			message.pos[id] = position;
 			RCLCPP_INFO(this->get_logger(), "ID: '%i'", id);
         	RCLCPP_INFO(this->get_logger(), "Position: '%i'", message.pos[id]);
