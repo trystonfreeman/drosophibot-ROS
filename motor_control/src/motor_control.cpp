@@ -19,16 +19,13 @@ uint16_t LED_address = 65;
 uint16_t present_position_address = 132;
 uint8_t data = 1; // 1 to turn on the torque, 0 to turn off
 
-dynamixel::PortHandler *portHandler = dynamixel::PortHandler::getPortHandler("/dev/ttyUSB0"); // your dxl port name
-dynamixel::PacketHandler *packetHandler = dynamixel::PacketHandler::getPacketHandler(2.0); //protocol version
-portHandler->openPort();
-portHandler->setBaudRate(1000000);
+
 
 class MotorController : public rclcpp::Node
 {
 public:
-    MotorController()
-    : Node("MotorController"), count_(0)
+    MotorController(dynamixel::PortHandler *portHandler,dynamixel::PacketHandler *packetHandler)
+    : Node("MotorController"), count_(0), portHandler(portHandler), packetHandler(packetHandler)
     {
         publisher_ = this->create_publisher<interfaces::msg::MotorData>("motor_outputs", 10);
         timer_ = this->create_wall_timer(
@@ -44,7 +41,9 @@ private:
         message.pos[0] = 0;
         message.vel[0] = 0;
         message.torque[0] = 0;
-		packetHandler->read4ByteTxRx(portHandler, dxl_id, present_position_address, &message.pos[0]);
+		uint32_t position;
+		packetHandler->read4ByteTxRx(portHandler, dxl_id, present_position_address, &position);
+		message.pos[0] = position;
         RCLCPP_INFO(this->get_logger(), "Publishing: '%i'", message.pos[0]);
         publisher_->publish(message);
     }
@@ -52,6 +51,8 @@ private:
     rclcpp::Publisher<interfaces::msg::MotorData>::SharedPtr publisher_;
     rclcpp::Subscription<interfaces::msg::MotorCommand>::SharedPtr subscription_;
     size_t count_;
+	dynamixel::PortHandler *portHandler;
+	dynamixel::PacketHandler *packetHandler;
     void topic_callback(const interfaces::msg::MotorCommand::SharedPtr msg) const{
 		RCLCPP_INFO(this->get_logger(), "command: '%i'", msg->vel[0]);
     }
@@ -59,11 +60,14 @@ private:
 
 int main(int argc, char * argv[])
 {
-
+	dynamixel::PortHandler *portHandler = dynamixel::PortHandler::getPortHandler("/dev/ttyUSB0"); // your dxl port name
+	dynamixel::PacketHandler *packetHandler = dynamixel::PacketHandler::getPacketHandler(2.0); //protocol version
+	portHandler->openPort();
+	portHandler->setBaudRate(1000000);
  	packetHandler->write1ByteTxRx(portHandler, dxl_id, LED_address, data);
 
     rclcpp::init(argc, argv);
-    rclcpp::spin(std::make_shared<MotorController>());
+    rclcpp::spin(std::make_shared<MotorController>(portHandler,packetHandler));
     rclcpp::shutdown();
     return 0;
 }
