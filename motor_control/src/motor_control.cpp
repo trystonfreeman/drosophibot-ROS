@@ -49,6 +49,16 @@ private:
 
 int main(int argc, char * argv[])
 {
+	dynamixel::PortHandler *portHandler = dynamixel::PortHandler::getPortHandler("/dev/ttyUSB0"); // your dxl port name
+  	dynamixel::PacketHandler *packetHandler = dynamixel::PacketHandler::getPacketHandler(2.0); //protocol version
+	portHandler->openPort();
+  	portHandler->setBaudRate(1000000);
+ 	uint8_t dxl_id = 1;
+ 	uint16_t torque_on_address = 64;
+	uint16_t LED_address = 65;
+ 	uint8_t data = 1; // 1 to turn on the torque, 0 to turn off
+ 	packetHandler->write1ByteTxRx(portHandler, dxl_id, LED_address, data);
+
     rclcpp::init(argc, argv);
     rclcpp::spin(std::make_shared<MotorController>());
     rclcpp::shutdown();
