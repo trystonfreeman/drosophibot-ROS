@@ -38,14 +38,14 @@ private:
     void timer_callback()
     {
         auto message = interfaces::msg::MotorData();
-        message.pos[0] = 0;
-        message.vel[0] = 0;
-        message.torque[0] = 0;
-		uint32_t position;
-		packetHandler->read4ByteTxRx(portHandler, dxl_id, present_position_address, &position);
-		message.pos[0] = position;
-        RCLCPP_INFO(this->get_logger(), "Publishing: '%i'", message.pos[0]);
-        publisher_->publish(message);
+        for (uint8_t id = 0; id < 22; id++){
+			uint32_t position = 0;
+			packetHandler->read4ByteTxRx(portHandler, dxl_id, present_position_address, &position);
+			message.pos[id] = position;
+			RCLCPP_INFO(this->get_logger(), "ID: '%i'", id);
+        	RCLCPP_INFO(this->get_logger(), "Position: '%i'", message.pos[id]);
+        	publisher_->publish(message);
+		}
     }
     rclcpp::TimerBase::SharedPtr timer_;
     rclcpp::Publisher<interfaces::msg::MotorData>::SharedPtr publisher_;
