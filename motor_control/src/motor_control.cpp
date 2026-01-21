@@ -9,6 +9,7 @@
 #include "dynamixel_sdk.h"
 
 using namespace std::chrono_literals;
+using std::placeholders::_1;
 
 /* This example creates a subclass of Node and uses std::bind() to register a
 * member function as a callback from the timer. */
@@ -41,8 +42,8 @@ private:
     rclcpp::Publisher<interfaces::msg::MotorData>::SharedPtr publisher_;
     rclcpp::Subscription<interfaces::msg::MotorCommand>::SharedPtr subscription_;
     size_t count_;
-    void topic_callback(const interfaces::msg::MotorCommand::SharedPtr msg) {
-
+    void topic_callback(const interfaces::msg::MotorCommand::SharedPtr msg) const{
+		RCLCPP_INFO(this->get_logger(), "command: '%i'", msg->vel[0]);
     }
 };
 
