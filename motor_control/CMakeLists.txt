@@ -31,6 +31,7 @@ endif()
 
 add_executable(motor_control src/motor_control.cpp)
 
+
 target_include_directories(dynamixel_SDK INTERFACE "${CMAKE_SOURCE_DIR}/include/dynamixel_sdk")
 
 
