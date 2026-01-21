@@ -1,0 +1,19 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/motor_control.dir/src/motor_control.cpp.o[0m
+[01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:24:1:[m[K [01;31m[Kerror: [m[K‘[01m[KportHandler[m[K’ does not name a type
+   24 | [01;31m[KportHandler[m[K->openPort();
+      | [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:25:1:[m[K [01;31m[Kerror: [m[K‘[01m[KportHandler[m[K’ does not name a type
+   25 | [01;31m[KportHandler[m[K->setBaudRate(1000000);
+      | [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:[m[K In member function ‘[01m[Kvoid MotorController::[01;32m[Ktimer_callback[m[K()[m[K’:
+[01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:47:93:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kstd::array<int, 22>::value_type*[m[K’ {aka ‘[01m[Kint*[m[K’} to ‘[01m[Kuint32_t*[m[K’ {aka ‘[01m[Kunsigned int*[m[K’} [[01;31m[K-fpermissive[m[K]
+   47 |                 packetHandler->read4ByteTxRx(portHandler, dxl_id, present_position_address, &message.pos[0]);
+In file included from [01m[K/home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/group_bulk_read.h:27[m[K,
+                 from [01m[K/home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/dynamixel_sdk.h:26[m[K,
+                 from [01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:9[m[K:
+[01m[K/home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/packet_handler.h:424:91:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvirtual int dynamixel::PacketHandler::[01;32m[Kread4ByteTxRx[m[K(dynamixel::PortHandler*, uint8_t, uint16_t, uint32_t*, uint8_t*)[m[K’
+  424 |   virtual int read4ByteTxRx   (PortHandler *port, uint8_t id, uint16_t address, [01;36m[Kuint32_t *data[m[K, uint8_t *error = 0) = 0;
+      |                                                                                 [01;36m[K~~~~~~~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/motor_control.dir/build.make:76: CMakeFiles/motor_control.dir/src/motor_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motor_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

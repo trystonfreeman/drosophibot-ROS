@@ -1,0 +1,210 @@
+[0.000000] (-) TimerEvent: {}
+[0.001471] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.001620] (-) JobUnselected: {'identifier': 'pubsub'}
+[0.001698] (-) JobUnselected: {'identifier': 'testcpp'}
+[0.001769] (motor_control) JobQueued: {'identifier': 'motor_control', 'dependencies': OrderedDict({'interfaces': '/home/droso1/drosophibot-ROS/install/interfaces'})}
+[0.001858] (motor_control) JobStarted: {'identifier': 'motor_control'}
+[0.049824] (motor_control) JobProgress: {'identifier': 'motor_control', 'progress': 'cmake'}
+[0.052380] (motor_control) JobProgress: {'identifier': 'motor_control', 'progress': 'build'}
+[0.054705] (motor_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/droso1/drosophibot-ROS/build/motor_control', '--', '-j4', '-l4'], 'cwd': '/home/droso1/drosophibot-ROS/build/motor_control', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'droso1', 'SSH_CLIENT': '192.168.137.1 51791 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/droso1/drosophibot-ROS/install/interfaces/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/droso1', 'OLDPWD': '/home/droso1/drosophibot-ROS/install', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'droso1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '3', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/home/droso1/drosophibot-ROS/install/interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/droso1/drosophibot-ROS/build/motor_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 51791 192.168.137.158 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy'}), 'shell': False}
+[0.099286] (-) TimerEvent: {}
+[0.200015] (-) TimerEvent: {}
+[0.301413] (-) TimerEvent: {}
+[0.361006] (motor_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/motor_control.dir/src/motor_control.cpp.o\x1b[0m\n'}
+[0.401670] (-) TimerEvent: {}
+[0.502333] (-) TimerEvent: {}
+[0.602944] (-) TimerEvent: {}
+[0.703571] (-) TimerEvent: {}
+[0.804166] (-) TimerEvent: {}
+[0.904772] (-) TimerEvent: {}
+[1.005337] (-) TimerEvent: {}
+[1.105965] (-) TimerEvent: {}
+[1.206572] (-) TimerEvent: {}
+[1.307159] (-) TimerEvent: {}
+[1.407792] (-) TimerEvent: {}
+[1.508365] (-) TimerEvent: {}
+[1.609000] (-) TimerEvent: {}
+[1.709626] (-) TimerEvent: {}
+[1.810227] (-) TimerEvent: {}
+[1.910854] (-) TimerEvent: {}
+[2.011442] (-) TimerEvent: {}
+[2.112111] (-) TimerEvent: {}
+[2.212775] (-) TimerEvent: {}
+[2.313449] (-) TimerEvent: {}
+[2.414097] (-) TimerEvent: {}
+[2.514727] (-) TimerEvent: {}
+[2.615343] (-) TimerEvent: {}
+[2.715991] (-) TimerEvent: {}
+[2.816637] (-) TimerEvent: {}
+[2.917238] (-) TimerEvent: {}
+[3.017926] (-) TimerEvent: {}
+[3.118579] (-) TimerEvent: {}
+[3.219208] (-) TimerEvent: {}
+[3.319954] (-) TimerEvent: {}
+[3.420639] (-) TimerEvent: {}
+[3.521306] (-) TimerEvent: {}
+[3.622040] (-) TimerEvent: {}
+[3.722784] (-) TimerEvent: {}
+[3.823435] (-) TimerEvent: {}
+[3.924116] (-) TimerEvent: {}
+[4.024770] (-) TimerEvent: {}
+[4.125391] (-) TimerEvent: {}
+[4.226068] (-) TimerEvent: {}
+[4.326674] (-) TimerEvent: {}
+[4.427310] (-) TimerEvent: {}
+[4.527987] (-) TimerEvent: {}
+[4.628696] (-) TimerEvent: {}
+[4.729357] (-) TimerEvent: {}
+[4.830112] (-) TimerEvent: {}
+[4.930784] (-) TimerEvent: {}
+[5.031410] (-) TimerEvent: {}
+[5.132139] (-) TimerEvent: {}
+[5.232794] (-) TimerEvent: {}
+[5.333419] (-) TimerEvent: {}
+[5.434130] (-) TimerEvent: {}
+[5.534770] (-) TimerEvent: {}
+[5.635373] (-) TimerEvent: {}
+[5.736027] (-) TimerEvent: {}
+[5.836679] (-) TimerEvent: {}
+[5.937303] (-) TimerEvent: {}
+[6.037961] (-) TimerEvent: {}
+[6.138616] (-) TimerEvent: {}
+[6.239229] (-) TimerEvent: {}
+[6.339928] (-) TimerEvent: {}
+[6.440656] (-) TimerEvent: {}
+[6.541274] (-) TimerEvent: {}
+[6.641985] (-) TimerEvent: {}
+[6.742673] (-) TimerEvent: {}
+[6.843289] (-) TimerEvent: {}
+[6.943981] (-) TimerEvent: {}
+[7.044640] (-) TimerEvent: {}
+[7.145261] (-) TimerEvent: {}
+[7.245969] (-) TimerEvent: {}
+[7.346622] (-) TimerEvent: {}
+[7.447249] (-) TimerEvent: {}
+[7.547932] (-) TimerEvent: {}
+[7.648610] (-) TimerEvent: {}
+[7.749238] (-) TimerEvent: {}
+[7.849931] (-) TimerEvent: {}
+[7.950528] (-) TimerEvent: {}
+[8.051198] (-) TimerEvent: {}
+[8.151935] (-) TimerEvent: {}
+[8.252629] (-) TimerEvent: {}
+[8.353262] (-) TimerEvent: {}
+[8.453933] (-) TimerEvent: {}
+[8.554598] (-) TimerEvent: {}
+[8.655228] (-) TimerEvent: {}
+[8.755951] (-) TimerEvent: {}
+[8.856617] (-) TimerEvent: {}
+[8.957237] (-) TimerEvent: {}
+[9.057914] (-) TimerEvent: {}
+[9.158589] (-) TimerEvent: {}
+[9.259198] (-) TimerEvent: {}
+[9.359874] (-) TimerEvent: {}
+[9.460507] (-) TimerEvent: {}
+[9.561174] (-) TimerEvent: {}
+[9.649410] (motor_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:24:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KportHandler\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[9.650364] (motor_control) StderrLine: {'line': b'   24 | \x1b[01;31m\x1b[KportHandler\x1b[m\x1b[K->openPort();\n'}
+[9.650869] (motor_control) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.654941] (motor_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:25:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KportHandler\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[9.655784] (motor_control) StderrLine: {'line': b'   25 | \x1b[01;31m\x1b[KportHandler\x1b[m\x1b[K->setBaudRate(1000000);\n'}
+[9.656199] (motor_control) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.661353] (-) TimerEvent: {}
+[9.762029] (-) TimerEvent: {}
+[9.817508] (motor_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MotorController::\x1b[01;32m\x1b[Ktimer_callback\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.818325] (motor_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:47:93:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kstd::array<int, 22>::value_type*\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kint*\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kuint32_t*\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int*\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[9.818820] (motor_control) StderrLine: {'line': b'   47 |                 packetHandler->read4ByteTxRx(portHandler, dxl_id, present_position_address, &message.pos[0]);\n'}
+[9.819277] (motor_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/group_bulk_read.h:27\x1b[m\x1b[K,\n'}
+[9.819806] (motor_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/dynamixel_sdk.h:26\x1b[m\x1b[K,\n'}
+[9.820266] (motor_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:9\x1b[m\x1b[K:\n'}
+[9.820883] (motor_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/packet_handler.h:424:91:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 4 of \xe2\x80\x98\x1b[01m\x1b[Kvirtual int dynamixel::PacketHandler::\x1b[01;32m\x1b[Kread4ByteTxRx\x1b[m\x1b[K(dynamixel::PortHandler*, uint8_t, uint16_t, uint32_t*, uint8_t*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.821350] (motor_control) StderrLine: {'line': b'  424 |   virtual int read4ByteTxRx   (PortHandler *port, uint8_t id, uint16_t address, \x1b[01;36m\x1b[Kuint32_t *data\x1b[m\x1b[K, uint8_t *error = 0) = 0;\n'}
+[9.821826] (motor_control) StderrLine: {'line': b'      |                                                                                 \x1b[01;36m\x1b[K~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[9.862211] (-) TimerEvent: {}
+[9.962894] (-) TimerEvent: {}
+[10.063516] (-) TimerEvent: {}
+[10.164199] (-) TimerEvent: {}
+[10.264886] (-) TimerEvent: {}
+[10.365584] (-) TimerEvent: {}
+[10.466225] (-) TimerEvent: {}
+[10.566927] (-) TimerEvent: {}
+[10.667594] (-) TimerEvent: {}
+[10.768208] (-) TimerEvent: {}
+[10.868905] (-) TimerEvent: {}
+[10.969513] (-) TimerEvent: {}
+[11.070173] (-) TimerEvent: {}
+[11.170867] (-) TimerEvent: {}
+[11.271485] (-) TimerEvent: {}
+[11.372168] (-) TimerEvent: {}
+[11.472817] (-) TimerEvent: {}
+[11.573445] (-) TimerEvent: {}
+[11.674097] (-) TimerEvent: {}
+[11.774716] (-) TimerEvent: {}
+[11.875382] (-) TimerEvent: {}
+[11.976032] (-) TimerEvent: {}
+[12.076672] (-) TimerEvent: {}
+[12.177291] (-) TimerEvent: {}
+[12.277956] (-) TimerEvent: {}
+[12.378627] (-) TimerEvent: {}
+[12.479235] (-) TimerEvent: {}
+[12.579922] (-) TimerEvent: {}
+[12.680590] (-) TimerEvent: {}
+[12.781195] (-) TimerEvent: {}
+[12.881878] (-) TimerEvent: {}
+[12.982512] (-) TimerEvent: {}
+[13.083182] (-) TimerEvent: {}
+[13.183878] (-) TimerEvent: {}
+[13.284502] (-) TimerEvent: {}
+[13.385175] (-) TimerEvent: {}
+[13.485836] (-) TimerEvent: {}
+[13.586483] (-) TimerEvent: {}
+[13.687233] (-) TimerEvent: {}
+[13.787919] (-) TimerEvent: {}
+[13.888601] (-) TimerEvent: {}
+[13.989215] (-) TimerEvent: {}
+[14.089910] (-) TimerEvent: {}
+[14.190588] (-) TimerEvent: {}
+[14.291228] (-) TimerEvent: {}
+[14.392000] (-) TimerEvent: {}
+[14.492674] (-) TimerEvent: {}
+[14.593304] (-) TimerEvent: {}
+[14.693967] (-) TimerEvent: {}
+[14.794662] (-) TimerEvent: {}
+[14.895296] (-) TimerEvent: {}
+[14.995959] (-) TimerEvent: {}
+[15.096636] (-) TimerEvent: {}
+[15.197274] (-) TimerEvent: {}
+[15.298415] (-) TimerEvent: {}
+[15.399119] (-) TimerEvent: {}
+[15.499820] (-) TimerEvent: {}
+[15.600489] (-) TimerEvent: {}
+[15.701160] (-) TimerEvent: {}
+[15.801822] (-) TimerEvent: {}
+[15.902462] (-) TimerEvent: {}
+[16.003135] (-) TimerEvent: {}
+[16.103788] (-) TimerEvent: {}
+[16.204409] (-) TimerEvent: {}
+[16.305080] (-) TimerEvent: {}
+[16.405685] (-) TimerEvent: {}
+[16.506286] (-) TimerEvent: {}
+[16.606986] (-) TimerEvent: {}
+[16.707697] (-) TimerEvent: {}
+[16.808429] (-) TimerEvent: {}
+[16.909056] (-) TimerEvent: {}
+[17.009655] (-) TimerEvent: {}
+[17.110246] (-) TimerEvent: {}
+[17.210912] (-) TimerEvent: {}
+[17.311643] (-) TimerEvent: {}
+[17.412267] (-) TimerEvent: {}
+[17.512947] (-) TimerEvent: {}
+[17.613590] (-) TimerEvent: {}
+[17.714235] (-) TimerEvent: {}
+[17.814908] (-) TimerEvent: {}
+[17.915790] (-) TimerEvent: {}
+[17.983679] (motor_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/motor_control.dir/build.make:76: CMakeFiles/motor_control.dir/src/motor_control.cpp.o] Error 1\n'}
+[17.984603] (motor_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motor_control.dir/all] Error 2\n'}
+[17.985497] (motor_control) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[17.993812] (motor_control) CommandEnded: {'returncode': 2}
+[18.015923] (-) TimerEvent: {}
+[18.041937] (motor_control) JobEnded: {'identifier': 'motor_control', 'rc': 2}
+[18.045252] (-) EventReactorShutdown: {}
