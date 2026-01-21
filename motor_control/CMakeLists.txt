@@ -36,7 +36,7 @@ target_include_directories(dynamixel_SDK INTERFACE "${CMAKE_SOURCE_DIR}/include/
 
 ament_target_dependencies(motor_control rclcpp interfaces)    # CHANGE
 
-target_link_libraries(motor_control PRIVATE dynamixel_SDK)
+target_link_libraries(motor_control dynamixel_SDK)
 
 install(TARGETS
         motor_control
