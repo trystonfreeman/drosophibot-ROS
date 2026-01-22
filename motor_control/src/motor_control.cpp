@@ -34,7 +34,7 @@ public:
         timer_ = this->create_wall_timer(
         500ms, std::bind(&MotorController::timer_callback, this));
 
-    	auto topic_callback = [this](const interfaces::msg::MotorCommand::SharedPtr & msg) {
+    	auto topic_callback = [=](const interfaces::msg::MotorCommand::SharedPtr & msg) {
     		// Consider using bulkwrite if performance is an issue
     		for (int id = 0; id < 22; id++) {
     			packetHandler->write4ByteTxRx(portHandler, id, commanded_position_address, msg.pos[id]);
