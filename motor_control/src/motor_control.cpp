@@ -19,6 +19,7 @@ uint16_t LED_address = 65;
 uint16_t present_position_address = 132;
 uint16_t present_velocity_address = 128;
 uint16_t commanded_position_address = 136;
+uint16_t commanded_velocity_address = 112;
 uint8_t data = 1; // 1 to turn on the torque, 0 to turn off
 
 
@@ -56,8 +57,8 @@ private:
     void topic_callback(const interfaces::msg::MotorCommand::SharedPtr msg) const{
     	// Consider using bulkwrite if performance is an issue
 		for (int id = 0; id < 22; id++) {
-			packetHandler->write4ByteTxRx(portHandler, id, position_command_address, msg.pos[id]);
-			packetHandler->write4ByteTxRx(portHandler, id, velocity_command_address, msg.vel[id]);
+			packetHandler->write4ByteTxRx(portHandler, id, commanded_position_address, msg.pos[id]);
+			packetHandler->write4ByteTxRx(portHandler, id, command_velocity_address, msg.vel[id]);
 		}
     }
 
