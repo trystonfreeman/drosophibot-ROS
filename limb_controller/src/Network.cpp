@@ -1,4 +1,4 @@
-#include "include/Network.h"
+#include "Network.h"
 namespace SNSToolboxCPP{
     Network::Network(const std::string& filename)
     {
