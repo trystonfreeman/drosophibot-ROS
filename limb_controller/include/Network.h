@@ -1,6 +1,6 @@
 #pragma once
 #include <string>
-#include <Eigen/Dense>
+#include <Eigen/Eigen>
 #include "cjsontoEigen.h"
 #include <fstream>
 #include <string>
