@@ -13,6 +13,16 @@ CMakeFiles/motor_control.dir/src/motor_control.cpp.o: /home/droso1/drosophibot-R
   /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/motor_command.hpp \
   /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/motor_data.hpp \
   /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/dynamixel_sdk.h \
+  /home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/group_bulk_read.h \
+  /home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/group_bulk_write.h \
+  /home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/group_fast_bulk_read.h \
+  /home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/group_fast_sync_read.h \
+  /home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/group_handler.h \
+  /home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/group_sync_read.h \
+  /home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/group_sync_write.h \
+  /home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/packet_handler.h \
+  /home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/port_handler.h \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
   /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
@@ -1099,19 +1109,17 @@ CMakeFiles/motor_control.dir/src/motor_control.cpp.o: /home/droso1/drosophibot-R
 
 /usr/include/aarch64-linux-gnu/sys/time.h:
 
-/usr/include/c++/13/bits/unique_lock.h:
+/usr/include/aarch64-linux-gnu/sys/single_threaded.h:
 
-/usr/include/aarch64-linux-gnu/bits/typesizes.h:
+/usr/include/aarch64-linux-gnu/sys/select.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/service.hpp:
+/usr/include/aarch64-linux-gnu/sys/procfs.h:
 
-/opt/ros/jazzy/include/rmw/rmw/get_topic_names_and_types.h:
+/usr/include/aarch64-linux-gnu/gnu/stubs.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/serialization.hpp:
+/usr/include/aarch64-linux-gnu/c++/13/bits/time_members.h:
 
-/opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/publisher_options.hpp:
+/usr/include/aarch64-linux-gnu/c++/13/bits/gthr.h:
 
 /usr/include/signal.h:
 
@@ -1119,21 +1127,21 @@ CMakeFiles/motor_control.dir/src/motor_control.cpp.o: /home/droso1/drosophibot-R
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/publisher_base.hpp:
 
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher_options.hpp:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_type_descriptions_interface.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_topics_interface_traits.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp:
+/usr/include/aarch64-linux-gnu/c++/13/bits/messages_members.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/subscription_intra_process.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp:
 
 /opt/ros/jazzy/include/rcutils/rcutils/sha256.h:
-
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp:
 
@@ -1195,8 +1203,6 @@ CMakeFiles/motor_control.dir/src/motor_control.cpp.o: /home/droso1/drosophibot-R
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/macros.hpp:
 
-/usr/include/aarch64-linux-gnu/c++/13/bits/time_members.h:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/intra_process_setting.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/types/error_t.h:
@@ -1207,25 +1213,11 @@ CMakeFiles/motor_control.dir/src/motor_control.cpp.o: /home/droso1/drosophibot-R
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_entities_collection.hpp:
 
-/usr/include/aarch64-linux-gnu/sys/single_threaded.h:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/events_queue.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/parameter.hpp:
 
 /opt/ros/jazzy/include/rcl/rcl/network_flow_endpoints.h:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp:
-
-/home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__traits.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp:
-
-/usr/include/c++/13/cctype:
-
-/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/guard_condition.hpp:
 
@@ -1244,10 +1236,6 @@ CMakeFiles/motor_control.dir/src/motor_control.cpp.o: /home/droso1/drosophibot-R
 /opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_notify_waitable.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp:
-
-/usr/include/string.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/serialized_message.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:
 
@@ -1272,10 +1260,6 @@ CMakeFiles/motor_control.dir/src/motor_control.cpp.o: /home/droso1/drosophibot-R
 /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/client.h:
 
 /usr/include/pthread.h:
 
@@ -1335,35 +1319,41 @@ CMakeFiles/motor_control.dir/src/motor_control.cpp.o: /home/droso1/drosophibot-R
 
 /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h:
 
-/usr/include/c++/13/ext/string_conversions.h:
+/usr/include/c++/13/bits/locale_conv.h:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp:
+/opt/ros/jazzy/include/rcutils/rcutils/types/array_list.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/exceptions/exceptions.hpp:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp:
 
-/opt/ros/jazzy/include/rcl/rcl/service.h:
+/opt/ros/jazzy/include/rmw/rmw/qos_policy_kind.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp:
 
-/usr/include/c++/13/bits/stl_tree.h:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp:
 
-/opt/ros/jazzy/include/rcl/rcl/publisher.h:
+/opt/ros/jazzy/include/rcpputils/rcpputils/shared_library.hpp:
 
-/opt/ros/jazzy/include/rmw/rmw/events_statuses/liveliness_changed.h:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/network_flow_endpoint.hpp:
+/usr/include/c++/13/bits/stl_multiset.h:
 
-/opt/ros/jazzy/include/rcl/rcl/guard_condition.h:
+/opt/ros/jazzy/include/rmw/rmw/init_options.h:
 
-/usr/include/c++/13/bits/allocator.h:
+/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_map.hpp:
+/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/ros_message_intra_process_buffer.hpp:
+/usr/include/c++/13/bit:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp:
+
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
 
@@ -1372,16 +1362,6 @@ CMakeFiles/motor_control.dir/src/motor_control.cpp.o: /home/droso1/drosophibot-R
 /usr/include/aarch64-linux-gnu/bits/siginfo-consts-arch.h:
 
 /opt/ros/jazzy/include/rcl/rcl/graph.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/context.h:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/wchar.h:
 
 /opt/ros/jazzy/include/rcl/rcl/event.h:
 
@@ -1395,6 +1375,12 @@ CMakeFiles/motor_control.dir/src/motor_control.cpp.o: /home/droso1/drosophibot-R
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp:
 
+/opt/ros/jazzy/include/rcl/rcl/domain_id.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/executors/static_single_threaded_executor.hpp:
 
 /opt/ros/jazzy/include/rcl/rcl/arguments.h:
@@ -1404,8 +1390,6 @@ CMakeFiles/motor_control.dir/src/motor_control.cpp.o: /home/droso1/drosophibot-R
 /usr/include/c++/13/deque:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/node.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/wint_t.h:
 
@@ -1423,21 +1407,49 @@ CMakeFiles/motor_control.dir/src/motor_control.cpp.o: /home/droso1/drosophibot-R
 
 /usr/include/aarch64-linux-gnu/bits/time64.h:
 
-/opt/ros/jazzy/include/rcl/rcl/init_options.h:
+/usr/include/c++/13/cctype:
 
-/usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp:
 
-/opt/ros/jazzy/include/rmw/rmw/qos_policy_kind.h:
+/home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__traits.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp:
+
+/usr/include/c++/13/ext/string_conversions.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:
+
+/usr/include/aarch64-linux-gnu/c++/13/bits/ctype_inline.h:
+
+/opt/ros/jazzy/include/rcl/rcl/context.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/wchar.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp:
+
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/serialization.hpp:
+
+/opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:
+
+/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:
+
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp:
+
+/usr/include/aarch64-linux-gnu/c++/13/bits/os_defines.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp:
-
-/usr/include/c++/13/bits/stl_multiset.h:
-
-/opt/ros/jazzy/include/rmw/rmw/init_options.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/logger.hpp:
 
@@ -1451,17 +1463,11 @@ CMakeFiles/motor_control.dir/src/motor_control.cpp.o: /home/droso1/drosophibot-R
 
 /opt/ros/jazzy/include/rmw/rmw/incompatible_qos_events_statuses.h:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp:
+/home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/dynamixel_sdk.h:
 
-/usr/include/c++/13/bits/chrono.h:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/visibility_control.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/loaned_message.hpp:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp:
 
 /usr/include/c++/13/bits/new_allocator.h:
 
@@ -1471,31 +1477,57 @@ CMakeFiles/motor_control.dir/src/motor_control.cpp.o: /home/droso1/drosophibot-R
 
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__struct.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_clock_interface_traits.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/log_level.h:
-
-/opt/ros/jazzy/include/rcutils/rcutils/shared_library.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:
-
-/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/siginfo-consts.h:
-
-/opt/ros/jazzy/include/tracetools/tracetools/visibility_control.hpp:
-
-/home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__type_support.hpp:
-
-/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:
+/opt/ros/jazzy/include/rcl/rcl/guard_condition.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/generic_client.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp:
+
+/home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__struct.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/is_ros_compatible_type.hpp:
+
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp:
+
+/home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/packet_handler.h:
+
+/usr/include/endian.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/subscription_options.hpp:
+
+/usr/include/c++/13/bits/chrono.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/generic_subscription.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/message_info.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp:
+
+/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:
+
+/home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/group_fast_bulk_read.h:
+
+/home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__builder.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp:
+
+/home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/group_bulk_read.h:
+
+/opt/ros/jazzy/include/rcl/rcl/service.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/exceptions/exceptions.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp:
 
 /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp:
 
@@ -1509,93 +1541,13 @@ CMakeFiles/motor_control.dir/src/motor_control.cpp.o: /home/droso1/drosophibot-R
 
 /usr/include/aarch64-linux-gnu/bits/procfs-extra.h:
 
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp:
 
-/usr/include/aarch64-linux-gnu/c++/13/bits/os_defines.h:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp:
-
-/home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__struct.hpp:
+/opt/ros/jazzy/include/rmw/rmw/visibility_control.h:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/generic_subscription.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/message_info.hpp:
-
-/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:
-
-/home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__builder.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:
-
-/usr/include/c++/13/cstddef:
-
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp:
-
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/types.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/types/siginfo_t.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp:
-
-/home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__type_support.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp:
-
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/stdint-least.h:
-
-/opt/ros/jazzy/include/rcl/rcl/service_introspection.h:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/domain_id.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/publisher.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp:
-
-/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:
-
-/usr/include/stdint.h:
-
-/opt/ros/jazzy/include/rcl/rcl/subscription.h:
-
-/opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/identifier.h:
-
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/is_ros_compatible_type.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/timer.h:
-
-/opt/ros/jazzy/include/rmw/rmw/publisher_options.h:
-
-/usr/include/c++/13/bits/predefined_ops.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:
-
-/usr/include/aarch64-linux-gnu/c++/13/bits/ctype_inline.h:
-
-/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
-
-/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp:
-
-/usr/include/aarch64-linux-gnu/gnu/stubs.h:
+/home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/group_bulk_write.h:
 
 /usr/include/c++/13/bits/hashtable_policy.h:
 
@@ -1613,9 +1565,121 @@ CMakeFiles/motor_control.dir/src/motor_control.cpp.o: /home/droso1/drosophibot-R
 
 /opt/ros/jazzy/include/rmw/rmw/domain_id.h:
 
+/usr/include/aarch64-linux-gnu/bits/types/siginfo_t.h:
+
+/usr/include/c++/13/bits/allocator.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/parameter_map.hpp:
+
+/usr/include/c++/13/cstddef:
+
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp:
+
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp:
+
+/home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/group_sync_write.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/loaned_message.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/visibility_control.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp:
+
+/home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__type_support.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp:
+
+/usr/include/stdint.h:
+
+/home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/group_handler.h:
+
+/opt/ros/jazzy/include/rcl/rcl/subscription.h:
+
+/opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/identifier.h:
+
+/home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__traits.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/node_options.h:
+
+/opt/ros/jazzy/include/rcpputils/rcpputils/visibility_control.hpp:
+
+/opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/visibility_control.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_clock_interface_traits.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/log_level.h:
+
+/opt/ros/jazzy/include/rcutils/rcutils/shared_library.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:
+
+/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/node.h:
+
+/home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__type_support.hpp:
+
+/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/siginfo-consts.h:
+
+/opt/ros/jazzy/include/tracetools/tracetools/visibility_control.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp:
+
+/usr/include/c++/13/bits/stl_tree.h:
+
+/opt/ros/jazzy/include/rcl/rcl/publisher.h:
+
+/opt/ros/jazzy/include/rmw/rmw/events_statuses/liveliness_changed.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/network_flow_endpoint.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/ros_message_intra_process_buffer.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:
+
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/stdint-least.h:
+
+/opt/ros/jazzy/include/rcl/rcl/service_introspection.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:
+
+/opt/ros/jazzy/include/rcpputils/rcpputils/scope_exit.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp:
+
+/opt/ros/jazzy/include/rmw/rmw/publisher_options.h:
+
+/opt/ros/jazzy/include/rcl/rcl/timer.h:
+
+/home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/group_fast_sync_read.h:
+
+/usr/include/c++/13/bits/unordered_map.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/any_service_callback.hpp:
+
+/opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/individual_type_description__struct.h:
+
+/opt/ros/jazzy/include/rmw/rmw/network_flow_endpoint_array.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/types.h:
+
 /opt/ros/jazzy/include/rcl/rcl/wait.h:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp:
 
@@ -1631,9 +1695,11 @@ CMakeFiles/motor_control.dir/src/motor_control.cpp.o: /home/droso1/drosophibot-R
 
 /usr/include/aarch64-linux-gnu/bits/types/__sigval_t.h:
 
-/usr/include/aarch64-linux-gnu/bits/types/sig_atomic_t.h:
+/usr/include/aarch64-linux-gnu/bits/libc-header-start.h:
 
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/types/sig_atomic_t.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/contexts/default_context.hpp:
 
@@ -1666,30 +1732,6 @@ CMakeFiles/motor_control.dir/src/motor_control.cpp.o: /home/droso1/drosophibot-R
 /opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_message_type.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp:
-
-/home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__traits.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/node_options.h:
-
-/opt/ros/jazzy/include/rcpputils/rcpputils/visibility_control.hpp:
-
-/opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/visibility_control.h:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/libc-header-start.h:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp:
-
-/opt/ros/jazzy/include/rcpputils/rcpputils/shared_library.hpp:
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h:
 
@@ -1741,21 +1783,9 @@ CMakeFiles/motor_control.dir/src/motor_control.cpp.o: /home/droso1/drosophibot-R
 
 /usr/include/aarch64-linux-gnu/bits/timesize.h:
 
-/usr/include/c++/13/bits/unordered_map.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/any_service_callback.hpp:
-
 /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp:
-
-/opt/ros/jazzy/include/rmw/rmw/visibility_control.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:
 
@@ -1785,23 +1815,37 @@ CMakeFiles/motor_control.dir/src/motor_control.cpp.o: /home/droso1/drosophibot-R
 
 /usr/include/aarch64-linux-gnu/c++/13/bits/atomic_word.h:
 
-/usr/include/c++/13/bit:
+/opt/ros/jazzy/include/rcl/rcl/init_options.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:
+/usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp:
+/usr/include/c++/13/bits/predefined_ops.h:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:
 
-/opt/ros/jazzy/include/rcpputils/rcpputils/scope_exit.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:
 
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h:
+/opt/ros/jazzy/include/rcl/rcl/client.h:
 
-/usr/include/c++/13/bits/locale_conv.h:
+/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp:
+/usr/include/string.h:
 
-/opt/ros/jazzy/include/rcutils/rcutils/types/array_list.h:
+/opt/ros/jazzy/include/rclcpp/rclcpp/serialized_message.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/service.hpp:
+
+/opt/ros/jazzy/include/rmw/rmw/get_topic_names_and_types.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp:
+
+/usr/include/c++/13/bits/unique_lock.h:
+
+/usr/include/aarch64-linux-gnu/bits/typesizes.h:
 
 /usr/include/aarch64-linux-gnu/asm/bitsperlong.h:
 
@@ -1812,10 +1856,6 @@ CMakeFiles/motor_control.dir/src/motor_control.cpp.o: /home/droso1/drosophibot-R
 /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_factory.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/errno.h:
-
-/usr/include/endian.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/subscription_options.hpp:
 
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
 
@@ -1839,6 +1879,8 @@ CMakeFiles/motor_control.dir/src/motor_control.cpp.o: /home/droso1/drosophibot-R
 
 /usr/include/aarch64-linux-gnu/bits/flt-eval-method.h:
 
+/home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/group_sync_read.h:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/type_adapter.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:
@@ -1855,9 +1897,9 @@ CMakeFiles/motor_control.dir/src/motor_control.cpp.o: /home/droso1/drosophibot-R
 
 /opt/ros/jazzy/include/rmw/rmw/names_and_types.h:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/resolve_enable_topic_statistics.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp:
 
 /opt/ros/jazzy/include/rcutils/rcutils/types/char_array.h:
 
@@ -2117,15 +2159,9 @@ CMakeFiles/motor_control.dir/src/motor_control.cpp.o: /home/droso1/drosophibot-R
 
 /usr/include/aarch64-linux-gnu/c++/13/bits/c++config.h:
 
-/usr/include/aarch64-linux-gnu/sys/procfs.h:
-
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:
 
 /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/field__struct.h:
-
-/opt/ros/jazzy/include/rmw/rmw/network_flow_endpoint_array.h:
-
-/opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/individual_type_description__struct.h:
 
 /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/key_value__struct.h:
 
@@ -2237,8 +2273,6 @@ CMakeFiles/motor_control.dir/src/motor_control.cpp.o: /home/droso1/drosophibot-R
 
 /usr/include/aarch64-linux-gnu/bits/sigevent-consts.h:
 
-/usr/include/aarch64-linux-gnu/sys/select.h:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/context.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/siginfo-arch.h:
@@ -2272,6 +2306,8 @@ CMakeFiles/motor_control.dir/src/motor_control.cpp.o: /home/droso1/drosophibot-R
 /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp:
+
+/home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/port_handler.h:
 
 /usr/include/aarch64-linux-gnu/bits/endianness.h:
 
@@ -2335,9 +2371,9 @@ CMakeFiles/motor_control.dir/src/motor_control.cpp.o: /home/droso1/drosophibot-R
 
 /usr/include/aarch64-linux-gnu/bits/wctype-wchar.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp:
-
 /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/wordsize.h:
 
@@ -2348,9 +2384,3 @@ CMakeFiles/motor_control.dir/src/motor_control.cpp.o: /home/droso1/drosophibot-R
 /usr/include/aarch64-linux-gnu/c++/13/bits/cxxabi_tweaks.h:
 
 /usr/include/aarch64-linux-gnu/c++/13/bits/error_constants.h:
-
-/usr/include/aarch64-linux-gnu/c++/13/bits/gthr.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/subscription_intra_process.hpp:
-
-/usr/include/aarch64-linux-gnu/c++/13/bits/messages_members.h:

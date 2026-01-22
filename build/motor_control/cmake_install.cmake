@@ -54,7 +54,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/motor_control/motor_control")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/motor_control/motor_control"
-         OLD_RPATH "/opt/ros/jazzy/lib:/home/droso1/drosophibot-ROS/install/interfaces/lib:"
+         OLD_RPATH "/opt/ros/jazzy/lib:/home/droso1/drosophibot-ROS/install/interfaces/lib:/home/droso1/drosophibot-ROS/motor_control/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/motor_control/motor_control")

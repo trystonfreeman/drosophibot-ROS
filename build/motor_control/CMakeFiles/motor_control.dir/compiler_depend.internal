@@ -14,6 +14,16 @@ CMakeFiles/motor_control.dir/src/motor_control.cpp.o
  /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/motor_command.hpp
  /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/motor_data.hpp
  /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+ /home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/dynamixel_sdk.h
+ /home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/group_bulk_read.h
+ /home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/group_bulk_write.h
+ /home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/group_fast_bulk_read.h
+ /home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/group_fast_sync_read.h
+ /home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/group_handler.h
+ /home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/group_sync_read.h
+ /home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/group_sync_write.h
+ /home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/packet_handler.h
+ /home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/port_handler.h
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp

@@ -1,0 +1,22 @@
+[0.064s] Invoking command in '/home/droso1/drosophibot-ROS/build/motor_control': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/motor_control -- -j4 -l4
+[0.371s] [100%] Built target motor_control
+[0.420s] Invoked command in '/home/droso1/drosophibot-ROS/build/motor_control' returned '0': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/motor_control -- -j4 -l4
+[0.468s] Invoking command in '/home/droso1/drosophibot-ROS/build/motor_control': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy /usr/bin/cmake --install /home/droso1/drosophibot-ROS/build/motor_control
+[0.506s] -- Install configuration: ""
+[0.507s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/motor_control/lib/motor_control/motor_control
+[0.509s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/motor_control/share/ament_index/resource_index/package_run_dependencies/motor_control
+[0.509s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/motor_control/share/ament_index/resource_index/parent_prefix_path/motor_control
+[0.510s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/environment/ament_prefix_path.sh
+[0.510s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/environment/ament_prefix_path.dsv
+[0.511s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/environment/path.sh
+[0.511s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/environment/path.dsv
+[0.511s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/local_setup.bash
+[0.512s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/local_setup.sh
+[0.512s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/local_setup.zsh
+[0.513s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/local_setup.dsv
+[0.513s] -- Installing: /home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/package.dsv
+[0.514s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/motor_control/share/ament_index/resource_index/packages/motor_control
+[0.514s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/cmake/motor_controlConfig.cmake
+[0.515s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/cmake/motor_controlConfig-version.cmake
+[0.515s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/package.xml
+[0.521s] Invoked command in '/home/droso1/drosophibot-ROS/build/motor_control' returned '0': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy /usr/bin/cmake --install /home/droso1/drosophibot-ROS/build/motor_control

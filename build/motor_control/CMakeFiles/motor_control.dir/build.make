@@ -99,6 +99,7 @@ motor_control: /home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces
 motor_control: /home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
 motor_control: /home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
 motor_control: /home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_generator_py.so
+motor_control: /home/droso1/drosophibot-ROS/motor_control/lib/libdxl_sbc_cpp.so
 motor_control: /opt/ros/jazzy/lib/liblibstatistics_collector.so
 motor_control: /opt/ros/jazzy/lib/librcl.so
 motor_control: /opt/ros/jazzy/lib/librmw_implementation.so

@@ -709,4 +709,14 @@ CMakeFiles/motor_control.dir/src/motor_control.cpp.o: \
  /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__struct.hpp \
  /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__builder.hpp \
  /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__traits.hpp \
- /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__type_support.hpp
+ /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__type_support.hpp \
+ /home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/dynamixel_sdk.h \
+ /home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/group_bulk_read.h \
+ /home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/port_handler.h \
+ /home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/packet_handler.h \
+ /home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/group_handler.h \
+ /home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/group_bulk_write.h \
+ /home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/group_sync_read.h \
+ /home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/group_sync_write.h \
+ /home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/group_fast_sync_read.h \
+ /home/droso1/drosophibot-ROS/motor_control/include/dynamixel_sdk/group_fast_bulk_read.h
