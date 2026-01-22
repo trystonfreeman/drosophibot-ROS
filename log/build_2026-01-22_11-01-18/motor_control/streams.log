@@ -1,0 +1,10 @@
+[0.060s] Invoking command in '/home/droso1/drosophibot-ROS/build/motor_control': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/motor_control -- -j4 -l4
+[0.351s] [ 50%] [32mBuilding CXX object CMakeFiles/motor_control.dir/src/motor_control.cpp.o[0m
+[9.725s] [01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:[m[K In constructor ‘[01m[KMotorController::[01;32m[KMotorController[m[K(dynamixel::PortHandler*, dynamixel::PacketHandler*)[m[K’:
+[9.726s] [01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:36:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kpublisher_[m[K’
+[9.726s]    36 |         [01;31m[Kpublisher_[m[K = this->create_publisher<interfaces::msg::MotorData>("motor_outputs", 10);
+[9.727s]       |         [01;31m[K^~~~~~~~~~[m[K
+[17.412s] gmake[2]: *** [CMakeFiles/motor_control.dir/build.make:76: CMakeFiles/motor_control.dir/src/motor_control.cpp.o] Error 1
+[17.413s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motor_control.dir/all] Error 2
+[17.414s] gmake: *** [Makefile:146: all] Error 2
+[17.422s] Invoked command in '/home/droso1/drosophibot-ROS/build/motor_control' returned '2': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/motor_control -- -j4 -l4

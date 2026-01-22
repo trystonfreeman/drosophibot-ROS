@@ -1,0 +1,58 @@
+[0.060s] Invoking command in '/home/droso1/drosophibot-ROS/build/motor_control': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/motor_control -- -j4 -l4
+[0.362s] [ 50%] [32mBuilding CXX object CMakeFiles/motor_control.dir/src/motor_control.cpp.o[0m
+[9.785s] [01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:[m[K In lambda function:
+[9.785s] [01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:40:25:[m[K [01;31m[Kerror: [m[K‘[01m[KpacketHandler[m[K’ is not captured
+[9.786s]    40 |                         [01;31m[KpacketHandler[m[K->write4ByteTxRx(portHandler, id, commanded_position_address, msg.pos[id]);
+[9.786s]       |                         [01;31m[K^~~~~~~~~~~~~[m[K
+[9.786s] [01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:37:36:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[9.787s]    37 |         auto topic_callback = [this[01;36m[K][m[K(const interfaces::msg::MotorCommand::SharedPtr & msg) {
+[9.787s]       |                                    [01;36m[K^[m[K
+[9.788s] [01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:30:83:[m[K [01;36m[Knote: [m[K‘[01m[Kdynamixel::PacketHandler* packetHandler[m[K’ declared here
+[9.788s]    30 |     MotorController(dynamixel::PortHandler *portHandler,[01;36m[Kdynamixel::PacketHandler *packetHandler[m[K)
+[9.788s]       |                                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[9.789s] [01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:40:55:[m[K [01;31m[Kerror: [m[K‘[01m[KportHandler[m[K’ is not captured
+[9.789s]    40 |                         packetHandler->write4ByteTxRx([01;31m[KportHandler[m[K, id, commanded_position_address, msg.pos[id]);
+[9.790s]       |                                                       [01;31m[K^~~~~~~~~~~[m[K
+[9.790s] [01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:37:36:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[9.791s]    37 |         auto topic_callback = [this[01;36m[K][m[K(const interfaces::msg::MotorCommand::SharedPtr & msg) {
+[9.792s]       |                                    [01;36m[K^[m[K
+[9.792s] [01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:30:45:[m[K [01;36m[Knote: [m[K‘[01m[Kdynamixel::PortHandler* portHandler[m[K’ declared here
+[9.792s]    30 |     MotorController([01;36m[Kdynamixel::PortHandler *portHandler[m[K,dynamixel::PacketHandler *packetHandler)
+[9.793s]       |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[9.793s] [01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:40:104:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst interfaces::msg::MotorCommand_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<interfaces::msg::MotorCommand_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kpos[m[K’
+[9.794s]    40 |                     packetHandler->write4ByteTxRx(portHandler, id, commanded_position_address, msg.[01;31m[Kpos[m[K[id]);
+[9.794s]       |                                                                                                    [01;31m[K^~~[m[K
+[9.794s] 
+[9.795s] [01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:41:25:[m[K [01;31m[Kerror: [m[K‘[01m[KpacketHandler[m[K’ is not captured
+[9.795s]    41 |                         [01;31m[KpacketHandler[m[K->write4ByteTxRx(portHandler, id, commanded_velocity_address, msg.vel[id]);
+[9.796s]       |                         [01;31m[K^~~~~~~~~~~~~[m[K
+[9.796s] [01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:37:36:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[9.797s]    37 |         auto topic_callback = [this[01;36m[K][m[K(const interfaces::msg::MotorCommand::SharedPtr & msg) {
+[9.797s]       |                                    [01;36m[K^[m[K
+[9.797s] [01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:30:83:[m[K [01;36m[Knote: [m[K‘[01m[Kdynamixel::PacketHandler* packetHandler[m[K’ declared here
+[9.798s]    30 |     MotorController(dynamixel::PortHandler *portHandler,[01;36m[Kdynamixel::PacketHandler *packetHandler[m[K)
+[9.798s]       |                                                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[9.799s] [01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:41:55:[m[K [01;31m[Kerror: [m[K‘[01m[KportHandler[m[K’ is not captured
+[9.799s]    41 |                         packetHandler->write4ByteTxRx([01;31m[KportHandler[m[K, id, commanded_velocity_address, msg.vel[id]);
+[9.799s]       |                                                       [01;31m[K^~~~~~~~~~~[m[K
+[9.800s] [01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:37:36:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[9.800s]    37 |         auto topic_callback = [this[01;36m[K][m[K(const interfaces::msg::MotorCommand::SharedPtr & msg) {
+[9.800s]       |                                    [01;36m[K^[m[K
+[9.801s] [01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:30:45:[m[K [01;36m[Knote: [m[K‘[01m[Kdynamixel::PortHandler* portHandler[m[K’ declared here
+[9.801s]    30 |     MotorController([01;36m[Kdynamixel::PortHandler *portHandler[m[K,dynamixel::PacketHandler *packetHandler)
+[9.801s]       |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[9.802s] [01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:41:104:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst interfaces::msg::MotorCommand_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<interfaces::msg::MotorCommand_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kvel[m[K’
+[9.802s]    41 |                     packetHandler->write4ByteTxRx(portHandler, id, commanded_velocity_address, msg.[01;31m[Kvel[m[K[id]);
+[9.803s]       |                                                                                                    [01;31m[K^~~[m[K
+[9.803s] 
+[9.803s] [01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:45:29:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Ktopic_callback[m[K’ before deduction of ‘[01m[Kauto[m[K’
+[9.804s]    45 |       "motor_commands", 10, [01;31m[Ktopic_callback[m[K);
+[9.804s]       |                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[9.804s] [01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:[m[K In constructor ‘[01m[KMotorController::[01;32m[KMotorController[m[K(dynamixel::PortHandler*, dynamixel::PacketHandler*)[m[K’:
+[9.805s] [01m[K/home/droso1/drosophibot-ROS/motor_control/src/motor_control.cpp:49:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[9.805s]    49 |         [01;31m[K}[m[K
+[9.806s]       |         [01;31m[K^[m[K
+[13.463s] gmake[2]: *** [CMakeFiles/motor_control.dir/build.make:76: CMakeFiles/motor_control.dir/src/motor_control.cpp.o] Error 1
+[13.464s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motor_control.dir/all] Error 2
+[13.465s] gmake: *** [Makefile:146: all] Error 2
+[13.474s] Invoked command in '/home/droso1/drosophibot-ROS/build/motor_control' returned '2': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/motor_control -- -j4 -l4
