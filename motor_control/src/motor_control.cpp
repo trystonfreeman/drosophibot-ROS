@@ -33,10 +33,20 @@ public:
         publisher_ = this->create_publisher<interfaces::msg::MotorData>("motor_outputs", 10);
         timer_ = this->create_wall_timer(
         500ms, std::bind(&MotorController::timer_callback, this));
+
+    	auto topic_callback = [this](const interfaces::msg::MotorCommand::SharedPtr & msg) {
+    		// Consider using bulkwrite if performance is an issue
+    		for (int id = 0; id < 22; id++) {
+    			packetHandler->write4ByteTxRx(portHandler, id, commanded_position_address, msg.pos[id]);
+    			packetHandler->write4ByteTxRx(portHandler, id, commanded_velocity_address, msg.vel[id]);
+    		}
+
         subscription_ = this->create_subscription<interfaces::msg::MotorCommand>(
-      "motor_commands", 10, std::bind(&MotorController::topic_callback, this, _1));
+      "motor_commands", 10, topic_callback);
     }
 
+
+	}
 private:
     void timer_callback()
     {
@@ -54,13 +64,6 @@ private:
 		}
     }
 
-    void topic_callback(const interfaces::msg::MotorCommand::SharedPtr &msg) const{
-    	// Consider using bulkwrite if performance is an issue
-		for (int id = 0; id < 22; id++) {
-			packetHandler->write4ByteTxRx(portHandler, id, commanded_position_address, msg.pos[id]);
-			packetHandler->write4ByteTxRx(portHandler, id, commanded_velocity_address, msg.vel[id]);
-		}
-    }
 
 	rclcpp::TimerBase::SharedPtr timer_;
 	rclcpp::Publisher<interfaces::msg::MotorData>::SharedPtr publisher_;
