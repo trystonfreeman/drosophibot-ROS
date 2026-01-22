@@ -27,6 +27,7 @@ if(BUILD_TESTING)
 endif()
 
 add_executable(limb_controller src/limb_controller.cpp src/Network.cpp)
-ament_target_dependencies(limb_controller rclcpp interfaces Eigen3::Eigen)
+ament_target_dependencies(limb_controller rclcpp interfaces )
 target_include_directories(limb_controller include)
+target_link_libraries(limb_controller Eigen3::Eigen)
 ament_package()
