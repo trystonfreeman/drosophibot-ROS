@@ -40,7 +40,7 @@ public:
     			packetHandler->write4ByteTxRx(portHandler, id, commanded_position_address, msg.pos[id]);
     			packetHandler->write4ByteTxRx(portHandler, id, commanded_velocity_address, msg.vel[id]);
     		}
-
+    	}
         subscription_ = this->create_subscription<interfaces::msg::MotorCommand>(
       "motor_commands", 10, topic_callback);
     }
