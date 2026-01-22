@@ -4,6 +4,7 @@
 #include <string>
 
 #include "rclcpp/rclcpp.hpp"
+#include "interfaces/msg/limb_command.hpp"
 
 class LimbController : public rclcpp::Node
 {

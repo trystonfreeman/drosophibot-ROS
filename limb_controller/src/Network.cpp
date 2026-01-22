@@ -164,6 +164,7 @@ namespace SNSToolboxCPP{
         CompiledSparse = true;
     }
     ArrayXXf Network::ForwardSparse(VectorXf inputs) {
+        VectorXf Inputs = inputs;
         std::cerr << "Sparse backend not implemented yet"<< std::endl;
         ArrayXXf Outputs;
         if (!CompiledSparse) {
