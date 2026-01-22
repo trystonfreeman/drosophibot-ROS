@@ -30,6 +30,9 @@ public:
     MotorController(dynamixel::PortHandler *portHandler,dynamixel::PacketHandler *packetHandler)
     : Node("MotorController"), count_(0), portHandler(portHandler), packetHandler(packetHandler)
     {
+    	auto topic_callback = [this](interfaces::msg::MotorData) {
+
+    	}
         publisher_ = this->create_publisher<interfaces::msg::MotorData>("motor_outputs", 10);
         timer_ = this->create_wall_timer(
         500ms, std::bind(&MotorController::timer_callback, this));
@@ -54,11 +57,11 @@ private:
 		}
     }
 
-    void topic_callback(const interfaces::msg::MotorCommand::SharedPtr &msg) const{
+    void topic_callback(const interfaces::msg::MotorCommand::SharedPtr msg) const{
     	// Consider using bulkwrite if performance is an issue
 		for (int id = 0; id < 22; id++) {
-			packetHandler->write4ByteTxRx(portHandler, id, commanded_position_address, msg.pos[id]);
-			packetHandler->write4ByteTxRx(portHandler, id, commanded_velocity_address, msg.vel[id]);
+			packetHandler->write4ByteTxRx(portHandler, id, commanded_position_address, msg->pos[id]);
+			packetHandler->write4ByteTxRx(portHandler, id, commanded_velocity_address, msg->vel[id]);
 		}
     }
 
