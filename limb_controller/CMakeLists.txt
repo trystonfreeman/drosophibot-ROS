@@ -9,7 +9,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(interfaces REQUIRED)
-find_package(Eigen REQUIRED)
+find_package(Eigen3 REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
@@ -27,6 +27,6 @@ if(BUILD_TESTING)
 endif()
 
 add_executable(limb_controller src/limb_controller.cpp src/Network.cpp)
-ament_target_dependencies(limb_controller rclcpp interfaces Eigen)
+ament_target_dependencies(limb_controller rclcpp interfaces Eigen3::Eigen)
 target_include_directories(limb_controller include)
 ament_package()
