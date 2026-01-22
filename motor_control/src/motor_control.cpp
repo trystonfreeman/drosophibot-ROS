@@ -30,9 +30,7 @@ public:
     MotorController(dynamixel::PortHandler *portHandler,dynamixel::PacketHandler *packetHandler)
     : Node("MotorController"), count_(0), portHandler(portHandler), packetHandler(packetHandler)
     {
-    	auto topic_callback = [this](interfaces::msg::MotorData) {
 
-    	}
         publisher_ = this->create_publisher<interfaces::msg::MotorData>("motor_outputs", 10);
         timer_ = this->create_wall_timer(
         500ms, std::bind(&MotorController::timer_callback, this));
