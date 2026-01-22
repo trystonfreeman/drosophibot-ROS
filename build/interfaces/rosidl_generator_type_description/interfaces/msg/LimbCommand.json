@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "interfaces/msg/LimbCommand",
+      "fields": [
+        {
+          "name": "pos",
+          "type": {
+            "type_id": 106,
+            "capacity": 4,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "vel",
+          "type": {
+            "type_id": 106,
+            "capacity": 4,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "interfaces/msg/LimbCommand",
+      "hash_string": "RIHS01_3883d4bd7a14533a250468000ffabde7f55b229b33c2ab9a6d6920c4da37e1ae"
+    }
+  ]
+}

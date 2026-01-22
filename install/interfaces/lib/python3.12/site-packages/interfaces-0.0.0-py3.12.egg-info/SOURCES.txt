@@ -6,3 +6,4 @@ interfaces.egg-info/dependency_links.txt
 interfaces.egg-info/top_level.txt
 interfaces/msg/__init__.py
 interfaces/msg/_motor_command.py
+interfaces/msg/_motor_data.py

@@ -4,11 +4,13 @@
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
     "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces:msg/MotorCommand.idl",
-    "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces:msg/MotorData.idl"
+    "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces:msg/MotorData.idl",
+    "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces:msg/LimbCommand.idl"
   ],
   "ros_interface_files": [
     "/home/droso1/drosophibot-ROS/interfaces/msg/MotorCommand.msg",
-    "/home/droso1/drosophibot-ROS/interfaces/msg/MotorData.msg"
+    "/home/droso1/drosophibot-ROS/interfaces/msg/MotorData.msg",
+    "/home/droso1/drosophibot-ROS/interfaces/msg/LimbCommand.msg"
   ],
   "target_dependencies": [
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
@@ -31,10 +33,12 @@
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
     "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces/msg/MotorCommand.idl",
-    "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces/msg/MotorData.idl"
+    "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces/msg/MotorData.idl",
+    "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces/msg/LimbCommand.idl"
   ],
   "type_description_tuples": [
     "msg/MotorCommand.idl:/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_type_description/interfaces/msg/MotorCommand.json",
-    "msg/MotorData.idl:/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_type_description/interfaces/msg/MotorData.json"
+    "msg/MotorData.idl:/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_type_description/interfaces/msg/MotorData.json",
+    "msg/LimbCommand.idl:/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_type_description/interfaces/msg/LimbCommand.json"
   ]
 }

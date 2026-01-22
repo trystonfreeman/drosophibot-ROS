@@ -234,4 +234,7 @@ CMakeFiles/interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/i
  /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/motor_command__functions.h \
  /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/motor_data__type_support.h \
  /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/motor_data__struct.h \
- /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/motor_data__functions.h
+ /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/motor_data__functions.h \
+ /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/limb_command__type_support.h \
+ /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/limb_command__struct.h \
+ /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/limb_command__functions.h

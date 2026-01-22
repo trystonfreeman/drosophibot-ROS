@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/interfaces__cpp"
+  "rosidl_generator_cpp/interfaces/msg/detail/limb_command__builder.hpp"
+  "rosidl_generator_cpp/interfaces/msg/detail/limb_command__struct.hpp"
+  "rosidl_generator_cpp/interfaces/msg/detail/limb_command__traits.hpp"
+  "rosidl_generator_cpp/interfaces/msg/detail/limb_command__type_support.hpp"
   "rosidl_generator_cpp/interfaces/msg/detail/motor_command__builder.hpp"
   "rosidl_generator_cpp/interfaces/msg/detail/motor_command__struct.hpp"
   "rosidl_generator_cpp/interfaces/msg/detail/motor_command__traits.hpp"
@@ -8,6 +12,7 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/interfaces/msg/detail/motor_data__struct.hpp"
   "rosidl_generator_cpp/interfaces/msg/detail/motor_data__traits.hpp"
   "rosidl_generator_cpp/interfaces/msg/detail/motor_data__type_support.hpp"
+  "rosidl_generator_cpp/interfaces/msg/limb_command.hpp"
   "rosidl_generator_cpp/interfaces/msg/motor_command.hpp"
   "rosidl_generator_cpp/interfaces/msg/motor_data.hpp"
   "rosidl_generator_cpp/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp"

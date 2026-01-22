@@ -90,6 +90,7 @@ rosidl_generator_c/interfaces/msg/motor_command.h: /opt/ros/jazzy/share/rosidl_g
 rosidl_generator_c/interfaces/msg/motor_command.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/interfaces/msg/motor_command.h: rosidl_adapter/interfaces/msg/MotorCommand.idl
 rosidl_generator_c/interfaces/msg/motor_command.h: rosidl_adapter/interfaces/msg/MotorData.idl
+rosidl_generator_c/interfaces/msg/motor_command.h: rosidl_adapter/interfaces/msg/LimbCommand.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/droso1/drosophibot-ROS/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c__arguments.json
 
@@ -114,6 +115,18 @@ rosidl_generator_c/interfaces/msg/detail/motor_data__struct.h: rosidl_generator_
 rosidl_generator_c/interfaces/msg/detail/motor_data__type_support.h: rosidl_generator_c/interfaces/msg/motor_command.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interfaces/msg/detail/motor_data__type_support.h
 
+rosidl_generator_c/interfaces/msg/limb_command.h: rosidl_generator_c/interfaces/msg/motor_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interfaces/msg/limb_command.h
+
+rosidl_generator_c/interfaces/msg/detail/limb_command__functions.h: rosidl_generator_c/interfaces/msg/motor_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interfaces/msg/detail/limb_command__functions.h
+
+rosidl_generator_c/interfaces/msg/detail/limb_command__struct.h: rosidl_generator_c/interfaces/msg/motor_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interfaces/msg/detail/limb_command__struct.h
+
+rosidl_generator_c/interfaces/msg/detail/limb_command__type_support.h: rosidl_generator_c/interfaces/msg/motor_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interfaces/msg/detail/limb_command__type_support.h
+
 rosidl_generator_c/interfaces/msg/detail/motor_command__description.c: rosidl_generator_c/interfaces/msg/motor_command.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interfaces/msg/detail/motor_command__description.c
 
@@ -131,6 +144,15 @@ rosidl_generator_c/interfaces/msg/detail/motor_data__functions.c: rosidl_generat
 
 rosidl_generator_c/interfaces/msg/detail/motor_data__type_support.c: rosidl_generator_c/interfaces/msg/motor_command.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interfaces/msg/detail/motor_data__type_support.c
+
+rosidl_generator_c/interfaces/msg/detail/limb_command__description.c: rosidl_generator_c/interfaces/msg/motor_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interfaces/msg/detail/limb_command__description.c
+
+rosidl_generator_c/interfaces/msg/detail/limb_command__functions.c: rosidl_generator_c/interfaces/msg/motor_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interfaces/msg/detail/limb_command__functions.c
+
+rosidl_generator_c/interfaces/msg/detail/limb_command__type_support.c: rosidl_generator_c/interfaces/msg/motor_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interfaces/msg/detail/limb_command__type_support.c
 
 CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/motor_command__description.c.o: CMakeFiles/interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/motor_command__description.c.o: rosidl_generator_c/interfaces/msg/detail/motor_command__description.c
@@ -216,6 +238,48 @@ CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/motor_data__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/motor_data__type_support.c -o CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/motor_data__type_support.c.s
 
+CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__description.c.o: CMakeFiles/interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__description.c.o: rosidl_generator_c/interfaces/msg/detail/limb_command__description.c
+CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__description.c.o: CMakeFiles/interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/droso1/drosophibot-ROS/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__description.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__description.c.o -MF CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__description.c.o.d -o CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__description.c.o -c /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/limb_command__description.c
+
+CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__description.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__description.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/limb_command__description.c > CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__description.c.i
+
+CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__description.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__description.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/limb_command__description.c -o CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__description.c.s
+
+CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__functions.c.o: CMakeFiles/interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__functions.c.o: rosidl_generator_c/interfaces/msg/detail/limb_command__functions.c
+CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__functions.c.o: CMakeFiles/interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/droso1/drosophibot-ROS/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__functions.c.o -MF CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__functions.c.o.d -o CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__functions.c.o -c /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/limb_command__functions.c
+
+CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/limb_command__functions.c > CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__functions.c.i
+
+CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/limb_command__functions.c -o CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__functions.c.s
+
+CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__type_support.c.o: CMakeFiles/interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__type_support.c.o: rosidl_generator_c/interfaces/msg/detail/limb_command__type_support.c
+CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__type_support.c.o: CMakeFiles/interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/droso1/drosophibot-ROS/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__type_support.c.o -MF CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__type_support.c.o.d -o CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__type_support.c.o -c /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/limb_command__type_support.c
+
+CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/limb_command__type_support.c > CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__type_support.c.i
+
+CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/limb_command__type_support.c -o CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__type_support.c.s
+
 # Object files for target interfaces__rosidl_generator_c
 interfaces__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/motor_command__description.c.o" \
@@ -223,7 +287,10 @@ interfaces__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/motor_command__type_support.c.o" \
 "CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/motor_data__description.c.o" \
 "CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/motor_data__functions.c.o" \
-"CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/motor_data__type_support.c.o"
+"CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/motor_data__type_support.c.o" \
+"CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__description.c.o" \
+"CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__functions.c.o" \
+"CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__type_support.c.o"
 
 # External object files for target interfaces__rosidl_generator_c
 interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
@@ -234,11 +301,14 @@ libinterfaces__rosidl_generator_c.so: CMakeFiles/interfaces__rosidl_generator_c.
 libinterfaces__rosidl_generator_c.so: CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/motor_data__description.c.o
 libinterfaces__rosidl_generator_c.so: CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/motor_data__functions.c.o
 libinterfaces__rosidl_generator_c.so: CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/motor_data__type_support.c.o
+libinterfaces__rosidl_generator_c.so: CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__description.c.o
+libinterfaces__rosidl_generator_c.so: CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__functions.c.o
+libinterfaces__rosidl_generator_c.so: CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__type_support.c.o
 libinterfaces__rosidl_generator_c.so: CMakeFiles/interfaces__rosidl_generator_c.dir/build.make
 libinterfaces__rosidl_generator_c.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libinterfaces__rosidl_generator_c.so: /opt/ros/jazzy/lib/librcutils.so
 libinterfaces__rosidl_generator_c.so: CMakeFiles/interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/droso1/drosophibot-ROS/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C shared library libinterfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/droso1/drosophibot-ROS/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C shared library libinterfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -249,6 +319,12 @@ CMakeFiles/interfaces__rosidl_generator_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/interfaces__rosidl_generator_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/interfaces__rosidl_generator_c.dir/clean
 
+CMakeFiles/interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaces/msg/detail/limb_command__description.c
+CMakeFiles/interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaces/msg/detail/limb_command__functions.c
+CMakeFiles/interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaces/msg/detail/limb_command__functions.h
+CMakeFiles/interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaces/msg/detail/limb_command__struct.h
+CMakeFiles/interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaces/msg/detail/limb_command__type_support.c
+CMakeFiles/interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaces/msg/detail/limb_command__type_support.h
 CMakeFiles/interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaces/msg/detail/motor_command__description.c
 CMakeFiles/interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaces/msg/detail/motor_command__functions.c
 CMakeFiles/interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaces/msg/detail/motor_command__functions.h
@@ -261,6 +337,7 @@ CMakeFiles/interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/interfa
 CMakeFiles/interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaces/msg/detail/motor_data__struct.h
 CMakeFiles/interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaces/msg/detail/motor_data__type_support.c
 CMakeFiles/interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaces/msg/detail/motor_data__type_support.h
+CMakeFiles/interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaces/msg/limb_command.h
 CMakeFiles/interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaces/msg/motor_command.h
 CMakeFiles/interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/interfaces/msg/motor_data.h
 	cd /home/droso1/drosophibot-ROS/build/interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/droso1/drosophibot-ROS/interfaces /home/droso1/drosophibot-ROS/interfaces /home/droso1/drosophibot-ROS/build/interfaces /home/droso1/drosophibot-ROS/build/interfaces /home/droso1/drosophibot-ROS/build/interfaces/CMakeFiles/interfaces__rosidl_generator_c.dir/DependInfo.cmake "--color=$(COLOR)"

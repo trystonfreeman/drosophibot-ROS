@@ -68,6 +68,7 @@ include CMakeFiles/interfaces.dir/progress.make
 
 CMakeFiles/interfaces: /home/droso1/drosophibot-ROS/interfaces/msg/MotorCommand.msg
 CMakeFiles/interfaces: /home/droso1/drosophibot-ROS/interfaces/msg/MotorData.msg
+CMakeFiles/interfaces: /home/droso1/drosophibot-ROS/interfaces/msg/LimbCommand.msg
 
 interfaces: CMakeFiles/interfaces
 interfaces: CMakeFiles/interfaces.dir/build.make
