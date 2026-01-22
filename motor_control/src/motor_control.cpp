@@ -54,7 +54,7 @@ private:
 		}
     }
 
-    void topic_callback(const interfaces::msg::MotorCommand:: &msg) const{
+    void topic_callback(const interfaces::msg::MotorCommand::SharedPtr &msg) const{
     	// Consider using bulkwrite if performance is an issue
 		for (int id = 0; id < 22; id++) {
 			packetHandler->write4ByteTxRx(portHandler, id, commanded_position_address, msg.pos[id]);
