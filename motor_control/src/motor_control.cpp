@@ -18,6 +18,7 @@ uint16_t torque_on_address = 64;
 uint16_t LED_address = 65;
 uint16_t present_position_address = 132;
 uint16_t present_velocity_address = 128;
+uint16_t commanded_position_address = 136;
 uint8_t data = 1; // 1 to turn on the torque, 0 to turn off
 
 
@@ -51,15 +52,21 @@ private:
         	publisher_->publish(message);
 		}
     }
-    rclcpp::TimerBase::SharedPtr timer_;
-    rclcpp::Publisher<interfaces::msg::MotorData>::SharedPtr publisher_;
-    rclcpp::Subscription<interfaces::msg::MotorCommand>::SharedPtr subscription_;
-    size_t count_;
+
+    void topic_callback(const interfaces::msg::MotorCommand::SharedPtr msg) const{
+    	// Consider using bulkwrite if performance is an issue
+		for (int id = 0; id < 22; id++) {
+			packetHandler->write4ByteTxRx(portHandler, id, position_command_address, msg.pos[id]);
+			packetHandler->write4ByteTxRx(portHandler, id, velocity_command_address, msg.vel[id]);
+		}
+    }
+
+	rclcpp::TimerBase::SharedPtr timer_;
+	rclcpp::Publisher<interfaces::msg::MotorData>::SharedPtr publisher_;
+	rclcpp::Subscription<interfaces::msg::MotorCommand>::SharedPtr subscription_;
+	size_t count_;
 	dynamixel::PortHandler *portHandler;
 	dynamixel::PacketHandler *packetHandler;
-    void topic_callback(const interfaces::msg::MotorCommand::SharedPtr msg) const{
-		RCLCPP_INFO(this->get_logger(), "command: '%i'", msg->vel[0]);
-    }
 };
 
 int main(int argc, char * argv[])
