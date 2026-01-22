@@ -44,9 +44,6 @@ public:
         subscription_ = this->create_subscription<interfaces::msg::MotorCommand>(
       "motor_commands", 10, topic_callback);
     }
-
-
-	}
 private:
     void timer_callback()
     {
