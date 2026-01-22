@@ -44,7 +44,15 @@ public:
         subscription_ = this->create_subscription<interfaces::msg::MotorCommand>(
       "motor_commands", 10, topic_callback);
     }
+
 private:
+	rclcpp::TimerBase::SharedPtr timer_;
+	rclcpp::Publisher<interfaces::msg::MotorData>::SharedPtr publisher_;
+	rclcpp::Subscription<interfaces::msg::MotorCommand>::SharedPtr subscription_;
+	size_t count_;
+	dynamixel::PortHandler *portHandler;
+	dynamixel::PacketHandler *packetHandler;
+
     void timer_callback()
     {
         auto message = interfaces::msg::MotorData();
@@ -62,12 +70,7 @@ private:
     }
 
 
-	rclcpp::TimerBase::SharedPtr timer_;
-	rclcpp::Publisher<interfaces::msg::MotorData>::SharedPtr publisher_;
-	rclcpp::Subscription<interfaces::msg::MotorCommand>::SharedPtr subscription_;
-	size_t count_;
-	dynamixel::PortHandler *portHandler;
-	dynamixel::PacketHandler *packetHandler;
+
 };
 
 int main(int argc, char * argv[])
