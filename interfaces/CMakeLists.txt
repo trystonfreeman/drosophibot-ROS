@@ -23,9 +23,11 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 
-rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/MotorCommand.msg"
-)
-endif()
 
+endif()
+rosidl_generate_interfaces(${PROJECT_NAME}
+        "msg/MotorCommand.msg"
+        "msg/MotorData.msg"
+        "msg/LimbCommand.msg"
+)
 ament_package()

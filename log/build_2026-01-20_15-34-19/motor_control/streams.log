@@ -1,0 +1,25 @@
+[0.063s] Invoking command in '/home/droso1/drosophibot-ROS/build/motor_control': AMENT_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/opt/ros/jazzy LD_LIBRARY_PATH=/home/droso1/drosophibot-ROS/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/motor_control -- -j4 -l4
+[0.361s] [ 50%] [32mBuilding CXX object CMakeFiles/motor_control.dir/src/motor_control.cpp.o[0m
+[18.446s] [100%] [32m[1mLinking CXX executable motor_control[0m
+[19.307s] [100%] Built target motor_control
+[19.358s] Invoked command in '/home/droso1/drosophibot-ROS/build/motor_control' returned '0': AMENT_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/opt/ros/jazzy LD_LIBRARY_PATH=/home/droso1/drosophibot-ROS/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/motor_control -- -j4 -l4
+[19.402s] Invoking command in '/home/droso1/drosophibot-ROS/build/motor_control': AMENT_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/opt/ros/jazzy LD_LIBRARY_PATH=/home/droso1/drosophibot-ROS/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/droso1/drosophibot-ROS/build/motor_control
+[19.439s] -- Install configuration: ""
+[19.439s] -- Installing: /home/droso1/drosophibot-ROS/install/motor_control/lib/motor_control/motor_control
+[19.450s] -- Set non-toolchain portion of runtime path of "/home/droso1/drosophibot-ROS/install/motor_control/lib/motor_control/motor_control" to ""
+[19.450s] -- Installing: /home/droso1/drosophibot-ROS/install/motor_control/share/ament_index/resource_index/package_run_dependencies/motor_control
+[19.452s] -- Installing: /home/droso1/drosophibot-ROS/install/motor_control/share/ament_index/resource_index/parent_prefix_path/motor_control
+[19.453s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/environment/ament_prefix_path.sh
+[19.453s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/environment/ament_prefix_path.dsv
+[19.454s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/environment/path.sh
+[19.454s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/environment/path.dsv
+[19.455s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/local_setup.bash
+[19.455s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/local_setup.sh
+[19.456s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/local_setup.zsh
+[19.456s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/local_setup.dsv
+[19.457s] -- Installing: /home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/package.dsv
+[19.457s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/motor_control/share/ament_index/resource_index/packages/motor_control
+[19.458s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/cmake/motor_controlConfig.cmake
+[19.458s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/cmake/motor_controlConfig-version.cmake
+[19.458s] -- Installing: /home/droso1/drosophibot-ROS/install/motor_control/share/motor_control/package.xml
+[19.465s] Invoked command in '/home/droso1/drosophibot-ROS/build/motor_control' returned '0': AMENT_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/opt/ros/jazzy LD_LIBRARY_PATH=/home/droso1/drosophibot-ROS/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/droso1/drosophibot-ROS/build/motor_control

@@ -1,6 +1,8 @@
 {
   "package_name": "interfaces",
   "non_idl_tuples": [
-    "/home/droso1/drosophibot-ROS/interfaces:msg/MotorCommand.msg"
+    "/home/droso1/drosophibot-ROS/interfaces:msg/MotorCommand.msg",
+    "/home/droso1/drosophibot-ROS/interfaces:msg/MotorData.msg",
+    "/home/droso1/drosophibot-ROS/interfaces:msg/LimbCommand.msg"
   ]
 }

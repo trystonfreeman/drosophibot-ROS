@@ -67,15 +67,27 @@ include CMakeFiles/interfaces__rosidl_generator_type_description.dir/compiler_de
 include CMakeFiles/interfaces__rosidl_generator_type_description.dir/progress.make
 
 CMakeFiles/interfaces__rosidl_generator_type_description: rosidl_generator_type_description/interfaces/msg/MotorCommand.json
+CMakeFiles/interfaces__rosidl_generator_type_description: rosidl_generator_type_description/interfaces/msg/MotorData.json
+CMakeFiles/interfaces__rosidl_generator_type_description: rosidl_generator_type_description/interfaces/msg/LimbCommand.json
 
 rosidl_generator_type_description/interfaces/msg/MotorCommand.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
 rosidl_generator_type_description/interfaces/msg/MotorCommand.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
 rosidl_generator_type_description/interfaces/msg/MotorCommand.json: rosidl_adapter/interfaces/msg/MotorCommand.idl
+rosidl_generator_type_description/interfaces/msg/MotorCommand.json: rosidl_adapter/interfaces/msg/MotorData.idl
+rosidl_generator_type_description/interfaces/msg/MotorCommand.json: rosidl_adapter/interfaces/msg/LimbCommand.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/droso1/drosophibot-ROS/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_type_description__arguments.json
 
+rosidl_generator_type_description/interfaces/msg/MotorData.json: rosidl_generator_type_description/interfaces/msg/MotorCommand.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/interfaces/msg/MotorData.json
+
+rosidl_generator_type_description/interfaces/msg/LimbCommand.json: rosidl_generator_type_description/interfaces/msg/MotorCommand.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/interfaces/msg/LimbCommand.json
+
 interfaces__rosidl_generator_type_description: CMakeFiles/interfaces__rosidl_generator_type_description
+interfaces__rosidl_generator_type_description: rosidl_generator_type_description/interfaces/msg/LimbCommand.json
 interfaces__rosidl_generator_type_description: rosidl_generator_type_description/interfaces/msg/MotorCommand.json
+interfaces__rosidl_generator_type_description: rosidl_generator_type_description/interfaces/msg/MotorData.json
 interfaces__rosidl_generator_type_description: CMakeFiles/interfaces__rosidl_generator_type_description.dir/build.make
 .PHONY : interfaces__rosidl_generator_type_description
 

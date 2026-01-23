@@ -1,0 +1,18 @@
+[0.063s] Invoking command in '/home/droso1/drosophibot-ROS/build/motor_control': AMENT_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/opt/ros/jazzy LD_LIBRARY_PATH=/home/droso1/drosophibot-ROS/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/motor_control -- -j4 -l4
+[0.183s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.141s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.268s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.307s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.356s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.412s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.643s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.649s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.894s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.113s] -- Found interfaces: 0.0.0 (/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake)
+[2.151s] [31mCMake Error at CMakeLists.txt:12 (find_packages):
+[2.152s]   Unknown CMake command "find_packages".
+[2.152s] 
+[2.152s] [0m
+[2.153s] -- Configuring incomplete, errors occurred!
+[2.171s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[2.179s] Invoked command in '/home/droso1/drosophibot-ROS/build/motor_control' returned '2': AMENT_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/opt/ros/jazzy LD_LIBRARY_PATH=/home/droso1/drosophibot-ROS/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/motor_control -- -j4 -l4

@@ -1,2 +1,6 @@
+msg/LimbCommand.idl
+msg/LimbCommand.msg
 msg/MotorCommand.idl
 msg/MotorCommand.msg
+msg/MotorData.idl
+msg/MotorData.msg

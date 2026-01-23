@@ -1,5 +1,6 @@
 /home/droso1/drosophibot-ROS/build/motor_control/CMakeFiles/uninstall.dir
 /home/droso1/drosophibot-ROS/build/motor_control/CMakeFiles/motor_control_uninstall.dir
+/home/droso1/drosophibot-ROS/build/motor_control/CMakeFiles/motor_control.dir
 /home/droso1/drosophibot-ROS/build/motor_control/CMakeFiles/test.dir
 /home/droso1/drosophibot-ROS/build/motor_control/CMakeFiles/edit_cache.dir
 /home/droso1/drosophibot-ROS/build/motor_control/CMakeFiles/rebuild_cache.dir

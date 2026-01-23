@@ -1,0 +1,25 @@
+[31mCMake Error at CMakeLists.txt:44:
+  Parse error.  Function missing ending ")".  Instead found unterminated
+  string with text "{CMAKE_SOURCE_DIR}/include/dynamixel_sdk/dynamixel_sdk.h)
+
+  target_link_libraries(motor_control PRIVATE dynamixel_SDK)
+
+
+
+  ament_target_dependencies(motor_control rclcpp interfaces) # CHANGE
+
+
+
+
+
+  install(TARGETS
+
+          motor_control
+          DESTINATION lib/${PROJECT_NAME})
+
+  ament_package()
+
+  ".
+
+[0m
+gmake: *** [Makefile:267: cmake_check_build_system] Error 1
