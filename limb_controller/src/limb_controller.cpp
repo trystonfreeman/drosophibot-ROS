@@ -5,6 +5,7 @@
 
 #include "rclcpp/rclcpp.hpp"
 #include "interfaces/msg/limb_command.hpp"
+#include "Network.h"
 
 using namespace std::chrono_literals;
 using std::placeholders::_1;
@@ -15,6 +16,7 @@ public:
     LimbController()
     : Node("LimbController"), count_(0)
     {
+        this->declare_parameter("Network","placeholder.json");
         publisher_ = this->create_publisher<interfaces::msg::LimbCommand>("LimbCommands", 10);
         timer_ = this->create_wall_timer(
         500ms, std::bind(&LimbController::timer_callback, this));

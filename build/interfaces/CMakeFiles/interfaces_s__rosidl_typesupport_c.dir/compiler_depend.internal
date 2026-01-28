@@ -3,6 +3,12 @@
 
 CMakeFiles/interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o
  /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
+ /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/descending_command__functions.h
+ /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/descending_command__struct.h
+ /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/descending_command__type_support.h
+ /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/limb_command__functions.h
+ /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/limb_command__struct.h
+ /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/limb_command__type_support.h
  /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/motor_command__functions.h
  /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/motor_command__struct.h
  /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/motor_command__type_support.h

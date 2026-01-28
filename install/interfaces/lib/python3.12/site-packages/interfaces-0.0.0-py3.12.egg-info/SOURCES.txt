@@ -5,5 +5,7 @@ interfaces.egg-info/SOURCES.txt
 interfaces.egg-info/dependency_links.txt
 interfaces.egg-info/top_level.txt
 interfaces/msg/__init__.py
+interfaces/msg/_descending_command.py
+interfaces/msg/_limb_command.py
 interfaces/msg/_motor_command.py
 interfaces/msg/_motor_data.py

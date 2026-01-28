@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c"
   "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_py/interfaces/msg/__init__.py"
+  "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_py/interfaces/msg/_descending_command.py"
+  "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_py/interfaces/msg/_descending_command_s.c"
   "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_py/interfaces/msg/_limb_command.py"
   "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_py/interfaces/msg/_limb_command_s.c"
   "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_py/interfaces/msg/_motor_command.py"

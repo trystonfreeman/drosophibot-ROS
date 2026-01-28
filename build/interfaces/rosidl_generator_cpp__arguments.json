@@ -5,7 +5,8 @@
   "idl_tuples": [
     "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces:msg/MotorCommand.idl",
     "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces:msg/MotorData.idl",
-    "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces:msg/LimbCommand.idl"
+    "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces:msg/LimbCommand.idl",
+    "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces:msg/DescendingCommand.idl"
   ],
   "target_dependencies": [
     "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
@@ -29,11 +30,13 @@
     "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__type_support.hpp.em",
     "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces/msg/MotorCommand.idl",
     "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces/msg/MotorData.idl",
-    "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces/msg/LimbCommand.idl"
+    "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces/msg/LimbCommand.idl",
+    "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces/msg/DescendingCommand.idl"
   ],
   "type_description_tuples": [
     "msg/MotorCommand.idl:/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_type_description/interfaces/msg/MotorCommand.json",
     "msg/MotorData.idl:/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_type_description/interfaces/msg/MotorData.json",
-    "msg/LimbCommand.idl:/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_type_description/interfaces/msg/LimbCommand.json"
+    "msg/LimbCommand.idl:/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_type_description/interfaces/msg/LimbCommand.json",
+    "msg/DescendingCommand.idl:/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_type_description/interfaces/msg/DescendingCommand.json"
   ]
 }

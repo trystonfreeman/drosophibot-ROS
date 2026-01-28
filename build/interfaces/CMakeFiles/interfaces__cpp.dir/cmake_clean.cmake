@@ -1,5 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/interfaces__cpp"
+  "rosidl_generator_cpp/interfaces/msg/descending_command.hpp"
+  "rosidl_generator_cpp/interfaces/msg/detail/descending_command__builder.hpp"
+  "rosidl_generator_cpp/interfaces/msg/detail/descending_command__struct.hpp"
+  "rosidl_generator_cpp/interfaces/msg/detail/descending_command__traits.hpp"
+  "rosidl_generator_cpp/interfaces/msg/detail/descending_command__type_support.hpp"
   "rosidl_generator_cpp/interfaces/msg/detail/limb_command__builder.hpp"
   "rosidl_generator_cpp/interfaces/msg/detail/limb_command__struct.hpp"
   "rosidl_generator_cpp/interfaces/msg/detail/limb_command__traits.hpp"
