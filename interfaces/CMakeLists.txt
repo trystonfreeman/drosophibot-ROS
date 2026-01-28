@@ -29,5 +29,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
         "msg/MotorCommand.msg"
         "msg/MotorData.msg"
         "msg/LimbCommand.msg"
+        "msg/DescendingCommand.msg"
 )
 ament_package()

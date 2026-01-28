@@ -1,3 +1,5 @@
+msg/DescendingCommand.idl
+msg/DescendingCommand.msg
 msg/LimbCommand.idl
 msg/LimbCommand.msg
 msg/MotorCommand.idl

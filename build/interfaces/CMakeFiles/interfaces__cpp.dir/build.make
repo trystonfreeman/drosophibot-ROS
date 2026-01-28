@@ -81,6 +81,11 @@ CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/limb_comm
 CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/limb_command__struct.hpp
 CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/limb_command__traits.hpp
 CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/limb_command__type_support.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/descending_command.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/descending_command__builder.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/descending_command__struct.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/descending_command__traits.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/descending_command__type_support.hpp
 CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/interfaces/msg/motor_command.hpp: /opt/ros/jazzy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -105,6 +110,7 @@ rosidl_generator_cpp/interfaces/msg/motor_command.hpp: /opt/ros/jazzy/share/rosi
 rosidl_generator_cpp/interfaces/msg/motor_command.hpp: rosidl_adapter/interfaces/msg/MotorCommand.idl
 rosidl_generator_cpp/interfaces/msg/motor_command.hpp: rosidl_adapter/interfaces/msg/MotorData.idl
 rosidl_generator_cpp/interfaces/msg/motor_command.hpp: rosidl_adapter/interfaces/msg/LimbCommand.idl
+rosidl_generator_cpp/interfaces/msg/motor_command.hpp: rosidl_adapter/interfaces/msg/DescendingCommand.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/droso1/drosophibot-ROS/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_cpp__arguments.json
 
@@ -150,10 +156,30 @@ rosidl_generator_cpp/interfaces/msg/detail/limb_command__traits.hpp: rosidl_gene
 rosidl_generator_cpp/interfaces/msg/detail/limb_command__type_support.hpp: rosidl_generator_cpp/interfaces/msg/motor_command.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/msg/detail/limb_command__type_support.hpp
 
+rosidl_generator_cpp/interfaces/msg/descending_command.hpp: rosidl_generator_cpp/interfaces/msg/motor_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/msg/descending_command.hpp
+
+rosidl_generator_cpp/interfaces/msg/detail/descending_command__builder.hpp: rosidl_generator_cpp/interfaces/msg/motor_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/msg/detail/descending_command__builder.hpp
+
+rosidl_generator_cpp/interfaces/msg/detail/descending_command__struct.hpp: rosidl_generator_cpp/interfaces/msg/motor_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/msg/detail/descending_command__struct.hpp
+
+rosidl_generator_cpp/interfaces/msg/detail/descending_command__traits.hpp: rosidl_generator_cpp/interfaces/msg/motor_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/msg/detail/descending_command__traits.hpp
+
+rosidl_generator_cpp/interfaces/msg/detail/descending_command__type_support.hpp: rosidl_generator_cpp/interfaces/msg/motor_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/msg/detail/descending_command__type_support.hpp
+
 rosidl_generator_cpp/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp: rosidl_generator_cpp/interfaces/msg/motor_command.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 interfaces__cpp: CMakeFiles/interfaces__cpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/msg/descending_command.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/descending_command__builder.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/descending_command__struct.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/descending_command__traits.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/descending_command__type_support.hpp
 interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/limb_command__builder.hpp
 interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/limb_command__struct.hpp
 interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/limb_command__traits.hpp

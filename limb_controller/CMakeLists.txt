@@ -1,15 +1,14 @@
 cmake_minimum_required(VERSION 3.8)
 project(limb_controller)
 
-if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
-  add_compile_options(-Wall -Wextra -Wpedantic)
-endif()
+#if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+  #add_compile_options(-Wall -Wextra -Wpedantic)
+#endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(interfaces REQUIRED)
-find_package(Eigen3 REQUIRED NO_MODULE)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
@@ -25,9 +24,15 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
-set_property(TARGET Eigen3::Eigen PROPERTY IMPORTED_NO_SONAME TRUE)
-add_executable(limb_controller src/limb_controller.cpp src/Network.cpp)
+
+add_executable(limb_controller src/limb_controller.cpp src/Network.cpp src/cjsontoEigen.cpp src/cJSON.c)
 ament_target_dependencies(limb_controller rclcpp interfaces )
-target_include_directories(limb_controller PUBLIC include)
+target_include_directories(limb_controller SYSTEM PUBLIC include)
+target_compile_options(limb_controller PRIVATE -Wno-unused-parameter)
 set(EXTRA_COMPONENT_DIRS include)
+
+install(TARGETS
+        limb_controller
+        DESTINATION lib/${PROJECT_NAME})
+
 ament_package()
