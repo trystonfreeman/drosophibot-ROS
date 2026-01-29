@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "rosidl_generator_type_description/interfaces/msg/LimbCommand.json"
   "rosidl_generator_type_description/interfaces/msg/MotorCommand.json"
   "rosidl_generator_type_description/interfaces/msg/MotorData.json"
+  "rosidl_generator_type_description/interfaces/msg/StrainData.json"
 )
 
 # Per-language clean rules from dependency scanning.

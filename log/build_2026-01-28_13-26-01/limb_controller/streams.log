@@ -1,0 +1,80 @@
+[0.059s] Invoking command in '/home/droso1/drosophibot-ROS/build/limb_controller': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/limb_controller -- -j4 -l4
+[0.194s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.227s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.392s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.442s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.506s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.576s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.869s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.879s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.171s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.446s] -- Found interfaces: 0.0.0 (/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake)
+[2.495s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.125s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.126s] -- Configured cppcheck include dirs: /home/droso1/drosophibot-ROS/limb_controller/include
+[3.127s] -- Configured cppcheck exclude dirs and/or files: 
+[3.206s] -- Added test 'lint_cmake' to check CMake code style
+[3.419s] -- Added test 'uncrustify' to check C / C++ code style
+[3.420s] -- Configured uncrustify additional arguments: 
+[3.450s] -- Added test 'xmllint' to check XML markup files
+[3.456s] -- Configuring done (3.3s)
+[3.531s] -- Generating done (0.0s)
+[3.548s] -- Build files have been written to: /home/droso1/drosophibot-ROS/build/limb_controller
+[3.782s] [ 25%] [32mBuilding CXX object CMakeFiles/limb_controller.dir/src/cjsontoEigen.cpp.o[0m
+[7.428s] In file included from [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/Core:214[m[K,
+[7.429s]                  from [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/Dense:1[m[K,
+[7.429s]                  from [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/Eigen:1[m[K,
+[7.430s]                  from [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/cjsontoEigen.h:4[m[K,
+[7.430s]                  from [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:5[m[K:
+[7.431s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::[01;32m[Kpload[m[K(const typename unpacket_traits<T>::type*) [35m[K[with Packet = eigen_packet_wrapper<int, 2>; typename unpacket_traits<T>::type = signed char][m[K[m[K’:
+[7.431s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid*[01;32m[K memcpy[m[K(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[7.432s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[7.432s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.433s] In file included from [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/Core:172[m[K:
+[7.433s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[7.434s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[7.434s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[7.436s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::[01;32m[Kploadu[m[K(const typename unpacket_traits<T>::type*) [35m[K[with Packet = eigen_packet_wrapper<int, 2>; typename unpacket_traits<T>::type = signed char][m[K[m[K’:
+[7.437s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid*[01;32m[K memcpy[m[K(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[7.437s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[7.438s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.438s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[7.439s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[7.439s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[9.740s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:[m[K In static member function ‘[01m[Kstatic Eigen::ArrayXXf cjsontoEigen::[01;32m[KcjsontoArrayXXf[m[K(cJSON*, std::string)[m[K’:
+[9.741s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:38:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcjson[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.741s]    38 | ArrayXXf cjsontoEigen::cjsontoArrayXXf([01;35m[KcJSON* cjson[m[K,std::string name) {
+[9.742s]       |                                        [01;35m[K~~~~~~~^~~~~[m[K
+[9.742s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:38:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.742s]    38 | ArrayXXf cjsontoEigen::cjsontoArrayXXf(cJSON* cjson,[01;35m[Kstd::string name[m[K) {
+[9.743s]       |                                                     [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[9.776s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:[m[K In static member function ‘[01m[Kstatic Eigen::VectorXf cjsontoEigen::[01;32m[KcjsontoVectorXf[m[K(cJSON*, std::string)[m[K’:
+[9.776s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:44:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcjson[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.777s]    44 | VectorXf cjsontoEigen::cjsontoVectorXf([01;35m[KcJSON* cjson[m[K,std::string name) {
+[9.777s]       |                                        [01;35m[K~~~~~~~^~~~~[m[K
+[9.777s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:44:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.778s]    44 | VectorXf cjsontoEigen::cjsontoVectorXf(cJSON* cjson,[01;35m[Kstd::string name[m[K) {
+[9.778s]       |                                                     [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[10.395s] [ 50%] [32m[1mLinking CXX executable limb_controller[0m
+[11.504s] /usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o: in function `SNSToolboxCPP::Network::LoadFromFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+[11.505s] Network.cpp:(.text+0xc5c): undefined reference to `cJSON_Parse'
+[11.541s] /usr/bin/ld: CMakeFiles/limb_controller.dir/src/cjsontoEigen.cpp.o: in function `cjsontoEigen::cjsontodouble(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)':
+[11.542s] cjsontoEigen.cpp:(.text+0x24): undefined reference to `cJSON_GetObjectItem'
+[11.542s] /usr/bin/ld: CMakeFiles/limb_controller.dir/src/cjsontoEigen.cpp.o: in function `cjsontoEigen::cjsontoint(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)':
+[11.542s] cjsontoEigen.cpp:(.text+0xb0): undefined reference to `cJSON_GetObjectItem'
+[11.543s] /usr/bin/ld: CMakeFiles/limb_controller.dir/src/cjsontoEigen.cpp.o: in function `cjsontoEigen::cjsontobool(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)':
+[11.543s] cjsontoEigen.cpp:(.text+0x144): undefined reference to `cJSON_GetObjectItem'
+[11.543s] /usr/bin/ld: cjsontoEigen.cpp:(.text+0x1a0): undefined reference to `cJSON_IsTrue'
+[11.544s] /usr/bin/ld: CMakeFiles/limb_controller.dir/src/cjsontoEigen.cpp.o: in function `cjsontoEigen::cjsontoMatrixXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)':
+[11.544s] cjsontoEigen.cpp:(.text+0x268): undefined reference to `cJSON_GetObjectItemCaseSensitive'
+[11.545s] /usr/bin/ld: cjsontoEigen.cpp:(.text+0x274): undefined reference to `cJSON_IsArray'
+[11.545s] /usr/bin/ld: cjsontoEigen.cpp:(.text+0x284): undefined reference to `cJSON_GetArrayItem'
+[11.546s] /usr/bin/ld: cjsontoEigen.cpp:(.text+0x290): undefined reference to `cJSON_GetArraySize'
+[11.546s] /usr/bin/ld: cjsontoEigen.cpp:(.text+0x29c): undefined reference to `cJSON_GetArraySize'
+[11.547s] /usr/bin/ld: cjsontoEigen.cpp:(.text+0x2cc): undefined reference to `cJSON_GetArrayItem'
+[11.547s] /usr/bin/ld: cjsontoEigen.cpp:(.text+0x2e4): undefined reference to `cJSON_GetArrayItem'
+[11.610s] collect2: error: ld returned 1 exit status
+[11.617s] gmake[2]: *** [CMakeFiles/limb_controller.dir/build.make:203: limb_controller] Error 1
+[11.618s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/limb_controller.dir/all] Error 2
+[11.619s] gmake: *** [Makefile:146: all] Error 2
+[11.627s] Invoked command in '/home/droso1/drosophibot-ROS/build/limb_controller' returned '2': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/limb_controller -- -j4 -l4

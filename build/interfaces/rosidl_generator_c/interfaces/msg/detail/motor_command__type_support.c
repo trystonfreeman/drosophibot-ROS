@@ -5,8 +5,8 @@
 #include <string.h>
 
 #include "interfaces/msg/detail/motor_command__functions.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "interfaces/msg/detail/motor_command__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "interfaces/msg/detail/motor_command__type_support.h"
 
 #ifdef __cplusplus

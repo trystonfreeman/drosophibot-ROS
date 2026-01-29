@@ -1,0 +1,21 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/limb_controller.dir/src/limb_controller.cpp.o[0m
+[ 40%] [32m[1mLinking CXX executable limb_controller[0m
+[100%] Built target limb_controller
+-- Install configuration: ""
+-- Installing: /home/droso1/drosophibot-ROS/install/limb_controller/lib/limb_controller/limb_controller
+-- Set non-toolchain portion of runtime path of "/home/droso1/drosophibot-ROS/install/limb_controller/lib/limb_controller/limb_controller" to ""
+-- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/ament_index/resource_index/package_run_dependencies/limb_controller
+-- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/ament_index/resource_index/parent_prefix_path/limb_controller
+-- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/environment/ament_prefix_path.sh
+-- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/environment/path.sh
+-- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/environment/path.dsv
+-- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/local_setup.bash
+-- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/local_setup.sh
+-- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/local_setup.zsh
+-- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/local_setup.dsv
+-- Installing: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/package.dsv
+-- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/ament_index/resource_index/packages/limb_controller
+-- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/cmake/limb_controllerConfig.cmake
+-- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/cmake/limb_controllerConfig-version.cmake
+-- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/package.xml

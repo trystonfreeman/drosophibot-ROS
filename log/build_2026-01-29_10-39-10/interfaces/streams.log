@@ -1,0 +1,15 @@
+[0.054s] Invoking command in '/home/droso1/drosophibot-ROS/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/interfaces -- -j4 -l4
+[0.202s] [31mCMake Error at CMakeLists.txt:36:
+[0.203s]   Parse error.  Function missing ending ")".  Instead found unterminated
+[0.203s]   string with text "msg/StrainData.msg
+[0.203s] 
+[0.204s]   )
+[0.204s] 
+[0.204s]   ament_package()
+[0.205s] 
+[0.205s]   ".
+[0.206s] 
+[0.206s] [0m
+[0.207s] -- Configuring incomplete, errors occurred!
+[0.221s] gmake: *** [Makefile:1625: cmake_check_build_system] Error 1
+[0.230s] Invoked command in '/home/droso1/drosophibot-ROS/build/interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/interfaces -- -j4 -l4

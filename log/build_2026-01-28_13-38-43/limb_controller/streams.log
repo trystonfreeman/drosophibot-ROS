@@ -1,0 +1,46 @@
+[0.064s] Invoking command in '/home/droso1/drosophibot-ROS/build/limb_controller': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/limb_controller -- -j4 -l4
+[0.403s] [ 20%] [32mBuilding CXX object CMakeFiles/limb_controller.dir/src/limb_controller.cpp.o[0m
+[0.456s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:1:9:[m[K [01;35m[Kwarning: [m[K#pragma once in main file
+[0.457s]     1 | #pragma [01;35m[Konce[m[K
+[0.457s]       |         [01;35m[K^~~~[m[K
+[11.263s] In file included from [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/Core:214[m[K,
+[11.264s]                  from [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/Dense:1[m[K,
+[11.264s]                  from [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/Eigen:1[m[K,
+[11.265s]                  from [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Network.h:3[m[K,
+[11.265s]                  from [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:9[m[K:
+[11.266s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::[01;32m[Kpload[m[K(const typename unpacket_traits<T>::type*) [35m[K[with Packet = eigen_packet_wrapper<int, 2>; typename unpacket_traits<T>::type = signed char][m[K[m[K’:
+[11.266s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid*[01;32m[K memcpy[m[K(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[11.267s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[11.267s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.268s] In file included from [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/Core:172[m[K:
+[11.268s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[11.268s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[11.269s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[11.272s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::[01;32m[Kploadu[m[K(const typename unpacket_traits<T>::type*) [35m[K[with Packet = eigen_packet_wrapper<int, 2>; typename unpacket_traits<T>::type = signed char][m[K[m[K’:
+[11.272s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid*[01;32m[K memcpy[m[K(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[11.273s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[11.273s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.274s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[11.274s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[11.275s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[22.712s] [ 40%] [32m[1mLinking CXX executable limb_controller[0m
+[23.995s] [100%] Built target limb_controller
+[24.045s] Invoked command in '/home/droso1/drosophibot-ROS/build/limb_controller' returned '0': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/limb_controller -- -j4 -l4
+[24.093s] Invoking command in '/home/droso1/drosophibot-ROS/build/limb_controller': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy /usr/bin/cmake --install /home/droso1/drosophibot-ROS/build/limb_controller
+[24.129s] -- Install configuration: ""
+[24.130s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/ament_index/resource_index/package_run_dependencies/limb_controller
+[24.130s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/ament_index/resource_index/parent_prefix_path/limb_controller
+[24.131s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/environment/ament_prefix_path.sh
+[24.131s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/environment/ament_prefix_path.dsv
+[24.132s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/environment/path.sh
+[24.132s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/environment/path.dsv
+[24.133s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/local_setup.bash
+[24.133s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/local_setup.sh
+[24.134s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/local_setup.zsh
+[24.134s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/local_setup.dsv
+[24.135s] -- Installing: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/package.dsv
+[24.135s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/ament_index/resource_index/packages/limb_controller
+[24.136s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/cmake/limb_controllerConfig.cmake
+[24.136s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/cmake/limb_controllerConfig-version.cmake
+[24.136s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/package.xml
+[24.143s] Invoked command in '/home/droso1/drosophibot-ROS/build/limb_controller' returned '0': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy /usr/bin/cmake --install /home/droso1/drosophibot-ROS/build/limb_controller

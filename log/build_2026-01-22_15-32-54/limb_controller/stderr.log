@@ -1,0 +1,8 @@
+In file included from [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/Network.cpp:1[m[K:
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Network.h:3:10:[m[K [01;31m[Kfatal error: [m[KEigen/Eigen: No such file or directory
+    3 | #include [01;31m[K"Eigen/Eigen"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/limb_controller.dir/build.make:90: CMakeFiles/limb_controller.dir/src/Network.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/limb_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

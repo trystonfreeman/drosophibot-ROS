@@ -1,0 +1,109 @@
+[0.000000] (-) TimerEvent: {}
+[0.000928] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.001071] (-) JobUnselected: {'identifier': 'motor_control'}
+[0.001153] (-) JobUnselected: {'identifier': 'pubsub'}
+[0.001217] (-) JobUnselected: {'identifier': 'testcpp'}
+[0.001286] (limb_controller) JobQueued: {'identifier': 'limb_controller', 'dependencies': OrderedDict()}
+[0.001996] (limb_controller) JobStarted: {'identifier': 'limb_controller'}
+[0.037352] (limb_controller) JobProgress: {'identifier': 'limb_controller', 'progress': 'cmake'}
+[0.040400] (limb_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/droso1/drosophibot-ROS/limb_controller', '-DCMAKE_INSTALL_PREFIX=/home/droso1/drosophibot-ROS/install/limb_controller'], 'cwd': '/home/droso1/drosophibot-ROS/build/limb_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'droso1', 'SSH_CLIENT': '192.168.137.1 56085 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/droso1/drosophibot-ROS/install/interfaces/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/droso1', 'OLDPWD': '/home/droso1/drosophibot-ROS/limb_controller', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'droso1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '43', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/home/droso1/drosophibot-ROS/install/interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/droso1/drosophibot-ROS/build/limb_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 56085 192.168.137.155 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/home/droso1/drosophibot-ROS/install/interfaces:/opt/ros/jazzy'}), 'shell': False}
+[0.099349] (-) TimerEvent: {}
+[0.200141] (-) TimerEvent: {}
+[0.300868] (-) TimerEvent: {}
+[0.359988] (limb_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.401065] (-) TimerEvent: {}
+[0.501637] (-) TimerEvent: {}
+[0.602423] (-) TimerEvent: {}
+[0.649286] (limb_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.702590] (-) TimerEvent: {}
+[0.742717] (limb_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.802805] (-) TimerEvent: {}
+[0.903516] (-) TimerEvent: {}
+[1.004378] (-) TimerEvent: {}
+[1.105224] (-) TimerEvent: {}
+[1.205890] (-) TimerEvent: {}
+[1.209063] (limb_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.243522] (limb_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.247946] (limb_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.250080] (limb_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.302806] (limb_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.306080] (-) TimerEvent: {}
+[1.406676] (-) TimerEvent: {}
+[1.507412] (-) TimerEvent: {}
+[1.608163] (-) TimerEvent: {}
+[1.708780] (-) TimerEvent: {}
+[1.793983] (limb_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.808927] (-) TimerEvent: {}
+[1.829541] (limb_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.830526] (limb_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.832293] (limb_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.855127] (limb_controller) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.909143] (-) TimerEvent: {}
+[2.009695] (-) TimerEvent: {}
+[2.110250] (-) TimerEvent: {}
+[2.210781] (-) TimerEvent: {}
+[2.311392] (-) TimerEvent: {}
+[2.411945] (-) TimerEvent: {}
+[2.512569] (-) TimerEvent: {}
+[2.554595] (limb_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.612717] (-) TimerEvent: {}
+[2.713285] (-) TimerEvent: {}
+[2.813837] (-) TimerEvent: {}
+[2.914422] (-) TimerEvent: {}
+[3.014982] (-) TimerEvent: {}
+[3.115597] (-) TimerEvent: {}
+[3.141824] (limb_controller) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[3.215761] (-) TimerEvent: {}
+[3.316372] (-) TimerEvent: {}
+[3.416926] (-) TimerEvent: {}
+[3.422150] (limb_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[3.508060] (limb_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[3.517114] (-) TimerEvent: {}
+[3.610666] (limb_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.617256] (-) TimerEvent: {}
+[3.714661] (limb_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.717400] (-) TimerEvent: {}
+[3.818187] (-) TimerEvent: {}
+[3.919137] (-) TimerEvent: {}
+[4.019713] (-) TimerEvent: {}
+[4.120367] (-) TimerEvent: {}
+[4.216087] (limb_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[4.220512] (-) TimerEvent: {}
+[4.242464] (limb_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.320722] (-) TimerEvent: {}
+[4.421359] (-) TimerEvent: {}
+[4.521939] (-) TimerEvent: {}
+[4.622620] (-) TimerEvent: {}
+[4.723376] (-) TimerEvent: {}
+[4.739791] (limb_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[4.812858] (limb_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[4.823544] (-) TimerEvent: {}
+[4.903703] (limb_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.923700] (-) TimerEvent: {}
+[5.024263] (-) TimerEvent: {}
+[5.124861] (-) TimerEvent: {}
+[5.225529] (-) TimerEvent: {}
+[5.280446] (limb_controller) StdoutLine: {'line': b'-- Found interfaces: 0.0.0 (/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake)\n'}
+[5.325693] (-) TimerEvent: {}
+[5.384977] (limb_controller) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:12 (find_package):\n'}
+[5.385671] (limb_controller) StderrLine: {'line': b'  By not providing "FindEigen.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[5.386113] (limb_controller) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "Eigen", but\n'}
+[5.386491] (limb_controller) StderrLine: {'line': b'  CMake did not find one.\n'}
+[5.386815] (limb_controller) StderrLine: {'line': b'\n'}
+[5.387193] (limb_controller) StderrLine: {'line': b'  Could not find a package configuration file provided by "Eigen" with any of\n'}
+[5.387650] (limb_controller) StderrLine: {'line': b'  the following names:\n'}
+[5.388153] (limb_controller) StderrLine: {'line': b'\n'}
+[5.388594] (limb_controller) StderrLine: {'line': b'    EigenConfig.cmake\n'}
+[5.389372] (limb_controller) StderrLine: {'line': b'    eigen-config.cmake\n'}
+[5.389772] (limb_controller) StderrLine: {'line': b'\n'}
+[5.390190] (limb_controller) StderrLine: {'line': b'  Add the installation prefix of "Eigen" to CMAKE_PREFIX_PATH or set\n'}
+[5.390609] (limb_controller) StderrLine: {'line': b'  "Eigen_DIR" to a directory containing one of the above files.  If "Eigen"\n'}
+[5.391113] (limb_controller) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[5.392129] (limb_controller) StderrLine: {'line': b'  installed.\n'}
+[5.392974] (limb_controller) StderrLine: {'line': b'\n'}
+[5.393517] (limb_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[5.394113] (limb_controller) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[5.420533] (limb_controller) CommandEnded: {'returncode': 1}
+[5.426116] (-) TimerEvent: {}
+[5.510210] (limb_controller) JobEnded: {'identifier': 'limb_controller', 'rc': 1}
+[5.521719] (-) EventReactorShutdown: {}

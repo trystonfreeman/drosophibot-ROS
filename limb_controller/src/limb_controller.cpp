@@ -14,9 +14,12 @@ class LimbController : public rclcpp::Node
 {
 public:
     LimbController()
-    : Node("LimbController"), count_(0)
+    : Node("LimbController"), count_(0), controller()
     {
         this->declare_parameter("Network","placeholder.json");
+
+        controller = SNSToolboxCPP::Network(this->get_parameter("Network").as_string());
+
         publisher_ = this->create_publisher<interfaces::msg::LimbCommand>("LimbCommands", 10);
         timer_ = this->create_wall_timer(
         500ms, std::bind(&LimbController::timer_callback, this));
@@ -32,6 +35,7 @@ private:
     rclcpp::TimerBase::SharedPtr timer_;
     rclcpp::Publisher<interfaces::msg::LimbCommand>::SharedPtr publisher_;
     size_t count_;
+    SNSToolboxCPP::Network controller;
 };
 
 int main(int argc, char * argv[])

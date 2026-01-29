@@ -1,0 +1,11 @@
+[0.060s] Invoking command in '/home/droso1/drosophibot-ROS/build/limb_controller': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/limb_controller -- -j4 -l4
+[0.350s] [ 33%] [32mBuilding CXX object CMakeFiles/limb_controller.dir/src/Network.cpp.o[0m
+[0.741s] In file included from [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/Network.cpp:1[m[K:
+[0.742s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Network.h:3:10:[m[K [01;31m[Kfatal error: [m[KEigen/Dense: No such file or directory
+[0.742s]     3 | #include [01;31m[K<Eigen/Dense>[m[K
+[0.743s]       |          [01;31m[K^~~~~~~~~~~~~[m[K
+[0.743s] compilation terminated.
+[0.748s] gmake[2]: *** [CMakeFiles/limb_controller.dir/build.make:90: CMakeFiles/limb_controller.dir/src/Network.cpp.o] Error 1
+[0.749s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/limb_controller.dir/all] Error 2
+[0.750s] gmake: *** [Makefile:146: all] Error 2
+[0.760s] Invoked command in '/home/droso1/drosophibot-ROS/build/limb_controller' returned '2': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/limb_controller -- -j4 -l4

@@ -1,0 +1,165 @@
+[0.000000] (-) TimerEvent: {}
+[0.001508] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.001639] (-) JobUnselected: {'identifier': 'limb_controller'}
+[0.001710] (-) JobUnselected: {'identifier': 'motor_control'}
+[0.001775] (-) JobUnselected: {'identifier': 'pubsub'}
+[0.001839] (-) JobUnselected: {'identifier': 'testcpp'}
+[0.001908] (strain_monitor) JobQueued: {'identifier': 'strain_monitor', 'dependencies': OrderedDict({'interfaces': '/home/droso1/drosophibot-ROS/install/interfaces'})}
+[0.002036] (strain_monitor) JobStarted: {'identifier': 'strain_monitor'}
+[0.056463] (strain_monitor) JobProgress: {'identifier': 'strain_monitor', 'progress': 'cmake'}
+[0.059485] (strain_monitor) JobProgress: {'identifier': 'strain_monitor', 'progress': 'build'}
+[0.062158] (strain_monitor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/droso1/drosophibot-ROS/build/strain_monitor', '--', '-j4', '-l4'], 'cwd': '/home/droso1/drosophibot-ROS/build/strain_monitor', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'droso1', 'SSH_CLIENT': '192.168.137.1 49257 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/droso1/drosophibot-ROS/install/interfaces/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/droso1', 'OLDPWD': '/home/droso1', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'droso1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/home/droso1/drosophibot-ROS/install/limb_controller:/home/droso1/drosophibot-ROS/install/interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/droso1/drosophibot-ROS/build/strain_monitor', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 49257 192.168.137.112 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/home/droso1/drosophibot-ROS/install/limb_controller:/opt/ros/jazzy'}), 'shell': False}
+[0.099256] (-) TimerEvent: {}
+[0.199960] (-) TimerEvent: {}
+[0.301382] (-) TimerEvent: {}
+[0.387700] (strain_monitor) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/strain_monitor.dir/src/strain_monitor.cpp.o\x1b[0m\n'}
+[0.401544] (-) TimerEvent: {}
+[0.502136] (-) TimerEvent: {}
+[0.602739] (-) TimerEvent: {}
+[0.703394] (-) TimerEvent: {}
+[0.804027] (-) TimerEvent: {}
+[0.904597] (-) TimerEvent: {}
+[1.005218] (-) TimerEvent: {}
+[1.105792] (-) TimerEvent: {}
+[1.206411] (-) TimerEvent: {}
+[1.307048] (-) TimerEvent: {}
+[1.407621] (-) TimerEvent: {}
+[1.508234] (-) TimerEvent: {}
+[1.608802] (-) TimerEvent: {}
+[1.709452] (-) TimerEvent: {}
+[1.810062] (-) TimerEvent: {}
+[1.910642] (-) TimerEvent: {}
+[2.011249] (-) TimerEvent: {}
+[2.111829] (-) TimerEvent: {}
+[2.212502] (-) TimerEvent: {}
+[2.313104] (-) TimerEvent: {}
+[2.413701] (-) TimerEvent: {}
+[2.514408] (-) TimerEvent: {}
+[2.615065] (-) TimerEvent: {}
+[2.715701] (-) TimerEvent: {}
+[2.817034] (-) TimerEvent: {}
+[2.918394] (-) TimerEvent: {}
+[3.019825] (-) TimerEvent: {}
+[3.121450] (-) TimerEvent: {}
+[3.222564] (-) TimerEvent: {}
+[3.323751] (-) TimerEvent: {}
+[3.425300] (-) TimerEvent: {}
+[3.526717] (-) TimerEvent: {}
+[3.628075] (-) TimerEvent: {}
+[3.729280] (-) TimerEvent: {}
+[3.830113] (-) TimerEvent: {}
+[3.931157] (-) TimerEvent: {}
+[4.032558] (-) TimerEvent: {}
+[4.133588] (-) TimerEvent: {}
+[4.234696] (-) TimerEvent: {}
+[4.335840] (-) TimerEvent: {}
+[4.437065] (-) TimerEvent: {}
+[4.538137] (-) TimerEvent: {}
+[4.639171] (-) TimerEvent: {}
+[4.740059] (-) TimerEvent: {}
+[4.840779] (-) TimerEvent: {}
+[4.941448] (-) TimerEvent: {}
+[5.042264] (-) TimerEvent: {}
+[5.143213] (-) TimerEvent: {}
+[5.244147] (-) TimerEvent: {}
+[5.345169] (-) TimerEvent: {}
+[5.446191] (-) TimerEvent: {}
+[5.546952] (-) TimerEvent: {}
+[5.647718] (-) TimerEvent: {}
+[5.748564] (-) TimerEvent: {}
+[5.849492] (-) TimerEvent: {}
+[5.950314] (-) TimerEvent: {}
+[6.052257] (-) TimerEvent: {}
+[6.154192] (-) TimerEvent: {}
+[6.255343] (-) TimerEvent: {}
+[6.356662] (-) TimerEvent: {}
+[6.458265] (-) TimerEvent: {}
+[6.560567] (-) TimerEvent: {}
+[6.662074] (-) TimerEvent: {}
+[6.763912] (-) TimerEvent: {}
+[6.865589] (-) TimerEvent: {}
+[6.967142] (-) TimerEvent: {}
+[7.067820] (-) TimerEvent: {}
+[7.169434] (-) TimerEvent: {}
+[7.271224] (-) TimerEvent: {}
+[7.372146] (-) TimerEvent: {}
+[7.473061] (-) TimerEvent: {}
+[7.573834] (-) TimerEvent: {}
+[7.674581] (-) TimerEvent: {}
+[7.775304] (-) TimerEvent: {}
+[7.876095] (-) TimerEvent: {}
+[7.977549] (-) TimerEvent: {}
+[8.078663] (-) TimerEvent: {}
+[8.180290] (-) TimerEvent: {}
+[8.281106] (-) TimerEvent: {}
+[8.381892] (-) TimerEvent: {}
+[8.482781] (-) TimerEvent: {}
+[8.583768] (-) TimerEvent: {}
+[8.684595] (-) TimerEvent: {}
+[8.785390] (-) TimerEvent: {}
+[8.886902] (-) TimerEvent: {}
+[8.987603] (-) TimerEvent: {}
+[9.089156] (-) TimerEvent: {}
+[9.189853] (-) TimerEvent: {}
+[9.290643] (-) TimerEvent: {}
+[9.391500] (-) TimerEvent: {}
+[9.492331] (-) TimerEvent: {}
+[9.593857] (-) TimerEvent: {}
+[9.695447] (-) TimerEvent: {}
+[9.796623] (-) TimerEvent: {}
+[9.871812] (strain_monitor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K main\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.872893] (strain_monitor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:44:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KLimbController\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.873628] (strain_monitor) StderrLine: {'line': b'   44 |     rclcpp::spin(std::make_shared<\x1b[01;31m\x1b[KLimbController\x1b[m\x1b[K>());\n'}
+[9.874209] (strain_monitor) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.874618] (strain_monitor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:44:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.875027] (strain_monitor) StderrLine: {'line': b'   44 |     rclcpp::spin(\x1b[01;31m\x1b[Kstd::make_shared<LimbController>()\x1b[m\x1b[K);\n'}
+[9.875478] (strain_monitor) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[9.875921] (strain_monitor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/memory:80\x1b[m\x1b[K,\n'}
+[9.876362] (strain_monitor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:3\x1b[m\x1b[K:\n'}
+[9.876697] (strain_monitor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::\x1b[01;32m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.877115] (strain_monitor) StderrLine: {'line': b' 1005 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[9.877495] (strain_monitor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.877846] (strain_monitor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.878270] (strain_monitor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:44:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[9.878634] (strain_monitor) StderrLine: {'line': b'   44 |     rclcpp::spin(\x1b[01;31m\x1b[Kstd::make_shared<LimbController>()\x1b[m\x1b[K);\n'}
+[9.879000] (strain_monitor) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[9.897052] (-) TimerEvent: {}
+[9.998314] (-) TimerEvent: {}
+[10.100155] (-) TimerEvent: {}
+[10.200910] (-) TimerEvent: {}
+[10.302814] (-) TimerEvent: {}
+[10.403560] (-) TimerEvent: {}
+[10.505447] (-) TimerEvent: {}
+[10.607287] (-) TimerEvent: {}
+[10.709112] (-) TimerEvent: {}
+[10.810829] (-) TimerEvent: {}
+[10.912549] (-) TimerEvent: {}
+[11.013626] (-) TimerEvent: {}
+[11.115363] (-) TimerEvent: {}
+[11.216327] (-) TimerEvent: {}
+[11.318095] (-) TimerEvent: {}
+[11.419798] (-) TimerEvent: {}
+[11.521536] (-) TimerEvent: {}
+[11.623280] (-) TimerEvent: {}
+[11.725004] (-) TimerEvent: {}
+[11.826559] (-) TimerEvent: {}
+[11.928157] (-) TimerEvent: {}
+[12.029721] (-) TimerEvent: {}
+[12.131359] (-) TimerEvent: {}
+[12.232997] (-) TimerEvent: {}
+[12.334550] (-) TimerEvent: {}
+[12.436153] (-) TimerEvent: {}
+[12.537049] (-) TimerEvent: {}
+[12.638594] (-) TimerEvent: {}
+[12.740200] (-) TimerEvent: {}
+[12.841639] (-) TimerEvent: {}
+[12.943134] (-) TimerEvent: {}
+[13.043911] (-) TimerEvent: {}
+[13.144657] (-) TimerEvent: {}
+[13.200967] (strain_monitor) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/strain_monitor.dir/build.make:76: CMakeFiles/strain_monitor.dir/src/strain_monitor.cpp.o] Error 1\n'}
+[13.201910] (strain_monitor) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/strain_monitor.dir/all] Error 2\n'}
+[13.202878] (strain_monitor) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.211332] (strain_monitor) CommandEnded: {'returncode': 2}
+[13.244800] (-) TimerEvent: {}
+[13.249789] (strain_monitor) JobEnded: {'identifier': 'strain_monitor', 'rc': 2}
+[13.260982] (-) EventReactorShutdown: {}

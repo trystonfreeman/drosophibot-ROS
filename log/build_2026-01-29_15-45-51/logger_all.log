@@ -1,0 +1,164 @@
+[0.439s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'strain_monitor']
+[0.439s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['strain_monitor'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff8a9caab0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8ab77200>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8ab77200>>, mixin_verb=('build',))
+[0.608s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.608s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.609s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/droso1/drosophibot-ROS'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extension 'ignore'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extension 'ignore_ament_install'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extensions ['colcon_pkg']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extension 'colcon_pkg'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extensions ['colcon_meta']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extension 'colcon_meta'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extensions ['ros']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extension 'ros'
+[0.728s] DEBUG:colcon.colcon_core.package_identification:Package 'interfaces' with type 'ros.ament_cmake' and name 'interfaces'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(limb_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(limb_controller) by extension 'ignore'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(limb_controller) by extension 'ignore_ament_install'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(limb_controller) by extensions ['colcon_pkg']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(limb_controller) by extension 'colcon_pkg'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(limb_controller) by extensions ['colcon_meta']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(limb_controller) by extension 'colcon_meta'
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(limb_controller) by extensions ['ros']
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(limb_controller) by extension 'ros'
+[0.732s] DEBUG:colcon.colcon_core.package_identification:Package 'limb_controller' with type 'ros.ament_cmake' and name 'limb_controller'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(motor_control) by extensions ['ignore', 'ignore_ament_install']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(motor_control) by extension 'ignore'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(motor_control) by extension 'ignore_ament_install'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(motor_control) by extensions ['colcon_pkg']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(motor_control) by extension 'colcon_pkg'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(motor_control) by extensions ['colcon_meta']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(motor_control) by extension 'colcon_meta'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(motor_control) by extensions ['ros']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(motor_control) by extension 'ros'
+[0.738s] DEBUG:colcon.colcon_core.package_identification:Package 'motor_control' with type 'ros.ament_cmake' and name 'motor_control'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(pubsub) by extension 'ignore'
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(pubsub) by extension 'ignore_ament_install'
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(pubsub) by extensions ['colcon_pkg']
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(pubsub) by extension 'colcon_pkg'
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(pubsub) by extensions ['colcon_meta']
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(pubsub) by extension 'colcon_meta'
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(pubsub) by extensions ['ros']
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(pubsub) by extension 'ros'
+[0.741s] DEBUG:colcon.colcon_core.package_identification:Package 'pubsub' with type 'ros.ament_cmake' and name 'pubsub'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(strain_monitor) by extensions ['ignore', 'ignore_ament_install']
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(strain_monitor) by extension 'ignore'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(strain_monitor) by extension 'ignore_ament_install'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(strain_monitor) by extensions ['colcon_pkg']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(strain_monitor) by extension 'colcon_pkg'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(strain_monitor) by extensions ['colcon_meta']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(strain_monitor) by extension 'colcon_meta'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(strain_monitor) by extensions ['ros']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(strain_monitor) by extension 'ros'
+[0.746s] DEBUG:colcon.colcon_core.package_identification:Package 'strain_monitor' with type 'ros.ament_cmake' and name 'strain_monitor'
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(testcpp) by extensions ['ignore', 'ignore_ament_install']
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(testcpp) by extension 'ignore'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(testcpp) by extension 'ignore_ament_install'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(testcpp) by extensions ['colcon_pkg']
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(testcpp) by extension 'colcon_pkg'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(testcpp) by extensions ['colcon_meta']
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(testcpp) by extension 'colcon_meta'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(testcpp) by extensions ['ros']
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(testcpp) by extension 'ros'
+[0.749s] DEBUG:colcon.colcon_core.package_identification:Package 'testcpp' with type 'ros.ament_cmake' and name 'testcpp'
+[0.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.818s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interfaces' in 'interfaces'
+[0.818s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'pubsub' in 'pubsub'
+[0.818s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'testcpp' in 'testcpp'
+[0.818s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'limb_controller' in 'limb_controller'
+[0.818s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'motor_control' in 'motor_control'
+[0.820s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.820s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.830s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/droso1/drosophibot-ROS/install
+[0.838s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 193 installed packages in /opt/ros/jazzy
+[0.840s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'strain_monitor' build argument 'cmake_args' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'strain_monitor' build argument 'cmake_target' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'strain_monitor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'strain_monitor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'strain_monitor' build argument 'cmake_clean_first' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'strain_monitor' build argument 'cmake_force_configure' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'strain_monitor' build argument 'ament_cmake_args' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'strain_monitor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'strain_monitor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.972s] DEBUG:colcon.colcon_core.verb:Building package 'strain_monitor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/droso1/drosophibot-ROS/build/strain_monitor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/droso1/drosophibot-ROS/install/strain_monitor', 'merge_install': False, 'path': '/home/droso1/drosophibot-ROS/strain_monitor', 'symlink_install': False, 'test_result_base': None}
+[0.973s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.976s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.977s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/droso1/drosophibot-ROS/strain_monitor' with build type 'ament_cmake'
+[0.977s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/droso1/drosophibot-ROS/strain_monitor'
+[0.985s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.986s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.986s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/droso1/drosophibot-ROS/build/strain_monitor': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/home/droso1/drosophibot-ROS/install/limb_controller:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/strain_monitor -- -j4 -l4
+[14.252s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/droso1/drosophibot-ROS/build/strain_monitor' returned '2': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/home/droso1/drosophibot-ROS/install/limb_controller:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/strain_monitor -- -j4 -l4
+[14.254s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(strain_monitor)
+[14.266s] Level 1:colcon.colcon_core.environment:checking '/home/droso1/drosophibot-ROS/install/strain_monitor' for CMake module files
+[14.269s] Level 1:colcon.colcon_core.environment:checking '/home/droso1/drosophibot-ROS/install/strain_monitor' for CMake config files
+[14.270s] Level 1:colcon.colcon_core.shell:create_environment_hook('strain_monitor', 'cmake_prefix_path')
+[14.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/hook/cmake_prefix_path.ps1'
+[14.273s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/hook/cmake_prefix_path.dsv'
+[14.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/hook/cmake_prefix_path.sh'
+[14.280s] Level 1:colcon.colcon_core.environment:checking '/home/droso1/drosophibot-ROS/install/strain_monitor/lib'
+[14.280s] Level 1:colcon.colcon_core.environment:checking '/home/droso1/drosophibot-ROS/install/strain_monitor/bin'
+[14.281s] Level 1:colcon.colcon_core.environment:checking '/home/droso1/drosophibot-ROS/install/strain_monitor/lib/pkgconfig/strain_monitor.pc'
+[14.281s] Level 1:colcon.colcon_core.environment:checking '/home/droso1/drosophibot-ROS/install/strain_monitor/lib/python3.12/site-packages'
+[14.283s] Level 1:colcon.colcon_core.environment:checking '/home/droso1/drosophibot-ROS/install/strain_monitor/bin'
+[14.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/package.ps1'
+[14.287s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/package.dsv'
+[14.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/package.sh'
+[14.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/package.bash'
+[14.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/package.zsh'
+[14.298s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/droso1/drosophibot-ROS/install/strain_monitor/share/colcon-core/packages/strain_monitor)
+[14.300s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.300s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.301s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[14.301s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.324s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[14.324s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.325s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.325s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.328s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[14.329s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.329s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/droso1/drosophibot-ROS/install/local_setup.ps1'
+[14.332s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/droso1/drosophibot-ROS/install/_local_setup_util_ps1.py'
+[14.337s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/droso1/drosophibot-ROS/install/setup.ps1'
+[14.343s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/droso1/drosophibot-ROS/install/local_setup.sh'
+[14.345s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/droso1/drosophibot-ROS/install/_local_setup_util_sh.py'
+[14.349s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/droso1/drosophibot-ROS/install/setup.sh'
+[14.354s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/droso1/drosophibot-ROS/install/local_setup.bash'
+[14.355s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/droso1/drosophibot-ROS/install/setup.bash'
+[14.360s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/droso1/drosophibot-ROS/install/local_setup.zsh'
+[14.362s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/droso1/drosophibot-ROS/install/setup.zsh'

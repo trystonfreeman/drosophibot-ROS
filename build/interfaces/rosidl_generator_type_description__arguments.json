@@ -5,6 +5,7 @@
     "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces:msg/MotorCommand.idl",
     "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces:msg/MotorData.idl",
     "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces:msg/LimbCommand.idl",
-    "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces:msg/DescendingCommand.idl"
+    "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces:msg/DescendingCommand.idl",
+    "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces:msg/StrainData.idl"
   ]
 }

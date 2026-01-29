@@ -70,6 +70,7 @@ CMakeFiles/interfaces: /home/droso1/drosophibot-ROS/interfaces/msg/MotorCommand.
 CMakeFiles/interfaces: /home/droso1/drosophibot-ROS/interfaces/msg/MotorData.msg
 CMakeFiles/interfaces: /home/droso1/drosophibot-ROS/interfaces/msg/LimbCommand.msg
 CMakeFiles/interfaces: /home/droso1/drosophibot-ROS/interfaces/msg/DescendingCommand.msg
+CMakeFiles/interfaces: /home/droso1/drosophibot-ROS/interfaces/msg/StrainData.msg
 
 interfaces: CMakeFiles/interfaces
 interfaces: CMakeFiles/interfaces.dir/build.make

@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "interfaces/msg/detail/limb_command__type_support.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "interfaces/msg/detail/limb_command__struct.h"
+#include "interfaces/msg/detail/limb_command__type_support.h"
 #include "interfaces/msg/detail/limb_command__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

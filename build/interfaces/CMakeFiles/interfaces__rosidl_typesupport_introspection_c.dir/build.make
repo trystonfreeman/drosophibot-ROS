@@ -81,6 +81,7 @@ rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_command__rosidl_t
 rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_command__rosidl_typesupport_introspection_c.h: rosidl_adapter/interfaces/msg/MotorData.idl
 rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_command__rosidl_typesupport_introspection_c.h: rosidl_adapter/interfaces/msg/LimbCommand.idl
 rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_command__rosidl_typesupport_introspection_c.h: rosidl_adapter/interfaces/msg/DescendingCommand.idl
+rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_command__rosidl_typesupport_introspection_c.h: rosidl_adapter/interfaces/msg/StrainData.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/droso1/drosophibot-ROS/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/droso1/drosophibot-ROS/build/interfaces/rosidl_typesupport_introspection_c__arguments.json
 
@@ -93,6 +94,9 @@ rosidl_typesupport_introspection_c/interfaces/msg/detail/limb_command__rosidl_ty
 rosidl_typesupport_introspection_c/interfaces/msg/detail/descending_command__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/interfaces/msg/detail/descending_command__rosidl_typesupport_introspection_c.h
 
+rosidl_typesupport_introspection_c/interfaces/msg/detail/strain_data__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/interfaces/msg/detail/strain_data__rosidl_typesupport_introspection_c.h
+
 rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_command__type_support.c: rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_command__type_support.c
 
@@ -104,6 +108,9 @@ rosidl_typesupport_introspection_c/interfaces/msg/detail/limb_command__type_supp
 
 rosidl_typesupport_introspection_c/interfaces/msg/detail/descending_command__type_support.c: rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/interfaces/msg/detail/descending_command__type_support.c
+
+rosidl_typesupport_introspection_c/interfaces/msg/detail/strain_data__type_support.c: rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/interfaces/msg/detail/strain_data__type_support.c
 
 CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_command__type_support.c.o: CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_command__type_support.c.o: rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_command__type_support.c
@@ -161,12 +168,27 @@ CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/descending_command__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/droso1/drosophibot-ROS/build/interfaces/rosidl_typesupport_introspection_c/interfaces/msg/detail/descending_command__type_support.c -o CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/descending_command__type_support.c.s
 
+CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/strain_data__type_support.c.o: CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/strain_data__type_support.c.o: rosidl_typesupport_introspection_c/interfaces/msg/detail/strain_data__type_support.c
+CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/strain_data__type_support.c.o: CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/droso1/drosophibot-ROS/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/strain_data__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/strain_data__type_support.c.o -MF CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/strain_data__type_support.c.o.d -o CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/strain_data__type_support.c.o -c /home/droso1/drosophibot-ROS/build/interfaces/rosidl_typesupport_introspection_c/interfaces/msg/detail/strain_data__type_support.c
+
+CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/strain_data__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/strain_data__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/droso1/drosophibot-ROS/build/interfaces/rosidl_typesupport_introspection_c/interfaces/msg/detail/strain_data__type_support.c > CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/strain_data__type_support.c.i
+
+CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/strain_data__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/strain_data__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/droso1/drosophibot-ROS/build/interfaces/rosidl_typesupport_introspection_c/interfaces/msg/detail/strain_data__type_support.c -o CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/strain_data__type_support.c.s
+
 # Object files for target interfaces__rosidl_typesupport_introspection_c
 interfaces__rosidl_typesupport_introspection_c_OBJECTS = \
 "CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_command__type_support.c.o" \
 "CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_data__type_support.c.o" \
 "CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/limb_command__type_support.c.o" \
-"CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/descending_command__type_support.c.o"
+"CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/descending_command__type_support.c.o" \
+"CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/strain_data__type_support.c.o"
 
 # External object files for target interfaces__rosidl_typesupport_introspection_c
 interfaces__rosidl_typesupport_introspection_c_EXTERNAL_OBJECTS =
@@ -175,13 +197,14 @@ libinterfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/interfaces__ros
 libinterfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_data__type_support.c.o
 libinterfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/limb_command__type_support.c.o
 libinterfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/descending_command__type_support.c.o
+libinterfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/strain_data__type_support.c.o
 libinterfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/build.make
 libinterfaces__rosidl_typesupport_introspection_c.so: libinterfaces__rosidl_generator_c.so
 libinterfaces__rosidl_typesupport_introspection_c.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libinterfaces__rosidl_typesupport_introspection_c.so: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_c.so
 libinterfaces__rosidl_typesupport_introspection_c.so: /opt/ros/jazzy/lib/librcutils.so
 libinterfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/droso1/drosophibot-ROS/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C shared library libinterfaces__rosidl_typesupport_introspection_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/droso1/drosophibot-ROS/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C shared library libinterfaces__rosidl_typesupport_introspection_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -200,6 +223,8 @@ CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typ
 CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_command__type_support.c
 CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_data__rosidl_typesupport_introspection_c.h
 CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_data__type_support.c
+CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/interfaces/msg/detail/strain_data__rosidl_typesupport_introspection_c.h
+CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/interfaces/msg/detail/strain_data__type_support.c
 	cd /home/droso1/drosophibot-ROS/build/interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/droso1/drosophibot-ROS/interfaces /home/droso1/drosophibot-ROS/interfaces /home/droso1/drosophibot-ROS/build/interfaces /home/droso1/drosophibot-ROS/build/interfaces /home/droso1/drosophibot-ROS/build/interfaces/CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/depend
 

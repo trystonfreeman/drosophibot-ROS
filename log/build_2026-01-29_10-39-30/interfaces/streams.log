@@ -1,0 +1,348 @@
+[0.051s] Invoking command in '/home/droso1/drosophibot-ROS/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/interfaces -- -j4 -l4
+[0.193s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.325s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.734s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.755s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.965s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.121s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.133s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.339s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.773s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.334s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.342s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.967s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.047s] -- Added test 'lint_cmake' to check CMake code style
+[5.060s] -- Added test 'xmllint' to check XML markup files
+[5.096s] -- Configuring done (4.9s)
+[5.420s] -- Generating done (0.3s)
+[5.475s] -- Build files have been written to: /home/droso1/drosophibot-ROS/build/interfaces
+[5.646s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[5.716s] [  1%] Built target ament_cmake_python_copy_interfaces
+[6.678s] running egg_info
+[6.761s] writing interfaces.egg-info/PKG-INFO
+[6.763s] writing dependency_links to interfaces.egg-info/dependency_links.txt
+[6.765s] writing top-level names to interfaces.egg-info/top_level.txt
+[6.980s] [  1%] Built target interfaces__rosidl_generator_type_description
+[7.037s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.100s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.120s] reading manifest file 'interfaces.egg-info/SOURCES.txt'
+[7.126s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[7.303s] [  4%] Built target ament_cmake_python_build_interfaces_egg
+[9.308s] [  4%] Built target interfaces__cpp
+[9.793s] [  5%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/motor_command__description.c.o[0m
+[9.794s] [  6%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/motor_command__functions.c.o[0m
+[9.799s] [  8%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/motor_command__type_support.c.o[0m
+[9.799s] [  9%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/motor_data__description.c.o[0m
+[10.270s] [ 10%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/motor_data__functions.c.o[0m
+[10.503s] [ 12%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/motor_data__type_support.c.o[0m
+[10.504s] [ 13%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__description.c.o[0m
+[10.593s] [ 14%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__functions.c.o[0m
+[10.594s] [ 16%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limb_command__type_support.c.o[0m
+[10.701s] [ 17%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/descending_command__description.c.o[0m
+[10.738s] [ 18%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/descending_command__functions.c.o[0m
+[10.799s] [ 20%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/descending_command__type_support.c.o[0m
+[10.894s] [ 21%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/strain_data__description.c.o[0m
+[10.933s] [ 22%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/strain_data__functions.c.o[0m
+[10.999s] [ 24%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/strain_data__type_support.c.o[0m
+[11.188s] [ 25%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_c.so[0m
+[11.411s] [ 25%] Built target interfaces__rosidl_generator_c
+[11.476s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[11.477s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[11.481s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[11.485s] [ 31%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[13.360s] [ 32%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/motor_command__type_support.cpp.o[0m
+[13.687s] [ 33%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/motor_data__type_support.cpp.o[0m
+[13.835s] [ 35%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_command__type_support.c.o[0m
+[13.960s] [ 36%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/limb_command__type_support.cpp.o[0m
+[14.088s] [ 37%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_data__type_support.c.o[0m
+[14.118s] [ 39%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_command__type_support.cpp.o[0m
+[14.198s] [ 40%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_command__type_support_c.cpp.o[0m
+[14.234s] [ 41%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/descending_command__type_support.cpp.o[0m
+[14.348s] [ 43%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/limb_command__type_support.c.o[0m
+[14.478s] [ 44%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/strain_data__type_support.cpp.o[0m
+[14.599s] [ 45%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/descending_command__type_support.c.o[0m
+[14.744s] [ 47%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so[0m
+[14.844s] [ 48%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/strain_data__type_support.c.o[0m
+[15.009s] [ 48%] Built target interfaces__rosidl_typesupport_c
+[15.086s] [ 50%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[15.112s] [ 51%] [32m[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so[0m
+[15.344s] [ 51%] Built target interfaces__rosidl_typesupport_introspection_c
+[15.409s] [ 52%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_data__type_support_c.cpp.o[0m
+[17.051s] [ 54%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_data__type_support.cpp.o[0m
+[17.150s] [ 55%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/limb_command__type_support.cpp.o[0m
+[17.717s] [ 56%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_command__type_support.cpp.o[0m
+[18.322s] [ 58%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/limb_command__type_support_c.cpp.o[0m
+[19.778s] [ 59%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_data__type_support.cpp.o[0m
+[20.032s] [ 60%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[20.279s] [ 62%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/descending_command__type_support.cpp.o[0m
+[21.306s] [ 63%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/descending_command__type_support_c.cpp.o[0m
+[21.829s] [ 64%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/limb_command__type_support.cpp.o[0m
+[22.135s] [ 66%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/motor_command__type_support.cpp.o[0m
+[23.268s] [ 67%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/strain_data__type_support.cpp.o[0m
+[24.035s] [ 68%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/descending_command__type_support.cpp.o[0m
+[24.136s] [ 70%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/motor_data__type_support.cpp.o[0m
+[24.183s] [ 71%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/strain_data__type_support_c.cpp.o[0m
+[26.009s] [ 72%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/strain_data__type_support.cpp.o[0m
+[26.145s] [ 74%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/limb_command__type_support.cpp.o[0m
+[26.279s] [ 75%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[26.716s] [ 75%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[26.775s] [ 77%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/descending_command__type_support.cpp.o[0m
+[27.070s] [ 78%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[27.399s] [ 78%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[27.462s] [ 79%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/strain_data__type_support.cpp.o[0m
+[28.041s] [ 81%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so[0m
+[28.475s] [ 81%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[29.145s] [ 82%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so[0m
+[29.351s] [ 82%] Built target interfaces__rosidl_typesupport_cpp
+[29.461s] [ 82%] Built target interfaces
+[29.576s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[32.111s] [ 83%] Built target interfaces__py
+[32.266s] [ 85%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_motor_command_s.c.o[0m
+[32.269s] [ 86%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_motor_data_s.c.o[0m
+[32.277s] [ 89%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_descending_command_s.c.o[0m
+[32.277s] [ 89%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_limb_command_s.c.o[0m
+[32.987s] [ 90%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_strain_data_s.c.o[0m
+[33.523s] [ 91%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_py.so[0m
+[33.761s] [ 91%] Built target interfaces__rosidl_generator_py
+[33.893s] [ 93%] [32mBuilding C object CMakeFiles/interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[33.896s] [ 94%] [32mBuilding C object CMakeFiles/interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[33.897s] [ 95%] [32mBuilding C object CMakeFiles/interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[34.479s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.so[0m
+[34.496s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[34.547s] [100%] [32m[1mLinking C shared module rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[34.656s] [100%] Built target interfaces_s__rosidl_typesupport_c
+[34.673s] [100%] Built target interfaces_s__rosidl_typesupport_introspection_c
+[34.722s] [100%] Built target interfaces_s__rosidl_typesupport_fastrtps_c
+[34.782s] Invoked command in '/home/droso1/drosophibot-ROS/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/interfaces -- -j4 -l4
+[34.833s] Invoking command in '/home/droso1/drosophibot-ROS/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/droso1/drosophibot-ROS/build/interfaces
+[34.874s] -- Install configuration: ""
+[34.878s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[34.880s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/MotorCommand.json
+[34.882s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/MotorData.json
+[34.884s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/LimbCommand.json
+[34.885s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/DescendingCommand.json
+[34.887s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/StrainData.json
+[34.888s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces
+[34.889s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg
+[34.890s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/descending_command.h
+[34.891s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/motor_data.h
+[34.892s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail
+[34.893s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__type_support.c
+[34.894s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__functions.c
+[34.895s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__struct.h
+[34.897s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__type_support.h
+[34.898s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__functions.c
+[34.899s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/descending_command__functions.c
+[34.900s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__functions.c
+[34.902s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__description.c
+[34.903s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__type_support.c
+[34.904s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/descending_command__struct.h
+[34.906s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/descending_command__type_support.c
+[34.907s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__type_support.h
+[34.908s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__functions.h
+[34.909s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__description.c
+[34.911s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__type_support.c
+[34.912s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__functions.h
+[34.913s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__description.c
+[34.926s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__struct.h
+[34.927s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__functions.h
+[34.929s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__type_support.h
+[34.931s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/descending_command__description.c
+[34.933s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/descending_command__type_support.h
+[34.935s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__struct.h
+[34.936s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__type_support.c
+[34.938s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__functions.h
+[34.939s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__type_support.h
+[34.941s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__description.c
+[34.943s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__functions.c
+[34.944s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/descending_command__functions.h
+[34.945s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__struct.h
+[34.946s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/motor_command.h
+[34.948s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h
+[34.948s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/limb_command.h
+[34.949s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/strain_data.h
+[34.950s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/environment/library_path.sh
+[34.951s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/environment/library_path.dsv
+[34.952s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[34.956s] -- Set non-toolchain portion of runtime path of "/home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""
+[34.956s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces
+[34.956s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg
+[34.957s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[34.957s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail
+[34.958s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__rosidl_typesupport_fastrtps_c.h
+[34.959s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__rosidl_typesupport_fastrtps_c.h
+[34.961s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h
+[34.962s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/descending_command__rosidl_typesupport_fastrtps_c.h
+[34.963s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__rosidl_typesupport_fastrtps_c.h
+[34.966s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[34.969s] -- Set non-toolchain portion of runtime path of "/home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[34.970s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces
+[34.970s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg
+[34.971s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail
+[34.971s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__type_support.c
+[34.973s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__rosidl_typesupport_introspection_c.h
+[34.974s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
+[34.975s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__rosidl_typesupport_introspection_c.h
+[34.977s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__type_support.c
+[34.978s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/descending_command__type_support.c
+[34.979s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/descending_command__rosidl_typesupport_introspection_c.h
+[34.981s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__type_support.c
+[34.982s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__rosidl_typesupport_introspection_c.h
+[34.984s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__type_support.c
+[34.985s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[34.987s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[34.990s] -- Set non-toolchain portion of runtime path of "/home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""
+[34.992s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[34.996s] -- Set non-toolchain portion of runtime path of "/home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""
+[34.997s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces
+[34.997s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg
+[34.997s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/motor_data.hpp
+[34.999s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/descending_command.hpp
+[35.000s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/limb_command.hpp
+[35.001s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail
+[35.002s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/descending_command__struct.hpp
+[35.003s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__builder.hpp
+[35.005s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__builder.hpp
+[35.006s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__struct.hpp
+[35.007s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__traits.hpp
+[35.008s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/descending_command__type_support.hpp
+[35.010s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__builder.hpp
+[35.011s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__traits.hpp
+[35.012s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__struct.hpp
+[35.013s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__type_support.hpp
+[35.015s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__struct.hpp
+[35.016s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__type_support.hpp
+[35.017s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__traits.hpp
+[35.018s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__struct.hpp
+[35.020s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/descending_command__builder.hpp
+[35.021s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__builder.hpp
+[35.022s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/descending_command__traits.hpp
+[35.024s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__type_support.hpp
+[35.025s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__traits.hpp
+[35.026s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__type_support.hpp
+[35.027s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[35.028s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/motor_command.hpp
+[35.030s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/strain_data.hpp
+[35.031s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces
+[35.031s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg
+[35.032s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail
+[35.032s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp
+[35.034s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__rosidl_typesupport_fastrtps_cpp.hpp
+[35.035s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/descending_command__rosidl_typesupport_fastrtps_cpp.hpp
+[35.037s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__rosidl_typesupport_fastrtps_cpp.hpp
+[35.038s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__rosidl_typesupport_fastrtps_cpp.hpp
+[35.039s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps
+[35.040s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[35.042s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[35.046s] -- Set non-toolchain portion of runtime path of "/home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[35.046s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces
+[35.046s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg
+[35.047s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail
+[35.047s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__rosidl_typesupport_introspection_cpp.hpp
+[35.049s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp
+[35.050s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/descending_command__rosidl_typesupport_introspection_cpp.hpp
+[35.052s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__type_support.cpp
+[35.053s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__type_support.cpp
+[35.054s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__rosidl_typesupport_introspection_cpp.hpp
+[35.056s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/descending_command__type_support.cpp
+[35.057s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__rosidl_typesupport_introspection_cpp.hpp
+[35.058s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__type_support.cpp
+[35.060s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__type_support.cpp
+[35.063s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[35.066s] -- Set non-toolchain portion of runtime path of "/home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[35.067s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[35.070s] -- Set non-toolchain portion of runtime path of "/home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""
+[35.071s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/environment/pythonpath.sh
+[35.071s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[35.072s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info
+[35.072s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[35.073s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[35.075s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[35.076s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[35.077s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces
+[35.078s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[35.079s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so
+[35.081s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so
+[35.083s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
+[35.085s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so
+[35.087s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg
+[35.087s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_motor_data_s.c
+[35.089s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_descending_command.py
+[35.090s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_motor_command.py
+[35.091s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_motor_data.py
+[35.092s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_strain_data.py
+[35.094s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_motor_command_s.c
+[35.095s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_strain_data_s.c
+[35.096s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_limb_command_s.c
+[35.097s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_descending_command_s.c
+[35.099s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_limb_command.py
+[35.100s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/__init__.py
+[35.101s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/__init__.py
+[35.102s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[35.313s] Listing '/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces'...
+[35.314s] Compiling '/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/__init__.py'...
+[35.315s] Listing '/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg'...
+[35.316s] Compiling '/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/__init__.py'...
+[35.317s] Compiling '/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_descending_command.py'...
+[35.317s] Compiling '/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_limb_command.py'...
+[35.318s] Compiling '/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_motor_command.py'...
+[35.319s] Compiling '/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_motor_data.py'...
+[35.320s] Compiling '/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_strain_data.py'...
+[35.343s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so
+[35.346s] -- Set non-toolchain portion of runtime path of "/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[35.348s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so
+[35.352s] -- Set non-toolchain portion of runtime path of "/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[35.355s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so
+[35.359s] -- Set non-toolchain portion of runtime path of "/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so" to ""
+[35.361s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_generator_py.so
+[35.364s] -- Set non-toolchain portion of runtime path of "/home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""
+[35.365s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/MotorCommand.idl
+[35.365s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/MotorData.idl
+[35.366s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/LimbCommand.idl
+[35.366s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/DescendingCommand.idl
+[35.367s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/StrainData.idl
+[35.368s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/MotorCommand.msg
+[35.368s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/MotorData.msg
+[35.369s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/LimbCommand.msg
+[35.370s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/DescendingCommand.msg
+[35.370s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/StrainData.msg
+[35.371s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[35.372s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[35.373s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[35.373s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[35.374s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/environment/path.sh
+[35.374s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/environment/path.dsv
+[35.375s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/local_setup.bash
+[35.375s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/local_setup.sh
+[35.376s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/local_setup.zsh
+[35.376s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/local_setup.dsv
+[35.376s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/package.dsv
+[35.378s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[35.379s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake
+[35.380s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake
+[35.381s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[35.382s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[35.383s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[35.384s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[35.385s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[35.386s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[35.387s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake
+[35.389s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[35.389s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[35.391s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[35.391s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[35.393s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[35.394s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[35.395s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake
+[35.395s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[35.396s] -- Installing: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[35.398s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[35.398s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[35.399s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[35.399s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[35.400s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[35.400s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[35.401s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[35.401s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[35.402s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/package.xml
+[35.411s] Invoked command in '/home/droso1/drosophibot-ROS/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/droso1/drosophibot-ROS/build/interfaces

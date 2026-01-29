@@ -1,0 +1,276 @@
+[0.000000] (-) TimerEvent: {}
+[0.001510] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.002372] (-) JobUnselected: {'identifier': 'motor_control'}
+[0.002544] (-) JobUnselected: {'identifier': 'pubsub'}
+[0.002611] (-) JobUnselected: {'identifier': 'testcpp'}
+[0.002682] (limb_controller) JobQueued: {'identifier': 'limb_controller', 'dependencies': OrderedDict({'interfaces': '/home/droso1/drosophibot-ROS/install/interfaces'})}
+[0.002773] (limb_controller) JobStarted: {'identifier': 'limb_controller'}
+[0.051447] (limb_controller) JobProgress: {'identifier': 'limb_controller', 'progress': 'cmake'}
+[0.054593] (limb_controller) JobProgress: {'identifier': 'limb_controller', 'progress': 'build'}
+[0.057238] (limb_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/droso1/drosophibot-ROS/build/limb_controller', '--', '-j4', '-l4'], 'cwd': '/home/droso1/drosophibot-ROS/build/limb_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'droso1', 'SSH_CLIENT': '192.168.137.1 57969 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/droso1/drosophibot-ROS/install/interfaces/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/droso1', 'OLDPWD': '/home/droso1', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'droso1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/home/droso1/drosophibot-ROS/install/interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/droso1/drosophibot-ROS/build/limb_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 57969 192.168.137.31 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy'}), 'shell': False}
+[0.099244] (-) TimerEvent: {}
+[0.199979] (-) TimerEvent: {}
+[0.301411] (-) TimerEvent: {}
+[0.402012] (-) TimerEvent: {}
+[0.405238] (limb_controller) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/limb_controller.dir/src/limb_controller.cpp.o\x1b[0m\n'}
+[0.502178] (-) TimerEvent: {}
+[0.602822] (-) TimerEvent: {}
+[0.703455] (-) TimerEvent: {}
+[0.804039] (-) TimerEvent: {}
+[0.904664] (-) TimerEvent: {}
+[1.005249] (-) TimerEvent: {}
+[1.105867] (-) TimerEvent: {}
+[1.206443] (-) TimerEvent: {}
+[1.307008] (-) TimerEvent: {}
+[1.407613] (-) TimerEvent: {}
+[1.508184] (-) TimerEvent: {}
+[1.608810] (-) TimerEvent: {}
+[1.709426] (-) TimerEvent: {}
+[1.809989] (-) TimerEvent: {}
+[1.910618] (-) TimerEvent: {}
+[2.011211] (-) TimerEvent: {}
+[2.111893] (-) TimerEvent: {}
+[2.212600] (-) TimerEvent: {}
+[2.313249] (-) TimerEvent: {}
+[2.413926] (-) TimerEvent: {}
+[2.514564] (-) TimerEvent: {}
+[2.615158] (-) TimerEvent: {}
+[2.715822] (-) TimerEvent: {}
+[2.816455] (-) TimerEvent: {}
+[2.917114] (-) TimerEvent: {}
+[3.017767] (-) TimerEvent: {}
+[3.118434] (-) TimerEvent: {}
+[3.219105] (-) TimerEvent: {}
+[3.319778] (-) TimerEvent: {}
+[3.420422] (-) TimerEvent: {}
+[3.521023] (-) TimerEvent: {}
+[3.621679] (-) TimerEvent: {}
+[3.722377] (-) TimerEvent: {}
+[3.822982] (-) TimerEvent: {}
+[3.923628] (-) TimerEvent: {}
+[4.024220] (-) TimerEvent: {}
+[4.124875] (-) TimerEvent: {}
+[4.225455] (-) TimerEvent: {}
+[4.326053] (-) TimerEvent: {}
+[4.426794] (-) TimerEvent: {}
+[4.527433] (-) TimerEvent: {}
+[4.628118] (-) TimerEvent: {}
+[4.728789] (-) TimerEvent: {}
+[4.829419] (-) TimerEvent: {}
+[4.930031] (-) TimerEvent: {}
+[5.030689] (-) TimerEvent: {}
+[5.131289] (-) TimerEvent: {}
+[5.231936] (-) TimerEvent: {}
+[5.332567] (-) TimerEvent: {}
+[5.433178] (-) TimerEvent: {}
+[5.533890] (-) TimerEvent: {}
+[5.634501] (-) TimerEvent: {}
+[5.735151] (-) TimerEvent: {}
+[5.835781] (-) TimerEvent: {}
+[5.936416] (-) TimerEvent: {}
+[6.037004] (-) TimerEvent: {}
+[6.137660] (-) TimerEvent: {}
+[6.238263] (-) TimerEvent: {}
+[6.338909] (-) TimerEvent: {}
+[6.439584] (-) TimerEvent: {}
+[6.540209] (-) TimerEvent: {}
+[6.640845] (-) TimerEvent: {}
+[6.741451] (-) TimerEvent: {}
+[6.842034] (-) TimerEvent: {}
+[6.942707] (-) TimerEvent: {}
+[7.043421] (-) TimerEvent: {}
+[7.144078] (-) TimerEvent: {}
+[7.244759] (-) TimerEvent: {}
+[7.345417] (-) TimerEvent: {}
+[7.446007] (-) TimerEvent: {}
+[7.546650] (-) TimerEvent: {}
+[7.647260] (-) TimerEvent: {}
+[7.747911] (-) TimerEvent: {}
+[7.848573] (-) TimerEvent: {}
+[7.949191] (-) TimerEvent: {}
+[8.049838] (-) TimerEvent: {}
+[8.150439] (-) TimerEvent: {}
+[8.251017] (-) TimerEvent: {}
+[8.351656] (-) TimerEvent: {}
+[8.452258] (-) TimerEvent: {}
+[8.552906] (-) TimerEvent: {}
+[8.653547] (-) TimerEvent: {}
+[8.754148] (-) TimerEvent: {}
+[8.854794] (-) TimerEvent: {}
+[8.955419] (-) TimerEvent: {}
+[9.056005] (-) TimerEvent: {}
+[9.156658] (-) TimerEvent: {}
+[9.257245] (-) TimerEvent: {}
+[9.357905] (-) TimerEvent: {}
+[9.458505] (-) TimerEvent: {}
+[9.559114] (-) TimerEvent: {}
+[9.659768] (-) TimerEvent: {}
+[9.760473] (-) TimerEvent: {}
+[9.861084] (-) TimerEvent: {}
+[9.961726] (-) TimerEvent: {}
+[10.062351] (-) TimerEvent: {}
+[10.162954] (-) TimerEvent: {}
+[10.263591] (-) TimerEvent: {}
+[10.364203] (-) TimerEvent: {}
+[10.464892] (-) TimerEvent: {}
+[10.565610] (-) TimerEvent: {}
+[10.666203] (-) TimerEvent: {}
+[10.766844] (-) TimerEvent: {}
+[10.867435] (-) TimerEvent: {}
+[10.968081] (-) TimerEvent: {}
+[11.068873] (-) TimerEvent: {}
+[11.169527] (-) TimerEvent: {}
+[11.270116] (-) TimerEvent: {}
+[11.370799] (-) TimerEvent: {}
+[11.471421] (-) TimerEvent: {}
+[11.572031] (-) TimerEvent: {}
+[11.672662] (-) TimerEvent: {}
+[11.773375] (-) TimerEvent: {}
+[11.873994] (-) TimerEvent: {}
+[11.974671] (-) TimerEvent: {}
+[12.075272] (-) TimerEvent: {}
+[12.175927] (-) TimerEvent: {}
+[12.276569] (-) TimerEvent: {}
+[12.377160] (-) TimerEvent: {}
+[12.477802] (-) TimerEvent: {}
+[12.578453] (-) TimerEvent: {}
+[12.679030] (-) TimerEvent: {}
+[12.779679] (-) TimerEvent: {}
+[12.880261] (-) TimerEvent: {}
+[12.980949] (-) TimerEvent: {}
+[13.081572] (-) TimerEvent: {}
+[13.182175] (-) TimerEvent: {}
+[13.282827] (-) TimerEvent: {}
+[13.383436] (-) TimerEvent: {}
+[13.484029] (-) TimerEvent: {}
+[13.584670] (-) TimerEvent: {}
+[13.685269] (-) TimerEvent: {}
+[13.785945] (-) TimerEvent: {}
+[13.886601] (-) TimerEvent: {}
+[13.987204] (-) TimerEvent: {}
+[14.087866] (-) TimerEvent: {}
+[14.188456] (-) TimerEvent: {}
+[14.289050] (-) TimerEvent: {}
+[14.389721] (-) TimerEvent: {}
+[14.490411] (-) TimerEvent: {}
+[14.591111] (-) TimerEvent: {}
+[14.692010] (-) TimerEvent: {}
+[14.792652] (-) TimerEvent: {}
+[14.893303] (-) TimerEvent: {}
+[14.993988] (-) TimerEvent: {}
+[15.094643] (-) TimerEvent: {}
+[15.195247] (-) TimerEvent: {}
+[15.295903] (-) TimerEvent: {}
+[15.396488] (-) TimerEvent: {}
+[15.497070] (-) TimerEvent: {}
+[15.597714] (-) TimerEvent: {}
+[15.698307] (-) TimerEvent: {}
+[15.798969] (-) TimerEvent: {}
+[15.899671] (-) TimerEvent: {}
+[16.000278] (-) TimerEvent: {}
+[16.100935] (-) TimerEvent: {}
+[16.201574] (-) TimerEvent: {}
+[16.302195] (-) TimerEvent: {}
+[16.402849] (-) TimerEvent: {}
+[16.503454] (-) TimerEvent: {}
+[16.604040] (-) TimerEvent: {}
+[16.704691] (-) TimerEvent: {}
+[16.805283] (-) TimerEvent: {}
+[16.905922] (-) TimerEvent: {}
+[17.006521] (-) TimerEvent: {}
+[17.107145] (-) TimerEvent: {}
+[17.207810] (-) TimerEvent: {}
+[17.308443] (-) TimerEvent: {}
+[17.409029] (-) TimerEvent: {}
+[17.509671] (-) TimerEvent: {}
+[17.610254] (-) TimerEvent: {}
+[17.710890] (-) TimerEvent: {}
+[17.811535] (-) TimerEvent: {}
+[17.912370] (-) TimerEvent: {}
+[18.012951] (-) TimerEvent: {}
+[18.113598] (-) TimerEvent: {}
+[18.214232] (-) TimerEvent: {}
+[18.315015] (-) TimerEvent: {}
+[18.415663] (-) TimerEvent: {}
+[18.516255] (-) TimerEvent: {}
+[18.616890] (-) TimerEvent: {}
+[18.717493] (-) TimerEvent: {}
+[18.818133] (-) TimerEvent: {}
+[18.918769] (-) TimerEvent: {}
+[19.019405] (-) TimerEvent: {}
+[19.120034] (-) TimerEvent: {}
+[19.220695] (-) TimerEvent: {}
+[19.321297] (-) TimerEvent: {}
+[19.421938] (-) TimerEvent: {}
+[19.522588] (-) TimerEvent: {}
+[19.623191] (-) TimerEvent: {}
+[19.723843] (-) TimerEvent: {}
+[19.824429] (-) TimerEvent: {}
+[19.925021] (-) TimerEvent: {}
+[20.025656] (-) TimerEvent: {}
+[20.126258] (-) TimerEvent: {}
+[20.226921] (-) TimerEvent: {}
+[20.327541] (-) TimerEvent: {}
+[20.428101] (-) TimerEvent: {}
+[20.528765] (-) TimerEvent: {}
+[20.629402] (-) TimerEvent: {}
+[20.729982] (-) TimerEvent: {}
+[20.830628] (-) TimerEvent: {}
+[20.931209] (-) TimerEvent: {}
+[21.031860] (-) TimerEvent: {}
+[21.132457] (-) TimerEvent: {}
+[21.233046] (-) TimerEvent: {}
+[21.333687] (-) TimerEvent: {}
+[21.434260] (-) TimerEvent: {}
+[21.534939] (-) TimerEvent: {}
+[21.635566] (-) TimerEvent: {}
+[21.736164] (-) TimerEvent: {}
+[21.836807] (-) TimerEvent: {}
+[21.937535] (-) TimerEvent: {}
+[22.038493] (-) TimerEvent: {}
+[22.139171] (-) TimerEvent: {}
+[22.239833] (-) TimerEvent: {}
+[22.340452] (-) TimerEvent: {}
+[22.441042] (-) TimerEvent: {}
+[22.541672] (-) TimerEvent: {}
+[22.642265] (-) TimerEvent: {}
+[22.742929] (-) TimerEvent: {}
+[22.820938] (limb_controller) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX executable limb_controller\x1b[0m\n'}
+[22.843200] (-) TimerEvent: {}
+[22.944046] (-) TimerEvent: {}
+[23.044819] (-) TimerEvent: {}
+[23.145861] (-) TimerEvent: {}
+[23.246885] (-) TimerEvent: {}
+[23.347822] (-) TimerEvent: {}
+[23.448568] (-) TimerEvent: {}
+[23.549468] (-) TimerEvent: {}
+[23.650100] (-) TimerEvent: {}
+[23.750797] (-) TimerEvent: {}
+[23.851473] (-) TimerEvent: {}
+[23.952280] (-) TimerEvent: {}
+[24.052965] (-) TimerEvent: {}
+[24.093792] (limb_controller) StdoutLine: {'line': b'[100%] Built target limb_controller\n'}
+[24.144049] (limb_controller) CommandEnded: {'returncode': 0}
+[24.145852] (limb_controller) JobProgress: {'identifier': 'limb_controller', 'progress': 'install'}
+[24.153131] (-) TimerEvent: {}
+[24.188812] (limb_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/droso1/drosophibot-ROS/build/limb_controller'], 'cwd': '/home/droso1/drosophibot-ROS/build/limb_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'droso1', 'SSH_CLIENT': '192.168.137.1 57969 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/droso1/drosophibot-ROS/install/interfaces/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/droso1', 'OLDPWD': '/home/droso1', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'droso1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/home/droso1/drosophibot-ROS/install/interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/droso1/drosophibot-ROS/build/limb_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 57969 192.168.137.31 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy'}), 'shell': False}
+[24.225846] (limb_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.226552] (limb_controller) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/ament_index/resource_index/package_run_dependencies/limb_controller\n'}
+[24.227018] (limb_controller) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/ament_index/resource_index/parent_prefix_path/limb_controller\n'}
+[24.227520] (limb_controller) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/environment/ament_prefix_path.sh\n'}
+[24.227903] (limb_controller) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/environment/ament_prefix_path.dsv\n'}
+[24.228389] (limb_controller) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/environment/path.sh\n'}
+[24.228779] (limb_controller) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/environment/path.dsv\n'}
+[24.229117] (limb_controller) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/local_setup.bash\n'}
+[24.229648] (limb_controller) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/local_setup.sh\n'}
+[24.230125] (limb_controller) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/local_setup.zsh\n'}
+[24.230561] (limb_controller) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/local_setup.dsv\n'}
+[24.231047] (limb_controller) StdoutLine: {'line': b'-- Installing: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/package.dsv\n'}
+[24.231501] (limb_controller) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/ament_index/resource_index/packages/limb_controller\n'}
+[24.231954] (limb_controller) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/cmake/limb_controllerConfig.cmake\n'}
+[24.232446] (limb_controller) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/cmake/limb_controllerConfig-version.cmake\n'}
+[24.232843] (limb_controller) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/package.xml\n'}
+[24.238396] (limb_controller) CommandEnded: {'returncode': 0}
+[24.253299] (-) TimerEvent: {}
+[24.304045] (limb_controller) JobEnded: {'identifier': 'limb_controller', 'rc': 0}
+[24.306933] (-) EventReactorShutdown: {}

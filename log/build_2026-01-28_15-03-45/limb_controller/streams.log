@@ -1,0 +1,47 @@
+[0.064s] Invoking command in '/home/droso1/drosophibot-ROS/build/limb_controller': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/limb_controller -- -j4 -l4
+[0.183s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.141s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.268s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.308s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.356s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.413s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.644s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.651s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.897s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.117s] -- Found interfaces: 0.0.0 (/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake)
+[2.156s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.753s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.753s] -- Configured cppcheck include dirs: /home/droso1/drosophibot-ROS/limb_controller/include
+[2.754s] -- Configured cppcheck exclude dirs and/or files: 
+[2.825s] -- Added test 'lint_cmake' to check CMake code style
+[3.037s] -- Added test 'uncrustify' to check C / C++ code style
+[3.037s] -- Configured uncrustify additional arguments: 
+[3.062s] -- Added test 'xmllint' to check XML markup files
+[3.066s] -- Configuring done (2.9s)
+[3.129s] -- Generating done (0.0s)
+[3.147s] -- Build files have been written to: /home/droso1/drosophibot-ROS/build/limb_controller
+[3.397s] [ 20%] [32mBuilding CXX object CMakeFiles/limb_controller.dir/src/limb_controller.cpp.o[0m
+[3.400s] [ 40%] [32mBuilding CXX object CMakeFiles/limb_controller.dir/src/Network.cpp.o[0m
+[3.401s] [ 60%] [32mBuilding CXX object CMakeFiles/limb_controller.dir/src/cjsontoEigen.cpp.o[0m
+[3.406s] [ 80%] [32mBuilding C object CMakeFiles/limb_controller.dir/src/cJSON.c.o[0m
+[30.343s] [100%] [32m[1mLinking CXX executable limb_controller[0m
+[31.622s] [100%] Built target limb_controller
+[31.674s] Invoked command in '/home/droso1/drosophibot-ROS/build/limb_controller' returned '0': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/limb_controller -- -j4 -l4
+[31.720s] Invoking command in '/home/droso1/drosophibot-ROS/build/limb_controller': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy /usr/bin/cmake --install /home/droso1/drosophibot-ROS/build/limb_controller
+[31.757s] -- Install configuration: ""
+[31.758s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/ament_index/resource_index/package_run_dependencies/limb_controller
+[31.758s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/ament_index/resource_index/parent_prefix_path/limb_controller
+[31.758s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/environment/ament_prefix_path.sh
+[31.759s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/environment/ament_prefix_path.dsv
+[31.759s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/environment/path.sh
+[31.760s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/environment/path.dsv
+[31.760s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/local_setup.bash
+[31.761s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/local_setup.sh
+[31.761s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/local_setup.zsh
+[31.762s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/local_setup.dsv
+[31.762s] -- Installing: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/package.dsv
+[31.762s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/ament_index/resource_index/packages/limb_controller
+[31.763s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/cmake/limb_controllerConfig.cmake
+[31.763s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/cmake/limb_controllerConfig-version.cmake
+[31.764s] -- Up-to-date: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/package.xml
+[31.770s] Invoked command in '/home/droso1/drosophibot-ROS/build/limb_controller' returned '0': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy /usr/bin/cmake --install /home/droso1/drosophibot-ROS/build/limb_controller

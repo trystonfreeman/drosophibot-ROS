@@ -1,0 +1,10 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/limb_controller.dir/src/limb_controller.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/limb_controller.dir/src/Network.cpp.o[0m
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:[m[K In constructor ‘[01m[KLimbController::[01;32m[KLimbController[m[K()[m[K’:
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:17:9:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+   17 |         [01;31m[K500ms[m[K, std::bind(&LimbController::timer_callback, this));
+      |         [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/limb_controller.dir/build.make:76: CMakeFiles/limb_controller.dir/src/limb_controller.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/limb_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

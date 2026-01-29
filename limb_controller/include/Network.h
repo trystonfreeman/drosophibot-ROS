@@ -18,7 +18,7 @@ namespace SNSToolboxCPP {
             DenseSim
         };
         Simulator sim = Simulator::DenseSim;
-
+        Network();
         explicit Network(const std::string& filename);
         VectorXf Forward(const VectorXf& inputs);
         void SetBackend(const std::string &backend);

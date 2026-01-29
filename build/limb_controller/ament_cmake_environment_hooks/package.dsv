@@ -1,0 +1,4 @@
+source;share/limb_controller/local_setup.bash
+source;share/limb_controller/local_setup.dsv
+source;share/limb_controller/local_setup.sh
+source;share/limb_controller/local_setup.zsh

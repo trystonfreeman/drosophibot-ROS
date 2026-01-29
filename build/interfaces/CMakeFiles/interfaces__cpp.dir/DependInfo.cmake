@@ -29,9 +29,14 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/motor_data__struct.hpp" "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_cpp/interfaces/msg/motor_command.hpp"
   "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/motor_data__traits.hpp" "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_cpp/interfaces/msg/motor_command.hpp"
   "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/motor_data__type_support.hpp" "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_cpp/interfaces/msg/motor_command.hpp"
+  "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/strain_data__builder.hpp" "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_cpp/interfaces/msg/motor_command.hpp"
+  "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/strain_data__struct.hpp" "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_cpp/interfaces/msg/motor_command.hpp"
+  "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/strain_data__traits.hpp" "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_cpp/interfaces/msg/motor_command.hpp"
+  "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/strain_data__type_support.hpp" "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_cpp/interfaces/msg/motor_command.hpp"
   "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_cpp/interfaces/msg/limb_command.hpp" "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_cpp/interfaces/msg/motor_command.hpp"
   "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_cpp/interfaces/msg/motor_data.hpp" "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_cpp/interfaces/msg/motor_command.hpp"
   "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_cpp/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp" "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_cpp/interfaces/msg/motor_command.hpp"
+  "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_cpp/interfaces/msg/strain_data.hpp" "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_cpp/interfaces/msg/motor_command.hpp"
   )
 
 

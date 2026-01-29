@@ -1,0 +1,77 @@
+[0.065s] Invoking command in '/home/droso1/drosophibot-ROS/build/limb_controller': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/limb_controller -- -j4 -l4
+[0.186s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.152s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.279s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.319s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.367s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.424s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.657s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.664s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.911s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.130s] -- Found interfaces: 0.0.0 (/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake)
+[2.171s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.591s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.591s] -- Configured cppcheck include dirs: /home/droso1/drosophibot-ROS/limb_controller/include
+[2.592s] -- Configured cppcheck exclude dirs and/or files: 
+[2.595s] -- Added test 'lint_cmake' to check CMake code style
+[2.604s] -- Added test 'uncrustify' to check C / C++ code style
+[2.604s] -- Configured uncrustify additional arguments: 
+[2.606s] -- Added test 'xmllint' to check XML markup files
+[2.610s] -- Configuring done (2.4s)
+[2.671s] -- Generating done (0.0s)
+[2.687s] -- Build files have been written to: /home/droso1/drosophibot-ROS/build/limb_controller
+[2.901s] [ 33%] [32mBuilding CXX object CMakeFiles/limb_controller.dir/src/limb_controller.cpp.o[0m
+[21.029s] [ 66%] [32m[1mLinking CXX executable limb_controller[0m
+[22.137s] /usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o: in function `SNSToolboxCPP::Network::LoadFromFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+[22.138s] Network.cpp:(.text+0xc5c): undefined reference to `cJSON_Parse'
+[22.139s] /usr/bin/ld: Network.cpp:(.text+0xc9c): undefined reference to `cjsontoEigen::cjsontodouble(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.140s] /usr/bin/ld: Network.cpp:(.text+0xcf8): undefined reference to `cjsontoEigen::cjsontobool(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.141s] /usr/bin/ld: Network.cpp:(.text+0xd54): undefined reference to `cjsontoEigen::cjsontobool(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.143s] /usr/bin/ld: Network.cpp:(.text+0xdb0): undefined reference to `cjsontoEigen::cjsontobool(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.144s] /usr/bin/ld: Network.cpp:(.text+0xe0c): undefined reference to `cjsontoEigen::cjsontobool(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.145s] /usr/bin/ld: Network.cpp:(.text+0xe68): undefined reference to `cjsontoEigen::cjsontobool(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.146s] /usr/bin/ld: Network.cpp:(.text+0xec4): undefined reference to `cjsontoEigen::cjsontoint(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.147s] /usr/bin/ld: Network.cpp:(.text+0xf20): undefined reference to `cjsontoEigen::cjsontoint(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.148s] /usr/bin/ld: Network.cpp:(.text+0xf7c): undefined reference to `cjsontoEigen::cjsontoint(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.149s] /usr/bin/ld: Network.cpp:(.text+0xfd8): undefined reference to `cjsontoEigen::cjsontoint(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.150s] /usr/bin/ld: Network.cpp:(.text+0x1034): undefined reference to `cjsontoEigen::cjsontoint(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.151s] /usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o:Network.cpp:(.text+0x1090): more undefined references to `cjsontoEigen::cjsontoint(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)' follow
+[22.152s] /usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o: in function `SNSToolboxCPP::Network::LoadFromFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+[22.153s] Network.cpp:(.text+0x10f4): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.154s] /usr/bin/ld: Network.cpp:(.text+0x1164): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.155s] /usr/bin/ld: Network.cpp:(.text+0x11d4): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.157s] /usr/bin/ld: Network.cpp:(.text+0x1244): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.158s] /usr/bin/ld: Network.cpp:(.text+0x12b4): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.159s] /usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o:Network.cpp:(.text+0x1324): more undefined references to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)' follow
+[22.160s] /usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o: in function `SNSToolboxCPP::Network::LoadFromFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+[22.161s] Network.cpp:(.text+0x1474): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.162s] /usr/bin/ld: Network.cpp:(.text+0x14e4): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.163s] /usr/bin/ld: Network.cpp:(.text+0x1554): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.164s] /usr/bin/ld: Network.cpp:(.text+0x15c4): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.164s] /usr/bin/ld: Network.cpp:(.text+0x1634): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.165s] /usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o:Network.cpp:(.text+0x16a4): more undefined references to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)' follow
+[22.165s] /usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o: in function `SNSToolboxCPP::Network::LoadFromFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+[22.165s] Network.cpp:(.text+0x1728): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.166s] /usr/bin/ld: Network.cpp:(.text+0x1798): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.166s] /usr/bin/ld: Network.cpp:(.text+0x1808): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.166s] /usr/bin/ld: Network.cpp:(.text+0x1878): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.167s] /usr/bin/ld: Network.cpp:(.text+0x18e8): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.167s] /usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o:Network.cpp:(.text+0x1958): more undefined references to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)' follow
+[22.167s] /usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o: in function `SNSToolboxCPP::Network::LoadFromFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+[22.168s] Network.cpp:(.text+0x1bf8): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.168s] /usr/bin/ld: Network.cpp:(.text+0x1c68): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.168s] /usr/bin/ld: Network.cpp:(.text+0x1cd8): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.169s] /usr/bin/ld: Network.cpp:(.text+0x1d48): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.169s] /usr/bin/ld: Network.cpp:(.text+0x1db8): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.169s] /usr/bin/ld: Network.cpp:(.text+0x1e28): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.169s] /usr/bin/ld: Network.cpp:(.text+0x1eac): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.170s] /usr/bin/ld: Network.cpp:(.text+0x1f30): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.170s] /usr/bin/ld: Network.cpp:(.text+0x1fb4): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.170s] /usr/bin/ld: Network.cpp:(.text+0x2024): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.171s] /usr/bin/ld: Network.cpp:(.text+0x2094): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+[22.171s] /usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o:Network.cpp:(.text+0x2104): more undefined references to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)' follow
+[22.269s] collect2: error: ld returned 1 exit status
+[22.275s] gmake[2]: *** [CMakeFiles/limb_controller.dir/build.make:187: limb_controller] Error 1
+[22.276s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/limb_controller.dir/all] Error 2
+[22.277s] gmake: *** [Makefile:146: all] Error 2
+[22.286s] Invoked command in '/home/droso1/drosophibot-ROS/build/limb_controller' returned '2': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/limb_controller -- -j4 -l4

@@ -1,0 +1,4 @@
+Invoking command in '/home/droso1/drosophibot-ROS/build/pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/pubsub -- -j4 -l4
+Invoked command in '/home/droso1/drosophibot-ROS/build/pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/pubsub -- -j4 -l4
+Invoking command in '/home/droso1/drosophibot-ROS/build/pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/droso1/drosophibot-ROS/build/pubsub
+Invoked command in '/home/droso1/drosophibot-ROS/build/pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/droso1/drosophibot-ROS/build/pubsub

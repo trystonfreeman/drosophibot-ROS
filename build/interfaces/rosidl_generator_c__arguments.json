@@ -6,13 +6,15 @@
     "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces:msg/MotorCommand.idl",
     "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces:msg/MotorData.idl",
     "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces:msg/LimbCommand.idl",
-    "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces:msg/DescendingCommand.idl"
+    "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces:msg/DescendingCommand.idl",
+    "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces:msg/StrainData.idl"
   ],
   "ros_interface_files": [
     "/home/droso1/drosophibot-ROS/interfaces/msg/MotorCommand.msg",
     "/home/droso1/drosophibot-ROS/interfaces/msg/MotorData.msg",
     "/home/droso1/drosophibot-ROS/interfaces/msg/LimbCommand.msg",
-    "/home/droso1/drosophibot-ROS/interfaces/msg/DescendingCommand.msg"
+    "/home/droso1/drosophibot-ROS/interfaces/msg/DescendingCommand.msg",
+    "/home/droso1/drosophibot-ROS/interfaces/msg/StrainData.msg"
   ],
   "target_dependencies": [
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
@@ -37,12 +39,14 @@
     "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces/msg/MotorCommand.idl",
     "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces/msg/MotorData.idl",
     "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces/msg/LimbCommand.idl",
-    "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces/msg/DescendingCommand.idl"
+    "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces/msg/DescendingCommand.idl",
+    "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_adapter/interfaces/msg/StrainData.idl"
   ],
   "type_description_tuples": [
     "msg/MotorCommand.idl:/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_type_description/interfaces/msg/MotorCommand.json",
     "msg/MotorData.idl:/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_type_description/interfaces/msg/MotorData.json",
     "msg/LimbCommand.idl:/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_type_description/interfaces/msg/LimbCommand.json",
-    "msg/DescendingCommand.idl:/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_type_description/interfaces/msg/DescendingCommand.json"
+    "msg/DescendingCommand.idl:/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_type_description/interfaces/msg/DescendingCommand.json",
+    "msg/StrainData.idl:/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_type_description/interfaces/msg/StrainData.json"
   ]
 }

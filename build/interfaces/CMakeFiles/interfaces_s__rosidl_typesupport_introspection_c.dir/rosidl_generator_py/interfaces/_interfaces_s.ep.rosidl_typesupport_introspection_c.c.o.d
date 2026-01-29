@@ -240,4 +240,7 @@ CMakeFiles/interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator
  /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/limb_command__functions.h \
  /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/descending_command__type_support.h \
  /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/descending_command__struct.h \
- /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/descending_command__functions.h
+ /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/descending_command__functions.h \
+ /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/strain_data__type_support.h \
+ /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/strain_data__struct.h \
+ /home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_c/interfaces/msg/detail/strain_data__functions.h
