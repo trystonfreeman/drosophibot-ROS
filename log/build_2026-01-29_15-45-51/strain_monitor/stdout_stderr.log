@@ -1,0 +1,32 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/strain_monitor.dir/src/strain_monitor.cpp.o[0m
+[01m[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:19:2:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #DEFINE
+   19 | #[01;31m[KDEFINE[m[K NUM_SAMPLES 20
+      |  [01;31m[K^~~~~~[m[K
+[01m[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:20:2:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #DEFINE
+   20 | #[01;31m[KDEFINE[m[K NUM_GAUGES  36
+      |  [01;31m[K^~~~~~[m[K
+[01m[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:22:6:[m[K [01;31m[Kerror: [m[Kstructured binding declaration cannot have type ‘[01m[Kfloat[m[K’
+   22 | float[01;31m[K[NUM_GAUGES][m[K zero_data = {};
+      |      [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:22:6:[m[K [01;36m[Knote: [m[Ktype must be cv-qualified ‘[01m[Kauto[m[K’ or reference to cv-qualified ‘[01m[Kauto[m[K’
+[01m[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:22:19:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kzero_data[m[K’
+   22 | float[NUM_GAUGES] [01;31m[Kzero_data[m[K = {};
+      |                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:22:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kzero_data[m[K’
+[01m[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:80:24:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} to ‘[01m[Kconst void*[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   80 |     write(serial_port, [01;31m[Kinit_msg[m[K, sizeof(init_msg));
+      |                        [01;31m[K^~~~~~~~[m[K
+      |                        [01;31m[K|[m[K
+      |                        [01;31m[Kuint8_t {aka unsigned char}[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/bits/sigstksz.h:24[m[K,
+                 from [01m[K/usr/include/signal.h:328[m[K,
+                 from [01m[K/usr/include/c++/13/csignal:42[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:168[m[K,
+                 from [01m[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:6[m[K:
+[01m[K/usr/include/unistd.h:378:45:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kssize_t[01;32m[K write[m[K(int, const void*, size_t)[m[K’
+  378 | extern ssize_t write (int __fd, [01;36m[Kconst void *__buf[m[K, size_t __n) __wur
+      |                                 [01;36m[K~~~~~~~~~~~~^~~~~[m[K
+gmake[2]: *** [CMakeFiles/strain_monitor.dir/build.make:76: CMakeFiles/strain_monitor.dir/src/strain_monitor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/strain_monitor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

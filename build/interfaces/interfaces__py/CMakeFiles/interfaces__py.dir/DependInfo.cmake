@@ -23,6 +23,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_py/interfaces/msg/_motor_command_s.c" "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_py/interfaces/msg/_motor_data.py" "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_py/interfaces/msg/_motor_data_s.c" "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_py/interfaces/msg/_strain_data.py" "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_py/interfaces/msg/_strain_data_s.c" "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

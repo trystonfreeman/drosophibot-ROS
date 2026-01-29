@@ -1,0 +1,25 @@
+[0.048s] Invoking command in '/home/droso1/drosophibot-ROS/build/limb_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/droso1/drosophibot-ROS/limb_controller -DCMAKE_INSTALL_PREFIX=/home/droso1/drosophibot-ROS/install/limb_controller
+[0.104s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.069s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.198s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.237s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.286s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.343s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.577s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.583s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.830s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.049s] -- Found interfaces: 0.0.0 (/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake)
+[2.090s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.496s] [31mCMake Error at CMakeLists.txt:31 (target_include_directories):
+[2.496s]   target_include_directories called with invalid arguments
+[2.497s] 
+[2.497s] [0m
+[2.515s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.516s] -- Configured cppcheck include dirs: 
+[2.516s] -- Configured cppcheck exclude dirs and/or files: 
+[2.522s] -- Added test 'lint_cmake' to check CMake code style
+[2.532s] -- Added test 'uncrustify' to check C / C++ code style
+[2.532s] -- Configured uncrustify additional arguments: 
+[2.535s] -- Added test 'xmllint' to check XML markup files
+[2.543s] -- Configuring incomplete, errors occurred!
+[2.574s] Invoked command in '/home/droso1/drosophibot-ROS/build/limb_controller' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/droso1/drosophibot-ROS/limb_controller -DCMAKE_INSTALL_PREFIX=/home/droso1/drosophibot-ROS/install/limb_controller

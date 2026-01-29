@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_py/interfaces/msg/_motor_command_s.c"
   "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_py/interfaces/msg/_motor_data.py"
   "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_py/interfaces/msg/_motor_data_s.c"
+  "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_py/interfaces/msg/_strain_data.py"
+  "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_py/interfaces/msg/_strain_data_s.c"
   "CMakeFiles/interfaces__py"
 )
 

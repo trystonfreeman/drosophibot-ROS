@@ -1,0 +1,52 @@
+/usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o: in function `SNSToolboxCPP::Network::LoadFromFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+Network.cpp:(.text+0xc5c): undefined reference to `cJSON_Parse'
+/usr/bin/ld: Network.cpp:(.text+0xc9c): undefined reference to `cjsontoEigen::cjsontodouble(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0xcf8): undefined reference to `cjsontoEigen::cjsontobool(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0xd54): undefined reference to `cjsontoEigen::cjsontobool(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0xdb0): undefined reference to `cjsontoEigen::cjsontobool(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0xe0c): undefined reference to `cjsontoEigen::cjsontobool(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0xe68): undefined reference to `cjsontoEigen::cjsontobool(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0xec4): undefined reference to `cjsontoEigen::cjsontoint(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0xf20): undefined reference to `cjsontoEigen::cjsontoint(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0xf7c): undefined reference to `cjsontoEigen::cjsontoint(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0xfd8): undefined reference to `cjsontoEigen::cjsontoint(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0x1034): undefined reference to `cjsontoEigen::cjsontoint(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o:Network.cpp:(.text+0x1090): more undefined references to `cjsontoEigen::cjsontoint(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)' follow
+/usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o: in function `SNSToolboxCPP::Network::LoadFromFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+Network.cpp:(.text+0x10f4): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0x1164): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0x11d4): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0x1244): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0x12b4): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o:Network.cpp:(.text+0x1324): more undefined references to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)' follow
+/usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o: in function `SNSToolboxCPP::Network::LoadFromFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+Network.cpp:(.text+0x1474): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0x14e4): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0x1554): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0x15c4): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0x1634): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o:Network.cpp:(.text+0x16a4): more undefined references to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)' follow
+/usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o: in function `SNSToolboxCPP::Network::LoadFromFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+Network.cpp:(.text+0x1728): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0x1798): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0x1808): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0x1878): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0x18e8): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o:Network.cpp:(.text+0x1958): more undefined references to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)' follow
+/usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o: in function `SNSToolboxCPP::Network::LoadFromFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+Network.cpp:(.text+0x1bf8): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0x1c68): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0x1cd8): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0x1d48): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0x1db8): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0x1e28): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0x1eac): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0x1f30): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0x1fb4): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0x2024): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: Network.cpp:(.text+0x2094): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+/usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o:Network.cpp:(.text+0x2104): more undefined references to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)' follow
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/limb_controller.dir/build.make:187: limb_controller] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/limb_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

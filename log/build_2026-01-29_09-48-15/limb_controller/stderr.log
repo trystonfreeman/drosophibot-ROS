@@ -1,0 +1,7 @@
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/src/Network.cpp:3:5:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[KSNSToolboxCPP::Network::[01;32m[KNetwork[m[K()[m[K’ outside of class is not definition [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+    3 |     [01;31m[KNetwork[m[K::Network();
+      |     [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/limb_controller.dir/build.make:90: CMakeFiles/limb_controller.dir/src/Network.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/limb_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

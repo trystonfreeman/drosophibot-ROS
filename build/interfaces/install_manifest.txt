@@ -3,9 +3,11 @@
 /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/MotorData.json
 /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/LimbCommand.json
 /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/DescendingCommand.json
+/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/StrainData.json
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/descending_command.h
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/motor_data.h
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__type_support.c
+/home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__functions.c
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__struct.h
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__type_support.h
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__functions.c
@@ -16,6 +18,8 @@
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/descending_command__struct.h
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/descending_command__type_support.c
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__type_support.h
+/home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__functions.h
+/home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__description.c
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__type_support.c
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__functions.h
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__description.c
@@ -24,7 +28,10 @@
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__type_support.h
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/descending_command__description.c
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/descending_command__type_support.h
+/home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__struct.h
+/home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__type_support.c
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__functions.h
+/home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__type_support.h
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__description.c
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__functions.c
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/descending_command__functions.h
@@ -32,6 +39,7 @@
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/motor_command.h
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/limb_command.h
+/home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/strain_data.h
 /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/environment/library_path.sh
 /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/environment/library_path.dsv
 /home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
@@ -40,6 +48,7 @@
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__rosidl_typesupport_fastrtps_c.h
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/descending_command__rosidl_typesupport_fastrtps_c.h
+/home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__rosidl_typesupport_fastrtps_c.h
 /home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__type_support.c
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__rosidl_typesupport_introspection_c.h
@@ -49,6 +58,8 @@
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/descending_command__type_support.c
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/descending_command__rosidl_typesupport_introspection_c.h
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__type_support.c
+/home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__rosidl_typesupport_introspection_c.h
+/home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__type_support.c
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
 /home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
 /home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
@@ -58,8 +69,10 @@
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/descending_command__struct.hpp
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__builder.hpp
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__builder.hpp
+/home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__struct.hpp
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__traits.hpp
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/descending_command__type_support.hpp
+/home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__builder.hpp
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__traits.hpp
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__struct.hpp
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__type_support.hpp
@@ -71,9 +84,13 @@
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__builder.hpp
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/descending_command__traits.hpp
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__type_support.hpp
+/home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__traits.hpp
+/home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__type_support.hpp
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/motor_command.hpp
+/home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/strain_data.hpp
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp
+/home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__rosidl_typesupport_fastrtps_cpp.hpp
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/descending_command__rosidl_typesupport_fastrtps_cpp.hpp
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__rosidl_typesupport_fastrtps_cpp.hpp
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__rosidl_typesupport_fastrtps_cpp.hpp
@@ -84,8 +101,10 @@
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/descending_command__rosidl_typesupport_introspection_cpp.hpp
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__type_support.cpp
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__type_support.cpp
+/home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__rosidl_typesupport_introspection_cpp.hpp
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/descending_command__type_support.cpp
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__rosidl_typesupport_introspection_cpp.hpp
+/home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/strain_data__type_support.cpp
 /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__type_support.cpp
 /home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
 /home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
@@ -104,7 +123,9 @@
 /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_descending_command.py
 /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_motor_command.py
 /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_motor_data.py
+/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_strain_data.py
 /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_motor_command_s.c
+/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_strain_data_s.c
 /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_limb_command_s.c
 /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_descending_command_s.c
 /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_limb_command.py
@@ -119,10 +140,12 @@
 /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/MotorData.idl
 /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/LimbCommand.idl
 /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/DescendingCommand.idl
+/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/StrainData.idl
 /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/MotorCommand.msg
 /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/MotorData.msg
 /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/LimbCommand.msg
 /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/DescendingCommand.msg
+/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/StrainData.msg
 /home/droso1/drosophibot-ROS/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
 /home/droso1/drosophibot-ROS/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
 /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/environment/ament_prefix_path.sh

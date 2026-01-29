@@ -1,0 +1,64 @@
+[0.048s] Invoking command in '/home/droso1/drosophibot-ROS/build/limb_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/limb_controller -- -j4 -l4
+[0.335s] [ 33%] [32mBuilding CXX object CMakeFiles/limb_controller.dir/src/limb_controller.cpp.o[0m
+[0.337s] [ 66%] [32mBuilding CXX object CMakeFiles/limb_controller.dir/src/Network.cpp.o[0m
+[8.068s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/Network.cpp:[m[K In member function ‘[01m[KEigen::ArrayXXf SNSToolboxCPP::Network::[01;32m[KForwardSparse[m[K(Eigen::VectorXf)[m[K’:
+[8.069s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/Network.cpp:166:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinputs[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[8.070s]   166 |     ArrayXXf Network::ForwardSparse([01;35m[KVectorXf inputs[m[K) {
+[8.070s]       |                                     [01;35m[K~~~~~~~~~^~~~~~[m[K
+[10.971s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:27:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kinterfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[10.972s]    27 |     rclcpp::Publisher<[01;31m[Kinterfaces[m[K::msg::LimbCommand>::SharedPtr publisher_;
+[10.972s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[10.973s]       |                       [32m[Krcl_interfaces[m[K
+[10.974s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:27:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[10.974s]    27 |     rclcpp::Publisher<interfaces::msg::LimbCommand[01;31m[K>[m[K::SharedPtr publisher_;
+[10.975s]       |                                                   [01;31m[K^[m[K
+[10.975s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:27:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[10.976s]    27 |     rclcpp::Publisher<interfaces::msg::LimbCommand>::[01;31m[KSharedPtr[m[K publisher_;
+[10.976s]       |                                                      [01;31m[K^~~~~~~~~[m[K
+[10.977s]       |                                                               [32m[K;[m[K
+[10.979s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:27:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[10.980s]    27 |     rclcpp::Publisher<interfaces::msg::LimbCommand>::SharedPtr [01;31m[Kpublisher_[m[K;
+[10.981s]       |                                                                [01;31m[K^~~~~~~~~~[m[K
+[10.982s]       |                                                                [32m[Krmw_publisher_t[m[K
+[11.012s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:[m[K In constructor ‘[01m[KLimbController::[01;32m[KLimbController[m[K()[m[K’:
+[11.012s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:14:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[11.013s]    14 |         [01;31m[Kpublisher_[m[K = this->create_publisher<interfaces::msg::LimbCommand>("LimbCommands", 10);
+[11.014s]       |         [01;31m[K^~~~~~~~~~[m[K
+[11.014s]       |         [32m[Krmw_publisher_t[m[K
+[11.043s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:14:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kinterfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[11.043s]    14 |         publisher_ = this->create_publisher<[01;31m[Kinterfaces[m[K::msg::LimbCommand>("LimbCommands", 10);
+[11.044s]       |                                             [01;31m[K^~~~~~~~~~[m[K
+[11.045s]       |                                             [32m[Krcl_interfaces[m[K
+[11.045s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:14:28:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[11.046s]    14 |         publisher_ = this->[01;31m[Kcreate_publisher<interfaces::msg::LimbCommand>[m[K("LimbCommands", 10);
+[11.047s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.047s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:14:74:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KLimbController::create_publisher<<expression error> >(const char [13], int)[m[K’
+[11.048s]    14 |         publisher_ = [01;31m[Kthis->create_publisher<interfaces::msg::LimbCommand>("LimbCommands", 10)[m[K;
+[11.049s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[11.049s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[11.050s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[11.050s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+[11.051s]                  from [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:6[m[K:
+[11.052s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::[01;32m[Kcreate_publisher[m[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[11.052s]   197 |   [01;36m[Kcreate_publisher[m[K(
+[11.053s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[11.053s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.054s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:14:74:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[11.055s]    14 |         publisher_ = [01;31m[Kthis->create_publisher<interfaces::msg::LimbCommand>("LimbCommands", 10)[m[K;
+[11.055s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[11.056s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:16:9:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+[11.056s]    16 |         [01;31m[K500ms[m[K, std::bind(&LimbController::timer_callback, this));
+[11.057s]       |         [01;31m[K^~~~~[m[K
+[11.062s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:[m[K In member function ‘[01m[Kvoid LimbController::[01;32m[Ktimer_callback[m[K()[m[K’:
+[11.062s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:22:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kinterfaces[m[K’ has not been declared
+[11.063s]    22 |         auto message = [01;31m[Kinterfaces[m[K::msg::LimbCommand();
+[11.063s]       |                        [01;31m[K^~~~~~~~~~[m[K
+[11.092s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:24:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[11.093s]    24 |         [01;31m[Kpublisher_[m[K->publish(message);
+[11.093s]       |         [01;31m[K^~~~~~~~~~[m[K
+[11.094s]       |         [32m[Krmw_publisher_t[m[K
+[13.828s] gmake[2]: *** [CMakeFiles/limb_controller.dir/build.make:76: CMakeFiles/limb_controller.dir/src/limb_controller.cpp.o] Error 1
+[13.828s] gmake[2]: *** Waiting for unfinished jobs....
+[20.349s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/limb_controller.dir/all] Error 2
+[20.349s] gmake: *** [Makefile:146: all] Error 2
+[20.359s] Invoked command in '/home/droso1/drosophibot-ROS/build/limb_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/limb_controller -- -j4 -l4

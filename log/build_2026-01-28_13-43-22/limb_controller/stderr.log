@@ -1,0 +1,17 @@
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:1:9:[m[K [01;35m[Kwarning: [m[K#pragma once in main file
+    1 | #pragma [01;35m[Konce[m[K
+      |         [01;35m[K^~~~[m[K
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:[m[K In static member function ‘[01m[Kstatic Eigen::ArrayXXf cjsontoEigen::[01;32m[KcjsontoArrayXXf[m[K(cJSON*, std::string)[m[K’:
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:38:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcjson[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   38 | ArrayXXf cjsontoEigen::cjsontoArrayXXf([01;35m[KcJSON* cjson[m[K,std::string name) {
+      |                                        [01;35m[K~~~~~~~^~~~~[m[K
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:38:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   38 | ArrayXXf cjsontoEigen::cjsontoArrayXXf(cJSON* cjson,[01;35m[Kstd::string name[m[K) {
+      |                                                     [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:[m[K In static member function ‘[01m[Kstatic Eigen::VectorXf cjsontoEigen::[01;32m[KcjsontoVectorXf[m[K(cJSON*, std::string)[m[K’:
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:44:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcjson[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   44 | VectorXf cjsontoEigen::cjsontoVectorXf([01;35m[KcJSON* cjson[m[K,std::string name) {
+      |                                        [01;35m[K~~~~~~~^~~~~[m[K
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:44:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   44 | VectorXf cjsontoEigen::cjsontoVectorXf(cJSON* cjson,[01;35m[Kstd::string name[m[K) {
+      |                                                     [01;35m[K~~~~~~~~~~~~^~~~[m[K

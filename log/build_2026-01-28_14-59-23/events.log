@@ -1,0 +1,318 @@
+[0.000000] (-) TimerEvent: {}
+[0.000850] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.001657] (-) JobUnselected: {'identifier': 'motor_control'}
+[0.001744] (-) JobUnselected: {'identifier': 'pubsub'}
+[0.001808] (-) JobUnselected: {'identifier': 'testcpp'}
+[0.001876] (limb_controller) JobQueued: {'identifier': 'limb_controller', 'dependencies': OrderedDict({'interfaces': '/home/droso1/drosophibot-ROS/install/interfaces'})}
+[0.001964] (limb_controller) JobStarted: {'identifier': 'limb_controller'}
+[0.051767] (limb_controller) JobProgress: {'identifier': 'limb_controller', 'progress': 'cmake'}
+[0.054932] (limb_controller) JobProgress: {'identifier': 'limb_controller', 'progress': 'build'}
+[0.057817] (limb_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/droso1/drosophibot-ROS/build/limb_controller', '--', '-j4', '-l4'], 'cwd': '/home/droso1/drosophibot-ROS/build/limb_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'droso1', 'SSH_CLIENT': '192.168.137.1 57969 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/droso1/drosophibot-ROS/install/interfaces/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/droso1', 'OLDPWD': '/home/droso1', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'droso1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/home/droso1/drosophibot-ROS/install/interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/droso1/drosophibot-ROS/build/limb_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 57969 192.168.137.31 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy'}), 'shell': False}
+[0.099253] (-) TimerEvent: {}
+[0.199943] (-) TimerEvent: {}
+[0.301316] (-) TimerEvent: {}
+[0.401985] (-) TimerEvent: {}
+[0.412706] (limb_controller) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/limb_controller.dir/src/limb_controller.cpp.o\x1b[0m\n'}
+[0.415998] (limb_controller) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/limb_controller.dir/src/cjsontoEigen.cpp.o\x1b[0m\n'}
+[0.502183] (-) TimerEvent: {}
+[0.602813] (-) TimerEvent: {}
+[0.703758] (-) TimerEvent: {}
+[0.804334] (-) TimerEvent: {}
+[0.904972] (-) TimerEvent: {}
+[1.005617] (-) TimerEvent: {}
+[1.106214] (-) TimerEvent: {}
+[1.206873] (-) TimerEvent: {}
+[1.307496] (-) TimerEvent: {}
+[1.408171] (-) TimerEvent: {}
+[1.508953] (-) TimerEvent: {}
+[1.609648] (-) TimerEvent: {}
+[1.710310] (-) TimerEvent: {}
+[1.810999] (-) TimerEvent: {}
+[1.911654] (-) TimerEvent: {}
+[2.012287] (-) TimerEvent: {}
+[2.112995] (-) TimerEvent: {}
+[2.213817] (-) TimerEvent: {}
+[2.314512] (-) TimerEvent: {}
+[2.415212] (-) TimerEvent: {}
+[2.515938] (-) TimerEvent: {}
+[2.616671] (-) TimerEvent: {}
+[2.717344] (-) TimerEvent: {}
+[2.818105] (-) TimerEvent: {}
+[2.918910] (-) TimerEvent: {}
+[3.019640] (-) TimerEvent: {}
+[3.120315] (-) TimerEvent: {}
+[3.221150] (-) TimerEvent: {}
+[3.321872] (-) TimerEvent: {}
+[3.422636] (-) TimerEvent: {}
+[3.523353] (-) TimerEvent: {}
+[3.624263] (-) TimerEvent: {}
+[3.725137] (-) TimerEvent: {}
+[3.825982] (-) TimerEvent: {}
+[3.926814] (-) TimerEvent: {}
+[4.027772] (-) TimerEvent: {}
+[4.128454] (-) TimerEvent: {}
+[4.229171] (-) TimerEvent: {}
+[4.329910] (-) TimerEvent: {}
+[4.430681] (-) TimerEvent: {}
+[4.531439] (-) TimerEvent: {}
+[4.632164] (-) TimerEvent: {}
+[4.733046] (-) TimerEvent: {}
+[4.833829] (-) TimerEvent: {}
+[4.934601] (-) TimerEvent: {}
+[5.035324] (-) TimerEvent: {}
+[5.136099] (-) TimerEvent: {}
+[5.236868] (-) TimerEvent: {}
+[5.337636] (-) TimerEvent: {}
+[5.438345] (-) TimerEvent: {}
+[5.539097] (-) TimerEvent: {}
+[5.639803] (-) TimerEvent: {}
+[5.740618] (-) TimerEvent: {}
+[5.841393] (-) TimerEvent: {}
+[5.942113] (-) TimerEvent: {}
+[6.042907] (-) TimerEvent: {}
+[6.143660] (-) TimerEvent: {}
+[6.244336] (-) TimerEvent: {}
+[6.345062] (-) TimerEvent: {}
+[6.445875] (-) TimerEvent: {}
+[6.546679] (-) TimerEvent: {}
+[6.647367] (-) TimerEvent: {}
+[6.748112] (-) TimerEvent: {}
+[6.848823] (-) TimerEvent: {}
+[6.949562] (-) TimerEvent: {}
+[7.050265] (-) TimerEvent: {}
+[7.151041] (-) TimerEvent: {}
+[7.251925] (-) TimerEvent: {}
+[7.352684] (-) TimerEvent: {}
+[7.453502] (-) TimerEvent: {}
+[7.554249] (-) TimerEvent: {}
+[7.560903] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:9:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers\x07-Wignored-qualifiers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.562739] (limb_controller) StderrLine: {'line': b'    9 | \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K double cjsontoEigen::cjsontodouble(cJSON* cjson,std::string name) {\n'}
+[7.563382] (limb_controller) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.564226] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:9:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kconst double cjsontoEigen::\x1b[01;32m\x1b[Kcjsontodouble\x1b[m\x1b[K(cJSON*, std::string)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.565415] (limb_controller) StderrLine: {'line': b'    9 | const double \x1b[01;31m\x1b[KcjsontoEigen\x1b[m\x1b[K::cjsontodouble(cJSON* cjson,std::string name) {\n'}
+[7.566199] (limb_controller) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.566769] (limb_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:5\x1b[m\x1b[K:\n'}
+[7.567292] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/cjsontoEigen.h:11:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Kstatic double cjsontoEigen::\x1b[01;32m\x1b[Kcjsontodouble\x1b[m\x1b[K(cJSON*, std::string)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.567854] (limb_controller) StderrLine: {'line': b'   11 |     static double \x1b[01;36m\x1b[Kcjsontodouble\x1b[m\x1b[K(cJSON *cjson,std::string name);\n'}
+[7.568387] (limb_controller) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.569023] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/cjsontoEigen.h:9:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass cjsontoEigen\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[7.569561] (limb_controller) StderrLine: {'line': b'    9 | class \x1b[01;36m\x1b[KcjsontoEigen\x1b[m\x1b[K {\n'}
+[7.570124] (limb_controller) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.570706] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:18:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers\x07-Wignored-qualifiers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.571279] (limb_controller) StderrLine: {'line': b'   18 | \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K int cjsontoEigen::cjsontoint(cJSON* cjson,std::string name) {\n'}
+[7.571878] (limb_controller) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.572400] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:18:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kconst int cjsontoEigen::\x1b[01;32m\x1b[Kcjsontoint\x1b[m\x1b[K(cJSON*, std::string)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.572992] (limb_controller) StderrLine: {'line': b'   18 | const int \x1b[01;31m\x1b[KcjsontoEigen\x1b[m\x1b[K::cjsontoint(cJSON* cjson,std::string name) {\n'}
+[7.573453] (limb_controller) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.574029] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/cjsontoEigen.h:12:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Kstatic int cjsontoEigen::\x1b[01;32m\x1b[Kcjsontoint\x1b[m\x1b[K(cJSON*, std::string)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.574509] (limb_controller) StderrLine: {'line': b'   12 |     static int \x1b[01;36m\x1b[Kcjsontoint\x1b[m\x1b[K(cJSON* cjson,std::string name);\n'}
+[7.575108] (limb_controller) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.575615] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/cjsontoEigen.h:9:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass cjsontoEigen\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[7.576181] (limb_controller) StderrLine: {'line': b'    9 | class \x1b[01;36m\x1b[KcjsontoEigen\x1b[m\x1b[K {\n'}
+[7.576718] (limb_controller) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.577264] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:28:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers\x07-Wignored-qualifiers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.577950] (limb_controller) StderrLine: {'line': b'   28 | \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool cjsontoEigen::cjsontobool(cJSON* cjson,std::string name) {\n'}
+[7.578482] (limb_controller) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.579060] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:28:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kconst bool cjsontoEigen::\x1b[01;32m\x1b[Kcjsontobool\x1b[m\x1b[K(cJSON*, std::string)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.579576] (limb_controller) StderrLine: {'line': b'   28 | const bool \x1b[01;31m\x1b[KcjsontoEigen\x1b[m\x1b[K::cjsontobool(cJSON* cjson,std::string name) {\n'}
+[7.580164] (limb_controller) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.580695] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/cjsontoEigen.h:13:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Kstatic bool cjsontoEigen::\x1b[01;32m\x1b[Kcjsontobool\x1b[m\x1b[K(cJSON*, std::string)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.581289] (limb_controller) StderrLine: {'line': b'   13 |     static bool \x1b[01;36m\x1b[Kcjsontobool\x1b[m\x1b[K(cJSON* cjson,std::string name);\n'}
+[7.581833] (limb_controller) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.582335] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/cjsontoEigen.h:9:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass cjsontoEigen\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[7.582947] (limb_controller) StderrLine: {'line': b'    9 | class \x1b[01;36m\x1b[KcjsontoEigen\x1b[m\x1b[K {\n'}
+[7.583405] (limb_controller) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.583961] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:38:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::ArrayXXf cjsontoEigen::\x1b[01;32m\x1b[KcjsontoArrayXXf\x1b[m\x1b[K(cJSON*, std::string)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.584504] (limb_controller) StderrLine: {'line': b'   38 | const ArrayXXf \x1b[01;31m\x1b[KcjsontoEigen\x1b[m\x1b[K::cjsontoArrayXXf(cJSON* cjson,std::string name) {\n'}
+[7.585163] (limb_controller) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.585712] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/cjsontoEigen.h:14:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Kstatic Eigen::ArrayXXf cjsontoEigen::\x1b[01;32m\x1b[KcjsontoArrayXXf\x1b[m\x1b[K(cJSON*, std::string)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.586246] (limb_controller) StderrLine: {'line': b'   14 |     static ArrayXXf \x1b[01;36m\x1b[KcjsontoArrayXXf\x1b[m\x1b[K(cJSON* cjson,std::string name);\n'}
+[7.586802] (limb_controller) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.587286] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/cjsontoEigen.h:9:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass cjsontoEigen\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[7.587835] (limb_controller) StderrLine: {'line': b'    9 | class \x1b[01;36m\x1b[KcjsontoEigen\x1b[m\x1b[K {\n'}
+[7.588285] (limb_controller) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.588821] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:44:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::VectorXf cjsontoEigen::\x1b[01;32m\x1b[KcjsontoVectorXf\x1b[m\x1b[K(cJSON*, std::string)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.589426] (limb_controller) StderrLine: {'line': b'   44 | const VectorXf \x1b[01;31m\x1b[KcjsontoEigen\x1b[m\x1b[K::cjsontoVectorXf(cJSON* cjson,std::string name) {\n'}
+[7.590034] (limb_controller) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.590515] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/cjsontoEigen.h:15:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Kstatic Eigen::VectorXf cjsontoEigen::\x1b[01;32m\x1b[KcjsontoVectorXf\x1b[m\x1b[K(cJSON*, std::string)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.591066] (limb_controller) StderrLine: {'line': b'   15 |     static VectorXf \x1b[01;36m\x1b[KcjsontoVectorXf\x1b[m\x1b[K(cJSON* cjson,std::string name);\n'}
+[7.591562] (limb_controller) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.592107] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/cjsontoEigen.h:9:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass cjsontoEigen\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[7.592620] (limb_controller) StderrLine: {'line': b'    9 | class \x1b[01;36m\x1b[KcjsontoEigen\x1b[m\x1b[K {\n'}
+[7.593184] (limb_controller) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.593691] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:49:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::MatrixXf cjsontoEigen::\x1b[01;32m\x1b[KcjsontoMatrixXf\x1b[m\x1b[K(cJSON*, std::string)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.594214] (limb_controller) StderrLine: {'line': b'   49 | const MatrixXf \x1b[01;31m\x1b[KcjsontoEigen\x1b[m\x1b[K::cjsontoMatrixXf(cJSON* cjson,std::string name) {\n'}
+[7.594705] (limb_controller) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.595186] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/cjsontoEigen.h:17:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Kstatic Eigen::MatrixXf cjsontoEigen::\x1b[01;32m\x1b[KcjsontoMatrixXf\x1b[m\x1b[K(cJSON*, std::string)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.595784] (limb_controller) StderrLine: {'line': b'   17 |     static MatrixXf \x1b[01;36m\x1b[KcjsontoMatrixXf\x1b[m\x1b[K(cJSON* cjson,std::string name);\n'}
+[7.596366] (limb_controller) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.596954] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/cjsontoEigen.h:9:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass cjsontoEigen\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[7.597453] (limb_controller) StderrLine: {'line': b'    9 | class \x1b[01;36m\x1b[KcjsontoEigen\x1b[m\x1b[K {\n'}
+[7.598005] (limb_controller) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.654444] (-) TimerEvent: {}
+[7.755680] (-) TimerEvent: {}
+[7.856443] (-) TimerEvent: {}
+[7.957635] (-) TimerEvent: {}
+[8.032943] (limb_controller) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/limb_controller.dir/build.make:104: CMakeFiles/limb_controller.dir/src/cjsontoEigen.cpp.o] Error 1\n'}
+[8.033554] (limb_controller) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[8.057811] (-) TimerEvent: {}
+[8.158439] (-) TimerEvent: {}
+[8.259108] (-) TimerEvent: {}
+[8.359775] (-) TimerEvent: {}
+[8.460395] (-) TimerEvent: {}
+[8.561095] (-) TimerEvent: {}
+[8.661702] (-) TimerEvent: {}
+[8.762308] (-) TimerEvent: {}
+[8.863058] (-) TimerEvent: {}
+[8.963789] (-) TimerEvent: {}
+[9.064406] (-) TimerEvent: {}
+[9.165079] (-) TimerEvent: {}
+[9.265705] (-) TimerEvent: {}
+[9.366317] (-) TimerEvent: {}
+[9.466986] (-) TimerEvent: {}
+[9.567664] (-) TimerEvent: {}
+[9.668268] (-) TimerEvent: {}
+[9.768950] (-) TimerEvent: {}
+[9.869579] (-) TimerEvent: {}
+[9.970181] (-) TimerEvent: {}
+[10.070840] (-) TimerEvent: {}
+[10.171437] (-) TimerEvent: {}
+[10.272109] (-) TimerEvent: {}
+[10.372782] (-) TimerEvent: {}
+[10.473375] (-) TimerEvent: {}
+[10.574016] (-) TimerEvent: {}
+[10.674643] (-) TimerEvent: {}
+[10.775236] (-) TimerEvent: {}
+[10.875888] (-) TimerEvent: {}
+[10.976494] (-) TimerEvent: {}
+[11.077133] (-) TimerEvent: {}
+[11.177756] (-) TimerEvent: {}
+[11.278336] (-) TimerEvent: {}
+[11.378984] (-) TimerEvent: {}
+[11.479628] (-) TimerEvent: {}
+[11.580208] (-) TimerEvent: {}
+[11.680916] (-) TimerEvent: {}
+[11.781567] (-) TimerEvent: {}
+[11.882156] (-) TimerEvent: {}
+[11.982797] (-) TimerEvent: {}
+[12.083391] (-) TimerEvent: {}
+[12.184064] (-) TimerEvent: {}
+[12.284712] (-) TimerEvent: {}
+[12.385321] (-) TimerEvent: {}
+[12.486009] (-) TimerEvent: {}
+[12.586656] (-) TimerEvent: {}
+[12.687280] (-) TimerEvent: {}
+[12.787924] (-) TimerEvent: {}
+[12.888505] (-) TimerEvent: {}
+[12.989141] (-) TimerEvent: {}
+[13.089766] (-) TimerEvent: {}
+[13.190360] (-) TimerEvent: {}
+[13.290985] (-) TimerEvent: {}
+[13.391622] (-) TimerEvent: {}
+[13.492202] (-) TimerEvent: {}
+[13.592852] (-) TimerEvent: {}
+[13.693458] (-) TimerEvent: {}
+[13.794091] (-) TimerEvent: {}
+[13.894685] (-) TimerEvent: {}
+[13.995309] (-) TimerEvent: {}
+[14.095951] (-) TimerEvent: {}
+[14.196576] (-) TimerEvent: {}
+[14.297150] (-) TimerEvent: {}
+[14.397775] (-) TimerEvent: {}
+[14.498351] (-) TimerEvent: {}
+[14.599013] (-) TimerEvent: {}
+[14.699665] (-) TimerEvent: {}
+[14.800278] (-) TimerEvent: {}
+[14.900924] (-) TimerEvent: {}
+[15.001583] (-) TimerEvent: {}
+[15.102186] (-) TimerEvent: {}
+[15.202844] (-) TimerEvent: {}
+[15.303457] (-) TimerEvent: {}
+[15.404144] (-) TimerEvent: {}
+[15.504811] (-) TimerEvent: {}
+[15.605602] (-) TimerEvent: {}
+[15.706211] (-) TimerEvent: {}
+[15.806900] (-) TimerEvent: {}
+[15.907496] (-) TimerEvent: {}
+[16.008170] (-) TimerEvent: {}
+[16.108836] (-) TimerEvent: {}
+[16.209436] (-) TimerEvent: {}
+[16.310088] (-) TimerEvent: {}
+[16.410691] (-) TimerEvent: {}
+[16.511293] (-) TimerEvent: {}
+[16.611939] (-) TimerEvent: {}
+[16.712612] (-) TimerEvent: {}
+[16.813325] (-) TimerEvent: {}
+[16.914031] (-) TimerEvent: {}
+[17.014666] (-) TimerEvent: {}
+[17.115266] (-) TimerEvent: {}
+[17.215931] (-) TimerEvent: {}
+[17.316576] (-) TimerEvent: {}
+[17.417168] (-) TimerEvent: {}
+[17.517819] (-) TimerEvent: {}
+[17.618421] (-) TimerEvent: {}
+[17.719071] (-) TimerEvent: {}
+[17.819666] (-) TimerEvent: {}
+[17.920262] (-) TimerEvent: {}
+[18.020913] (-) TimerEvent: {}
+[18.121507] (-) TimerEvent: {}
+[18.222140] (-) TimerEvent: {}
+[18.322778] (-) TimerEvent: {}
+[18.423384] (-) TimerEvent: {}
+[18.524054] (-) TimerEvent: {}
+[18.624676] (-) TimerEvent: {}
+[18.725278] (-) TimerEvent: {}
+[18.825925] (-) TimerEvent: {}
+[18.926585] (-) TimerEvent: {}
+[19.027236] (-) TimerEvent: {}
+[19.127913] (-) TimerEvent: {}
+[19.228506] (-) TimerEvent: {}
+[19.329157] (-) TimerEvent: {}
+[19.429879] (-) TimerEvent: {}
+[19.530655] (-) TimerEvent: {}
+[19.631288] (-) TimerEvent: {}
+[19.732034] (-) TimerEvent: {}
+[19.832698] (-) TimerEvent: {}
+[19.933275] (-) TimerEvent: {}
+[20.033945] (-) TimerEvent: {}
+[20.134589] (-) TimerEvent: {}
+[20.235183] (-) TimerEvent: {}
+[20.335836] (-) TimerEvent: {}
+[20.436426] (-) TimerEvent: {}
+[20.537072] (-) TimerEvent: {}
+[20.637681] (-) TimerEvent: {}
+[20.738275] (-) TimerEvent: {}
+[20.838954] (-) TimerEvent: {}
+[20.939596] (-) TimerEvent: {}
+[21.040218] (-) TimerEvent: {}
+[21.140865] (-) TimerEvent: {}
+[21.241460] (-) TimerEvent: {}
+[21.342120] (-) TimerEvent: {}
+[21.442712] (-) TimerEvent: {}
+[21.543327] (-) TimerEvent: {}
+[21.643966] (-) TimerEvent: {}
+[21.744606] (-) TimerEvent: {}
+[21.845192] (-) TimerEvent: {}
+[21.945897] (-) TimerEvent: {}
+[22.046490] (-) TimerEvent: {}
+[22.147121] (-) TimerEvent: {}
+[22.247707] (-) TimerEvent: {}
+[22.348289] (-) TimerEvent: {}
+[22.448942] (-) TimerEvent: {}
+[22.549593] (-) TimerEvent: {}
+[22.650186] (-) TimerEvent: {}
+[22.750867] (-) TimerEvent: {}
+[22.851606] (-) TimerEvent: {}
+[22.952334] (-) TimerEvent: {}
+[23.052990] (-) TimerEvent: {}
+[23.153626] (-) TimerEvent: {}
+[23.254215] (-) TimerEvent: {}
+[23.354878] (-) TimerEvent: {}
+[23.455590] (-) TimerEvent: {}
+[23.556325] (-) TimerEvent: {}
+[23.610730] (limb_controller) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/limb_controller.dir/all] Error 2\n'}
+[23.611504] (limb_controller) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[23.620079] (limb_controller) CommandEnded: {'returncode': 2}
+[23.656510] (-) TimerEvent: {}
+[23.665973] (limb_controller) JobEnded: {'identifier': 'limb_controller', 'rc': 2}
+[23.677237] (-) EventReactorShutdown: {}

@@ -1,0 +1,277 @@
+[0.000000] (-) TimerEvent: {}
+[0.001489] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.002006] (-) JobUnselected: {'identifier': 'motor_control'}
+[0.002080] (-) JobUnselected: {'identifier': 'pubsub'}
+[0.002144] (-) JobUnselected: {'identifier': 'testcpp'}
+[0.002213] (limb_controller) JobQueued: {'identifier': 'limb_controller', 'dependencies': OrderedDict()}
+[0.002289] (limb_controller) JobStarted: {'identifier': 'limb_controller'}
+[0.036094] (limb_controller) JobProgress: {'identifier': 'limb_controller', 'progress': 'cmake'}
+[0.039178] (limb_controller) JobProgress: {'identifier': 'limb_controller', 'progress': 'build'}
+[0.042430] (limb_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/droso1/drosophibot-ROS/build/limb_controller', '--', '-j4', '-l4'], 'cwd': '/home/droso1/drosophibot-ROS/build/limb_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'droso1', 'SSH_CLIENT': '192.168.137.1 56085 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/droso1/drosophibot-ROS/install/interfaces/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/droso1', 'OLDPWD': '/home/droso1/drosophibot-ROS/limb_controller', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'droso1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '43', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/home/droso1/drosophibot-ROS/install/interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/droso1/drosophibot-ROS/build/limb_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 56085 192.168.137.155 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/home/droso1/drosophibot-ROS/install/interfaces:/opt/ros/jazzy'}), 'shell': False}
+[0.099292] (-) TimerEvent: {}
+[0.199996] (-) TimerEvent: {}
+[0.301347] (-) TimerEvent: {}
+[0.337029] (limb_controller) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/limb_controller.dir/src/limb_controller.cpp.o\x1b[0m\n'}
+[0.338626] (limb_controller) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/limb_controller.dir/src/Network.cpp.o\x1b[0m\n'}
+[0.401583] (-) TimerEvent: {}
+[0.502178] (-) TimerEvent: {}
+[0.602794] (-) TimerEvent: {}
+[0.703406] (-) TimerEvent: {}
+[0.804075] (-) TimerEvent: {}
+[0.905050] (-) TimerEvent: {}
+[1.005777] (-) TimerEvent: {}
+[1.106768] (-) TimerEvent: {}
+[1.207434] (-) TimerEvent: {}
+[1.308410] (-) TimerEvent: {}
+[1.409176] (-) TimerEvent: {}
+[1.509818] (-) TimerEvent: {}
+[1.610440] (-) TimerEvent: {}
+[1.711150] (-) TimerEvent: {}
+[1.812022] (-) TimerEvent: {}
+[1.912694] (-) TimerEvent: {}
+[2.013336] (-) TimerEvent: {}
+[2.114062] (-) TimerEvent: {}
+[2.214839] (-) TimerEvent: {}
+[2.315545] (-) TimerEvent: {}
+[2.416192] (-) TimerEvent: {}
+[2.516963] (-) TimerEvent: {}
+[2.617804] (-) TimerEvent: {}
+[2.718538] (-) TimerEvent: {}
+[2.819238] (-) TimerEvent: {}
+[2.920126] (-) TimerEvent: {}
+[3.020878] (-) TimerEvent: {}
+[3.121755] (-) TimerEvent: {}
+[3.222490] (-) TimerEvent: {}
+[3.323155] (-) TimerEvent: {}
+[3.423892] (-) TimerEvent: {}
+[3.524630] (-) TimerEvent: {}
+[3.625401] (-) TimerEvent: {}
+[3.726351] (-) TimerEvent: {}
+[3.827151] (-) TimerEvent: {}
+[3.927919] (-) TimerEvent: {}
+[4.028632] (-) TimerEvent: {}
+[4.129354] (-) TimerEvent: {}
+[4.230151] (-) TimerEvent: {}
+[4.330898] (-) TimerEvent: {}
+[4.431651] (-) TimerEvent: {}
+[4.532323] (-) TimerEvent: {}
+[4.633133] (-) TimerEvent: {}
+[4.733843] (-) TimerEvent: {}
+[4.834572] (-) TimerEvent: {}
+[4.935300] (-) TimerEvent: {}
+[5.036172] (-) TimerEvent: {}
+[5.137086] (-) TimerEvent: {}
+[5.237955] (-) TimerEvent: {}
+[5.338674] (-) TimerEvent: {}
+[5.439386] (-) TimerEvent: {}
+[5.540117] (-) TimerEvent: {}
+[5.640953] (-) TimerEvent: {}
+[5.741763] (-) TimerEvent: {}
+[5.842863] (-) TimerEvent: {}
+[5.943578] (-) TimerEvent: {}
+[6.044253] (-) TimerEvent: {}
+[6.145400] (-) TimerEvent: {}
+[6.246146] (-) TimerEvent: {}
+[6.346963] (-) TimerEvent: {}
+[6.447778] (-) TimerEvent: {}
+[6.548593] (-) TimerEvent: {}
+[6.649405] (-) TimerEvent: {}
+[6.750154] (-) TimerEvent: {}
+[6.850912] (-) TimerEvent: {}
+[6.951600] (-) TimerEvent: {}
+[7.052317] (-) TimerEvent: {}
+[7.153032] (-) TimerEvent: {}
+[7.253731] (-) TimerEvent: {}
+[7.354400] (-) TimerEvent: {}
+[7.455102] (-) TimerEvent: {}
+[7.555819] (-) TimerEvent: {}
+[7.656556] (-) TimerEvent: {}
+[7.757316] (-) TimerEvent: {}
+[7.858146] (-) TimerEvent: {}
+[7.958912] (-) TimerEvent: {}
+[8.059599] (-) TimerEvent: {}
+[8.070010] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/Network.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[KEigen::ArrayXXf SNSToolboxCPP::Network::\x1b[01;32m\x1b[KForwardSparse\x1b[m\x1b[K(Eigen::VectorXf)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.070950] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/Network.cpp:166:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kinputs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[8.071549] (limb_controller) StderrLine: {'line': b'  166 |     ArrayXXf Network::ForwardSparse(\x1b[01;35m\x1b[KVectorXf inputs\x1b[m\x1b[K) {\n'}
+[8.072104] (limb_controller) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[8.159804] (-) TimerEvent: {}
+[8.260604] (-) TimerEvent: {}
+[8.361378] (-) TimerEvent: {}
+[8.462116] (-) TimerEvent: {}
+[8.562842] (-) TimerEvent: {}
+[8.663661] (-) TimerEvent: {}
+[8.764504] (-) TimerEvent: {}
+[8.865217] (-) TimerEvent: {}
+[8.965972] (-) TimerEvent: {}
+[9.066806] (-) TimerEvent: {}
+[9.167628] (-) TimerEvent: {}
+[9.268388] (-) TimerEvent: {}
+[9.369143] (-) TimerEvent: {}
+[9.469911] (-) TimerEvent: {}
+[9.570599] (-) TimerEvent: {}
+[9.671313] (-) TimerEvent: {}
+[9.772113] (-) TimerEvent: {}
+[9.872956] (-) TimerEvent: {}
+[9.973752] (-) TimerEvent: {}
+[10.074559] (-) TimerEvent: {}
+[10.175280] (-) TimerEvent: {}
+[10.276016] (-) TimerEvent: {}
+[10.376758] (-) TimerEvent: {}
+[10.477591] (-) TimerEvent: {}
+[10.578266] (-) TimerEvent: {}
+[10.679000] (-) TimerEvent: {}
+[10.779742] (-) TimerEvent: {}
+[10.880425] (-) TimerEvent: {}
+[10.972662] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:27:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kinterfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.973774] (limb_controller) StderrLine: {'line': b'   27 |     rclcpp::Publisher<\x1b[01;31m\x1b[Kinterfaces\x1b[m\x1b[K::msg::LimbCommand>::SharedPtr publisher_;\n'}
+[10.974334] (limb_controller) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.974863] (limb_controller) StderrLine: {'line': b'      |                       \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[10.975441] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:27:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[10.976072] (limb_controller) StderrLine: {'line': b'   27 |     rclcpp::Publisher<interfaces::msg::LimbCommand\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_;\n'}
+[10.976536] (limb_controller) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.977087] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:27:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[10.977678] (limb_controller) StderrLine: {'line': b'   27 |     rclcpp::Publisher<interfaces::msg::LimbCommand>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[10.978237] (limb_controller) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[10.978885] (limb_controller) StderrLine: {'line': b'      |                                                               \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[10.980614] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:27:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.981288] (-) TimerEvent: {}
+[10.981812] (limb_controller) StderrLine: {'line': b'   27 |     rclcpp::Publisher<interfaces::msg::LimbCommand>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[10.982589] (limb_controller) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.983390] (limb_controller) StderrLine: {'line': b'      |                                                                \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[11.013242] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KLimbController::\x1b[01;32m\x1b[KLimbController\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.014188] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:14:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.014936] (limb_controller) StderrLine: {'line': b'   14 |         \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<interfaces::msg::LimbCommand>("LimbCommands", 10);\n'}
+[11.015579] (limb_controller) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.016221] (limb_controller) StderrLine: {'line': b'      |         \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[11.043654] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:14:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kinterfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.045224] (limb_controller) StderrLine: {'line': b'   14 |         publisher_ = this->create_publisher<\x1b[01;31m\x1b[Kinterfaces\x1b[m\x1b[K::msg::LimbCommand>("LimbCommands", 10);\n'}
+[11.045977] (limb_controller) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.046603] (limb_controller) StderrLine: {'line': b'      |                                             \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[11.047196] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:14:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[11.047996] (limb_controller) StderrLine: {'line': b'   14 |         publisher_ = this->\x1b[01;31m\x1b[Kcreate_publisher<interfaces::msg::LimbCommand>\x1b[m\x1b[K("LimbCommands", 10);\n'}
+[11.048651] (limb_controller) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.049253] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:14:74:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KLimbController::create_publisher<<expression error> >(const char [13], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.049937] (limb_controller) StderrLine: {'line': b'   14 |         publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<interfaces::msg::LimbCommand>("LimbCommands", 10)\x1b[m\x1b[K;\n'}
+[11.050660] (limb_controller) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.051218] (limb_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[11.051795] (limb_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[11.052292] (limb_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K,\n'}
+[11.052876] (limb_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:6\x1b[m\x1b[K:\n'}
+[11.053369] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::\x1b[01;32m\x1b[Kcreate_publisher\x1b[m\x1b[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.054157] (limb_controller) StderrLine: {'line': b'  197 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[11.054782] (limb_controller) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.055306] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[11.055925] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:14:74:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[11.056485] (limb_controller) StderrLine: {'line': b'   14 |         publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<interfaces::msg::LimbCommand>("LimbCommands", 10)\x1b[m\x1b[K;\n'}
+[11.057104] (limb_controller) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.057681] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:16:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunable to find numeric literal operator \xe2\x80\x98\x1b[01m\x1b[Koperator""ms\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.058227] (limb_controller) StderrLine: {'line': b'   16 |         \x1b[01;31m\x1b[K500ms\x1b[m\x1b[K, std::bind(&LimbController::timer_callback, this));\n'}
+[11.058815] (limb_controller) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[11.063124] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LimbController::\x1b[01;32m\x1b[Ktimer_callback\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.064034] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:22:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kinterfaces\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[11.064707] (limb_controller) StderrLine: {'line': b'   22 |         auto message = \x1b[01;31m\x1b[Kinterfaces\x1b[m\x1b[K::msg::LimbCommand();\n'}
+[11.065292] (limb_controller) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.081556] (-) TimerEvent: {}
+[11.093716] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:24:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.094427] (limb_controller) StderrLine: {'line': b'   24 |         \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(message);\n'}
+[11.095111] (limb_controller) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.095691] (limb_controller) StderrLine: {'line': b'      |         \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[11.181752] (-) TimerEvent: {}
+[11.282516] (-) TimerEvent: {}
+[11.383226] (-) TimerEvent: {}
+[11.483971] (-) TimerEvent: {}
+[11.584667] (-) TimerEvent: {}
+[11.685439] (-) TimerEvent: {}
+[11.786490] (-) TimerEvent: {}
+[11.887166] (-) TimerEvent: {}
+[11.987958] (-) TimerEvent: {}
+[12.088641] (-) TimerEvent: {}
+[12.189318] (-) TimerEvent: {}
+[12.290105] (-) TimerEvent: {}
+[12.390851] (-) TimerEvent: {}
+[12.491577] (-) TimerEvent: {}
+[12.592306] (-) TimerEvent: {}
+[12.693068] (-) TimerEvent: {}
+[12.793827] (-) TimerEvent: {}
+[12.894523] (-) TimerEvent: {}
+[12.995208] (-) TimerEvent: {}
+[13.095995] (-) TimerEvent: {}
+[13.196732] (-) TimerEvent: {}
+[13.297404] (-) TimerEvent: {}
+[13.398098] (-) TimerEvent: {}
+[13.498808] (-) TimerEvent: {}
+[13.599573] (-) TimerEvent: {}
+[13.700433] (-) TimerEvent: {}
+[13.801235] (-) TimerEvent: {}
+[13.829481] (limb_controller) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/limb_controller.dir/build.make:76: CMakeFiles/limb_controller.dir/src/limb_controller.cpp.o] Error 1\n'}
+[13.830122] (limb_controller) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[13.901436] (-) TimerEvent: {}
+[14.002143] (-) TimerEvent: {}
+[14.102840] (-) TimerEvent: {}
+[14.203517] (-) TimerEvent: {}
+[14.304264] (-) TimerEvent: {}
+[14.404973] (-) TimerEvent: {}
+[14.505605] (-) TimerEvent: {}
+[14.606248] (-) TimerEvent: {}
+[14.706991] (-) TimerEvent: {}
+[14.807606] (-) TimerEvent: {}
+[14.908340] (-) TimerEvent: {}
+[15.009132] (-) TimerEvent: {}
+[15.109809] (-) TimerEvent: {}
+[15.210426] (-) TimerEvent: {}
+[15.311108] (-) TimerEvent: {}
+[15.411799] (-) TimerEvent: {}
+[15.512424] (-) TimerEvent: {}
+[15.613101] (-) TimerEvent: {}
+[15.713763] (-) TimerEvent: {}
+[15.814383] (-) TimerEvent: {}
+[15.915051] (-) TimerEvent: {}
+[16.015691] (-) TimerEvent: {}
+[16.116305] (-) TimerEvent: {}
+[16.216968] (-) TimerEvent: {}
+[16.317594] (-) TimerEvent: {}
+[16.418179] (-) TimerEvent: {}
+[16.518824] (-) TimerEvent: {}
+[16.619495] (-) TimerEvent: {}
+[16.720122] (-) TimerEvent: {}
+[16.820808] (-) TimerEvent: {}
+[16.921413] (-) TimerEvent: {}
+[17.022099] (-) TimerEvent: {}
+[17.122755] (-) TimerEvent: {}
+[17.223373] (-) TimerEvent: {}
+[17.324043] (-) TimerEvent: {}
+[17.424686] (-) TimerEvent: {}
+[17.525318] (-) TimerEvent: {}
+[17.626169] (-) TimerEvent: {}
+[17.727017] (-) TimerEvent: {}
+[17.827615] (-) TimerEvent: {}
+[17.928219] (-) TimerEvent: {}
+[18.028874] (-) TimerEvent: {}
+[18.129560] (-) TimerEvent: {}
+[18.230176] (-) TimerEvent: {}
+[18.330818] (-) TimerEvent: {}
+[18.431417] (-) TimerEvent: {}
+[18.532083] (-) TimerEvent: {}
+[18.632763] (-) TimerEvent: {}
+[18.733356] (-) TimerEvent: {}
+[18.834047] (-) TimerEvent: {}
+[18.934623] (-) TimerEvent: {}
+[19.035223] (-) TimerEvent: {}
+[19.135945] (-) TimerEvent: {}
+[19.236996] (-) TimerEvent: {}
+[19.337787] (-) TimerEvent: {}
+[19.438575] (-) TimerEvent: {}
+[19.539199] (-) TimerEvent: {}
+[19.639883] (-) TimerEvent: {}
+[19.740530] (-) TimerEvent: {}
+[19.841168] (-) TimerEvent: {}
+[19.941826] (-) TimerEvent: {}
+[20.042493] (-) TimerEvent: {}
+[20.143171] (-) TimerEvent: {}
+[20.244027] (-) TimerEvent: {}
+[20.344817] (-) TimerEvent: {}
+[20.350147] (limb_controller) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/limb_controller.dir/all] Error 2\n'}
+[20.351226] (limb_controller) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[20.360809] (limb_controller) CommandEnded: {'returncode': 2}
+[20.397275] (limb_controller) JobEnded: {'identifier': 'limb_controller', 'rc': 2}
+[20.400897] (-) EventReactorShutdown: {}

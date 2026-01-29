@@ -1,0 +1,198 @@
+[0.805s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'interfaces']
+[0.805s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['interfaces'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff86986d20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff86b37290>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff86b37290>>, mixin_verb=('build',))
+[1.070s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.071s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.071s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.071s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.071s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.072s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/droso1/drosophibot-ROS'
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.217s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.217s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.217s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.218s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.218s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.219s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.219s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extension 'ignore'
+[1.219s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extension 'ignore_ament_install'
+[1.220s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extensions ['colcon_pkg']
+[1.220s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extension 'colcon_pkg'
+[1.220s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extensions ['colcon_meta']
+[1.220s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extension 'colcon_meta'
+[1.220s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extensions ['ros']
+[1.220s] Level 1:colcon.colcon_core.package_identification:_identify(interfaces) by extension 'ros'
+[1.231s] DEBUG:colcon.colcon_core.package_identification:Package 'interfaces' with type 'ros.ament_cmake' and name 'interfaces'
+[1.232s] Level 1:colcon.colcon_core.package_identification:_identify(limb_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(limb_controller) by extension 'ignore'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(limb_controller) by extension 'ignore_ament_install'
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(limb_controller) by extensions ['colcon_pkg']
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(limb_controller) by extension 'colcon_pkg'
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(limb_controller) by extensions ['colcon_meta']
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(limb_controller) by extension 'colcon_meta'
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(limb_controller) by extensions ['ros']
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(limb_controller) by extension 'ros'
+[1.237s] DEBUG:colcon.colcon_core.package_identification:Package 'limb_controller' with type 'ros.ament_cmake' and name 'limb_controller'
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.239s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.239s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(motor_control) by extensions ['ignore', 'ignore_ament_install']
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(motor_control) by extension 'ignore'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(motor_control) by extension 'ignore_ament_install'
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(motor_control) by extensions ['colcon_pkg']
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(motor_control) by extension 'colcon_pkg'
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(motor_control) by extensions ['colcon_meta']
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(motor_control) by extension 'colcon_meta'
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(motor_control) by extensions ['ros']
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(motor_control) by extension 'ros'
+[1.244s] DEBUG:colcon.colcon_core.package_identification:Package 'motor_control' with type 'ros.ament_cmake' and name 'motor_control'
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(pubsub) by extensions ['ignore', 'ignore_ament_install']
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(pubsub) by extension 'ignore'
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(pubsub) by extension 'ignore_ament_install'
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(pubsub) by extensions ['colcon_pkg']
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(pubsub) by extension 'colcon_pkg'
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(pubsub) by extensions ['colcon_meta']
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(pubsub) by extension 'colcon_meta'
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(pubsub) by extensions ['ros']
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(pubsub) by extension 'ros'
+[1.249s] DEBUG:colcon.colcon_core.package_identification:Package 'pubsub' with type 'ros.ament_cmake' and name 'pubsub'
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(testcpp) by extensions ['ignore', 'ignore_ament_install']
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(testcpp) by extension 'ignore'
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(testcpp) by extension 'ignore_ament_install'
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(testcpp) by extensions ['colcon_pkg']
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(testcpp) by extension 'colcon_pkg'
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(testcpp) by extensions ['colcon_meta']
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(testcpp) by extension 'colcon_meta'
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(testcpp) by extensions ['ros']
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(testcpp) by extension 'ros'
+[1.254s] DEBUG:colcon.colcon_core.package_identification:Package 'testcpp' with type 'ros.ament_cmake' and name 'testcpp'
+[1.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.356s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'pubsub' in 'pubsub'
+[1.357s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'testcpp' in 'testcpp'
+[1.357s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'limb_controller' in 'limb_controller'
+[1.357s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'motor_control' in 'motor_control'
+[1.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.374s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/droso1/drosophibot-ROS/install
+[1.382s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 193 installed packages in /opt/ros/jazzy
+[1.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.523s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'interfaces' is in: /home/droso1/drosophibot-ROS/install/interfaces
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding interfaces
+
+This may be promoted to an error in a future release of colcon-override-check.
+[1.526s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_args' from command line to 'None'
+[1.526s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target' from command line to 'None'
+[1.526s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.526s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.526s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.526s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.527s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.527s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.527s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.527s] DEBUG:colcon.colcon_core.verb:Building package 'interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/droso1/drosophibot-ROS/build/interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/droso1/drosophibot-ROS/install/interfaces', 'merge_install': False, 'path': '/home/droso1/drosophibot-ROS/interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.527s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.530s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.531s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/droso1/drosophibot-ROS/interfaces' with build type 'ament_cmake'
+[1.532s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/droso1/drosophibot-ROS/interfaces'
+[1.547s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.548s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.548s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/droso1/drosophibot-ROS/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/interfaces -- -j4 -l4
+[3.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/droso1/drosophibot-ROS/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/interfaces -- -j4 -l4
+[3.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/droso1/drosophibot-ROS/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/droso1/drosophibot-ROS/build/interfaces
+[4.043s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[4.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/droso1/drosophibot-ROS/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/droso1/drosophibot-ROS/build/interfaces
+[4.063s] Level 1:colcon.colcon_core.environment:checking '/home/droso1/drosophibot-ROS/install/interfaces' for CMake module files
+[4.068s] Level 1:colcon.colcon_core.environment:checking '/home/droso1/drosophibot-ROS/install/interfaces' for CMake config files
+[4.071s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[4.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[4.075s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[4.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[4.081s] Level 1:colcon.colcon_core.environment:checking '/home/droso1/drosophibot-ROS/install/interfaces/lib'
+[4.082s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[4.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[4.084s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[4.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[4.088s] Level 1:colcon.colcon_core.environment:checking '/home/droso1/drosophibot-ROS/install/interfaces/bin'
+[4.088s] Level 1:colcon.colcon_core.environment:checking '/home/droso1/drosophibot-ROS/install/interfaces/lib/pkgconfig/interfaces.pc'
+[4.089s] Level 1:colcon.colcon_core.environment:checking '/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages'
+[4.089s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'pythonpath')
+[4.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/hook/pythonpath.ps1'
+[4.092s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/hook/pythonpath.dsv'
+[4.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/hook/pythonpath.sh'
+[4.096s] Level 1:colcon.colcon_core.environment:checking '/home/droso1/drosophibot-ROS/install/interfaces/bin'
+[4.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/package.ps1'
+[4.101s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/package.dsv'
+[4.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/package.sh'
+[4.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/package.bash'
+[4.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/package.zsh'
+[4.121s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/droso1/drosophibot-ROS/install/interfaces/share/colcon-core/packages/interfaces)
+[4.124s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[4.125s] Level 1:colcon.colcon_core.environment:checking '/home/droso1/drosophibot-ROS/install/interfaces' for CMake module files
+[4.130s] Level 1:colcon.colcon_core.environment:checking '/home/droso1/drosophibot-ROS/install/interfaces' for CMake config files
+[4.133s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[4.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[4.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[4.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[4.139s] Level 1:colcon.colcon_core.environment:checking '/home/droso1/drosophibot-ROS/install/interfaces/lib'
+[4.140s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[4.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[4.143s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[4.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[4.146s] Level 1:colcon.colcon_core.environment:checking '/home/droso1/drosophibot-ROS/install/interfaces/bin'
+[4.147s] Level 1:colcon.colcon_core.environment:checking '/home/droso1/drosophibot-ROS/install/interfaces/lib/pkgconfig/interfaces.pc'
+[4.147s] Level 1:colcon.colcon_core.environment:checking '/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages'
+[4.148s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'pythonpath')
+[4.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/hook/pythonpath.ps1'
+[4.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/hook/pythonpath.dsv'
+[4.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/hook/pythonpath.sh'
+[4.154s] Level 1:colcon.colcon_core.environment:checking '/home/droso1/drosophibot-ROS/install/interfaces/bin'
+[4.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/package.ps1'
+[4.158s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/package.dsv'
+[4.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/package.sh'
+[4.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/package.bash'
+[4.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/package.zsh'
+[4.166s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/droso1/drosophibot-ROS/install/interfaces/share/colcon-core/packages/interfaces)
+[4.168s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.169s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.169s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.169s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.196s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4.196s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.196s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.197s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.243s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[4.244s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.244s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/droso1/drosophibot-ROS/install/local_setup.ps1'
+[4.248s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/droso1/drosophibot-ROS/install/_local_setup_util_ps1.py'
+[4.254s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/droso1/drosophibot-ROS/install/setup.ps1'
+[4.260s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/droso1/drosophibot-ROS/install/local_setup.sh'
+[4.263s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/droso1/drosophibot-ROS/install/_local_setup_util_sh.py'
+[4.266s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/droso1/drosophibot-ROS/install/setup.sh'
+[4.270s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/droso1/drosophibot-ROS/install/local_setup.bash'
+[4.273s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/droso1/drosophibot-ROS/install/setup.bash'
+[4.278s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/droso1/drosophibot-ROS/install/local_setup.zsh'
+[4.280s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/droso1/drosophibot-ROS/install/setup.zsh'

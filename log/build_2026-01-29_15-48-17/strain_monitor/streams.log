@@ -1,0 +1,38 @@
+[0.061s] Invoking command in '/home/droso1/drosophibot-ROS/build/strain_monitor': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/home/droso1/drosophibot-ROS/install/limb_controller:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/strain_monitor -- -j4 -l4
+[0.389s] [ 50%] [32mBuilding CXX object CMakeFiles/strain_monitor.dir/src/strain_monitor.cpp.o[0m
+[9.641s] [01m[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:20:20:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+[9.641s]    20 | #define NUM_GAUGES [01;31m[K36[m[K
+[9.642s]       |                    [01;31m[K^~[m[K
+[9.642s] [01m[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:22:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KNUM_GAUGES[m[K’
+[9.642s]    22 | float[[01;36m[KNUM_GAUGES[m[K] zero_data = {};
+[9.643s]       |       [01;36m[K^~~~~~~~~~[m[K
+[9.643s] [01m[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:22:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K][m[K’ before numeric constant
+[9.643s]    22 | float[[01;31m[KN[m[KUM_GAUGES] zero_data = {};
+[9.644s]       |       [01;31m[K^[m[K
+[9.644s]       |       [32m[K][m[K
+[9.645s] [01m[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:22:6:[m[K [01;31m[Kerror: [m[Kstructured binding declaration cannot have type ‘[01m[Kfloat[m[K’
+[9.645s]    22 | float[01;31m[K[[m[KNUM_GAUGES] zero_data = {};
+[9.645s]       |      [01;31m[K^[m[K
+[9.646s] [01m[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:22:6:[m[K [01;36m[Knote: [m[Ktype must be cv-qualified ‘[01m[Kauto[m[K’ or reference to cv-qualified ‘[01m[Kauto[m[K’
+[9.646s] [01m[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:22:6:[m[K [01;31m[Kerror: [m[Kempty structured binding declaration
+[9.646s] [01m[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:22:19:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kzero_data[m[K’
+[9.647s]    22 | float[NUM_GAUGES] [01;31m[Kzero_data[m[K = {};
+[9.647s]       |                   [01;31m[K^~~~~~~~~[m[K
+[9.695s] [01m[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[9.695s] [01m[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:80:24:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} to ‘[01m[Kconst void*[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.696s]    80 |     write(serial_port, [01;31m[Kinit_msg[m[K, sizeof(init_msg));
+[9.696s]       |                        [01;31m[K^~~~~~~~[m[K
+[9.696s]       |                        [01;31m[K|[m[K
+[9.697s]       |                        [01;31m[Kuint8_t {aka unsigned char}[m[K
+[9.697s] In file included from [01m[K/usr/include/aarch64-linux-gnu/bits/sigstksz.h:24[m[K,
+[9.698s]                  from [01m[K/usr/include/signal.h:328[m[K,
+[9.698s]                  from [01m[K/usr/include/c++/13/csignal:42[m[K,
+[9.698s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:168[m[K,
+[9.699s]                  from [01m[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:6[m[K:
+[9.699s] [01m[K/usr/include/unistd.h:378:45:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kssize_t[01;32m[K write[m[K(int, const void*, size_t)[m[K’
+[9.699s]   378 | extern ssize_t write (int __fd, [01;36m[Kconst void *__buf[m[K, size_t __n) __wur
+[9.700s]       |                                 [01;36m[K~~~~~~~~~~~~^~~~~[m[K
+[13.263s] gmake[2]: *** [CMakeFiles/strain_monitor.dir/build.make:76: CMakeFiles/strain_monitor.dir/src/strain_monitor.cpp.o] Error 1
+[13.264s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/strain_monitor.dir/all] Error 2
+[13.264s] gmake: *** [Makefile:146: all] Error 2
+[13.273s] Invoked command in '/home/droso1/drosophibot-ROS/build/strain_monitor' returned '2': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/home/droso1/drosophibot-ROS/install/limb_controller:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/strain_monitor -- -j4 -l4

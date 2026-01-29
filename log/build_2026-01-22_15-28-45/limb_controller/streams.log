@@ -1,0 +1,34 @@
+[0.063s] Invoking command in '/home/droso1/drosophibot-ROS/build/limb_controller': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/limb_controller -- -j4 -l4
+[0.184s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.147s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.274s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.314s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.362s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.419s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.651s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.657s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.904s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.122s] -- Found interfaces: 0.0.0 (/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake)
+[2.163s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.580s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.581s] -- Configured cppcheck include dirs: /home/droso1/drosophibot-ROS/limb_controller/include
+[2.581s] -- Configured cppcheck exclude dirs and/or files: 
+[2.585s] -- Added test 'lint_cmake' to check CMake code style
+[2.593s] -- Added test 'uncrustify' to check C / C++ code style
+[2.594s] -- Configured uncrustify additional arguments: 
+[2.596s] -- Added test 'xmllint' to check XML markup files
+[2.600s] -- Configuring done (2.4s)
+[2.660s] -- Generating done (0.0s)
+[2.676s] -- Build files have been written to: /home/droso1/drosophibot-ROS/build/limb_controller
+[2.890s] [ 33%] [32mBuilding CXX object CMakeFiles/limb_controller.dir/src/limb_controller.cpp.o[0m
+[2.898s] [ 66%] [32mBuilding CXX object CMakeFiles/limb_controller.dir/src/Network.cpp.o[0m
+[3.293s] In file included from [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/Network.cpp:1[m[K:
+[3.294s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Network.h:3:10:[m[K [01;31m[Kfatal error: [m[KEigen/Eigen: No such file or directory
+[3.294s]     3 | #include [01;31m[K<Eigen/Eigen>[m[K
+[3.295s]       |          [01;31m[K^~~~~~~~~~~~~[m[K
+[3.295s] compilation terminated.
+[3.303s] gmake[2]: *** [CMakeFiles/limb_controller.dir/build.make:90: CMakeFiles/limb_controller.dir/src/Network.cpp.o] Error 1
+[3.303s] gmake[2]: *** Waiting for unfinished jobs....
+[20.991s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/limb_controller.dir/all] Error 2
+[20.991s] gmake: *** [Makefile:146: all] Error 2
+[21.000s] Invoked command in '/home/droso1/drosophibot-ROS/build/limb_controller' returned '2': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/limb_controller -- -j4 -l4

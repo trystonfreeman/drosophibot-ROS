@@ -1,0 +1,228 @@
+[0.000000] (-) TimerEvent: {}
+[0.000459] (-) JobUnselected: {'identifier': 'limb_controller'}
+[0.000724] (-) JobUnselected: {'identifier': 'motor_control'}
+[0.000804] (-) JobUnselected: {'identifier': 'pubsub'}
+[0.000867] (-) JobUnselected: {'identifier': 'testcpp'}
+[0.000936] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.002282] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.036328] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.038897] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.042017] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/droso1/drosophibot-ROS/build/interfaces', '--', '-j4', '-l4'], 'cwd': '/home/droso1/drosophibot-ROS/build/interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'droso1', 'SSH_CLIENT': '192.168.137.1 57969 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/droso1/drosophibot-ROS/install/interfaces/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/droso1', 'OLDPWD': '/home/droso1', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'droso1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/home/droso1/drosophibot-ROS/install/interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/droso1/drosophibot-ROS/build/interfaces', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 57969 192.168.137.31 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/home/droso1/drosophibot-ROS/install/interfaces:/opt/ros/jazzy'}), 'shell': False}
+[0.099298] (-) TimerEvent: {}
+[0.199985] (-) TimerEvent: {}
+[0.289972] (interfaces) StdoutLine: {'line': b'[  1%] Built target interfaces__rosidl_generator_type_description\n'}
+[0.300813] (-) TimerEvent: {}
+[0.344921] (interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_interfaces\n'}
+[0.394781] (interfaces) StdoutLine: {'line': b'[  3%] Built target interfaces__cpp\n'}
+[0.401049] (-) TimerEvent: {}
+[0.412551] (interfaces) StdoutLine: {'line': b'[ 24%] Built target interfaces__rosidl_generator_c\n'}
+[0.503322] (-) TimerEvent: {}
+[0.539472] (interfaces) StdoutLine: {'line': b'[ 33%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[0.543535] (interfaces) StdoutLine: {'line': b'[ 44%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.546783] (interfaces) StdoutLine: {'line': b'[ 51%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.603605] (-) TimerEvent: {}
+[0.669556] (interfaces) StdoutLine: {'line': b'[ 61%] Built target interfaces__rosidl_typesupport_c\n'}
+[0.680456] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.685119] (interfaces) StdoutLine: {'line': b'[ 79%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[0.703776] (-) TimerEvent: {}
+[0.787497] (interfaces) StdoutLine: {'line': b'[ 79%] Built target interfaces\n'}
+[0.803942] (-) TimerEvent: {}
+[0.889290] (interfaces) StdoutLine: {'line': b'[ 81%] Built target interfaces__py\n'}
+[0.904114] (-) TimerEvent: {}
+[1.003872] (interfaces) StdoutLine: {'line': b'[ 88%] Built target interfaces__rosidl_generator_py\n'}
+[1.004567] (-) TimerEvent: {}
+[1.105729] (-) TimerEvent: {}
+[1.128436] (interfaces) StdoutLine: {'line': b'[ 92%] Built target interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[1.129652] (interfaces) StdoutLine: {'line': b'[ 96%] Built target interfaces_s__rosidl_typesupport_introspection_c\n'}
+[1.135921] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces_s__rosidl_typesupport_c\n'}
+[1.205890] (-) TimerEvent: {}
+[1.306456] (-) TimerEvent: {}
+[1.379924] (interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.406588] (-) TimerEvent: {}
+[1.451772] (interfaces) StdoutLine: {'line': b'writing interfaces.egg-info/PKG-INFO\n'}
+[1.452865] (interfaces) StdoutLine: {'line': b'writing dependency_links to interfaces.egg-info/dependency_links.txt\n'}
+[1.456087] (interfaces) StdoutLine: {'line': b'writing top-level names to interfaces.egg-info/top_level.txt\n'}
+[1.506735] (-) TimerEvent: {}
+[1.607245] (-) TimerEvent: {}
+[1.661832] (interfaces) StdoutLine: {'line': b"reading manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[1.664480] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[1.707461] (-) TimerEvent: {}
+[1.804244] (interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_interfaces_egg\n'}
+[1.807639] (-) TimerEvent: {}
+[1.856935] (interfaces) CommandEnded: {'returncode': 0}
+[1.858858] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[1.899432] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/droso1/drosophibot-ROS/build/interfaces'], 'cwd': '/home/droso1/drosophibot-ROS/build/interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'droso1', 'SSH_CLIENT': '192.168.137.1 57969 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/droso1/drosophibot-ROS/install/interfaces/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/droso1', 'OLDPWD': '/home/droso1', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'droso1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/home/droso1/drosophibot-ROS/install/interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/droso1/drosophibot-ROS/build/interfaces', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 57969 192.168.137.31 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/home/droso1/drosophibot-ROS/install/interfaces:/opt/ros/jazzy'}), 'shell': False}
+[1.907793] (-) TimerEvent: {}
+[1.940936] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.941682] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[1.942260] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/MotorCommand.json\n'}
+[1.942709] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/MotorData.json\n'}
+[1.943196] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/LimbCommand.json\n'}
+[1.943775] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces\n'}
+[1.944104] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg\n'}
+[1.944574] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/motor_data.h\n'}
+[1.944904] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[1.945276] (interfaces) StdoutLine: {'line': b'-- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__type_support.c\n'}
+[1.945723] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__struct.h\n'}
+[1.946163] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__type_support.h\n'}
+[1.946591] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__functions.c\n'}
+[1.946997] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__functions.c\n'}
+[1.947484] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__description.c\n'}
+[1.947841] (interfaces) StdoutLine: {'line': b'-- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__type_support.c\n'}
+[1.948401] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__type_support.h\n'}
+[1.948807] (interfaces) StdoutLine: {'line': b'-- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__type_support.c\n'}
+[1.949924] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__functions.h\n'}
+[1.950485] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__description.c\n'}
+[1.950837] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__struct.h\n'}
+[1.951270] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__functions.h\n'}
+[1.951721] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__type_support.h\n'}
+[1.952051] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__functions.h\n'}
+[1.952512] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__description.c\n'}
+[1.953019] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__functions.c\n'}
+[1.953472] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__struct.h\n'}
+[1.953827] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/motor_command.h\n'}
+[1.954203] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.954564] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/limb_command.h\n'}
+[1.955061] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[1.955426] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[1.955724] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[1.956149] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces\n'}
+[1.956635] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg\n'}
+[1.957013] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.957482] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[1.957979] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__rosidl_typesupport_fastrtps_c.h\n'}
+[1.958350] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__rosidl_typesupport_fastrtps_c.h\n'}
+[1.958814] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h\n'}
+[1.959533] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[1.960742] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces\n'}
+[1.961210] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg\n'}
+[1.961605] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[1.961995] (interfaces) StdoutLine: {'line': b'-- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__type_support.c\n'}
+[1.963390] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__rosidl_typesupport_introspection_c.h\n'}
+[1.963902] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__rosidl_typesupport_introspection_c.h\n'}
+[1.964403] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__rosidl_typesupport_introspection_c.h\n'}
+[1.964800] (interfaces) StdoutLine: {'line': b'-- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__type_support.c\n'}
+[1.965602] (interfaces) StdoutLine: {'line': b'-- Installing: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__type_support.c\n'}
+[1.966885] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.968070] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[1.969915] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[1.970979] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces\n'}
+[1.971512] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg\n'}
+[1.971985] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/motor_data.hpp\n'}
+[1.972409] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/limb_command.hpp\n'}
+[1.972735] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[1.973241] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__builder.hpp\n'}
+[1.973593] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__builder.hpp\n'}
+[1.973994] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__traits.hpp\n'}
+[1.974456] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__traits.hpp\n'}
+[1.974788] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__struct.hpp\n'}
+[1.975098] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__type_support.hpp\n'}
+[1.975549] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__struct.hpp\n'}
+[1.976074] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__type_support.hpp\n'}
+[1.976524] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__traits.hpp\n'}
+[1.976879] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__struct.hpp\n'}
+[1.977232] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__builder.hpp\n'}
+[1.977572] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__type_support.hpp\n'}
+[1.977891] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.978228] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/motor_command.hpp\n'}
+[1.978657] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces\n'}
+[1.979226] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg\n'}
+[1.979628] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[1.979918] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.980259] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.980682] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.981100] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps\n'}
+[1.981467] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.981793] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.982230] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces\n'}
+[1.982726] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg\n'}
+[1.983058] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[1.983592] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.983916] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.984265] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_command__type_support.cpp\n'}
+[1.984713] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/motor_data__type_support.cpp\n'}
+[1.985207] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.985558] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/include/interfaces/interfaces/msg/detail/limb_command__type_support.cpp\n'}
+[1.985951] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[1.987769] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[1.988945] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[1.989483] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[1.989838] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info\n'}
+[1.990266] (interfaces) StdoutLine: {'line': b'-- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[1.991413] (interfaces) StdoutLine: {'line': b'-- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[1.992554] (interfaces) StdoutLine: {'line': b'-- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[1.993700] (interfaces) StdoutLine: {'line': b'-- Installing: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[1.994977] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces\n'}
+[1.995477] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.995942] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[1.996300] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so\n'}
+[1.996726] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[1.997205] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[1.997585] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg\n'}
+[1.997995] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_motor_data_s.c\n'}
+[1.998524] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_motor_command.py\n'}
+[1.998933] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_motor_data.py\n'}
+[1.999304] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_motor_command_s.c\n'}
+[1.999654] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_limb_command_s.c\n'}
+[1.999999] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_limb_command.py\n'}
+[2.000515] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg/__init__.py\n'}
+[2.000966] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/__init__.py\n'}
+[2.001371] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.007970] (-) TimerEvent: {}
+[2.108688] (-) TimerEvent: {}
+[2.150685] (interfaces) StdoutLine: {'line': b"Listing '/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces'...\n"}
+[2.151929] (interfaces) StdoutLine: {'line': b"Listing '/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/msg'...\n"}
+[2.179712] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[2.181798] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[2.183854] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so\n'}
+[2.185858] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/lib/libinterfaces__rosidl_generator_py.so\n'}
+[2.187094] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/MotorCommand.idl\n'}
+[2.187766] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/MotorData.idl\n'}
+[2.188268] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/LimbCommand.idl\n'}
+[2.188817] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/MotorCommand.msg\n'}
+[2.189430] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/MotorData.msg\n'}
+[2.189892] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/msg/LimbCommand.msg\n'}
+[2.190348] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[2.190868] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[2.191421] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[2.191867] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[2.192407] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/environment/path.sh\n'}
+[2.192840] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[2.193362] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/local_setup.bash\n'}
+[2.193786] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/local_setup.sh\n'}
+[2.194317] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[2.194765] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[2.195287] (interfaces) StdoutLine: {'line': b'-- Installing: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/package.dsv\n'}
+[2.195789] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[2.196310] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake\n'}
+[2.196863] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.197472] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.197977] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.198930] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.199518] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.200325] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[2.200874] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.201589] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake\n'}
+[2.202402] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.202864] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.203694] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.204198] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.204919] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[2.205417] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.206173] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake\n'}
+[2.206759] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.207257] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[2.207704] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.208154] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.208684] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.209016] (-) TimerEvent: {}
+[2.209408] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.210008] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.210439] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.210914] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[2.211506] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[2.211872] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/package.xml\n'}
+[2.218453] (interfaces) CommandEnded: {'returncode': 0}
+[2.309410] (-) TimerEvent: {}
+[2.316062] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[2.318934] (-) EventReactorShutdown: {}

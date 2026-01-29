@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/strain_monitor.dir/src/strain_monitor.cpp.o[0m
+[100%] [32m[1mLinking CXX executable strain_monitor[0m
+[100%] Built target strain_monitor
+-- Install configuration: ""
+-- Installing: /home/droso1/drosophibot-ROS/install/strain_monitor/lib/strain_monitor/strain_monitor
+-- Set non-toolchain portion of runtime path of "/home/droso1/drosophibot-ROS/install/strain_monitor/lib/strain_monitor/strain_monitor" to ""
+-- Installing: /home/droso1/drosophibot-ROS/install/strain_monitor/share/ament_index/resource_index/package_run_dependencies/strain_monitor
+-- Installing: /home/droso1/drosophibot-ROS/install/strain_monitor/share/ament_index/resource_index/parent_prefix_path/strain_monitor
+-- Installing: /home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/environment/ament_prefix_path.sh
+-- Installing: /home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/environment/ament_prefix_path.dsv
+-- Installing: /home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/environment/path.sh
+-- Installing: /home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/environment/path.dsv
+-- Installing: /home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/local_setup.bash
+-- Installing: /home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/local_setup.sh
+-- Installing: /home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/local_setup.zsh
+-- Installing: /home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/local_setup.dsv
+-- Installing: /home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/package.dsv
+-- Installing: /home/droso1/drosophibot-ROS/install/strain_monitor/share/ament_index/resource_index/packages/strain_monitor
+-- Installing: /home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/cmake/strain_monitorConfig.cmake
+-- Installing: /home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/cmake/strain_monitorConfig-version.cmake
+-- Installing: /home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/package.xml

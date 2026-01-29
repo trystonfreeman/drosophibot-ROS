@@ -1,0 +1,213 @@
+[0.000000] (-) TimerEvent: {}
+[0.000915] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.001662] (-) JobUnselected: {'identifier': 'motor_control'}
+[0.002463] (-) JobUnselected: {'identifier': 'pubsub'}
+[0.002547] (-) JobUnselected: {'identifier': 'testcpp'}
+[0.002638] (limb_controller) JobQueued: {'identifier': 'limb_controller', 'dependencies': OrderedDict({'interfaces': '/home/droso1/drosophibot-ROS/install/interfaces'})}
+[0.002816] (limb_controller) JobStarted: {'identifier': 'limb_controller'}
+[0.052012] (limb_controller) JobProgress: {'identifier': 'limb_controller', 'progress': 'cmake'}
+[0.054738] (limb_controller) JobProgress: {'identifier': 'limb_controller', 'progress': 'build'}
+[0.057102] (limb_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/droso1/drosophibot-ROS/build/limb_controller', '--', '-j4', '-l4'], 'cwd': '/home/droso1/drosophibot-ROS/build/limb_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'droso1', 'SSH_CLIENT': '192.168.137.1 57969 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/droso1/drosophibot-ROS/install/interfaces/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/droso1', 'OLDPWD': '/home/droso1/drosophibot-ROS/interfaces', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'droso1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/home/droso1/drosophibot-ROS/install/limb_controller:/home/droso1/drosophibot-ROS/install/interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/droso1/drosophibot-ROS/build/limb_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 57969 192.168.137.31 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/home/droso1/drosophibot-ROS/install/limb_controller:/opt/ros/jazzy'}), 'shell': False}
+[0.099274] (-) TimerEvent: {}
+[0.199966] (-) TimerEvent: {}
+[0.300624] (-) TimerEvent: {}
+[0.391839] (limb_controller) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/limb_controller.dir/src/limb_controller.cpp.o\x1b[0m\n'}
+[0.400767] (-) TimerEvent: {}
+[0.501380] (-) TimerEvent: {}
+[0.602029] (-) TimerEvent: {}
+[0.702661] (-) TimerEvent: {}
+[0.803261] (-) TimerEvent: {}
+[0.903923] (-) TimerEvent: {}
+[1.004523] (-) TimerEvent: {}
+[1.105135] (-) TimerEvent: {}
+[1.205744] (-) TimerEvent: {}
+[1.306310] (-) TimerEvent: {}
+[1.406916] (-) TimerEvent: {}
+[1.507500] (-) TimerEvent: {}
+[1.608139] (-) TimerEvent: {}
+[1.708726] (-) TimerEvent: {}
+[1.809302] (-) TimerEvent: {}
+[1.909901] (-) TimerEvent: {}
+[2.010509] (-) TimerEvent: {}
+[2.111197] (-) TimerEvent: {}
+[2.211883] (-) TimerEvent: {}
+[2.312540] (-) TimerEvent: {}
+[2.413272] (-) TimerEvent: {}
+[2.513944] (-) TimerEvent: {}
+[2.614567] (-) TimerEvent: {}
+[2.715253] (-) TimerEvent: {}
+[2.815982] (-) TimerEvent: {}
+[2.916703] (-) TimerEvent: {}
+[3.017382] (-) TimerEvent: {}
+[3.118080] (-) TimerEvent: {}
+[3.218733] (-) TimerEvent: {}
+[3.319373] (-) TimerEvent: {}
+[3.420042] (-) TimerEvent: {}
+[3.520691] (-) TimerEvent: {}
+[3.621293] (-) TimerEvent: {}
+[3.722023] (-) TimerEvent: {}
+[3.822674] (-) TimerEvent: {}
+[3.923341] (-) TimerEvent: {}
+[4.024093] (-) TimerEvent: {}
+[4.124757] (-) TimerEvent: {}
+[4.225386] (-) TimerEvent: {}
+[4.326075] (-) TimerEvent: {}
+[4.426764] (-) TimerEvent: {}
+[4.527409] (-) TimerEvent: {}
+[4.628160] (-) TimerEvent: {}
+[4.728791] (-) TimerEvent: {}
+[4.829417] (-) TimerEvent: {}
+[4.930147] (-) TimerEvent: {}
+[5.030782] (-) TimerEvent: {}
+[5.131450] (-) TimerEvent: {}
+[5.232174] (-) TimerEvent: {}
+[5.332805] (-) TimerEvent: {}
+[5.433409] (-) TimerEvent: {}
+[5.534059] (-) TimerEvent: {}
+[5.634710] (-) TimerEvent: {}
+[5.735385] (-) TimerEvent: {}
+[5.836066] (-) TimerEvent: {}
+[5.936691] (-) TimerEvent: {}
+[6.037309] (-) TimerEvent: {}
+[6.137970] (-) TimerEvent: {}
+[6.238594] (-) TimerEvent: {}
+[6.339234] (-) TimerEvent: {}
+[6.439903] (-) TimerEvent: {}
+[6.540576] (-) TimerEvent: {}
+[6.641276] (-) TimerEvent: {}
+[6.741978] (-) TimerEvent: {}
+[6.842583] (-) TimerEvent: {}
+[6.943232] (-) TimerEvent: {}
+[7.043895] (-) TimerEvent: {}
+[7.144504] (-) TimerEvent: {}
+[7.245186] (-) TimerEvent: {}
+[7.345849] (-) TimerEvent: {}
+[7.446464] (-) TimerEvent: {}
+[7.547137] (-) TimerEvent: {}
+[7.647765] (-) TimerEvent: {}
+[7.748371] (-) TimerEvent: {}
+[7.849070] (-) TimerEvent: {}
+[7.949739] (-) TimerEvent: {}
+[8.050366] (-) TimerEvent: {}
+[8.151043] (-) TimerEvent: {}
+[8.251730] (-) TimerEvent: {}
+[8.352382] (-) TimerEvent: {}
+[8.453044] (-) TimerEvent: {}
+[8.553703] (-) TimerEvent: {}
+[8.654314] (-) TimerEvent: {}
+[8.754996] (-) TimerEvent: {}
+[8.855648] (-) TimerEvent: {}
+[8.956243] (-) TimerEvent: {}
+[9.056884] (-) TimerEvent: {}
+[9.157486] (-) TimerEvent: {}
+[9.258172] (-) TimerEvent: {}
+[9.358785] (-) TimerEvent: {}
+[9.459380] (-) TimerEvent: {}
+[9.560031] (-) TimerEvent: {}
+[9.660677] (-) TimerEvent: {}
+[9.761328] (-) TimerEvent: {}
+[9.862000] (-) TimerEvent: {}
+[9.962644] (-) TimerEvent: {}
+[10.063282] (-) TimerEvent: {}
+[10.164075] (-) TimerEvent: {}
+[10.264712] (-) TimerEvent: {}
+[10.365326] (-) TimerEvent: {}
+[10.465987] (-) TimerEvent: {}
+[10.566654] (-) TimerEvent: {}
+[10.667278] (-) TimerEvent: {}
+[10.767947] (-) TimerEvent: {}
+[10.868565] (-) TimerEvent: {}
+[10.969248] (-) TimerEvent: {}
+[11.069964] (-) TimerEvent: {}
+[11.170569] (-) TimerEvent: {}
+[11.271310] (-) TimerEvent: {}
+[11.371985] (-) TimerEvent: {}
+[11.472665] (-) TimerEvent: {}
+[11.573278] (-) TimerEvent: {}
+[11.673962] (-) TimerEvent: {}
+[11.774563] (-) TimerEvent: {}
+[11.875221] (-) TimerEvent: {}
+[11.975867] (-) TimerEvent: {}
+[12.076466] (-) TimerEvent: {}
+[12.177107] (-) TimerEvent: {}
+[12.277744] (-) TimerEvent: {}
+[12.378350] (-) TimerEvent: {}
+[12.479070] (-) TimerEvent: {}
+[12.579707] (-) TimerEvent: {}
+[12.680335] (-) TimerEvent: {}
+[12.780993] (-) TimerEvent: {}
+[12.881684] (-) TimerEvent: {}
+[12.982393] (-) TimerEvent: {}
+[13.083045] (-) TimerEvent: {}
+[13.183684] (-) TimerEvent: {}
+[13.284286] (-) TimerEvent: {}
+[13.384957] (-) TimerEvent: {}
+[13.485681] (-) TimerEvent: {}
+[13.544312] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KLimbController::\x1b[01;32m\x1b[KLimbController\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.545297] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:17:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KSNSToolboxCPP::Network::Network()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.545816] (limb_controller) StderrLine: {'line': b'   17 |     : Node("LimbController"), count_(0\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[13.546228] (limb_controller) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.546536] (limb_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:8\x1b[m\x1b[K:\n'}
+[13.546940] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/Network.h:22:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KSNSToolboxCPP::Network::\x1b[01;32m\x1b[KNetwork\x1b[m\x1b[K(const std::string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.547319] (limb_controller) StderrLine: {'line': b'   22 |         explicit \x1b[01;36m\x1b[KNetwork\x1b[m\x1b[K(const std::string& filename);\n'}
+[13.547675] (limb_controller) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[13.548069] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/Network.h:22:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[13.548424] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/Network.h:14:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KSNSToolboxCPP::Network::\x1b[01;32m\x1b[KNetwork\x1b[m\x1b[K(const SNSToolboxCPP::Network&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.548876] (limb_controller) StderrLine: {'line': b'   14 |     class \x1b[01;36m\x1b[KNetwork\x1b[m\x1b[K {\n'}
+[13.549256] (limb_controller) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[13.549665] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/Network.h:14:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[13.550098] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/Network.h:14:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KSNSToolboxCPP::Network::\x1b[01;32m\x1b[KNetwork\x1b[m\x1b[K(SNSToolboxCPP::Network&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.550443] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/Network.h:14:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[13.585857] (-) TimerEvent: {}
+[13.686477] (-) TimerEvent: {}
+[13.787150] (-) TimerEvent: {}
+[13.887765] (-) TimerEvent: {}
+[13.988385] (-) TimerEvent: {}
+[14.089130] (-) TimerEvent: {}
+[14.189777] (-) TimerEvent: {}
+[14.290442] (-) TimerEvent: {}
+[14.391187] (-) TimerEvent: {}
+[14.491857] (-) TimerEvent: {}
+[14.592502] (-) TimerEvent: {}
+[14.693172] (-) TimerEvent: {}
+[14.793799] (-) TimerEvent: {}
+[14.894474] (-) TimerEvent: {}
+[14.995173] (-) TimerEvent: {}
+[15.095838] (-) TimerEvent: {}
+[15.196451] (-) TimerEvent: {}
+[15.297125] (-) TimerEvent: {}
+[15.397748] (-) TimerEvent: {}
+[15.498388] (-) TimerEvent: {}
+[15.599093] (-) TimerEvent: {}
+[15.699749] (-) TimerEvent: {}
+[15.800390] (-) TimerEvent: {}
+[15.901053] (-) TimerEvent: {}
+[16.001711] (-) TimerEvent: {}
+[16.102326] (-) TimerEvent: {}
+[16.202993] (-) TimerEvent: {}
+[16.303659] (-) TimerEvent: {}
+[16.404278] (-) TimerEvent: {}
+[16.504982] (-) TimerEvent: {}
+[16.605651] (-) TimerEvent: {}
+[16.706262] (-) TimerEvent: {}
+[16.806946] (-) TimerEvent: {}
+[16.907547] (-) TimerEvent: {}
+[17.008244] (-) TimerEvent: {}
+[17.108927] (-) TimerEvent: {}
+[17.209542] (-) TimerEvent: {}
+[17.310210] (-) TimerEvent: {}
+[17.410856] (-) TimerEvent: {}
+[17.511463] (-) TimerEvent: {}
+[17.612123] (-) TimerEvent: {}
+[17.712734] (-) TimerEvent: {}
+[17.813338] (-) TimerEvent: {}
+[17.914024] (-) TimerEvent: {}
+[18.014680] (-) TimerEvent: {}
+[18.115346] (-) TimerEvent: {}
+[18.165765] (limb_controller) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/limb_controller.dir/build.make:76: CMakeFiles/limb_controller.dir/src/limb_controller.cpp.o] Error 1\n'}
+[18.166799] (limb_controller) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/limb_controller.dir/all] Error 2\n'}
+[18.167649] (limb_controller) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[18.175007] (limb_controller) CommandEnded: {'returncode': 2}
+[18.215479] (-) TimerEvent: {}
+[18.224198] (limb_controller) JobEnded: {'identifier': 'limb_controller', 'rc': 2}
+[18.227329] (-) EventReactorShutdown: {}

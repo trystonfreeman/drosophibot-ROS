@@ -1,0 +1,97 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found interfaces: 0.0.0 (/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake)
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/droso1/drosophibot-ROS/limb_controller/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (2.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/droso1/drosophibot-ROS/build/limb_controller
+[ 20%] [32mBuilding CXX object CMakeFiles/limb_controller.dir/src/limb_controller.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/limb_controller.dir/src/Network.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/limb_controller.dir/src/cjsontoEigen.cpp.o[0m
+[ 80%] [32mBuilding C object CMakeFiles/limb_controller.dir/src/cJSON.c.o[0m
+In file included from [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/Core:214[m[K,
+                 from [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/Dense:1[m[K,
+                 from [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/Eigen:1[m[K,
+                 from [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/cjsontoEigen.h:4[m[K,
+                 from [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:5[m[K:
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::[01;32m[Kpload[m[K(const typename unpacket_traits<T>::type*) [35m[K[with Packet = eigen_packet_wrapper<int, 2>; typename unpacket_traits<T>::type = signed char][m[K[m[K’:
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid*[01;32m[K memcpy[m[K(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/Core:172[m[K:
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::[01;32m[Kploadu[m[K(const typename unpacket_traits<T>::type*) [35m[K[with Packet = eigen_packet_wrapper<int, 2>; typename unpacket_traits<T>::type = signed char][m[K[m[K’:
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid*[01;32m[K memcpy[m[K(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/Core:214[m[K,
+                 from [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/Dense:1[m[K,
+                 from [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/Eigen:1[m[K,
+                 from [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Network.h:3[m[K,
+                 from [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/Network.cpp:1[m[K:
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::[01;32m[Kpload[m[K(const typename unpacket_traits<T>::type*) [35m[K[with Packet = eigen_packet_wrapper<int, 2>; typename unpacket_traits<T>::type = signed char][m[K[m[K’:
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid*[01;32m[K memcpy[m[K(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/Core:172[m[K:
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::[01;32m[Kploadu[m[K(const typename unpacket_traits<T>::type*) [35m[K[with Packet = eigen_packet_wrapper<int, 2>; typename unpacket_traits<T>::type = signed char][m[K[m[K’:
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid*[01;32m[K memcpy[m[K(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:[m[K In static member function ‘[01m[Kstatic Eigen::ArrayXXf cjsontoEigen::[01;32m[KcjsontoArrayXXf[m[K(cJSON*, std::string)[m[K’:
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:38:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcjson[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   38 | ArrayXXf cjsontoEigen::cjsontoArrayXXf([01;35m[KcJSON* cjson[m[K,std::string name) {
+      |                                        [01;35m[K~~~~~~~^~~~~[m[K
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:38:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   38 | ArrayXXf cjsontoEigen::cjsontoArrayXXf(cJSON* cjson,[01;35m[Kstd::string name[m[K) {
+      |                                                     [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:[m[K In static member function ‘[01m[Kstatic Eigen::VectorXf cjsontoEigen::[01;32m[KcjsontoVectorXf[m[K(cJSON*, std::string)[m[K’:
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:44:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcjson[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   44 | VectorXf cjsontoEigen::cjsontoVectorXf([01;35m[KcJSON* cjson[m[K,std::string name) {
+      |                                        [01;35m[K~~~~~~~^~~~~[m[K
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:44:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   44 | VectorXf cjsontoEigen::cjsontoVectorXf(cJSON* cjson,[01;35m[Kstd::string name[m[K) {
+      |                                                     [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[100%] [32m[1mLinking CXX executable limb_controller[0m
+[100%] Built target limb_controller
+-- Install configuration: ""
+-- Installing: /home/droso1/drosophibot-ROS/install/limb_controller/share/ament_index/resource_index/package_run_dependencies/limb_controller
+-- Installing: /home/droso1/drosophibot-ROS/install/limb_controller/share/ament_index/resource_index/parent_prefix_path/limb_controller
+-- Installing: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/environment/ament_prefix_path.sh
+-- Installing: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/environment/ament_prefix_path.dsv
+-- Installing: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/environment/path.sh
+-- Installing: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/environment/path.dsv
+-- Installing: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/local_setup.bash
+-- Installing: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/local_setup.sh
+-- Installing: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/local_setup.zsh
+-- Installing: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/local_setup.dsv
+-- Installing: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/package.dsv
+-- Installing: /home/droso1/drosophibot-ROS/install/limb_controller/share/ament_index/resource_index/packages/limb_controller
+-- Installing: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/cmake/limb_controllerConfig.cmake
+-- Installing: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/cmake/limb_controllerConfig-version.cmake
+-- Installing: /home/droso1/drosophibot-ROS/install/limb_controller/share/limb_controller/package.xml

@@ -1,0 +1,232 @@
+[0.000000] (-) TimerEvent: {}
+[0.001540] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.001669] (-) JobUnselected: {'identifier': 'limb_controller'}
+[0.001739] (-) JobUnselected: {'identifier': 'motor_control'}
+[0.001803] (-) JobUnselected: {'identifier': 'pubsub'}
+[0.001865] (-) JobUnselected: {'identifier': 'testcpp'}
+[0.001934] (strain_monitor) JobQueued: {'identifier': 'strain_monitor', 'dependencies': OrderedDict({'interfaces': '/home/droso1/drosophibot-ROS/install/interfaces'})}
+[0.002020] (strain_monitor) JobStarted: {'identifier': 'strain_monitor'}
+[0.057959] (strain_monitor) JobProgress: {'identifier': 'strain_monitor', 'progress': 'cmake'}
+[0.060519] (strain_monitor) JobProgress: {'identifier': 'strain_monitor', 'progress': 'build'}
+[0.062744] (strain_monitor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/droso1/drosophibot-ROS/build/strain_monitor', '--', '-j4', '-l4'], 'cwd': '/home/droso1/drosophibot-ROS/build/strain_monitor', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'droso1', 'SSH_CLIENT': '192.168.137.1 49257 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/droso1/drosophibot-ROS/install/interfaces/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/droso1', 'OLDPWD': '/home/droso1', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'droso1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/home/droso1/drosophibot-ROS/install/limb_controller:/home/droso1/drosophibot-ROS/install/interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/droso1/drosophibot-ROS/build/strain_monitor', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 49257 192.168.137.112 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/home/droso1/drosophibot-ROS/install/limb_controller:/opt/ros/jazzy'}), 'shell': False}
+[0.099242] (-) TimerEvent: {}
+[0.199950] (-) TimerEvent: {}
+[0.301459] (-) TimerEvent: {}
+[0.391700] (strain_monitor) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/strain_monitor.dir/src/strain_monitor.cpp.o\x1b[0m\n'}
+[0.401631] (-) TimerEvent: {}
+[0.502228] (-) TimerEvent: {}
+[0.602783] (-) TimerEvent: {}
+[0.703387] (-) TimerEvent: {}
+[0.803947] (-) TimerEvent: {}
+[0.904553] (-) TimerEvent: {}
+[1.005186] (-) TimerEvent: {}
+[1.105728] (-) TimerEvent: {}
+[1.206310] (-) TimerEvent: {}
+[1.306850] (-) TimerEvent: {}
+[1.407438] (-) TimerEvent: {}
+[1.507992] (-) TimerEvent: {}
+[1.608628] (-) TimerEvent: {}
+[1.709222] (-) TimerEvent: {}
+[1.809803] (-) TimerEvent: {}
+[1.910470] (-) TimerEvent: {}
+[2.011031] (-) TimerEvent: {}
+[2.111635] (-) TimerEvent: {}
+[2.212252] (-) TimerEvent: {}
+[2.312846] (-) TimerEvent: {}
+[2.413499] (-) TimerEvent: {}
+[2.514061] (-) TimerEvent: {}
+[2.614737] (-) TimerEvent: {}
+[2.715425] (-) TimerEvent: {}
+[2.816008] (-) TimerEvent: {}
+[2.916629] (-) TimerEvent: {}
+[3.017232] (-) TimerEvent: {}
+[3.117884] (-) TimerEvent: {}
+[3.218537] (-) TimerEvent: {}
+[3.319243] (-) TimerEvent: {}
+[3.419881] (-) TimerEvent: {}
+[3.520573] (-) TimerEvent: {}
+[3.621190] (-) TimerEvent: {}
+[3.721771] (-) TimerEvent: {}
+[3.822490] (-) TimerEvent: {}
+[3.923202] (-) TimerEvent: {}
+[4.023785] (-) TimerEvent: {}
+[4.124485] (-) TimerEvent: {}
+[4.225166] (-) TimerEvent: {}
+[4.325771] (-) TimerEvent: {}
+[4.426520] (-) TimerEvent: {}
+[4.527163] (-) TimerEvent: {}
+[4.627769] (-) TimerEvent: {}
+[4.728431] (-) TimerEvent: {}
+[4.829087] (-) TimerEvent: {}
+[4.929784] (-) TimerEvent: {}
+[5.030467] (-) TimerEvent: {}
+[5.131087] (-) TimerEvent: {}
+[5.231806] (-) TimerEvent: {}
+[5.332539] (-) TimerEvent: {}
+[5.433239] (-) TimerEvent: {}
+[5.533886] (-) TimerEvent: {}
+[5.634539] (-) TimerEvent: {}
+[5.735190] (-) TimerEvent: {}
+[5.835770] (-) TimerEvent: {}
+[5.936423] (-) TimerEvent: {}
+[6.037001] (-) TimerEvent: {}
+[6.137620] (-) TimerEvent: {}
+[6.238226] (-) TimerEvent: {}
+[6.338801] (-) TimerEvent: {}
+[6.439463] (-) TimerEvent: {}
+[6.540063] (-) TimerEvent: {}
+[6.640698] (-) TimerEvent: {}
+[6.741333] (-) TimerEvent: {}
+[6.841907] (-) TimerEvent: {}
+[6.942538] (-) TimerEvent: {}
+[7.043181] (-) TimerEvent: {}
+[7.143741] (-) TimerEvent: {}
+[7.244343] (-) TimerEvent: {}
+[7.344940] (-) TimerEvent: {}
+[7.445633] (-) TimerEvent: {}
+[7.546260] (-) TimerEvent: {}
+[7.646830] (-) TimerEvent: {}
+[7.747526] (-) TimerEvent: {}
+[7.848194] (-) TimerEvent: {}
+[7.948788] (-) TimerEvent: {}
+[8.049445] (-) TimerEvent: {}
+[8.150074] (-) TimerEvent: {}
+[8.250797] (-) TimerEvent: {}
+[8.351444] (-) TimerEvent: {}
+[8.452081] (-) TimerEvent: {}
+[8.552743] (-) TimerEvent: {}
+[8.653426] (-) TimerEvent: {}
+[8.754047] (-) TimerEvent: {}
+[8.854720] (-) TimerEvent: {}
+[8.955376] (-) TimerEvent: {}
+[9.055994] (-) TimerEvent: {}
+[9.156669] (-) TimerEvent: {}
+[9.257261] (-) TimerEvent: {}
+[9.357852] (-) TimerEvent: {}
+[9.458496] (-) TimerEvent: {}
+[9.559164] (-) TimerEvent: {}
+[9.659757] (-) TimerEvent: {}
+[9.760449] (-) TimerEvent: {}
+[9.861060] (-) TimerEvent: {}
+[9.961738] (-) TimerEvent: {}
+[10.062417] (-) TimerEvent: {}
+[10.162976] (-) TimerEvent: {}
+[10.263599] (-) TimerEvent: {}
+[10.364232] (-) TimerEvent: {}
+[10.464792] (-) TimerEvent: {}
+[10.565465] (-) TimerEvent: {}
+[10.666031] (-) TimerEvent: {}
+[10.766697] (-) TimerEvent: {}
+[10.867339] (-) TimerEvent: {}
+[10.967951] (-) TimerEvent: {}
+[11.068621] (-) TimerEvent: {}
+[11.169226] (-) TimerEvent: {}
+[11.269835] (-) TimerEvent: {}
+[11.370498] (-) TimerEvent: {}
+[11.471148] (-) TimerEvent: {}
+[11.571769] (-) TimerEvent: {}
+[11.672416] (-) TimerEvent: {}
+[11.773034] (-) TimerEvent: {}
+[11.873685] (-) TimerEvent: {}
+[11.974343] (-) TimerEvent: {}
+[12.074960] (-) TimerEvent: {}
+[12.175639] (-) TimerEvent: {}
+[12.276245] (-) TimerEvent: {}
+[12.376850] (-) TimerEvent: {}
+[12.477516] (-) TimerEvent: {}
+[12.578165] (-) TimerEvent: {}
+[12.678764] (-) TimerEvent: {}
+[12.779410] (-) TimerEvent: {}
+[12.880054] (-) TimerEvent: {}
+[12.980700] (-) TimerEvent: {}
+[13.081353] (-) TimerEvent: {}
+[13.182009] (-) TimerEvent: {}
+[13.282714] (-) TimerEvent: {}
+[13.383397] (-) TimerEvent: {}
+[13.484017] (-) TimerEvent: {}
+[13.584691] (-) TimerEvent: {}
+[13.685490] (-) TimerEvent: {}
+[13.786157] (-) TimerEvent: {}
+[13.886766] (-) TimerEvent: {}
+[13.987423] (-) TimerEvent: {}
+[14.088018] (-) TimerEvent: {}
+[14.188680] (-) TimerEvent: {}
+[14.289276] (-) TimerEvent: {}
+[14.389892] (-) TimerEvent: {}
+[14.490581] (-) TimerEvent: {}
+[14.591220] (-) TimerEvent: {}
+[14.691808] (-) TimerEvent: {}
+[14.792442] (-) TimerEvent: {}
+[14.893046] (-) TimerEvent: {}
+[14.993708] (-) TimerEvent: {}
+[15.094281] (-) TimerEvent: {}
+[15.194876] (-) TimerEvent: {}
+[15.295538] (-) TimerEvent: {}
+[15.396181] (-) TimerEvent: {}
+[15.496791] (-) TimerEvent: {}
+[15.597433] (-) TimerEvent: {}
+[15.698036] (-) TimerEvent: {}
+[15.798693] (-) TimerEvent: {}
+[15.899291] (-) TimerEvent: {}
+[15.999906] (-) TimerEvent: {}
+[16.100564] (-) TimerEvent: {}
+[16.201233] (-) TimerEvent: {}
+[16.301836] (-) TimerEvent: {}
+[16.402513] (-) TimerEvent: {}
+[16.503339] (-) TimerEvent: {}
+[16.603900] (-) TimerEvent: {}
+[16.704523] (-) TimerEvent: {}
+[16.805150] (-) TimerEvent: {}
+[16.905725] (-) TimerEvent: {}
+[17.006337] (-) TimerEvent: {}
+[17.106908] (-) TimerEvent: {}
+[17.207549] (-) TimerEvent: {}
+[17.308185] (-) TimerEvent: {}
+[17.408802] (-) TimerEvent: {}
+[17.509401] (-) TimerEvent: {}
+[17.609973] (-) TimerEvent: {}
+[17.710992] (-) TimerEvent: {}
+[17.811685] (-) TimerEvent: {}
+[17.912340] (-) TimerEvent: {}
+[18.013030] (-) TimerEvent: {}
+[18.113674] (-) TimerEvent: {}
+[18.214337] (-) TimerEvent: {}
+[18.315153] (-) TimerEvent: {}
+[18.408502] (strain_monitor) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable strain_monitor\x1b[0m\n'}
+[18.415318] (-) TimerEvent: {}
+[18.515994] (-) TimerEvent: {}
+[18.616767] (-) TimerEvent: {}
+[18.717580] (-) TimerEvent: {}
+[18.818346] (-) TimerEvent: {}
+[18.919265] (-) TimerEvent: {}
+[19.019918] (-) TimerEvent: {}
+[19.120611] (-) TimerEvent: {}
+[19.221352] (-) TimerEvent: {}
+[19.308360] (strain_monitor) StdoutLine: {'line': b'[100%] Built target strain_monitor\n'}
+[19.321570] (-) TimerEvent: {}
+[19.362362] (strain_monitor) CommandEnded: {'returncode': 0}
+[19.364214] (strain_monitor) JobProgress: {'identifier': 'strain_monitor', 'progress': 'install'}
+[19.412807] (strain_monitor) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/droso1/drosophibot-ROS/build/strain_monitor'], 'cwd': '/home/droso1/drosophibot-ROS/build/strain_monitor', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'droso1', 'SSH_CLIENT': '192.168.137.1 49257 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/droso1/drosophibot-ROS/install/interfaces/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/droso1', 'OLDPWD': '/home/droso1', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'droso1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/home/droso1/drosophibot-ROS/install/limb_controller:/home/droso1/drosophibot-ROS/install/interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/droso1/drosophibot-ROS/build/strain_monitor', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 49257 192.168.137.112 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/home/droso1/drosophibot-ROS/install/limb_controller:/opt/ros/jazzy'}), 'shell': False}
+[19.421777] (-) TimerEvent: {}
+[19.452249] (strain_monitor) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.453646] (strain_monitor) StdoutLine: {'line': b'-- Installing: /home/droso1/drosophibot-ROS/install/strain_monitor/lib/strain_monitor/strain_monitor\n'}
+[19.466508] (strain_monitor) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/droso1/drosophibot-ROS/install/strain_monitor/lib/strain_monitor/strain_monitor" to ""\n'}
+[19.467196] (strain_monitor) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/strain_monitor/share/ament_index/resource_index/package_run_dependencies/strain_monitor\n'}
+[19.467729] (strain_monitor) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/strain_monitor/share/ament_index/resource_index/parent_prefix_path/strain_monitor\n'}
+[19.468260] (strain_monitor) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/environment/ament_prefix_path.sh\n'}
+[19.468819] (strain_monitor) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/environment/ament_prefix_path.dsv\n'}
+[19.469234] (strain_monitor) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/environment/path.sh\n'}
+[19.469676] (strain_monitor) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/environment/path.dsv\n'}
+[19.470146] (strain_monitor) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/local_setup.bash\n'}
+[19.470651] (strain_monitor) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/local_setup.sh\n'}
+[19.471033] (strain_monitor) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/local_setup.zsh\n'}
+[19.471614] (strain_monitor) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/local_setup.dsv\n'}
+[19.472008] (strain_monitor) StdoutLine: {'line': b'-- Installing: /home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/package.dsv\n'}
+[19.472497] (strain_monitor) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/strain_monitor/share/ament_index/resource_index/packages/strain_monitor\n'}
+[19.472965] (strain_monitor) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/cmake/strain_monitorConfig.cmake\n'}
+[19.473410] (strain_monitor) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/cmake/strain_monitorConfig-version.cmake\n'}
+[19.473903] (strain_monitor) StdoutLine: {'line': b'-- Up-to-date: /home/droso1/drosophibot-ROS/install/strain_monitor/share/strain_monitor/package.xml\n'}
+[19.480164] (strain_monitor) CommandEnded: {'returncode': 0}
+[19.521934] (-) TimerEvent: {}
+[19.549437] (strain_monitor) JobEnded: {'identifier': 'strain_monitor', 'rc': 0}
+[19.552329] (-) EventReactorShutdown: {}

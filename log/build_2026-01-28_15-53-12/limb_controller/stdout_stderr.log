@@ -1,0 +1,20 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/limb_controller.dir/src/limb_controller.cpp.o[0m
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:38:5:[m[K [01;31m[Kerror: [m[K‘[01m[KNetwork[m[K’ does not name a type
+   38 |     [01;31m[KNetwork[m[K controller;
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:[m[K In constructor ‘[01m[KLimbController::[01;32m[KLimbController[m[K()[m[K’:
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:21:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontroller[m[K’ was not declared in this scope; did you mean ‘[01m[KLimbController[m[K’?
+   21 |         [01;31m[Kcontroller[m[K = Network(this->get_parameter("Network").as_string());
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[KLimbController[m[K
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:21:22:[m[K [01;31m[Kerror: [m[K‘[01m[KNetwork[m[K’ was not declared in this scope; did you mean ‘[01m[KSNSToolboxCPP::Network[m[K’?
+   21 |         controller = [01;31m[KNetwork[m[K(this->get_parameter("Network").as_string());
+      |                      [01;31m[K^~~~~~~[m[K
+      |                      [32m[KSNSToolboxCPP::Network[m[K
+In file included from [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:8[m[K:
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Network.h:14:11:[m[K [01;36m[Knote: [m[K‘[01m[KSNSToolboxCPP::Network[m[K’ declared here
+   14 |     class [01;36m[KNetwork[m[K {
+      |           [01;36m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/limb_controller.dir/build.make:76: CMakeFiles/limb_controller.dir/src/limb_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/limb_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

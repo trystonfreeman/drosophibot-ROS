@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/strain_monitor.dir/src/strain_monitor.cpp.o[0m
+[01m[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:14:10:[m[K [01;31m[Kfatal error: [m[KwiringSerial.h: No such file or directory
+   14 | #include [01;31m[K<wiringSerial.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/strain_monitor.dir/build.make:76: CMakeFiles/strain_monitor.dir/src/strain_monitor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/strain_monitor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

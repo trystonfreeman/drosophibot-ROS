@@ -1,0 +1,19 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/limb_controller.dir/src/limb_controller.cpp.o[0m
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:[m[K In constructor ‘[01m[KLimbController::[01;32m[KLimbController[m[K()[m[K’:
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:17:39:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSNSToolboxCPP::Network::Network()[m[K’
+   17 |     : Node("LimbController"), count_(0[01;31m[K)[m[K
+      |                                       [01;31m[K^[m[K
+In file included from [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:8[m[K:
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Network.h:22:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KSNSToolboxCPP::Network::[01;32m[KNetwork[m[K(const std::string&)[m[K’
+   22 |         explicit [01;36m[KNetwork[m[K(const std::string& filename);
+      |                  [01;36m[K^~~~~~~[m[K
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Network.h:22:18:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Network.h:14:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KSNSToolboxCPP::Network::[01;32m[KNetwork[m[K(const SNSToolboxCPP::Network&)[m[K’
+   14 |     class [01;36m[KNetwork[m[K {
+      |           [01;36m[K^~~~~~~[m[K
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Network.h:14:11:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Network.h:14:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KSNSToolboxCPP::Network::[01;32m[KNetwork[m[K(SNSToolboxCPP::Network&&)[m[K’
+[01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Network.h:14:11:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+gmake[2]: *** [CMakeFiles/limb_controller.dir/build.make:76: CMakeFiles/limb_controller.dir/src/limb_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/limb_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

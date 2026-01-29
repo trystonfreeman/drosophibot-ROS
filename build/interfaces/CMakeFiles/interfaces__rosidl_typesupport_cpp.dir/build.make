@@ -79,6 +79,7 @@ rosidl_typesupport_cpp/interfaces/msg/motor_command__type_support.cpp: rosidl_ad
 rosidl_typesupport_cpp/interfaces/msg/motor_command__type_support.cpp: rosidl_adapter/interfaces/msg/MotorData.idl
 rosidl_typesupport_cpp/interfaces/msg/motor_command__type_support.cpp: rosidl_adapter/interfaces/msg/LimbCommand.idl
 rosidl_typesupport_cpp/interfaces/msg/motor_command__type_support.cpp: rosidl_adapter/interfaces/msg/DescendingCommand.idl
+rosidl_typesupport_cpp/interfaces/msg/motor_command__type_support.cpp: rosidl_adapter/interfaces/msg/StrainData.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/droso1/drosophibot-ROS/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ type support dispatch for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp --generator-arguments-file /home/droso1/drosophibot-ROS/build/interfaces/rosidl_typesupport_cpp__arguments.json --typesupports rosidl_typesupport_fastrtps_cpp rosidl_typesupport_introspection_cpp
 
@@ -90,6 +91,9 @@ rosidl_typesupport_cpp/interfaces/msg/limb_command__type_support.cpp: rosidl_typ
 
 rosidl_typesupport_cpp/interfaces/msg/descending_command__type_support.cpp: rosidl_typesupport_cpp/interfaces/msg/motor_command__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_cpp/interfaces/msg/descending_command__type_support.cpp
+
+rosidl_typesupport_cpp/interfaces/msg/strain_data__type_support.cpp: rosidl_typesupport_cpp/interfaces/msg/motor_command__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_cpp/interfaces/msg/strain_data__type_support.cpp
 
 CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/motor_command__type_support.cpp.o: CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/flags.make
 CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/motor_command__type_support.cpp.o: rosidl_typesupport_cpp/interfaces/msg/motor_command__type_support.cpp
@@ -147,12 +151,27 @@ CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfa
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/descending_command__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/droso1/drosophibot-ROS/build/interfaces/rosidl_typesupport_cpp/interfaces/msg/descending_command__type_support.cpp -o CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/descending_command__type_support.cpp.s
 
+CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/strain_data__type_support.cpp.o: CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/flags.make
+CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/strain_data__type_support.cpp.o: rosidl_typesupport_cpp/interfaces/msg/strain_data__type_support.cpp
+CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/strain_data__type_support.cpp.o: CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/droso1/drosophibot-ROS/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/strain_data__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/strain_data__type_support.cpp.o -MF CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/strain_data__type_support.cpp.o.d -o CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/strain_data__type_support.cpp.o -c /home/droso1/drosophibot-ROS/build/interfaces/rosidl_typesupport_cpp/interfaces/msg/strain_data__type_support.cpp
+
+CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/strain_data__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/strain_data__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/droso1/drosophibot-ROS/build/interfaces/rosidl_typesupport_cpp/interfaces/msg/strain_data__type_support.cpp > CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/strain_data__type_support.cpp.i
+
+CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/strain_data__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/strain_data__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/droso1/drosophibot-ROS/build/interfaces/rosidl_typesupport_cpp/interfaces/msg/strain_data__type_support.cpp -o CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/strain_data__type_support.cpp.s
+
 # Object files for target interfaces__rosidl_typesupport_cpp
 interfaces__rosidl_typesupport_cpp_OBJECTS = \
 "CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/motor_command__type_support.cpp.o" \
 "CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/motor_data__type_support.cpp.o" \
 "CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/limb_command__type_support.cpp.o" \
-"CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/descending_command__type_support.cpp.o"
+"CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/descending_command__type_support.cpp.o" \
+"CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/strain_data__type_support.cpp.o"
 
 # External object files for target interfaces__rosidl_typesupport_cpp
 interfaces__rosidl_typesupport_cpp_EXTERNAL_OBJECTS =
@@ -161,6 +180,7 @@ libinterfaces__rosidl_typesupport_cpp.so: CMakeFiles/interfaces__rosidl_typesupp
 libinterfaces__rosidl_typesupport_cpp.so: CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/motor_data__type_support.cpp.o
 libinterfaces__rosidl_typesupport_cpp.so: CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/limb_command__type_support.cpp.o
 libinterfaces__rosidl_typesupport_cpp.so: CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/descending_command__type_support.cpp.o
+libinterfaces__rosidl_typesupport_cpp.so: CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/strain_data__type_support.cpp.o
 libinterfaces__rosidl_typesupport_cpp.so: CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/build.make
 libinterfaces__rosidl_typesupport_cpp.so: libinterfaces__rosidl_generator_c.so
 libinterfaces__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/librosidl_typesupport_cpp.so
@@ -168,7 +188,7 @@ libinterfaces__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/librosidl_typesuppo
 libinterfaces__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libinterfaces__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/librcutils.so
 libinterfaces__rosidl_typesupport_cpp.so: CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/droso1/drosophibot-ROS/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library libinterfaces__rosidl_typesupport_cpp.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/droso1/drosophibot-ROS/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library libinterfaces__rosidl_typesupport_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -183,6 +203,7 @@ CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp
 CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/interfaces/msg/limb_command__type_support.cpp
 CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/interfaces/msg/motor_command__type_support.cpp
 CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/interfaces/msg/motor_data__type_support.cpp
+CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/interfaces/msg/strain_data__type_support.cpp
 	cd /home/droso1/drosophibot-ROS/build/interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/droso1/drosophibot-ROS/interfaces /home/droso1/drosophibot-ROS/interfaces /home/droso1/drosophibot-ROS/build/interfaces /home/droso1/drosophibot-ROS/build/interfaces /home/droso1/drosophibot-ROS/build/interfaces/CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/depend
 

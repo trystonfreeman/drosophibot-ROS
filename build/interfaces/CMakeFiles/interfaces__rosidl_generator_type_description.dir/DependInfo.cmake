@@ -15,6 +15,7 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_type_description/interfaces/msg/DescendingCommand.json" "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_type_description/interfaces/msg/MotorCommand.json"
   "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_type_description/interfaces/msg/LimbCommand.json" "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_type_description/interfaces/msg/MotorCommand.json"
   "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_type_description/interfaces/msg/MotorData.json" "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_type_description/interfaces/msg/MotorCommand.json"
+  "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_type_description/interfaces/msg/StrainData.json" "/home/droso1/drosophibot-ROS/build/interfaces/rosidl_generator_type_description/interfaces/msg/MotorCommand.json"
   )
 
 

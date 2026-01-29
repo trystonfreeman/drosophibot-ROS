@@ -1,0 +1,207 @@
+[0.000000] (-) TimerEvent: {}
+[0.001521] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.002388] (-) JobUnselected: {'identifier': 'motor_control'}
+[0.002478] (-) JobUnselected: {'identifier': 'pubsub'}
+[0.002542] (-) JobUnselected: {'identifier': 'testcpp'}
+[0.002721] (limb_controller) JobQueued: {'identifier': 'limb_controller', 'dependencies': OrderedDict({'interfaces': '/home/droso1/drosophibot-ROS/install/interfaces'})}
+[0.002816] (limb_controller) JobStarted: {'identifier': 'limb_controller'}
+[0.051031] (limb_controller) JobProgress: {'identifier': 'limb_controller', 'progress': 'cmake'}
+[0.054330] (limb_controller) JobProgress: {'identifier': 'limb_controller', 'progress': 'build'}
+[0.057323] (limb_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/droso1/drosophibot-ROS/build/limb_controller', '--', '-j4', '-l4'], 'cwd': '/home/droso1/drosophibot-ROS/build/limb_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'droso1', 'SSH_CLIENT': '192.168.137.1 57969 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/droso1/drosophibot-ROS/install/interfaces/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/droso1', 'OLDPWD': '/home/droso1', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'droso1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/home/droso1/drosophibot-ROS/install/interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/droso1/drosophibot-ROS/build/limb_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 57969 192.168.137.31 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy'}), 'shell': False}
+[0.099243] (-) TimerEvent: {}
+[0.196029] (limb_controller) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.199366] (-) TimerEvent: {}
+[0.299951] (-) TimerEvent: {}
+[0.400709] (-) TimerEvent: {}
+[0.501648] (-) TimerEvent: {}
+[0.602499] (-) TimerEvent: {}
+[0.703435] (-) TimerEvent: {}
+[0.804195] (-) TimerEvent: {}
+[0.904748] (-) TimerEvent: {}
+[1.005256] (-) TimerEvent: {}
+[1.105804] (-) TimerEvent: {}
+[1.206364] (-) TimerEvent: {}
+[1.229074] (limb_controller) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.306523] (-) TimerEvent: {}
+[1.394142] (limb_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.406684] (-) TimerEvent: {}
+[1.444015] (limb_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.506847] (-) TimerEvent: {}
+[1.508601] (limb_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.578471] (limb_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.607002] (-) TimerEvent: {}
+[1.707614] (-) TimerEvent: {}
+[1.808190] (-) TimerEvent: {}
+[1.871192] (limb_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.881502] (limb_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.908359] (-) TimerEvent: {}
+[2.009026] (-) TimerEvent: {}
+[2.109740] (-) TimerEvent: {}
+[2.173179] (limb_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.209915] (-) TimerEvent: {}
+[2.310534] (-) TimerEvent: {}
+[2.411223] (-) TimerEvent: {}
+[2.447929] (limb_controller) StdoutLine: {'line': b'-- Found interfaces: 0.0.0 (/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake)\n'}
+[2.497493] (limb_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.511416] (-) TimerEvent: {}
+[2.612198] (-) TimerEvent: {}
+[2.713118] (-) TimerEvent: {}
+[2.813752] (-) TimerEvent: {}
+[2.914539] (-) TimerEvent: {}
+[3.015157] (-) TimerEvent: {}
+[3.115692] (-) TimerEvent: {}
+[3.127885] (limb_controller) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.128613] (limb_controller) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/droso1/drosophibot-ROS/limb_controller/include\n'}
+[3.129142] (limb_controller) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.208008] (limb_controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.215836] (-) TimerEvent: {}
+[3.316362] (-) TimerEvent: {}
+[3.416929] (-) TimerEvent: {}
+[3.421824] (limb_controller) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.422423] (limb_controller) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.452743] (limb_controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.458945] (limb_controller) StdoutLine: {'line': b'-- Configuring done (3.3s)\n'}
+[3.517107] (-) TimerEvent: {}
+[3.533065] (limb_controller) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.550686] (limb_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/droso1/drosophibot-ROS/build/limb_controller\n'}
+[3.617379] (-) TimerEvent: {}
+[3.718082] (-) TimerEvent: {}
+[3.784841] (limb_controller) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/limb_controller.dir/src/cjsontoEigen.cpp.o\x1b[0m\n'}
+[3.818291] (-) TimerEvent: {}
+[3.919007] (-) TimerEvent: {}
+[4.019632] (-) TimerEvent: {}
+[4.120205] (-) TimerEvent: {}
+[4.220867] (-) TimerEvent: {}
+[4.321619] (-) TimerEvent: {}
+[4.422245] (-) TimerEvent: {}
+[4.522898] (-) TimerEvent: {}
+[4.623751] (-) TimerEvent: {}
+[4.724457] (-) TimerEvent: {}
+[4.825101] (-) TimerEvent: {}
+[4.925758] (-) TimerEvent: {}
+[5.026369] (-) TimerEvent: {}
+[5.127051] (-) TimerEvent: {}
+[5.227796] (-) TimerEvent: {}
+[5.328427] (-) TimerEvent: {}
+[5.429089] (-) TimerEvent: {}
+[5.529695] (-) TimerEvent: {}
+[5.630285] (-) TimerEvent: {}
+[5.730928] (-) TimerEvent: {}
+[5.831597] (-) TimerEvent: {}
+[5.932235] (-) TimerEvent: {}
+[6.032914] (-) TimerEvent: {}
+[6.133536] (-) TimerEvent: {}
+[6.234192] (-) TimerEvent: {}
+[6.334930] (-) TimerEvent: {}
+[6.435585] (-) TimerEvent: {}
+[6.536213] (-) TimerEvent: {}
+[6.636994] (-) TimerEvent: {}
+[6.737683] (-) TimerEvent: {}
+[6.838309] (-) TimerEvent: {}
+[6.938974] (-) TimerEvent: {}
+[7.039651] (-) TimerEvent: {}
+[7.140373] (-) TimerEvent: {}
+[7.241115] (-) TimerEvent: {}
+[7.341798] (-) TimerEvent: {}
+[7.430538] (limb_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/Core:214\x1b[m\x1b[K,\n'}
+[7.431462] (limb_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[7.432015] (limb_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/Eigen:1\x1b[m\x1b[K,\n'}
+[7.432396] (limb_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/cjsontoEigen.h:4\x1b[m\x1b[K,\n'}
+[7.432887] (limb_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:5\x1b[m\x1b[K:\n'}
+[7.433310] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/arch/NEON/PacketMath.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KPacket Eigen::internal::\x1b[01;32m\x1b[Kpload\x1b[m\x1b[K(const typename unpacket_traits<T>::type*) \x1b[35m\x1b[K[with Packet = eigen_packet_wrapper<int, 2>; typename unpacket_traits<T>::type = signed char]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.433812] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid*\x1b[01;32m\x1b[K memcpy\x1b[m\x1b[K(void*, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99 copying an object of non-trivial type \xe2\x80\x98\x1b[01m\x1b[KEigen::internal::Packet4c\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>\x1b[m\x1b[K\xe2\x80\x99} from an array of \xe2\x80\x98\x1b[01m\x1b[Kconst int8_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst signed char\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess\x07-Wclass-memaccess\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.434267] (limb_controller) StderrLine: {'line': b' 1671 |   \x1b[01;35m\x1b[Kmemcpy(&res, from, sizeof(Packet4c))\x1b[m\x1b[K;\n'}
+[7.434719] (limb_controller) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.435168] (limb_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/Core:172\x1b[m\x1b[K:\n'}
+[7.435587] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/GenericPacketMath.h:159:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::internal::Packet4c\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>\x1b[m\x1b[K\xe2\x80\x99} declared here\n'}
+[7.436182] (limb_controller) StderrLine: {'line': b'  159 | struct \x1b[01;36m\x1b[Keigen_packet_wrapper\x1b[m\x1b[K\n'}
+[7.436640] (limb_controller) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.438625] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/arch/NEON/PacketMath.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KPacket Eigen::internal::\x1b[01;32m\x1b[Kploadu\x1b[m\x1b[K(const typename unpacket_traits<T>::type*) \x1b[35m\x1b[K[with Packet = eigen_packet_wrapper<int, 2>; typename unpacket_traits<T>::type = signed char]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.439323] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid*\x1b[01;32m\x1b[K memcpy\x1b[m\x1b[K(void*, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99 copying an object of non-trivial type \xe2\x80\x98\x1b[01m\x1b[KEigen::internal::Packet4c\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>\x1b[m\x1b[K\xe2\x80\x99} from an array of \xe2\x80\x98\x1b[01m\x1b[Kconst int8_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst signed char\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess\x07-Wclass-memaccess\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.439937] (limb_controller) StderrLine: {'line': b' 1716 |   \x1b[01;35m\x1b[Kmemcpy(&res, from, sizeof(Packet4c))\x1b[m\x1b[K;\n'}
+[7.440356] (limb_controller) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.440830] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/GenericPacketMath.h:159:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::internal::Packet4c\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>\x1b[m\x1b[K\xe2\x80\x99} declared here\n'}
+[7.441268] (limb_controller) StderrLine: {'line': b'  159 | struct \x1b[01;36m\x1b[Keigen_packet_wrapper\x1b[m\x1b[K\n'}
+[7.441720] (limb_controller) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.442142] (-) TimerEvent: {}
+[7.542695] (-) TimerEvent: {}
+[7.643358] (-) TimerEvent: {}
+[7.744056] (-) TimerEvent: {}
+[7.844678] (-) TimerEvent: {}
+[7.945325] (-) TimerEvent: {}
+[8.045995] (-) TimerEvent: {}
+[8.146651] (-) TimerEvent: {}
+[8.247278] (-) TimerEvent: {}
+[8.347962] (-) TimerEvent: {}
+[8.448642] (-) TimerEvent: {}
+[8.549259] (-) TimerEvent: {}
+[8.649924] (-) TimerEvent: {}
+[8.750512] (-) TimerEvent: {}
+[8.851155] (-) TimerEvent: {}
+[8.951761] (-) TimerEvent: {}
+[9.052386] (-) TimerEvent: {}
+[9.153101] (-) TimerEvent: {}
+[9.253746] (-) TimerEvent: {}
+[9.354383] (-) TimerEvent: {}
+[9.455074] (-) TimerEvent: {}
+[9.555786] (-) TimerEvent: {}
+[9.656397] (-) TimerEvent: {}
+[9.742684] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic Eigen::ArrayXXf cjsontoEigen::\x1b[01;32m\x1b[KcjsontoArrayXXf\x1b[m\x1b[K(cJSON*, std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.743291] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:38:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcjson\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.743779] (limb_controller) StderrLine: {'line': b'   38 | ArrayXXf cjsontoEigen::cjsontoArrayXXf(\x1b[01;35m\x1b[KcJSON* cjson\x1b[m\x1b[K,std::string name) {\n'}
+[9.744183] (limb_controller) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[9.744509] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:38:65:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kname\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.744943] (limb_controller) StderrLine: {'line': b'   38 | ArrayXXf cjsontoEigen::cjsontoArrayXXf(cJSON* cjson,\x1b[01;35m\x1b[Kstd::string name\x1b[m\x1b[K) {\n'}
+[9.745273] (limb_controller) StderrLine: {'line': b'      |                                                     \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[9.756609] (-) TimerEvent: {}
+[9.777930] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic Eigen::VectorXf cjsontoEigen::\x1b[01;32m\x1b[KcjsontoVectorXf\x1b[m\x1b[K(cJSON*, std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.778660] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:44:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcjson\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.779096] (limb_controller) StderrLine: {'line': b'   44 | VectorXf cjsontoEigen::cjsontoVectorXf(\x1b[01;35m\x1b[KcJSON* cjson\x1b[m\x1b[K,std::string name) {\n'}
+[9.779425] (limb_controller) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[9.779809] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:44:65:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kname\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.780152] (limb_controller) StderrLine: {'line': b'   44 | VectorXf cjsontoEigen::cjsontoVectorXf(cJSON* cjson,\x1b[01;35m\x1b[Kstd::string name\x1b[m\x1b[K) {\n'}
+[9.780512] (limb_controller) StderrLine: {'line': b'      |                                                     \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[9.856763] (-) TimerEvent: {}
+[9.957401] (-) TimerEvent: {}
+[10.058102] (-) TimerEvent: {}
+[10.158719] (-) TimerEvent: {}
+[10.259352] (-) TimerEvent: {}
+[10.360039] (-) TimerEvent: {}
+[10.397825] (limb_controller) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable limb_controller\x1b[0m\n'}
+[10.460213] (-) TimerEvent: {}
+[10.560897] (-) TimerEvent: {}
+[10.661610] (-) TimerEvent: {}
+[10.762489] (-) TimerEvent: {}
+[10.863311] (-) TimerEvent: {}
+[10.964076] (-) TimerEvent: {}
+[11.064746] (-) TimerEvent: {}
+[11.165431] (-) TimerEvent: {}
+[11.266178] (-) TimerEvent: {}
+[11.366854] (-) TimerEvent: {}
+[11.467487] (-) TimerEvent: {}
+[11.506805] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o: in function `SNSToolboxCPP::Network::LoadFromFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':\n"}
+[11.507352] (limb_controller) StderrLine: {'line': b"Network.cpp:(.text+0xc5c): undefined reference to `cJSON_Parse'\n"}
+[11.542943] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/limb_controller.dir/src/cjsontoEigen.cpp.o: in function `cjsontoEigen::cjsontodouble(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)':\n"}
+[11.543921] (limb_controller) StderrLine: {'line': b"cjsontoEigen.cpp:(.text+0x24): undefined reference to `cJSON_GetObjectItem'\n"}
+[11.544453] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/limb_controller.dir/src/cjsontoEigen.cpp.o: in function `cjsontoEigen::cjsontoint(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)':\n"}
+[11.544882] (limb_controller) StderrLine: {'line': b"cjsontoEigen.cpp:(.text+0xb0): undefined reference to `cJSON_GetObjectItem'\n"}
+[11.545179] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/limb_controller.dir/src/cjsontoEigen.cpp.o: in function `cjsontoEigen::cjsontobool(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)':\n"}
+[11.545507] (limb_controller) StderrLine: {'line': b"cjsontoEigen.cpp:(.text+0x144): undefined reference to `cJSON_GetObjectItem'\n"}
+[11.546014] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: cjsontoEigen.cpp:(.text+0x1a0): undefined reference to `cJSON_IsTrue'\n"}
+[11.546452] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/limb_controller.dir/src/cjsontoEigen.cpp.o: in function `cjsontoEigen::cjsontoMatrixXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)':\n"}
+[11.546978] (limb_controller) StderrLine: {'line': b"cjsontoEigen.cpp:(.text+0x268): undefined reference to `cJSON_GetObjectItemCaseSensitive'\n"}
+[11.547423] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: cjsontoEigen.cpp:(.text+0x274): undefined reference to `cJSON_IsArray'\n"}
+[11.547943] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: cjsontoEigen.cpp:(.text+0x284): undefined reference to `cJSON_GetArrayItem'\n"}
+[11.548387] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: cjsontoEigen.cpp:(.text+0x290): undefined reference to `cJSON_GetArraySize'\n"}
+[11.548936] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: cjsontoEigen.cpp:(.text+0x29c): undefined reference to `cJSON_GetArraySize'\n"}
+[11.549376] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: cjsontoEigen.cpp:(.text+0x2cc): undefined reference to `cJSON_GetArrayItem'\n"}
+[11.549889] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: cjsontoEigen.cpp:(.text+0x2e4): undefined reference to `cJSON_GetArrayItem'\n"}
+[11.567689] (-) TimerEvent: {}
+[11.612806] (limb_controller) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[11.619328] (limb_controller) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/limb_controller.dir/build.make:203: limb_controller] Error 1\n'}
+[11.620374] (limb_controller) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/limb_controller.dir/all] Error 2\n'}
+[11.621371] (limb_controller) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.629175] (limb_controller) CommandEnded: {'returncode': 2}
+[11.665600] (limb_controller) JobEnded: {'identifier': 'limb_controller', 'rc': 2}
+[11.669045] (-) TimerEvent: {}
+[11.669330] (-) EventReactorShutdown: {}

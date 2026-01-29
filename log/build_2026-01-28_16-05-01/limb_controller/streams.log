@@ -1,0 +1,24 @@
+[0.066s] Invoking command in '/home/droso1/drosophibot-ROS/build/limb_controller': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/home/droso1/drosophibot-ROS/install/limb_controller:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/limb_controller -- -j4 -l4
+[0.405s] [ 20%] [32mBuilding CXX object CMakeFiles/limb_controller.dir/src/limb_controller.cpp.o[0m
+[13.573s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:[m[K In constructor ‘[01m[KLimbController::[01;32m[KLimbController[m[K()[m[K’:
+[13.573s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:17:57:[m[K [01;31m[Kerror: [m[Ktype ‘[01m[KSNSToolboxCPP::Network[m[K’ is not a direct base of ‘[01m[KLimbController[m[K’
+[13.574s]    17 |     : Node("LimbController"), count_(0), SNSToolboxCPP::[01;31m[KNetwork[m[K("placeholder.json")
+[13.574s]       |                                                         [01;31m[K^~~~~~~[m[K
+[13.575s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:17:83:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSNSToolboxCPP::Network::Network()[m[K’
+[13.576s]    17 |     : Node("LimbController"), count_(0), SNSToolboxCPP::Network("placeholder.json"[01;31m[K)[m[K
+[13.576s]       |                                                                                   [01;31m[K^[m[K
+[13.577s] In file included from [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/limb_controller.cpp:8[m[K:
+[13.577s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Network.h:22:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KSNSToolboxCPP::Network::[01;32m[KNetwork[m[K(const std::string&)[m[K’
+[13.577s]    22 |         explicit [01;36m[KNetwork[m[K(const std::string& filename);
+[13.578s]       |                  [01;36m[K^~~~~~~[m[K
+[13.578s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Network.h:22:18:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[13.578s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Network.h:14:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KSNSToolboxCPP::Network::[01;32m[KNetwork[m[K(const SNSToolboxCPP::Network&)[m[K’
+[13.579s]    14 |     class [01;36m[KNetwork[m[K {
+[13.579s]       |           [01;36m[K^~~~~~~[m[K
+[13.579s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Network.h:14:11:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[13.580s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Network.h:14:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KSNSToolboxCPP::Network::[01;32m[KNetwork[m[K(SNSToolboxCPP::Network&&)[m[K’
+[13.580s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/Network.h:14:11:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[18.175s] gmake[2]: *** [CMakeFiles/limb_controller.dir/build.make:76: CMakeFiles/limb_controller.dir/src/limb_controller.cpp.o] Error 1
+[18.176s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/limb_controller.dir/all] Error 2
+[18.177s] gmake: *** [Makefile:146: all] Error 2
+[18.186s] Invoked command in '/home/droso1/drosophibot-ROS/build/limb_controller' returned '2': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/home/droso1/drosophibot-ROS/install/limb_controller:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/limb_controller -- -j4 -l4

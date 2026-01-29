@@ -1,0 +1,74 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found interfaces: 0.0.0 (/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake)
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (6.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/droso1/drosophibot-ROS/build/strain_monitor
+[ 50%] [32mBuilding CXX object CMakeFiles/strain_monitor.dir/src/strain_monitor.cpp.o[0m
+[01m[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:[m[K In constructor ‘[01m[KStrainMonitor::[01;32m[KStrainMonitor[m[K()[m[K’:
+[01m[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:27:62:[m[K [01;31m[Kerror: [m[K‘[01m[KLimbCommand[m[K’ is not a member of ‘[01m[Kinterfaces::msg[m[K’
+   27 |         publisher_ = this->create_publisher<interfaces::msg::[01;31m[KLimbCommand[m[K>("StrainData", 10);
+      |                                                              [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:27:74:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KStrainMonitor::create_publisher<<expression error> >(const char [11], int)[m[K’
+   27 |         publisher_ = [01;31m[Kthis->create_publisher<interfaces::msg::LimbCommand>("StrainData", 10)[m[K;
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:6[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::[01;32m[Kcreate_publisher[m[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  197 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:27:74:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   27 |         publisher_ = [01;31m[Kthis->create_publisher<interfaces::msg::LimbCommand>("StrainData", 10)[m[K;
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:47:35:[m[K [01;31m[Kerror: [m[K‘[01m[KLimbController[m[K’ was not declared in this scope
+   47 |     rclcpp::spin(std::make_shared<[01;31m[KLimbController[m[K>());
+      |                                   [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:47:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   47 |     rclcpp::spin([01;31m[Kstd::make_shared<LimbController>()[m[K);
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/13/memory:80[m[K,
+                 from [01m[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:3[m[K:
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...)[m[K’
+ 1005 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/droso1/drosophibot-ROS/strain_monitor/src/strain_monitor.cpp:47:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   47 |     rclcpp::spin([01;31m[Kstd::make_shared<LimbController>()[m[K);
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+gmake[2]: *** [CMakeFiles/strain_monitor.dir/build.make:76: CMakeFiles/strain_monitor.dir/src/strain_monitor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/strain_monitor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

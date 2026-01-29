@@ -1,0 +1,254 @@
+[0.000000] (-) TimerEvent: {}
+[0.000909] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.001035] (-) JobUnselected: {'identifier': 'motor_control'}
+[0.001106] (-) JobUnselected: {'identifier': 'pubsub'}
+[0.001790] (-) JobUnselected: {'identifier': 'testcpp'}
+[0.001866] (limb_controller) JobQueued: {'identifier': 'limb_controller', 'dependencies': OrderedDict({'interfaces': '/home/droso1/drosophibot-ROS/install/interfaces'})}
+[0.001953] (limb_controller) JobStarted: {'identifier': 'limb_controller'}
+[0.051036] (limb_controller) JobProgress: {'identifier': 'limb_controller', 'progress': 'cmake'}
+[0.054284] (limb_controller) JobProgress: {'identifier': 'limb_controller', 'progress': 'build'}
+[0.056860] (limb_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/droso1/drosophibot-ROS/build/limb_controller', '--', '-j4', '-l4'], 'cwd': '/home/droso1/drosophibot-ROS/build/limb_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'droso1', 'SSH_CLIENT': '192.168.137.1 56085 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/droso1/drosophibot-ROS/install/interfaces/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/droso1', 'OLDPWD': '/home/droso1/drosophibot-ROS/limb_controller', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'droso1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '43', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/home/droso1/drosophibot-ROS/install/interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/droso1/drosophibot-ROS/build/limb_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 56085 192.168.137.155 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy'}), 'shell': False}
+[0.099316] (-) TimerEvent: {}
+[0.184487] (limb_controller) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.199479] (-) TimerEvent: {}
+[0.300166] (-) TimerEvent: {}
+[0.400773] (-) TimerEvent: {}
+[0.501548] (-) TimerEvent: {}
+[0.602274] (-) TimerEvent: {}
+[0.702980] (-) TimerEvent: {}
+[0.803799] (-) TimerEvent: {}
+[0.904558] (-) TimerEvent: {}
+[1.005101] (-) TimerEvent: {}
+[1.105775] (-) TimerEvent: {}
+[1.148069] (limb_controller) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.205933] (-) TimerEvent: {}
+[1.275622] (limb_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.306094] (-) TimerEvent: {}
+[1.315248] (limb_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.363673] (limb_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.406273] (-) TimerEvent: {}
+[1.420056] (limb_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.506436] (-) TimerEvent: {}
+[1.607054] (-) TimerEvent: {}
+[1.652203] (limb_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.658576] (limb_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.707249] (-) TimerEvent: {}
+[1.807811] (-) TimerEvent: {}
+[1.905187] (limb_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.907968] (-) TimerEvent: {}
+[2.008567] (-) TimerEvent: {}
+[2.109189] (-) TimerEvent: {}
+[2.123614] (limb_controller) StdoutLine: {'line': b'-- Found interfaces: 0.0.0 (/home/droso1/drosophibot-ROS/install/interfaces/share/interfaces/cmake)\n'}
+[2.164651] (limb_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.209297] (-) TimerEvent: {}
+[2.309857] (-) TimerEvent: {}
+[2.410454] (-) TimerEvent: {}
+[2.511065] (-) TimerEvent: {}
+[2.581676] (limb_controller) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.582362] (limb_controller) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/droso1/drosophibot-ROS/limb_controller/include\n'}
+[2.582749] (limb_controller) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.586446] (limb_controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.594922] (limb_controller) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.595533] (limb_controller) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.597192] (limb_controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.601264] (limb_controller) StdoutLine: {'line': b'-- Configuring done (2.4s)\n'}
+[2.611233] (-) TimerEvent: {}
+[2.661382] (limb_controller) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.677652] (limb_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/droso1/drosophibot-ROS/build/limb_controller\n'}
+[2.711423] (-) TimerEvent: {}
+[2.812068] (-) TimerEvent: {}
+[2.891771] (limb_controller) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/limb_controller.dir/src/limb_controller.cpp.o\x1b[0m\n'}
+[2.899887] (limb_controller) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/limb_controller.dir/src/Network.cpp.o\x1b[0m\n'}
+[2.912277] (-) TimerEvent: {}
+[3.012875] (-) TimerEvent: {}
+[3.113830] (-) TimerEvent: {}
+[3.214624] (-) TimerEvent: {}
+[3.294697] (limb_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/Network.cpp:1\x1b[m\x1b[K:\n'}
+[3.295456] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/Network.h:3:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KEigen/Eigen: No such file or directory\n'}
+[3.295924] (limb_controller) StderrLine: {'line': b'    3 | #include \x1b[01;31m\x1b[K<Eigen/Eigen>\x1b[m\x1b[K\n'}
+[3.296487] (limb_controller) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.296882] (limb_controller) StderrLine: {'line': b'compilation terminated.\n'}
+[3.304560] (limb_controller) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/limb_controller.dir/build.make:90: CMakeFiles/limb_controller.dir/src/Network.cpp.o] Error 1\n'}
+[3.305117] (limb_controller) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[3.314785] (-) TimerEvent: {}
+[3.415344] (-) TimerEvent: {}
+[3.515919] (-) TimerEvent: {}
+[3.616575] (-) TimerEvent: {}
+[3.717251] (-) TimerEvent: {}
+[3.817828] (-) TimerEvent: {}
+[3.918431] (-) TimerEvent: {}
+[4.019046] (-) TimerEvent: {}
+[4.119732] (-) TimerEvent: {}
+[4.220470] (-) TimerEvent: {}
+[4.321043] (-) TimerEvent: {}
+[4.421628] (-) TimerEvent: {}
+[4.522235] (-) TimerEvent: {}
+[4.622939] (-) TimerEvent: {}
+[4.723612] (-) TimerEvent: {}
+[4.824261] (-) TimerEvent: {}
+[4.924902] (-) TimerEvent: {}
+[5.025548] (-) TimerEvent: {}
+[5.126188] (-) TimerEvent: {}
+[5.226789] (-) TimerEvent: {}
+[5.327468] (-) TimerEvent: {}
+[5.428067] (-) TimerEvent: {}
+[5.528723] (-) TimerEvent: {}
+[5.629365] (-) TimerEvent: {}
+[5.729974] (-) TimerEvent: {}
+[5.830641] (-) TimerEvent: {}
+[5.931299] (-) TimerEvent: {}
+[6.031931] (-) TimerEvent: {}
+[6.132651] (-) TimerEvent: {}
+[6.233267] (-) TimerEvent: {}
+[6.333909] (-) TimerEvent: {}
+[6.434563] (-) TimerEvent: {}
+[6.535217] (-) TimerEvent: {}
+[6.635819] (-) TimerEvent: {}
+[6.736482] (-) TimerEvent: {}
+[6.837111] (-) TimerEvent: {}
+[6.937778] (-) TimerEvent: {}
+[7.038434] (-) TimerEvent: {}
+[7.139038] (-) TimerEvent: {}
+[7.239748] (-) TimerEvent: {}
+[7.340370] (-) TimerEvent: {}
+[7.440992] (-) TimerEvent: {}
+[7.541711] (-) TimerEvent: {}
+[7.642392] (-) TimerEvent: {}
+[7.742982] (-) TimerEvent: {}
+[7.843643] (-) TimerEvent: {}
+[7.944276] (-) TimerEvent: {}
+[8.044873] (-) TimerEvent: {}
+[8.145559] (-) TimerEvent: {}
+[8.246193] (-) TimerEvent: {}
+[8.346797] (-) TimerEvent: {}
+[8.447487] (-) TimerEvent: {}
+[8.548093] (-) TimerEvent: {}
+[8.648746] (-) TimerEvent: {}
+[8.749425] (-) TimerEvent: {}
+[8.850173] (-) TimerEvent: {}
+[8.950852] (-) TimerEvent: {}
+[9.051515] (-) TimerEvent: {}
+[9.152111] (-) TimerEvent: {}
+[9.252762] (-) TimerEvent: {}
+[9.353416] (-) TimerEvent: {}
+[9.454032] (-) TimerEvent: {}
+[9.554691] (-) TimerEvent: {}
+[9.655294] (-) TimerEvent: {}
+[9.756016] (-) TimerEvent: {}
+[9.856678] (-) TimerEvent: {}
+[9.957299] (-) TimerEvent: {}
+[10.057905] (-) TimerEvent: {}
+[10.158563] (-) TimerEvent: {}
+[10.259223] (-) TimerEvent: {}
+[10.359831] (-) TimerEvent: {}
+[10.460498] (-) TimerEvent: {}
+[10.561177] (-) TimerEvent: {}
+[10.661812] (-) TimerEvent: {}
+[10.762474] (-) TimerEvent: {}
+[10.863084] (-) TimerEvent: {}
+[10.963747] (-) TimerEvent: {}
+[11.064420] (-) TimerEvent: {}
+[11.165029] (-) TimerEvent: {}
+[11.265746] (-) TimerEvent: {}
+[11.366408] (-) TimerEvent: {}
+[11.467006] (-) TimerEvent: {}
+[11.567656] (-) TimerEvent: {}
+[11.668248] (-) TimerEvent: {}
+[11.768830] (-) TimerEvent: {}
+[11.869477] (-) TimerEvent: {}
+[11.970108] (-) TimerEvent: {}
+[12.070756] (-) TimerEvent: {}
+[12.171403] (-) TimerEvent: {}
+[12.272006] (-) TimerEvent: {}
+[12.372680] (-) TimerEvent: {}
+[12.473284] (-) TimerEvent: {}
+[12.573942] (-) TimerEvent: {}
+[12.674613] (-) TimerEvent: {}
+[12.775227] (-) TimerEvent: {}
+[12.875815] (-) TimerEvent: {}
+[12.976465] (-) TimerEvent: {}
+[13.077080] (-) TimerEvent: {}
+[13.177730] (-) TimerEvent: {}
+[13.278353] (-) TimerEvent: {}
+[13.378955] (-) TimerEvent: {}
+[13.479625] (-) TimerEvent: {}
+[13.580257] (-) TimerEvent: {}
+[13.680861] (-) TimerEvent: {}
+[13.781498] (-) TimerEvent: {}
+[13.882110] (-) TimerEvent: {}
+[13.982755] (-) TimerEvent: {}
+[14.083386] (-) TimerEvent: {}
+[14.183979] (-) TimerEvent: {}
+[14.284617] (-) TimerEvent: {}
+[14.385274] (-) TimerEvent: {}
+[14.485918] (-) TimerEvent: {}
+[14.586592] (-) TimerEvent: {}
+[14.687232] (-) TimerEvent: {}
+[14.787880] (-) TimerEvent: {}
+[14.888537] (-) TimerEvent: {}
+[14.989173] (-) TimerEvent: {}
+[15.089772] (-) TimerEvent: {}
+[15.190410] (-) TimerEvent: {}
+[15.291019] (-) TimerEvent: {}
+[15.391664] (-) TimerEvent: {}
+[15.492283] (-) TimerEvent: {}
+[15.592926] (-) TimerEvent: {}
+[15.693620] (-) TimerEvent: {}
+[15.794267] (-) TimerEvent: {}
+[15.894887] (-) TimerEvent: {}
+[15.995553] (-) TimerEvent: {}
+[16.096213] (-) TimerEvent: {}
+[16.196912] (-) TimerEvent: {}
+[16.297923] (-) TimerEvent: {}
+[16.398585] (-) TimerEvent: {}
+[16.499229] (-) TimerEvent: {}
+[16.599831] (-) TimerEvent: {}
+[16.700491] (-) TimerEvent: {}
+[16.801097] (-) TimerEvent: {}
+[16.901752] (-) TimerEvent: {}
+[17.002332] (-) TimerEvent: {}
+[17.102919] (-) TimerEvent: {}
+[17.203576] (-) TimerEvent: {}
+[17.304208] (-) TimerEvent: {}
+[17.404824] (-) TimerEvent: {}
+[17.505479] (-) TimerEvent: {}
+[17.606071] (-) TimerEvent: {}
+[17.706672] (-) TimerEvent: {}
+[17.807281] (-) TimerEvent: {}
+[17.907879] (-) TimerEvent: {}
+[18.008552] (-) TimerEvent: {}
+[18.109205] (-) TimerEvent: {}
+[18.209803] (-) TimerEvent: {}
+[18.310460] (-) TimerEvent: {}
+[18.411065] (-) TimerEvent: {}
+[18.511725] (-) TimerEvent: {}
+[18.612399] (-) TimerEvent: {}
+[18.713039] (-) TimerEvent: {}
+[18.813698] (-) TimerEvent: {}
+[18.914291] (-) TimerEvent: {}
+[19.014920] (-) TimerEvent: {}
+[19.115581] (-) TimerEvent: {}
+[19.216202] (-) TimerEvent: {}
+[19.316776] (-) TimerEvent: {}
+[19.417442] (-) TimerEvent: {}
+[19.518054] (-) TimerEvent: {}
+[19.618720] (-) TimerEvent: {}
+[19.719359] (-) TimerEvent: {}
+[19.819953] (-) TimerEvent: {}
+[19.920620] (-) TimerEvent: {}
+[20.021279] (-) TimerEvent: {}
+[20.121873] (-) TimerEvent: {}
+[20.222537] (-) TimerEvent: {}
+[20.323694] (-) TimerEvent: {}
+[20.424430] (-) TimerEvent: {}
+[20.525067] (-) TimerEvent: {}
+[20.625718] (-) TimerEvent: {}
+[20.726371] (-) TimerEvent: {}
+[20.827056] (-) TimerEvent: {}
+[20.928288] (-) TimerEvent: {}
+[20.992300] (limb_controller) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/limb_controller.dir/all] Error 2\n'}
+[20.993068] (limb_controller) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[21.001401] (limb_controller) CommandEnded: {'returncode': 2}
+[21.028589] (-) TimerEvent: {}
+[21.039014] (limb_controller) JobEnded: {'identifier': 'limb_controller', 'rc': 2}
+[21.050136] (-) EventReactorShutdown: {}

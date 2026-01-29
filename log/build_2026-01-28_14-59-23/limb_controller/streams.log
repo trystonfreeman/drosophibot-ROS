@@ -1,0 +1,72 @@
+[0.065s] Invoking command in '/home/droso1/drosophibot-ROS/build/limb_controller': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/limb_controller -- -j4 -l4
+[0.411s] [ 20%] [32mBuilding CXX object CMakeFiles/limb_controller.dir/src/limb_controller.cpp.o[0m
+[0.414s] [ 40%] [32mBuilding CXX object CMakeFiles/limb_controller.dir/src/cjsontoEigen.cpp.o[0m
+[7.561s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:9:1:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[7.561s]     9 | [01;35m[Kconst[m[K double cjsontoEigen::cjsontodouble(cJSON* cjson,std::string name) {
+[7.562s]       | [01;35m[K^~~~~[m[K
+[7.563s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:9:14:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kconst double cjsontoEigen::[01;32m[Kcjsontodouble[m[K(cJSON*, std::string)[m[K’
+[7.564s]     9 | const double [01;31m[KcjsontoEigen[m[K::cjsontodouble(cJSON* cjson,std::string name) {
+[7.565s]       |              [01;31m[K^~~~~~~~~~~~[m[K
+[7.565s] In file included from [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:5[m[K:
+[7.566s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/cjsontoEigen.h:11:19:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kstatic double cjsontoEigen::[01;32m[Kcjsontodouble[m[K(cJSON*, std::string)[m[K’
+[7.566s]    11 |     static double [01;36m[Kcjsontodouble[m[K(cJSON *cjson,std::string name);
+[7.567s]       |                   [01;36m[K^~~~~~~~~~~~~[m[K
+[7.567s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/cjsontoEigen.h:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass cjsontoEigen[m[K’ defined here
+[7.568s]     9 | class [01;36m[KcjsontoEigen[m[K {
+[7.569s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[7.569s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:18:1:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[7.570s]    18 | [01;35m[Kconst[m[K int cjsontoEigen::cjsontoint(cJSON* cjson,std::string name) {
+[7.570s]       | [01;35m[K^~~~~[m[K
+[7.571s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:18:11:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kconst int cjsontoEigen::[01;32m[Kcjsontoint[m[K(cJSON*, std::string)[m[K’
+[7.571s]    18 | const int [01;31m[KcjsontoEigen[m[K::cjsontoint(cJSON* cjson,std::string name) {
+[7.572s]       |           [01;31m[K^~~~~~~~~~~~[m[K
+[7.572s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/cjsontoEigen.h:12:16:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kstatic int cjsontoEigen::[01;32m[Kcjsontoint[m[K(cJSON*, std::string)[m[K’
+[7.573s]    12 |     static int [01;36m[Kcjsontoint[m[K(cJSON* cjson,std::string name);
+[7.573s]       |                [01;36m[K^~~~~~~~~~[m[K
+[7.574s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/cjsontoEigen.h:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass cjsontoEigen[m[K’ defined here
+[7.575s]     9 | class [01;36m[KcjsontoEigen[m[K {
+[7.575s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[7.576s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:28:1:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[7.576s]    28 | [01;35m[Kconst[m[K bool cjsontoEigen::cjsontobool(cJSON* cjson,std::string name) {
+[7.577s]       | [01;35m[K^~~~~[m[K
+[7.577s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:28:12:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kconst bool cjsontoEigen::[01;32m[Kcjsontobool[m[K(cJSON*, std::string)[m[K’
+[7.578s]    28 | const bool [01;31m[KcjsontoEigen[m[K::cjsontobool(cJSON* cjson,std::string name) {
+[7.579s]       |            [01;31m[K^~~~~~~~~~~~[m[K
+[7.579s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/cjsontoEigen.h:13:17:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kstatic bool cjsontoEigen::[01;32m[Kcjsontobool[m[K(cJSON*, std::string)[m[K’
+[7.580s]    13 |     static bool [01;36m[Kcjsontobool[m[K(cJSON* cjson,std::string name);
+[7.580s]       |                 [01;36m[K^~~~~~~~~~~[m[K
+[7.581s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/cjsontoEigen.h:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass cjsontoEigen[m[K’ defined here
+[7.581s]     9 | class [01;36m[KcjsontoEigen[m[K {
+[7.582s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[7.582s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:38:16:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kconst Eigen::ArrayXXf cjsontoEigen::[01;32m[KcjsontoArrayXXf[m[K(cJSON*, std::string)[m[K’
+[7.583s]    38 | const ArrayXXf [01;31m[KcjsontoEigen[m[K::cjsontoArrayXXf(cJSON* cjson,std::string name) {
+[7.584s]       |                [01;31m[K^~~~~~~~~~~~[m[K
+[7.584s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/cjsontoEigen.h:14:21:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kstatic Eigen::ArrayXXf cjsontoEigen::[01;32m[KcjsontoArrayXXf[m[K(cJSON*, std::string)[m[K’
+[7.585s]    14 |     static ArrayXXf [01;36m[KcjsontoArrayXXf[m[K(cJSON* cjson,std::string name);
+[7.585s]       |                     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[7.586s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/cjsontoEigen.h:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass cjsontoEigen[m[K’ defined here
+[7.586s]     9 | class [01;36m[KcjsontoEigen[m[K {
+[7.587s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[7.587s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:44:16:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kconst Eigen::VectorXf cjsontoEigen::[01;32m[KcjsontoVectorXf[m[K(cJSON*, std::string)[m[K’
+[7.588s]    44 | const VectorXf [01;31m[KcjsontoEigen[m[K::cjsontoVectorXf(cJSON* cjson,std::string name) {
+[7.588s]       |                [01;31m[K^~~~~~~~~~~~[m[K
+[7.589s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/cjsontoEigen.h:15:21:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kstatic Eigen::VectorXf cjsontoEigen::[01;32m[KcjsontoVectorXf[m[K(cJSON*, std::string)[m[K’
+[7.589s]    15 |     static VectorXf [01;36m[KcjsontoVectorXf[m[K(cJSON* cjson,std::string name);
+[7.590s]       |                     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[7.590s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/cjsontoEigen.h:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass cjsontoEigen[m[K’ defined here
+[7.591s]     9 | class [01;36m[KcjsontoEigen[m[K {
+[7.592s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[7.592s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/src/cjsontoEigen.cpp:49:16:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kconst Eigen::MatrixXf cjsontoEigen::[01;32m[KcjsontoMatrixXf[m[K(cJSON*, std::string)[m[K’
+[7.593s]    49 | const MatrixXf [01;31m[KcjsontoEigen[m[K::cjsontoMatrixXf(cJSON* cjson,std::string name) {
+[7.593s]       |                [01;31m[K^~~~~~~~~~~~[m[K
+[7.594s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/cjsontoEigen.h:17:21:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kstatic Eigen::MatrixXf cjsontoEigen::[01;32m[KcjsontoMatrixXf[m[K(cJSON*, std::string)[m[K’
+[7.594s]    17 |     static MatrixXf [01;36m[KcjsontoMatrixXf[m[K(cJSON* cjson,std::string name);
+[7.595s]       |                     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[7.595s] [01m[K/home/droso1/drosophibot-ROS/limb_controller/include/cjsontoEigen.h:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass cjsontoEigen[m[K’ defined here
+[7.596s]     9 | class [01;36m[KcjsontoEigen[m[K {
+[7.596s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[8.031s] gmake[2]: *** [CMakeFiles/limb_controller.dir/build.make:104: CMakeFiles/limb_controller.dir/src/cjsontoEigen.cpp.o] Error 1
+[8.032s] gmake[2]: *** Waiting for unfinished jobs....
+[23.609s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/limb_controller.dir/all] Error 2
+[23.610s] gmake: *** [Makefile:146: all] Error 2
+[23.619s] Invoked command in '/home/droso1/drosophibot-ROS/build/limb_controller' returned '2': CMAKE_PREFIX_PATH=/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy /usr/bin/cmake --build /home/droso1/drosophibot-ROS/build/limb_controller -- -j4 -l4

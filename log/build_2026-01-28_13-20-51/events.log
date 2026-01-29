@@ -1,0 +1,285 @@
+[0.000000] (-) TimerEvent: {}
+[0.001480] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.001603] (-) JobUnselected: {'identifier': 'motor_control'}
+[0.001674] (-) JobUnselected: {'identifier': 'pubsub'}
+[0.001735] (-) JobUnselected: {'identifier': 'testcpp'}
+[0.001802] (limb_controller) JobQueued: {'identifier': 'limb_controller', 'dependencies': OrderedDict({'interfaces': '/home/droso1/drosophibot-ROS/install/interfaces'})}
+[0.001890] (limb_controller) JobStarted: {'identifier': 'limb_controller'}
+[0.048981] (limb_controller) JobProgress: {'identifier': 'limb_controller', 'progress': 'cmake'}
+[0.051444] (limb_controller) JobProgress: {'identifier': 'limb_controller', 'progress': 'build'}
+[0.053571] (limb_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/droso1/drosophibot-ROS/build/limb_controller', '--', '-j4', '-l4'], 'cwd': '/home/droso1/drosophibot-ROS/build/limb_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'droso1', 'SSH_CLIENT': '192.168.137.1 57969 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/droso1/drosophibot-ROS/install/interfaces/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/droso1', 'OLDPWD': '/home/droso1', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'droso1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/home/droso1/drosophibot-ROS/install/interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/droso1/drosophibot-ROS/build/limb_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 57969 192.168.137.31 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/droso1/drosophibot-ROS/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/droso1/drosophibot-ROS/install/interfaces:/home/droso1/drosophibot-ROS/install/testcpp:/home/droso1/drosophibot-ROS/install/pubsub:/home/droso1/drosophibot-ROS/install/motor_control:/opt/ros/jazzy'}), 'shell': False}
+[0.099286] (-) TimerEvent: {}
+[0.199912] (-) TimerEvent: {}
+[0.305654] (-) TimerEvent: {}
+[0.353758] (limb_controller) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/limb_controller.dir/src/Network.cpp.o\x1b[0m\n'}
+[0.405873] (-) TimerEvent: {}
+[0.506533] (-) TimerEvent: {}
+[0.607119] (-) TimerEvent: {}
+[0.707740] (-) TimerEvent: {}
+[0.808371] (-) TimerEvent: {}
+[0.909016] (-) TimerEvent: {}
+[1.009645] (-) TimerEvent: {}
+[1.110278] (-) TimerEvent: {}
+[1.210888] (-) TimerEvent: {}
+[1.311547] (-) TimerEvent: {}
+[1.412252] (-) TimerEvent: {}
+[1.512862] (-) TimerEvent: {}
+[1.613588] (-) TimerEvent: {}
+[1.714294] (-) TimerEvent: {}
+[1.814913] (-) TimerEvent: {}
+[1.915602] (-) TimerEvent: {}
+[2.016285] (-) TimerEvent: {}
+[2.117015] (-) TimerEvent: {}
+[2.217625] (-) TimerEvent: {}
+[2.318294] (-) TimerEvent: {}
+[2.418951] (-) TimerEvent: {}
+[2.519623] (-) TimerEvent: {}
+[2.620292] (-) TimerEvent: {}
+[2.720917] (-) TimerEvent: {}
+[2.821576] (-) TimerEvent: {}
+[2.922237] (-) TimerEvent: {}
+[3.022856] (-) TimerEvent: {}
+[3.123518] (-) TimerEvent: {}
+[3.224168] (-) TimerEvent: {}
+[3.324889] (-) TimerEvent: {}
+[3.425566] (-) TimerEvent: {}
+[3.526370] (-) TimerEvent: {}
+[3.627110] (-) TimerEvent: {}
+[3.727720] (-) TimerEvent: {}
+[3.828388] (-) TimerEvent: {}
+[3.929084] (-) TimerEvent: {}
+[4.029723] (-) TimerEvent: {}
+[4.111023] (limb_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/Core:214\x1b[m\x1b[K,\n'}
+[4.111880] (limb_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[4.112438] (limb_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/Eigen:1\x1b[m\x1b[K,\n'}
+[4.112833] (limb_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/Network.h:3\x1b[m\x1b[K,\n'}
+[4.113322] (limb_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/src/Network.cpp:1\x1b[m\x1b[K:\n'}
+[4.113740] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/arch/NEON/PacketMath.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KPacket Eigen::internal::\x1b[01;32m\x1b[Kpload\x1b[m\x1b[K(const typename unpacket_traits<T>::type*) \x1b[35m\x1b[K[with Packet = eigen_packet_wrapper<int, 2>; typename unpacket_traits<T>::type = signed char]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.114273] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid*\x1b[01;32m\x1b[K memcpy\x1b[m\x1b[K(void*, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99 copying an object of non-trivial type \xe2\x80\x98\x1b[01m\x1b[KEigen::internal::Packet4c\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>\x1b[m\x1b[K\xe2\x80\x99} from an array of \xe2\x80\x98\x1b[01m\x1b[Kconst int8_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst signed char\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess\x07-Wclass-memaccess\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.114757] (limb_controller) StderrLine: {'line': b' 1671 |   \x1b[01;35m\x1b[Kmemcpy(&res, from, sizeof(Packet4c))\x1b[m\x1b[K;\n'}
+[4.115426] (limb_controller) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.115848] (limb_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/Core:172\x1b[m\x1b[K:\n'}
+[4.116353] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/GenericPacketMath.h:159:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::internal::Packet4c\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>\x1b[m\x1b[K\xe2\x80\x99} declared here\n'}
+[4.116804] (limb_controller) StderrLine: {'line': b'  159 | struct \x1b[01;36m\x1b[Keigen_packet_wrapper\x1b[m\x1b[K\n'}
+[4.117300] (limb_controller) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.119283] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/arch/NEON/PacketMath.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KPacket Eigen::internal::\x1b[01;32m\x1b[Kploadu\x1b[m\x1b[K(const typename unpacket_traits<T>::type*) \x1b[35m\x1b[K[with Packet = eigen_packet_wrapper<int, 2>; typename unpacket_traits<T>::type = signed char]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.119902] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid*\x1b[01;32m\x1b[K memcpy\x1b[m\x1b[K(void*, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99 copying an object of non-trivial type \xe2\x80\x98\x1b[01m\x1b[KEigen::internal::Packet4c\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>\x1b[m\x1b[K\xe2\x80\x99} from an array of \xe2\x80\x98\x1b[01m\x1b[Kconst int8_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst signed char\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess\x07-Wclass-memaccess\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.120440] (limb_controller) StderrLine: {'line': b' 1716 |   \x1b[01;35m\x1b[Kmemcpy(&res, from, sizeof(Packet4c))\x1b[m\x1b[K;\n'}
+[4.120821] (limb_controller) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.121306] (limb_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droso1/drosophibot-ROS/limb_controller/include/Eigen/src/Core/GenericPacketMath.h:159:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::internal::Packet4c\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>\x1b[m\x1b[K\xe2\x80\x99} declared here\n'}
+[4.121719] (limb_controller) StderrLine: {'line': b'  159 | struct \x1b[01;36m\x1b[Keigen_packet_wrapper\x1b[m\x1b[K\n'}
+[4.122222] (limb_controller) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.129904] (-) TimerEvent: {}
+[4.230612] (-) TimerEvent: {}
+[4.331280] (-) TimerEvent: {}
+[4.431904] (-) TimerEvent: {}
+[4.532623] (-) TimerEvent: {}
+[4.633303] (-) TimerEvent: {}
+[4.733938] (-) TimerEvent: {}
+[4.834595] (-) TimerEvent: {}
+[4.935226] (-) TimerEvent: {}
+[5.035869] (-) TimerEvent: {}
+[5.136624] (-) TimerEvent: {}
+[5.237339] (-) TimerEvent: {}
+[5.338095] (-) TimerEvent: {}
+[5.438735] (-) TimerEvent: {}
+[5.539441] (-) TimerEvent: {}
+[5.640086] (-) TimerEvent: {}
+[5.740700] (-) TimerEvent: {}
+[5.841371] (-) TimerEvent: {}
+[5.942021] (-) TimerEvent: {}
+[6.042646] (-) TimerEvent: {}
+[6.143365] (-) TimerEvent: {}
+[6.244124] (-) TimerEvent: {}
+[6.344750] (-) TimerEvent: {}
+[6.445422] (-) TimerEvent: {}
+[6.546114] (-) TimerEvent: {}
+[6.646768] (-) TimerEvent: {}
+[6.747445] (-) TimerEvent: {}
+[6.848087] (-) TimerEvent: {}
+[6.948708] (-) TimerEvent: {}
+[7.049466] (-) TimerEvent: {}
+[7.150103] (-) TimerEvent: {}
+[7.250744] (-) TimerEvent: {}
+[7.351433] (-) TimerEvent: {}
+[7.452087] (-) TimerEvent: {}
+[7.552704] (-) TimerEvent: {}
+[7.653354] (-) TimerEvent: {}
+[7.753954] (-) TimerEvent: {}
+[7.854581] (-) TimerEvent: {}
+[7.955227] (-) TimerEvent: {}
+[8.055825] (-) TimerEvent: {}
+[8.156482] (-) TimerEvent: {}
+[8.257085] (-) TimerEvent: {}
+[8.357790] (-) TimerEvent: {}
+[8.458829] (-) TimerEvent: {}
+[8.559509] (-) TimerEvent: {}
+[8.660112] (-) TimerEvent: {}
+[8.760724] (-) TimerEvent: {}
+[8.861480] (-) TimerEvent: {}
+[8.962106] (-) TimerEvent: {}
+[9.062727] (-) TimerEvent: {}
+[9.163398] (-) TimerEvent: {}
+[9.264085] (-) TimerEvent: {}
+[9.364683] (-) TimerEvent: {}
+[9.465371] (-) TimerEvent: {}
+[9.566025] (-) TimerEvent: {}
+[9.666612] (-) TimerEvent: {}
+[9.767251] (-) TimerEvent: {}
+[9.867846] (-) TimerEvent: {}
+[9.968479] (-) TimerEvent: {}
+[10.069094] (-) TimerEvent: {}
+[10.169687] (-) TimerEvent: {}
+[10.270370] (-) TimerEvent: {}
+[10.371000] (-) TimerEvent: {}
+[10.471664] (-) TimerEvent: {}
+[10.572313] (-) TimerEvent: {}
+[10.672916] (-) TimerEvent: {}
+[10.773581] (-) TimerEvent: {}
+[10.874210] (-) TimerEvent: {}
+[10.974813] (-) TimerEvent: {}
+[11.075505] (-) TimerEvent: {}
+[11.176100] (-) TimerEvent: {}
+[11.276692] (-) TimerEvent: {}
+[11.377361] (-) TimerEvent: {}
+[11.478014] (-) TimerEvent: {}
+[11.578663] (-) TimerEvent: {}
+[11.679502] (-) TimerEvent: {}
+[11.780122] (-) TimerEvent: {}
+[11.880767] (-) TimerEvent: {}
+[11.981639] (-) TimerEvent: {}
+[12.082336] (-) TimerEvent: {}
+[12.182952] (-) TimerEvent: {}
+[12.283595] (-) TimerEvent: {}
+[12.384258] (-) TimerEvent: {}
+[12.484895] (-) TimerEvent: {}
+[12.585632] (-) TimerEvent: {}
+[12.686333] (-) TimerEvent: {}
+[12.787100] (-) TimerEvent: {}
+[12.887767] (-) TimerEvent: {}
+[12.988478] (-) TimerEvent: {}
+[13.089131] (-) TimerEvent: {}
+[13.189764] (-) TimerEvent: {}
+[13.290456] (-) TimerEvent: {}
+[13.391101] (-) TimerEvent: {}
+[13.491703] (-) TimerEvent: {}
+[13.592383] (-) TimerEvent: {}
+[13.693006] (-) TimerEvent: {}
+[13.793590] (-) TimerEvent: {}
+[13.894222] (-) TimerEvent: {}
+[13.994822] (-) TimerEvent: {}
+[14.095462] (-) TimerEvent: {}
+[14.196108] (-) TimerEvent: {}
+[14.296731] (-) TimerEvent: {}
+[14.397378] (-) TimerEvent: {}
+[14.498032] (-) TimerEvent: {}
+[14.598655] (-) TimerEvent: {}
+[14.699295] (-) TimerEvent: {}
+[14.799908] (-) TimerEvent: {}
+[14.900551] (-) TimerEvent: {}
+[15.001112] (-) TimerEvent: {}
+[15.101723] (-) TimerEvent: {}
+[15.202367] (-) TimerEvent: {}
+[15.303054] (-) TimerEvent: {}
+[15.403678] (-) TimerEvent: {}
+[15.504338] (-) TimerEvent: {}
+[15.604901] (-) TimerEvent: {}
+[15.705560] (-) TimerEvent: {}
+[15.806469] (-) TimerEvent: {}
+[15.907384] (-) TimerEvent: {}
+[16.008035] (-) TimerEvent: {}
+[16.108653] (-) TimerEvent: {}
+[16.209348] (-) TimerEvent: {}
+[16.309954] (-) TimerEvent: {}
+[16.410587] (-) TimerEvent: {}
+[16.511208] (-) TimerEvent: {}
+[16.611809] (-) TimerEvent: {}
+[16.712494] (-) TimerEvent: {}
+[16.813095] (-) TimerEvent: {}
+[16.913667] (-) TimerEvent: {}
+[17.014287] (-) TimerEvent: {}
+[17.114871] (-) TimerEvent: {}
+[17.215604] (-) TimerEvent: {}
+[17.316710] (-) TimerEvent: {}
+[17.417744] (-) TimerEvent: {}
+[17.518508] (-) TimerEvent: {}
+[17.619120] (-) TimerEvent: {}
+[17.719720] (-) TimerEvent: {}
+[17.820356] (-) TimerEvent: {}
+[17.920942] (-) TimerEvent: {}
+[18.021568] (-) TimerEvent: {}
+[18.122204] (-) TimerEvent: {}
+[18.222834] (-) TimerEvent: {}
+[18.323483] (-) TimerEvent: {}
+[18.424156] (-) TimerEvent: {}
+[18.430834] (limb_controller) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable limb_controller\x1b[0m\n'}
+[18.524333] (-) TimerEvent: {}
+[18.625014] (-) TimerEvent: {}
+[18.725752] (-) TimerEvent: {}
+[18.826629] (-) TimerEvent: {}
+[18.927346] (-) TimerEvent: {}
+[19.028148] (-) TimerEvent: {}
+[19.129132] (-) TimerEvent: {}
+[19.230079] (-) TimerEvent: {}
+[19.330913] (-) TimerEvent: {}
+[19.432051] (-) TimerEvent: {}
+[19.532818] (-) TimerEvent: {}
+[19.633525] (-) TimerEvent: {}
+[19.734176] (-) TimerEvent: {}
+[19.819069] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o: in function `SNSToolboxCPP::Network::LoadFromFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':\n"}
+[19.820284] (limb_controller) StderrLine: {'line': b"Network.cpp:(.text+0xc5c): undefined reference to `cJSON_Parse'\n"}
+[19.821670] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0xc9c): undefined reference to `cjsontoEigen::cjsontodouble(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.823015] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0xcf8): undefined reference to `cjsontoEigen::cjsontobool(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.824311] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0xd54): undefined reference to `cjsontoEigen::cjsontobool(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.825570] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0xdb0): undefined reference to `cjsontoEigen::cjsontobool(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.826847] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0xe0c): undefined reference to `cjsontoEigen::cjsontobool(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.828120] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0xe68): undefined reference to `cjsontoEigen::cjsontobool(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.829172] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0xec4): undefined reference to `cjsontoEigen::cjsontoint(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.830348] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0xf20): undefined reference to `cjsontoEigen::cjsontoint(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.831438] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0xf7c): undefined reference to `cjsontoEigen::cjsontoint(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.832596] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0xfd8): undefined reference to `cjsontoEigen::cjsontoint(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.833862] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0x1034): undefined reference to `cjsontoEigen::cjsontoint(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.834853] (-) TimerEvent: {}
+[19.835673] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o:Network.cpp:(.text+0x1090): more undefined references to `cjsontoEigen::cjsontoint(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)' follow\n"}
+[19.836588] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o: in function `SNSToolboxCPP::Network::LoadFromFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':\n"}
+[19.837365] (limb_controller) StderrLine: {'line': b"Network.cpp:(.text+0x10f4): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.838099] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0x1164): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.839140] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0x11d4): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.839882] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0x1244): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.840614] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0x12b4): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.841804] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o:Network.cpp:(.text+0x1324): more undefined references to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)' follow\n"}
+[19.842914] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o: in function `SNSToolboxCPP::Network::LoadFromFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':\n"}
+[19.843905] (limb_controller) StderrLine: {'line': b"Network.cpp:(.text+0x1474): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.844952] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0x14e4): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.846152] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0x1554): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.846933] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0x15c4): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.847393] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0x1634): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.847695] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o:Network.cpp:(.text+0x16a4): more undefined references to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)' follow\n"}
+[19.848011] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o: in function `SNSToolboxCPP::Network::LoadFromFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':\n"}
+[19.848341] (limb_controller) StderrLine: {'line': b"Network.cpp:(.text+0x1728): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.848635] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0x1798): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.848921] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0x1808): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.849315] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0x1878): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.849623] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0x18e8): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.849946] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o:Network.cpp:(.text+0x1958): more undefined references to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)' follow\n"}
+[19.850291] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o: in function `SNSToolboxCPP::Network::LoadFromFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':\n"}
+[19.850581] (limb_controller) StderrLine: {'line': b"Network.cpp:(.text+0x1bf8): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.850860] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0x1c68): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.851196] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0x1cd8): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.851489] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0x1d48): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.851764] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0x1db8): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.852100] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0x1e28): undefined reference to `cjsontoEigen::cjsontoVectorXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.852402] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0x1eac): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.852678] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0x1f30): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.852981] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0x1fb4): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.853298] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0x2024): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.853582] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: Network.cpp:(.text+0x2094): undefined reference to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'\n"}
+[19.853910] (limb_controller) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/limb_controller.dir/src/Network.cpp.o:Network.cpp:(.text+0x2104): more undefined references to `cjsontoEigen::cjsontoArrayXXf(cJSON*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)' follow\n"}
+[19.935111] (-) TimerEvent: {}
+[19.950784] (limb_controller) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[19.957154] (limb_controller) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/limb_controller.dir/build.make:187: limb_controller] Error 1\n'}
+[19.958121] (limb_controller) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/limb_controller.dir/all] Error 2\n'}
+[19.959058] (limb_controller) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[19.966833] (limb_controller) CommandEnded: {'returncode': 2}
+[20.002690] (limb_controller) JobEnded: {'identifier': 'limb_controller', 'rc': 2}
+[20.006463] (-) EventReactorShutdown: {}

@@ -1,5 +1,9 @@
 #include "Network.h"
 namespace SNSToolboxCPP{
+    Network::Network()
+    {
+
+    }
     Network::Network(const std::string& filename)
     {
         LoadFromFile(filename);

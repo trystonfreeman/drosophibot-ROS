@@ -1,0 +1,2 @@
+Invoking command in '/home/droso1/drosophibot-ROS/build/limb_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/droso1/drosophibot-ROS/limb_controller -DCMAKE_INSTALL_PREFIX=/home/droso1/drosophibot-ROS/install/limb_controller
+Invoked command in '/home/droso1/drosophibot-ROS/build/limb_controller' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/droso1/drosophibot-ROS/limb_controller -DCMAKE_INSTALL_PREFIX=/home/droso1/drosophibot-ROS/install/limb_controller
